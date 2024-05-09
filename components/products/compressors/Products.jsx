@@ -1,12 +1,12 @@
 import React from "react";
-import { products } from "../../../utils/products/data";
+import { compressors } from "../../../utils/products/compressors/data";
 
-const ProductsPage = () => {
+const Products = () => {
   return (
     <>
       <div className="container max-w-7xl">
         <div className="text-center mt-10">
-          <h6>Products</h6>
+          <h6>Compressors</h6>
           <h1>
             Industrial-grade solutions for buildings, water supply, and
             treatment, ensuring efficiency and reliability.
@@ -14,7 +14,7 @@ const ProductsPage = () => {
         </div>
 
         <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10">
-          {products.map((item, id) => (
+          {compressors.map((item, id) => (
             <div
               key={id}
               className="grid col-span-6 w-full lg:col-span-3 lg:p-10 items-center justify-center border border-[#69C7D0] lg:w-[100%] rounded-md hover:shadow-2xl transition-shadow duration-500"
@@ -34,4 +34,4 @@ const ProductsPage = () => {
   );
 };
 
-export default ProductsPage;
+export default Products;
