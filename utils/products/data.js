@@ -189,6 +189,7 @@ export const products = [
         id: 1,
         img: "https://cms.media.wilo.com/dcipicpfinder/wilo250094/3768353/wilo250094_5.png",
         title: "Wilo-Stratos MAXO"
+        
     },
     {
         id: 2,
