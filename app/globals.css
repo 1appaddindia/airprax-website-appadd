@@ -73,7 +73,7 @@
   body {
     /* @apply bg-background text-foreground; */
     /* background-color: #dbe2e9; */
-    background-color: white;
+    /* background-color: #d5eef1; */
   }
 }
 
@@ -83,15 +83,16 @@ p {
 
 h1 {
   font-size: xx-large;
-  color: #69c7d0;
+  color: #0089b3;
   font-weight: bold;
   text-align: center;
 }
 h6 {
   color: #000000;
+  font-weight: bold;
 }
 
-h2{
+h2 {
   font-weight: bold;
   font-size: large;
   color: #69c7d0;
@@ -100,3 +101,4 @@ h2{
 .button {
   background-color: #ec1f52;
 }
+  

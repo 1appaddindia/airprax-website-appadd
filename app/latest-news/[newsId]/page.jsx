@@ -1,6 +1,6 @@
 import React from "react";
 // import OurLatestNews from ".././../latest-news/news/OurLatestNews"
-import OurNews from "../../../components/latest-news/[news]/News";
+import OurNews from "../../../components/latest-news/news/News";
 import Category from "../../../components/latest-news/side-bar/Category";
 import FollowUs from "../../../components/latest-news/side-bar/FollowUs";
 import Enqiury from "../../../components/latest-news/side-bar/Enquiry";

@@ -2,7 +2,7 @@ import React from "react";
 import { compressors } from "../../../utils/products/compressors/data";
 import ProductCard from "../ProductCard";
 
-const Products = () => {
+const Products = ({ activeTab }) => {
   return (
     <>
       <div className="container max-w-7xl">
@@ -16,7 +16,7 @@ const Products = () => {
 
         <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10">
           {compressors.map((item) => (
-            <ProductCard item={item} />
+            <ProductCard item={item} activeTab={activeTab} />
           ))}
         </div>
       </div>

@@ -2,13 +2,13 @@ import React from "react";
 import { vaccumSolutions } from "../../../utils/products/vaccum-solutions/data";
 import ProductCard from "../ProductCard";
 
-const ProductsPage = () => {
+const ProductsPage = ({ activeTab }) => {
   return (
     <>
       <div className="container max-w-7xl">
         <div className="text-center mt-10">
           <h6>Vaccum Products</h6>
-          <h1>
+          <h1 className="lg:text-4xl text-lg ">
             Industrial-grade solutions for buildings, water supply, and
             treatment, ensuring efficiency and reliability.
           </h1>
@@ -16,7 +16,7 @@ const ProductsPage = () => {
 
         <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10">
           {vaccumSolutions.map((item) => (
-            <ProductCard item={item} />
+            <ProductCard item={item} activeTab={activeTab} />
           ))}
         </div>
       </div>

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const ProductCard = ({ item }) => {
+const ProductCard = ({ item, activeTab }) => {
   return (
     <div
       key={item.id}
@@ -10,10 +10,10 @@ const ProductCard = ({ item }) => {
       <span className="flex items-center justify-center lg:mb-6 font-bold p-4 text-sm lg:text-base lg:w-[100%] w-[100%] ">
         {item.title}
       </span>
-      <img src={item.img} alt="img" className="lg:h-52 h-32 " />
-      <div>
-        <Link href={`/products/${item.id}`}>
-          <button className="text-[#000000] hover:bg-[#69C7D0] hover:text-white lg:mt-10 p-1  font-bold border border-[#69C7D0] m-2 w-full rounded-md transition-colors duration-300 ">
+      <img src={item.img} alt={item.title} className="lg:h-52 h-32 " />
+      <div className="text-center w-full p-2">
+        <Link href={`/products/${item.id}?tab=${activeTab}`}>
+          <button className="text-[#ffff] hover:text-[#000000] border-none bg-[#EC1F52] lg:mt-10 p-1  font-bold w-full rounded-md transition-colors duration-300 ">
             View Details
           </button>
         </Link>

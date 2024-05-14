@@ -13,8 +13,8 @@ import { ourPartners } from "../../utils/home/data";
 
 const OurPartners = () => {
   return (
-    <>
-      <div className="flex items-center justify-center flex-col p-10 ">
+    <div className="bg-[#d5eef1] ">
+      <div className="flex items-center justify-center flex-col lg:p-10 container max-w-9xl">
         <div className="mt-10">
           <h6 className="text-center">Our Partners</h6>
           <h1 className="font-bold  text-center lg:text-4xl text-lg">
@@ -34,11 +34,11 @@ const OurPartners = () => {
             {ourPartners.map((img, index) => (
               <CarouselItem
                 key={index}
-                className="pl-1 md:basis-1/2 lg:basis-1/4 h-[100%]"
+                className="pl-1 basis-1/2 lg:basis-1/4 h-[100%]"
               >
                 <div className="p-0">
                   <CardContent className="flex  items-center justify-center ">
-                    <img src={img} alt="img" className="h-20 w-[70%]" />
+                    <img src={img} alt="img" className="h-20 w-[100%]" />
                   </CardContent>
                 </div>
               </CarouselItem>
@@ -48,7 +48,7 @@ const OurPartners = () => {
           <CarouselNext /> */}
         </Carousel>
       </div>
-    </>
+    </div>
   );
 };
 

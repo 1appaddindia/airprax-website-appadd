@@ -7,6 +7,7 @@ import Testimonials from "../../components/about/Testimonials";
 import OurProjects from "../../components/about/OurProjects";
 import Faq from "../../components/about/Faq";
 import OurCustomers from "../../components/about/OurCustomers";
+import Subscribe from "../../components/about/Subscribe";
 
 const About = () => {
   return (
@@ -16,6 +17,7 @@ const About = () => {
       <OurApproach />
       <OurTeam />
       <Testimonials />
+      <Subscribe />
       <OurProjects />
       <OurCustomers />
       <Faq />

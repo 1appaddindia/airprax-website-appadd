@@ -7,8 +7,6 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "/components/ui/carousel";
 import { testimonials } from "../../utils/home/data";
 import { Avatar, AvatarImage } from "/components/ui/avatar";
@@ -16,12 +14,12 @@ import Autoplay from "embla-carousel-autoplay";
 
 const Testimonials = () => {
   return (
-    <>
-      <div className="text-center lg:m-10 p-10">
+    <div className="bg-[#F1FAFA] lg:p-10 p-5">
+      <div className="text-center lg:m-10 m-3">
         <h6>Customer Testimonials</h6>
-        <h1>Praise in Their Own Words</h1>
+        <h1 className="lg:text-4xl text-lg">Praise in Their Own Words</h1>
       </div>
-      <div className="flex items-center justify-center overflow-hidden">
+      <div className="flex items-center justify-center overflow-hidden ">
         <Carousel
           opts={{
             align: "start",
@@ -35,23 +33,24 @@ const Testimonials = () => {
         >
           <CarouselContent>
             {testimonials.map((testi, index) => (
-              <CarouselItem key={index} className="lg:basis-1/3 ">
+              <CarouselItem key={index} className="lg:basis-1/4 ">
                 <div className="p-1 w-full flex items-center justify-center">
-                  <Card className=" lg:py-10 py-4 lg:h-80 h-56 lg:w-full  w-[80%] border border-[#018CB5]">
+                  <div className=" lg:py-3 py-4 lg:h-80 h-56 lg:w-full rounded-md w-[80%] shadow-2xl">
                     <div className=" flex flex-col lg:gap-2 items-center justify-center">
                       <Avatar className="lg:h-20 lg:w-20">
                         <AvatarImage src="/images/avatar/73-730477_first-name-profile-image-placeholder-png.png" />
-                        {/* <AvatarFallback>CN</AvatarFallback> */}
                       </Avatar>
-                      <h2 className="text-center font-bold ">{testi.name}</h2>
+                      <h2 className="text-center lg:text-base text-sm font-bold  text-black">
+                        {testi.name}
+                      </h2>
                       <span>{testi.rating}</span>
                     </div>
-                    <CardContent className="flex lg:text-center aspect-square justify-center lg:p-6 ">
-                      <span className="lg:text-md text-sm text-center lg:mt-0 mt-2 h-fit">
+                    <CardContent className="flex lg:text-center aspect-square justify-center lg:p-6 p-4">
+                      <span className="lg:text-md text-center text-sm lg:mt-0 mt-2 h-fit ">
                         {testi.description}
                       </span>
                     </CardContent>
-                  </Card>
+                  </div>
                 </div>
               </CarouselItem>
             ))}
@@ -60,7 +59,7 @@ const Testimonials = () => {
           <CarouselNext /> */}
         </Carousel>
       </div>
-    </>
+    </div>
   );
 };
 

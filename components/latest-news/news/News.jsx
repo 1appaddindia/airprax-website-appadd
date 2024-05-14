@@ -1,6 +1,6 @@
 import React from "react";
 import { latestNews } from "../../../utils/latest-news/data";
-import NewsCard from "../../../components/latest-news/NewsCard";
+import NewsCard from "./NewsCard";
 
 const News = ({ pageid }) => {
   const selectedNews = latestNews.find((item) => item.id == pageid);

@@ -5,21 +5,6 @@ export const compressors = [
         img: "https://atlascopco.scene7.com/is/image/atlascopco/g-series-scroll-compressor?$portrait800$",
         title: "Air compressor industrial solutions"
     },
-    // {
-    //     id: 2,
-    //     img: "https://atlascopco.scene7.com/is/image/atlascopco/ZR+cover+square?$landscape800$&fmt=png-alpha",
-    //     title: "Rotary Screw Air Compressors"
-    // },
-    // {
-    //     id: 3,
-    //     img: "https://atlascopco.scene7.com/is/image/atlascopco/atlas-copco-ecommerce-acquista-online?$portrait800$",
-    //     title: "Piston Compressors"
-    // },
-    // {
-    //     id: 4,
-    //     img: "https://atlascopco.scene7.com/is/image/atlascopco/ZR+cover+square?$landscape800$&fmt=png-alpha",
-    //     title: "Oil-free Air Compressors"
-    // },
     {
         id: 2,
         img: "https://atlascopco.scene7.com/is/image/atlascopco/BD+850+Square?$landscape800$",

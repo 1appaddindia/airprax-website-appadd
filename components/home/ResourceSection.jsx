@@ -30,13 +30,13 @@ const resources = [
 
 const ResourcesSection = () => {
   return (
-    <section className=" bg-gray-50 lg:p-5  p-2">
+    <section className=" bg-[#f1fafa]  lg:p-10">
       <div className="container mx-auto ">
-        <div className="m-9">
+        <div className="lg:m-9 p-3">
           <h6 className=" font-bold text-center ">
             Resources & Knowledge Center
           </h6>
-          <h1 className="lg:text-4xl text-lg">  
+          <h1 className="lg:text-4xl text-lg">
             Your Gateway to Insightful Resources
           </h1>
         </div>

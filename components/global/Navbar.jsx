@@ -1,11 +1,13 @@
 "use client";
 
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const navigation = [
-  { name: "Home", href: "/home", current: true },
+  { name: "Home", href: "/home", current: false },
   { name: "About", href: "/about", current: false },
   { name: "Products", href: "/products", current: false },
   { name: "Latest News", href: "/latest-news", current: false },
@@ -20,10 +22,24 @@ function classNames(...classes) {
 }
 
 function Navbar() {
+  const router = usePathname();
+
+  const [isActive, setIsActive] = useState(navigation);
+  console.log("isActive", isActive);
+
+  useEffect(() => {
+    setIsActive((prevState) =>
+      prevState.map((nav) => ({
+        ...nav,
+        current: router.includes(nav.href),
+      }))
+    );
+  }, [router]);
+
   return (
     <Disclosure
       as="nav"
-      className="bg-[#69c7d0] text-white fixed top-0 z-10 w-full"
+      className="bg-[#69c7d0] text-white fixed top-0 z-20 w-full"
     >
       {({ open }) => (
         <>
@@ -51,36 +67,34 @@ function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                      <a
+                    {isActive.map((item) => (
+                      <Link
                         key={item.name}
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                            ? "bg-[#0077b6]  text-white"
+                            : "text-white hover:bg-[#90e0ef] hover:text-black",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              <div className=" ">
                 <button
                   type="button"
-                  className="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  className=" rounded-md w-full bg-[#EC1F52] p-2"
                 >
-                  <span className="absolute -inset-1.5" />
-                  <span className="sr-only">View notifications</span>
-                  <BellIcon className="h-6 w-6" aria-hidden="true" />
+                  <span>Contact Here</span>
                 </button>
 
                 {/* Profile dropdown */}
-                <Menu as="div" className="relative ml-3">
+                {/* <Menu as="div" className="relative ml-3">
                   <div>
                     <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
@@ -143,7 +157,7 @@ function Navbar() {
                       </Menu.Item>
                     </Menu.Items>
                   </Transition>
-                </Menu>
+                </Menu> */}
               </div>
             </div>
           </div>

@@ -8,20 +8,24 @@ import {
 
 const Faq = () => {
   return (
-    <div className="container max-w-9xl mx-auto mt-5 p-10">
-      <div className="text-center m-10">
-        <h6>FAQ's</h6>
-        <h1>FAQ Unveiled: Your Queries Answered</h1>
-      </div>
-      <div className="flex items-start justify-center text-sm lg:text-base">
-        <Accordion type="single" collapsible className="w-[80%]">
-          {faq.map((que, id) => (
-            <AccordionItem value={que.id}>
-              <AccordionTrigger>{que.question}</AccordionTrigger>
-              <AccordionContent>{que.answer}</AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+    <div className="bg-[#D5EEF1] ">
+      <div className="lg:container lg:max-w-9xl mx-auto  lg:p-10">
+        <div className="text-center lg:m-10 m-3">
+          <h6>FAQ's</h6>
+          <h1 className="lg:text-4xl text-lg ">
+            FAQ Unveiled: Your Queries Answered
+          </h1>
+        </div>
+        <div className="flex items-start justify-center text-sm lg:text-base">
+          <Accordion type="single" collapsible className="w-[80%]">
+            {faq.map((que, id) => (
+              <AccordionItem value={que.id}>
+                <AccordionTrigger>{que.question}</AccordionTrigger>
+                <AccordionContent>{que.answer}</AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
       </div>
     </div>
   );

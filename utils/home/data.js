@@ -13,177 +13,39 @@ export const aboutUsParagraph =
 export const ourProducts = [
     {
         id: 1,
-        category: "Water Management",
-        products: [
-            {
-                id: 1,
-                img: "/images/products/water-management.jpg",
-                title: "Pumps and systems designed for water supply, sewage disposal, and treatment in municipal buildings, ensuring efficient operations."
-            },
-            // {
-            //     id: 2,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Water Treatment",
-            // },
-            // {
-            //     id: 3,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Water Distribution and Boosting",
-            // },
-            // {
-            //     id: 4,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Wastewater Collection and Transport",
-            // },
-        ],
+        category: "Pumps",
+        img: "/images/products/Gas-Solutions.jpg",
+        title: "Dynamic machines for industrial needs: moving fluids, like air, gas, or petrochemicals, in diverse applications effectively.",
+        href: "/products?tab=pumps"
     },
     {
         id: 2,
-        category: "Industry",
-        products: [
-            {
-                id: 2,
-                img: "/images/products/industry.jpg",
-                title: "Industrial pump solutions configured for your industry: Efficient and reliable solutions for industrial buildings, water supply, and more.",
-            },
-            // {
-            //     id: 5,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Cooling",
-            // },
-            // {
-            //     id: 6,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Water Management",
-            // },
-            // {
-            //     id: 7,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Dewatering and Flood Control",
-            // },
-        ],
+        category: "Water Management",
+        img: "/images/products/water-management.jpg",
+        title: "Efficient pumps and systems for municipal buildings' water supply, sewage disposal, and treatment.",
+        href: "/products?tab=waterManagement"
     },
-    // {
-    //     id: 3,
-    //     category: "Accessories",
-    //     products: [
-    //         {
-    //             id: 8,
-    //             img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-    //             title: "Mechanical Accessories",
-    //         },
-    //         {
-    //             id: 9,
-    //             img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-    //             title: "Electrical Accessories",
-    //         },
-    //     ],
-    // },
     {
         id: 3,
-        category: "Air Compressor",
-        products: [
-            {
-                id: 3,
-                img: "/images/products/air--compressor.jpg",
-                title: "Discover ideal air compressor solutions with low life cycle costs, energy efficiency, and compact design.",
-            },
-            // {
-            //     id: 11,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Gas Solutions",
-            // },
-            // {
-            //     id: 12,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Vacuum Solutions",
-            // },
-        ],
+        category: "Industry",
+        img: "/images/products/industry.jpg",
+        title: "Industrial pump solutions configured for your industry: Efficient and reliable solutions for industrial buildings, water supply, and more.",
+        href: "/products?tab=industry"
     },
     {
         id: 4,
-        category: "Blowers",
-        products: [
-            {
-                id: 4,
-                img: "/images/products/bllowers.jpg",
-                title: "Explore our oil-free air blowers tailored for applications needing compressed air at pressures between 0.3 and 1.5 bar(g).",
-            },
-            // {
-            //     id: 11,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Gas Solutions",
-            // },
-            // {
-            //     id: 12,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Vacuum Solutions",
-            // },
-        ],
+        category: "Air Compressor",
+        img: "/images/products/air--compressor.jpg",
+        title: "Discover ideal air compressor solutions with low life cycle costs, energy efficiency, and compact design.",
+        href: "/products?tab=compressors"
     },
     {
         id: 5,
-        category: "Industrial Chillers",
-        products: [
-            {
-                id: 5,
-                img: "/images/products/Industrial-Chillers.jpg",
-                title: "Explore our compressed air and gas solutions powering industries from food & beverage to renewable energy, marine to medical.",
-            },
-            // {
-            //     id: 11,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Gas Solutions",
-            // },
-            // {
-            //     id: 12,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Vacuum Solutions",
-            // },
-        ],
-    },
-    {
-        id: 6,
-        category: "Gas Solutions",
-        products: [
-            {
-                id: 6,
-                img: "/images/products/Gas-Solutions.jpg",
-                title: "Our versatile oil-free and oil-lubricated gas compressors suit diverse industrial applications, spanning air gas feeds, petrochemicals, and more.",
-            },
-            // {
-            //     id: 11,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Gas Solutions",
-            // },
-            // {
-            //     id: 12,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Vacuum Solutions",
-            // },
-        ],
-    },
-    {
-        id: 7,
         category: "Vacuum Solutions",
-        products: [
-            {
-                id: 7,
-                img: "/images/products/VacuumSolutions.jpeg",
-                title: "Variable speed and fixed speed vacuum pumps, systems, accessories and service for diverse industrial applications.",
-            },
-            // {
-            //     id: 11,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Gas Solutions",
-            // },
-            // {
-            //     id: 12,
-            //     img: "/images/products/65bcb7a95966fc739482f6c7.jpg",
-            //     title: "Vacuum Solutions",
-            // },
-        ],
-    },
+        img: "/images/products/VacuumSolutions.jpeg",
+        title: "Variable speed and fixed speed vacuum pumps, systems, accessories and service for diverse industrial applications.",
+        href: "/products?tab=vaccumProducts"
+    }
 ];
 
 
@@ -275,19 +137,22 @@ export const ourApproach = [
         id: 1,
         img: "https://www.rowse.co.uk/static/images/blog/posts/open-graph/5-key-safety-functions-in-a-pneumatic-system-open-graph.jpg",
         heading: "Vision",
-        title: "Pioneering pneumatic innovation for streamlined operations, driving efficiency, sustainability, and advancement across diverse industries worldwide."
+        title: "Pioneering pneumatic innovation for streamlined operations, driving efficiency, sustainability, and advancement across diverse industries worldwide.",
+        icon: "/images/vision-mission/visionary.png"
     },
     {
         id: 2,
         img: "https://wevolver-project-images.s3.amazonaws.com/0.vplo2u1rhxfuture-of-pneumatics-open-graph.jpg",
         heading: "Mission",
-        title: "Empower industries with cutting-edge pneumatic solutions, fostering efficiency, sustainability, and innovation for a brighter future"
+        title: "Empower industries with cutting-edge pneumatic solutions, fostering efficiency, sustainability, and innovation for a brighter future",
+        icon: "/images/vision-mission/mission.png"
     },
     {
         id: 3,
         img: "https://www.rowse.co.uk/static/images/blog/posts/open-graph/5-key-safety-functions-in-a-pneumatic-system-open-graph.jpg",
         heading: "Approach",
-        title: "Innovate, collaborate, and optimize pneumatic technology, tailoring solutions to industry needs, driving efficiency, reliability, and sustainable progress"
+        title: "Innovate, collaborate, and optimize pneumatic technology, tailoring solutions to industry needs, driving efficiency, reliability, and sustainable progress",
+        icon: "/images/vision-mission/approach (1).png"
     },
 ]
 
@@ -301,56 +166,56 @@ export const testimonials = [
     {
         id: 2,
         name: "harishkumar nayak",
-        description: "Good",
-        rating: "⭐⭐⭐⭐⭐"
+        description: "Powerful, durable, lightweight. Perfect for automotive and industrial applications. Competitive price. Highly recommended!",
+        rating: "⭐⭐⭐⭐"
     },
     {
         id: 3,
         name: "Krishna Reddy",
-        description: "good product",
+        description: "Sturdy, efficient, relatively quiet. Instructions could be clearer. Overall, a great purchase for workshops.",
         rating: "⭐⭐⭐⭐⭐"
     },
     {
         id: 4,
         name: "Skanda Tejaswi",
-        description: "good",
-        rating: "⭐⭐⭐⭐⭐"
+        description: "Lightweight, precise, efficient. Ideal for DIY or professional projects. Exceeds expectations. Couldn't be happier!",
+        rating: "⭐⭐⭐⭐"
     },
     {
         id: 5,
         name: "Mohankumar Hj",
-        description: "Service is being so good",
+        description: "Service is being so good,Durable, flexible. Good quality, but could be longer. Satisfactory for various pneumatic applications.",
         rating: "⭐⭐⭐⭐⭐"
     },
     {
         id: 6,
         name: "Srikanth Sharma",
-        description: "Excellent service",
-        rating: "⭐⭐⭐⭐⭐"
+        description: "Excellent service.Powerful, versatile, ergonomic. Perfect for wood, metal, and concrete. A fantastic addition to any toolkit.",
+        rating: "⭐⭐⭐⭐"
     },
     {
         id: 7,
         name: "Basavegowda CS",
-        description: "Good",
+        description: "Good.Keeps tools running smoothly, extends lifespan. Reasonable price. Highly recommended for maintenance.",
         rating: "⭐⭐⭐⭐⭐"
     },
     {
         id: 8,
         name: "Raghuveer BR",
-        description: "Excellent customer service!",
-        rating: "⭐⭐⭐⭐⭐"
+        description: "Excellent customer service!,Well-built, easy to use. Variable speed trigger for precise control. Messy to refill. Satisfactory performance.",
+        rating: "⭐⭐⭐⭐"
     },
     {
         id: 9,
         name: "gopalakrishna d.h",
-        description: "Good service",
+        description: "Good service.Powerful, reliable, easy to operate. Perfect for metalworking projects. Excellent build quality, competitive price.",
         rating: "⭐⭐⭐⭐⭐"
     },
     {
         id: 10,
         name: "P.K mohan",
-        description: "Good",
-        rating: "⭐⭐⭐⭐⭐"
+        description: "Good,Ideal for car painting. Adjustable nozzle, easy to clean. Slightly heavy when filled. Satisfactory performance.",
+        rating: "⭐⭐⭐⭐"
     },
 ]
 

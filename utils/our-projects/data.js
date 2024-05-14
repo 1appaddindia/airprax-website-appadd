@@ -1,0 +1,1 @@
+export const ourClientProjects = ["/images/our-projects/whatsapp-image-2021-07-14-at-17.11.39-1-60f01dc5a5eb230001d825a6.jpeg", "/images/our-projects/whatsapp-image-2021-07-14-at-17.11.40-1-60f01d965429b50001340e4e.jpeg", "/images/our-projects/whatsapp-image-2021-07-14-at-17.11.42-1-60f01db367e30f00018f18c2.jpeg"]

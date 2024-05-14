@@ -8,7 +8,6 @@ const Banner = () => {
         src="/images/banner/65f4120e1e2c072cea7f2154.jpg"
         style={{ height: "400px", width: "100%" }}
         alt=""
-        className="container mx-auto max-w-screen-2xl"
       />
     </div>
   );

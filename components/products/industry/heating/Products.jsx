@@ -1,6 +1,6 @@
 import React from "react";
 import { heating } from "../../../../utils/products/industry/data";
-import ProductCard from "../../ProductCard";
+import ProductCard from "../../../products/ProductCard";
 
 const Products = () => {
   return (

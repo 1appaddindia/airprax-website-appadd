@@ -6,10 +6,7 @@ const ResourceCard = ({ title, description, link }) => {
         <p className="text-gray-600">{description}</p>
       </div>
       <div className="px-4 py-3 bg-gray-100">
-        <a
-          href={link}
-          className="text-blue-500 font-semibold hover:text-blue-600"
-        >
+        <a href={link} className="text-[#EC1F52] font-bold">
           Read More
         </a>
       </div>
