@@ -13,7 +13,7 @@ import { ourPartners } from "../../utils/home/data";
 
 const OurPartners = () => {
   return (
-    <div className="bg-[#d5eef1] ">
+    <div className="bg-[#ffff] ">
       <div className="flex items-center justify-center flex-col lg:p-10 container max-w-9xl">
         <div className="mt-10">
           <h6 className="text-center">Our Partners</h6>

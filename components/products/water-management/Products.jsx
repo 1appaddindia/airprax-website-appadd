@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { waterManagement } from "../../../utils/products/water-management/data";
-import ProductCard from "../ProductCard";
+import ProductCard from "../../../components/products/ProductCard";
 
 const Products = ({ activeTab }) => {
   return (

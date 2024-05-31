@@ -9,7 +9,7 @@ const LatestNewsCard = ({ item }) => {
   };
 
   return (
-    <div className="border border-[#69C7D0] rounded-lg flex flex-col col-span-3 hover:shadow-2xl transition-shadow duration-500">
+    <div className="border border-[#083465] rounded-lg flex flex-col justify-between col-span-3 hover:shadow-2xl transition-shadow duration-500">
       <img src={item.img} alt="img" className="h-60  rounded-t-lg" />
       <span className="text-start m-2 font-bold">{item.title}</span>
       <p className="lg:text-base text-sm m-2">
@@ -21,16 +21,42 @@ const LatestNewsCard = ({ item }) => {
           <span className="text-sm font-light">{item.time}</span>
         </div>
         <div className="flex gap-2 m-2">
-          <img src={item.whatsappImg} className="lg:h-4 h-4" alt="WhatsApp" />
-          <img src={item.linkedInImg} className="lg:h-4 h-4" alt="LinkedIn" />
-          <img src={item.twitterImg} className="lg:h-4 h-4" alt="Twitter" />
-          <img src={item.facebookImg} className="lg:h-4 h-4" alt="Facebook" />
-          <img src={item.pinterestImg} className="lg:h-4 h-4" alt="Pinterest" />
+          <a href="https://api.whatsapp.com/send/?phone=+919620602000&text=Hello">
+            <img
+              src="/images/products/whatsapp_PNG21.png"
+              className="lg:h-4 h-4 cursor-pointer"
+              alt="WhatsApp"
+            />
+          </a>
+          <a href="">
+            <img
+              src="/images/products/linkedIn_PNG8.png"
+              className="lg:h-4 h-4 cursor-pointer"
+              alt="LinkedIn"
+            />
+          </a>
+          <img
+            src="/images/products/Twitter-Logo.png"
+            className="lg:h-4 h-4 cursor-pointer"
+            alt="Twitter"
+          />
+          <img
+            src="/images/products/facebook-logo-5-1.png"
+            className="lg:h-4 h-4 cursor-pointer"
+            alt="Facebook"
+          />
+          <img
+            src="/images/products/pinterest_PNG75.png"
+            className="lg:h-4 h-4 cursor-pointer"
+            alt="Pinterest"
+          />
         </div>
       </div>
       <div className="m-2 text-center">
-        <Link href={`/latest-news/${item.id}`}>
-          <button className="bg-[#ec1f52] w-full text-white p-1 rounded-sm text-sm">
+        <Link
+          href={`/latest-news/${item.title.replace(/ /g, "").toLowerCase()}`}
+        >
+          <button className="bg-[#bf1e2e] w-full text-white p-1 rounded-sm text-sm">
             Read More
           </button>
         </Link>

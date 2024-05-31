@@ -2,12 +2,15 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div>
+    <div
+      className="bg-cover bg-no-repeat h-[60vh] w-full overflow-hidden relative"
+      style={{
+        backgroundImage: "url(/images/banners/Downpic.cc-1274417553.jpg)",
+      }}
+    >
       <div
-        style={{
-          backgroundImage:
-            "url(https://cms.media.wilo.com/dcipicpfinder/wilo523454/6347594/wilo523454_1.jpg)",
-        }}
+        style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+        className="absolute h-[60vh] top-0 left-0 w-full"
       ></div>
     </div>
   );

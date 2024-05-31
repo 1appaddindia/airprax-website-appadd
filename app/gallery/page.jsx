@@ -1,7 +1,14 @@
 import React from "react";
+import { Gallery } from "../../components/gallery/Gallery";
+import { Banner } from "../../components/gallery/Banner";
 
-const Gallery = () => {
-  return <div>gallery</div>;
+const GalleryPage = () => {
+  return (
+    <div>
+      <Banner />
+      <Gallery />
+    </div>
+  );
 };
 
-export default Gallery;
+export default GalleryPage;

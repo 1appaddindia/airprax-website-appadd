@@ -26,21 +26,21 @@ const Banner = () => {
         className="w-full"
       >
         <CarouselContent>
-          {bannerImages.map((img, index) => (
-            <CarouselItem key={index}>
-              <div className="w-full p-0">
-                <img
-                  src={img}
-                  alt="img"
-                  className="aspect-square max-h-screen"
-                  style={{
-                    height: "100%",
-                    width: "100%",
-                  }}
-                />
-              </div>
-            </CarouselItem>
-          ))}
+          {/* {.map((img, index) => ( */}
+          <CarouselItem>
+            <div className="w-full p-0">
+              <img
+                src="/images/banners/WhatsApp Image 2024-05-14 at 1.10.55 PM.jpeg"
+                alt="img"
+                className=" max-h-screen"
+                style={{
+                  height: "100%",
+                  width: "100%",
+                }}
+              />
+            </div>
+          </CarouselItem>
+          {/* ))} */}
         </CarouselContent>
         <CarouselPrevious />
         <CarouselNext />

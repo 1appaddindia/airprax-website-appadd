@@ -4,46 +4,40 @@ import React from "react";
 import { ourProducts } from "../../utils/home/data";
 
 import Link from "next/link";
-// import { products } from "../../utils/products/data";
-// import Autoplay from "embla-carousel-autoplay";
-
-// import { CardContent } from "/components/ui/card";
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-// } from "/components/ui/carousel";
 
 const OurProducts = () => {
   return (
-    <div className="bg-[#F1FAFA] lg:p-10 ">
-      <div className=" container max-w-9xl ">
-        <div className="lg:m-10 m-3">
-          <h6 className="text-center">Our Products</h6>
-          <h1 className="text-center font-bold lg:text-4xl text-lg">
-            Empowering Industry, One Gear at a Time
-          </h1>
-        </div>
+    <div className="bg-[#e5ebf1] ">
+      <div className="p-6 ">
+        <h6 className="text-center m-1">Our Products</h6>
+        <h1 className="text-center font-bold lg:text-4xl text-lg ">
+          Empowering Industry, One Gear at a Time
+        </h1>
+      </div>
+      <div className="lg:container lg:max-w-9xl lg:p-5">
         <div className="lg:w-full flex items-center justify-center">
-          <div className="lg:grid lg:grid-cols-3 lg:gap-10 grid grid-cols-1  p-2 w-full">
+          <div className="lg:grid lg:grid-cols-5 lg:gap-3 grid grid-cols-1  p-2  ">
             {ourProducts.map((category) => (
-              <div key={category.id}>
-                <div key={category.id} className="flex flex-col">
+              <div
+                key={category.id}
+                className="lg:transform lg:transition-transform lg:duration-500 lg:ease-in-out lg:hover:scale-105 "
+              >
+                <div key={category.id} className="flex flex-col rounded-md p-1">
                   <img
                     src={category.img}
                     alt="img"
-                    className="lg:h-60 h-52 transform transition-transform duration-500 ease-in-out hover:scale-105 lg:w-[100%] sm:h-20 sm:w-20 "
+                    className="lg:h-52 h-52 rounded-t-md lg:w-[100%] sm:h-20 sm:w-20 "
                   />
-                  <div className="shadow-2xl bg-white m-3 p-7 relative bottom-10">
-                    <p className="font-bold mb-5">{category.category}</p>
+                  <div className="shadow-2xl bg-white rounded-b-md p-3 ">
+                    <p className="font-bold">{category.category}</p>
                     <p className="lg:text-base text-sm mb-2">
-                      {category.title.length < 100
+                      {category.title.length < 90
                         ? category.title
-                        : `${category.title.slice(0, 100)}...`}
+                        : `${category.title.slice(0, 90)}...`}
                     </p>
                     <Link
                       href={category.href}
-                      className="text-[#EC1F52] font-bold"
+                      className="text-[#bf1e2e] font-bold"
                     >
                       Read More...
                     </Link>

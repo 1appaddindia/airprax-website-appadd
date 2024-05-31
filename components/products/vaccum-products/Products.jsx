@@ -16,7 +16,10 @@ const ProductsPage = ({ activeTab }) => {
 
         <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10">
           {vaccumSolutions.map((item) => (
-            <ProductCard item={item} activeTab={activeTab} />
+            <ProductCard
+              item={item}
+              activeTab={activeTab}
+            />
           ))}
         </div>
       </div>

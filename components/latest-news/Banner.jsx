@@ -5,13 +5,24 @@ const Banner = () => {
     <div>
       <div
         style={{
-          backgroundImage:
-            "url(https://bizimages.withfloats.com/actual/0699ea42e9bb4ce3bb3dd610c6eccd70.jpg)",
-          height: "50vh",
+          backgroundImage: "url(https://wallpaperaccess.com/full/3184301.jpg)",
+          height: "60vh",
           width: "100%",
+          position: "relative",
         }}
         className="bg-cover bg-no-repeat bg-center"
-      ></div>
+      >
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            height: "60vh",
+            width: "100%",
+            backgroundColor: "rgba(0, 0, 0, 0.5)",
+          }}
+        ></div>
+      </div>
     </div>
   );
 };

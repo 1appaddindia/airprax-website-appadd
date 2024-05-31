@@ -30,7 +30,7 @@ const resources = [
 
 const ResourcesSection = () => {
   return (
-    <section className=" bg-[#f1fafa]  lg:p-10">
+    <section className=" bg-[#e5ebf1]  lg:p-10">
       <div className="container mx-auto ">
         <div className="lg:m-9 p-3">
           <h6 className=" font-bold text-center ">

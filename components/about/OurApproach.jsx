@@ -4,11 +4,13 @@ import { Card, CardContent, CardHeader } from "/components/ui/card";
 
 const OurApproach = () => {
   return (
-    <div className="bg-[#F1FAFA]">
+    <div className="bg-[#E5EBF1]">
       <div className="lg:container lg:max-w-7xl mx-auto lg:p-10 p-2 ">
         <div className="text-center lg:m-10 m-2">
           <h6>Our Approach</h6>
-          <h1 className="lg:text-4xl text-lg">Harness the Potential of Pneumatics Industry</h1>
+          <h1 className="lg:text-4xl text-lg">
+            Harness the Potential of Pneumatics Industry
+          </h1>
         </div>
 
         <div className="lg:grid lg:grid-cols-12  w-full gap-10 container max-w-7xl mx-auto p-2">

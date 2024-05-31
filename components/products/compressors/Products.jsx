@@ -1,6 +1,6 @@
 import React from "react";
 import { compressors } from "../../../utils/products/compressors/data";
-import ProductCard from "../ProductCard";
+import ProductCard from "../../../components/products/ProductCard";
 
 const Products = ({ activeTab }) => {
   return (

@@ -2,8 +2,10 @@ import React from "react";
 import { latestNews } from "../../../utils/latest-news/data";
 import NewsCard from "./NewsCard";
 
-const News = ({ pageid }) => {
-  const selectedNews = latestNews.find((item) => item.id == pageid);
+const News = ({ newsTitles }) => {
+  const selectedNews = latestNews.find(
+    (item) => item.title.replace(/ /g, "").toLowerCase() == newsTitles
+  );
 
   return (
     <div>

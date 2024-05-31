@@ -13,7 +13,7 @@ import { galleryImages } from "../../utils/home/data";
 
 const OurGallery = () => {
   return (
-    <div className="bg-[#d5eef1]">
+    <div className="bg-[#ffff]">
       <div className="flex items-center justify-center flex-col container max-w-9xl ">
         <div className="mt-4 lg:mt-10 lg:m-4">
           <h6 className="text-center">Our Gallery</h6>

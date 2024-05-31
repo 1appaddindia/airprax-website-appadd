@@ -1,6 +1,4 @@
 "use client";
-
-// import * as React from "react";
 import Autoplay from "embla-carousel-autoplay";
 
 import { CardContent } from "/components/ui/card";
@@ -9,12 +7,13 @@ import {
   CarouselContent,
   CarouselItem,
 } from "/components/ui/carousel";
-import { ourProjects } from "../../utils/home/data";
+import Link from "next/link";
+import { ourClientProjects } from "../../utils/our-projects/data";
 
 const OurProjects = () => {
   return (
-    <div className="bg-[#D5EEF1]">
-      <div className="flex items-center justify-between flex-col overflow-hidden container max-w-9xl mx-auto p-10">
+    <div className="bg-[#ffff]">
+      <div className="flex items-center justify-between flex-col overflow-hidden container max-w-9xl mx-auto lg:p-10 p-3 lg:container lg:max-w-9xl">
         <div className="text-center lg:m-10 ">
           <h6>Our Projects</h6>
           <h1 className="text-lg lg:text-4xl">Embarking on Success</h1>
@@ -33,12 +32,12 @@ const OurProjects = () => {
             className="w-full lg:max-w-2xl  lg:mt-5"
           >
             <CarouselContent>
-              {ourProjects.map((img, index) => (
+              {ourClientProjects.map((img, index) => (
                 <CarouselItem key={index} className="">
                   <div className="p-1 flex items-center justify-center">
                     <CardContent className="flex lg:aspect-square h-52 w-[100%]  lg:h-96 lg:w-full items-center justify-center ">
                       <img
-                        src={img.img}
+                        src={img}
                         alt=""
                         className="lg:rounded-md"
                         style={{
@@ -69,9 +68,11 @@ const OurProjects = () => {
               passing inexpensive compressed air through semipermeable membranes
               consisting of bundles of individual hollow fibers.
             </p>
-            <button className="button text-white m-1   w-[90px] h-8 rounded-md font-bold hover:bg-[#018CB5] mt-5 hover:text-white hover:border-none hover:transform transition-transform duration-300 ease-in-out hover:scale-105 text-sm">
-              View More
-            </button>
+            <Link href="/products?tab=nitrogenGenerator">
+              <button className="button text-white m-1 w-[90px] h-8 rounded-md font-bold hover:bg-[#018CB5] mt-5 hover:text-white hover:border-none hover:transform transition-transform duration-300 ease-in-out hover:scale-105 text-sm">
+                View More
+              </button>
+            </Link>
           </div>
         </div>
       </div>

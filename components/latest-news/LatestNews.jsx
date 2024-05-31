@@ -5,8 +5,13 @@ import LatestNewsCard from "./LatestNewsCard";
 const LatestNews = () => {
   return (
     <>
-      <h6 className="text-center m-5 font-bold text-xl">Our Latest News</h6>
-      <div className="grid lg:grid-cols-12 lg:gap-10 h-full w-full container max-w-9xl mt-2 gap-3">
+      <div className="lg:m-10">
+        <h6 className="text-center font-bold text-xl">Our Latest News</h6>
+        <h1>
+          Catch the Pulse of Progress: Stay Ahead with Our Latest Updates!
+        </h1>
+      </div>
+      <div className="grid lg:grid-cols-12 gap-5  lg:container lg:max-w-9xl p-3  ">
         {latestNews.map((item) => (
           <LatestNewsCard item={item} />
         ))}

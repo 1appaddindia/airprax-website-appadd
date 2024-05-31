@@ -15,8 +15,8 @@ import Link from "next/link";
 
 const FeaturedClientProjects = () => {
   return (
-    <div className="h-full bg-[#d5eef1]  w-full">
-      <div className=" lg:p-10">
+    <div className="h-full bg-[#ffff]">
+      <div className="lg:m-14 m-5">
         <h6 className="text-center">Featured Client Projects</h6>
         <h1 className="text-center font-bold lg:text-4xl text-xl">
           Where Innovation Meets Execution
@@ -27,8 +27,7 @@ const FeaturedClientProjects = () => {
           position: "relative",
           height: "80vh",
           width: "100%",
-          backgroundImage:
-            "url(https://fpimages.withfloats.com/actual/65f5707efa19be5b559c84c4.png)",
+          backgroundImage: "url(/images/products/65f5707efa19be5b559c84c4.jpg)",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           display: "flex",
@@ -70,15 +69,19 @@ const FeaturedClientProjects = () => {
                   className="pl-1 md:basis-1/1 lg:basis-1/1 "
                 >
                   <div className="p-1">
-                    <CardContent className="flex mt-5 aspect-video items-center justify-center">
-                      <img src={img} alt="img" className="h-full w-full z-10" />
+                    <CardContent className="flex mt-5 items-center justify-center">
+                      <img
+                        src={img}
+                        alt="img"
+                        className="lg:h-96 h-52  lg:w-full z-10 lg:object-fill"
+                      />
                     </CardContent>
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
           </Carousel>
-          <div className="bg-gray-100  lg:w-[100%]  flex flex-col items-start justify-center lg:p-10 w-full p-4">
+          <div className="bg-gray-100 flex flex-col items-start justify-center lg:p-10 w-full p-4">
             <h3 className="font-bold lg:text-base text-sm ">CUSTOMER</h3>
             <span className="lg:text-base text-xs">
               Hypo Tech (Lakshmi Engineering pvt Limited)
@@ -99,8 +102,8 @@ const FeaturedClientProjects = () => {
             <br />
             <h3 className="font-bold lg:text-base text-sm ">PROJECT BUDGET</h3>
             <span className="lg:text-base text-xs">Rs.60,00,000</span>
-            <Link href="" className="mt-5">
-              <button className="text-[#EC1F52] font-bold">
+            <Link href="/products?tab=nitrogenGenerator" className="mt-5">
+              <button className="text-[#bf1e2e] font-bold">
                 View Project...
               </button>
             </Link>

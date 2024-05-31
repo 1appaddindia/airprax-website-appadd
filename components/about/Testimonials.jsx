@@ -14,7 +14,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#F1FAFA] lg:p-10 p-5">
+    <div className="bg-[#E5EBF1] lg:p-10 p-5">
       <div className="text-center lg:m-10 m-3">
         <h6>Customer Testimonials</h6>
         <h1 className="lg:text-4xl text-lg">Praise in Their Own Words</h1>

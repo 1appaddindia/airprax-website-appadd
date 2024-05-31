@@ -1,3 +1,11 @@
+
+/* @import "../public/assets/css/bootstrap.min.css"; */
+/* @import "../public/assets/css/fontawesome.min.css"; */
+/* @import "../public/assets/css/jquery.datetimepicker.min.css"; */
+/* @import "../public/assets/css/magnific-popup.min.css"; */
+/* @import "../public/assets/css/style.css"; */
+/* @import "../public/assets/css/style.css.map"; */
+/* @import "../public/assets/css/swiper-bundle.min.css"; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -83,12 +91,12 @@ p {
 
 h1 {
   font-size: xx-large;
-  color: #0089b3;
+  color: #083465;
   font-weight: bold;
   text-align: center;
 }
 h6 {
-  color: #000000;
+  color: #bf1e2e;
   font-weight: bold;
 }
 
@@ -97,8 +105,10 @@ h2 {
   font-size: large;
   color: #69c7d0;
 }
+h3{
+  font-weight: bold;
+}
 
 .button {
-  background-color: #ec1f52;
+  background-color: #bf1e2e;
 }
-  

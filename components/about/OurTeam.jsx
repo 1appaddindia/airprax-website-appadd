@@ -13,7 +13,7 @@ import { galleryImages } from "../../utils/home/data";
 
 const OurTeam = () => {
   return (
-    <div className="bg-[#D5EEF1]">
+    <div className="bg-[#ffff]">
       <div className="flex items-center justify-between flex-col overflow-hidden container max-w-7xl  mx-auto  lg:p-10 ">
         <div className="text-center lg:m-10 m-2">
           <h6>Meet Our Team</h6>
@@ -25,7 +25,7 @@ const OurTeam = () => {
           <div className="flex flex-col items-center justify-center  ">
             <h1 className="font-bold lg:text-start lg:text-4xl text-lg">
               Meet our pioneering
-              <span className="text-[#EC1F52]"> pneumatic innovators</span>
+              <span className="text-[#bf1e2e]"> pneumatic innovators</span>
             </h1>
             <p className="text-sm lg:text-base">
               Meet the exceptional minds propelling our pneumatics innovation

@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCard from "../../products/ProductCard";
-import { pumps } from "../../../utils/products/pumps/data";
+import { products, pumps } from "../../../utils/products/pumps/data";
 
 const Pumps = ({ activeTab }) => {
   return (
@@ -14,7 +14,7 @@ const Pumps = ({ activeTab }) => {
       </div>
 
       <div className="grid grid-cols-12  lg:gap-5 gap-5 lg:p-5 lg:m-0 mt-2 w-full">
-        {pumps.map((item) => (
+        {products.map((item) => (
           <ProductCard item={item} activeTab={activeTab} />
         ))}
       </div>
