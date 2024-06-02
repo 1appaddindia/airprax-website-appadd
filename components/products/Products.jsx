@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, Suspense } from "react";
 import VaccumProducts from "./vaccum-products/Products";
 import Compressors from "../../components/products/compressors/Products";
 import Pumps from "../../components/products/pumps/Pumps";
@@ -8,11 +8,9 @@ import WaterManagement from "../../components/products/water-management/Products
 import NitrogenGenerator from "../../components/products/nitrogen-generator/NitrogenGenerator";
 import { useRouter, useSearchParams } from "next/navigation";
 
-const Products = () => {
+const ProductsContent = () => {
   const router = useRouter();
-
   const searchParams = useSearchParams();
-
   const search = searchParams.get("tab");
 
   const [activeTab, setActiveTab] = useState("products");
@@ -28,9 +26,6 @@ const Products = () => {
       case "compressors":
         setActiveTab("compressors");
         break;
-      // case "industry":
-      //   setActiveTab("industry");
-      //   break;
       case "waterManagement":
         setActiveTab("waterManagement");
         break;
@@ -78,15 +73,6 @@ const Products = () => {
           >
             Water Pumps
           </li>
-
-          {/* <li
-            className={` cursor-pointer lg:py-2   border border-gray-300 p-1 lg:w-full rounded w-full h-9 flex items-center justify-center text-xs lg:text-base  ${
-              activeTab === "industry" ? "bg-[#bf1e2e] text-white" : ""
-            }`}
-            onClick={() => handleTabClick("industry")}
-          >
-            Industry
-          </li> */}
           <li
             className={`cursor-pointer py-2  text-xs lg:text-base  border border-gray-300 p-1 lg:w-full rounded  h-9 flex items-center justify-center  ${
               activeTab === "waterManagement" ? "bg-[#bf1e2e] text-white" : ""
@@ -104,23 +90,23 @@ const Products = () => {
             Nitrogen Generator
           </li>
         </ul>
-
         <div>
           {activeTab === "compressors" && <Compressors activeTab={search} />}
-          {activeTab === "vaccumProducts" && (
-            <VaccumProducts activeTab={search} />
-          )}
+          {activeTab === "vaccumProducts" && <VaccumProducts activeTab={search} />}
           {activeTab === "pumps" && <Pumps activeTab={search} />}
-          {/* {activeTab === "industry" && <Industry activeTab={search} />} */}
-          {activeTab === "waterManagement" && (
-            <WaterManagement activeTab={search} />
-          )}
-          {activeTab === "nitrogenGenerator" && (
-            <NitrogenGenerator activeTab={search} />
-          )}
+          {activeTab === "waterManagement" && <WaterManagement activeTab={search} />}
+          {activeTab === "nitrogenGenerator" && <NitrogenGenerator activeTab={search} />}
         </div>
       </div>
     </div>
+  );
+};
+
+const Products = () => {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ProductsContent />
+    </Suspense>
   );
 };
 
