@@ -5,9 +5,9 @@ import Link from "next/link";
 const OurCustomers = () => {
   return (
     <div className=" bg-[#E5EBF1]">
-      <div className="lg:container lg:max-w-9xl lg:p-10 lg:w-full">
-        <div className="flex flex-col items-center justify-center container max-w-9xl lg:m-5 ">
-          <div className="text-center lg:m-10 m-2">
+      <div className="lg:container lg:max-w-9xl  lg:w-full">
+        <div className="flex flex-col items-center justify-center p-2 lg:m-5 ">
+          <div className="text-center m-10">
             <h6>Our Customers</h6>
             <h1 className="lg:text-4xl text-lg">Empowering Success Together</h1>
           </div>

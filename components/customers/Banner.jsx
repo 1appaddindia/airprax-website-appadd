@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div
-      className="w-full h-[60vh] bg-center bg-cover bg-no-repeat"
+      className="w-full lg:h-[50vh] h-52 bg-center bg-cover bg-no-repeat"
       style={{
         backgroundImage: "url(/images/banners/banner-customers-1600x775.jpg)",
         position: "relative",

@@ -6,6 +6,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselPrevious,
+  CarouselNext
 } from "/components/ui/carousel";
 import Link from "next/link";
 import { ourClientProjects } from "../../utils/our-projects/data";
@@ -13,12 +15,12 @@ import { ourClientProjects } from "../../utils/our-projects/data";
 const OurProjects = () => {
   return (
     <div className="bg-[#ffff]">
-      <div className="flex items-center justify-between flex-col overflow-hidden container max-w-9xl mx-auto lg:p-10 p-3 lg:container lg:max-w-9xl">
-        <div className="text-center lg:m-10 ">
+      <div className="flex items-center justify-between flex-col overflow-hidden  lg:container lg:max-w-9xl p-2">
+        <div className="text-center lg:m-10 m-5">
           <h6>Our Projects</h6>
           <h1 className="text-lg lg:text-4xl">Embarking on Success</h1>
         </div>
-        <div className="lg:flex lg:items-center lg:gap-10 lg:justify-evenly sm:flex w-full lg:m-0 lg:mt-7">
+        <div className="lg:flex lg:items-center lg:gap-10 lg:justify-evenly sm:flex w-full lg:m-0 ">
           <Carousel
             opts={{
               align: "start",
@@ -35,10 +37,10 @@ const OurProjects = () => {
               {ourClientProjects.map((img, index) => (
                 <CarouselItem key={index} className="">
                   <div className="p-1 flex items-center justify-center">
-                    <CardContent className="flex lg:aspect-square h-52 w-[100%]  lg:h-96 lg:w-full items-center justify-center ">
+                    <CardContent className="flex lg:aspect-square h-52 w-[80%]  lg:h-96 lg:w-full items-center justify-center ">
                       <img
                         src={img}
-                        alt=""
+                        alt="img"
                         className="lg:rounded-md"
                         style={{
                           height: "100%",
@@ -68,7 +70,7 @@ const OurProjects = () => {
               passing inexpensive compressed air through semipermeable membranes
               consisting of bundles of individual hollow fibers.
             </p>
-            <Link href="/products?tab=nitrogenGenerator">
+            <Link href="/products?tab=nitrogenGenerator" className="flex items-center lg:justify-start justify-center">
               <button className="button text-white m-1 w-[90px] h-8 rounded-md font-bold hover:bg-[#018CB5] mt-5 hover:text-white hover:border-none hover:transform transition-transform duration-300 ease-in-out hover:scale-105 text-sm">
                 View More
               </button>

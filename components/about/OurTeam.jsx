@@ -14,7 +14,7 @@ import { galleryImages } from "../../utils/home/data";
 const OurTeam = () => {
   return (
     <div className="bg-[#ffff]">
-      <div className="flex items-center justify-between flex-col overflow-hidden container max-w-7xl  mx-auto  lg:p-10 ">
+      <div className="flex items-center justify-between flex-col overflow-hidden lg:container lg:max-w-9xl  lg:mx-auto  lg:p-10 p-2">
         <div className="text-center lg:m-10 m-2">
           <h6>Meet Our Team</h6>
           <h1 className="font-bold lg:text-4xl text-sm">

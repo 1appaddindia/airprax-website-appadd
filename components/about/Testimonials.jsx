@@ -14,8 +14,8 @@ import Autoplay from "embla-carousel-autoplay";
 
 const Testimonials = () => {
   return (
-    <div className="bg-[#E5EBF1] lg:p-10 p-5">
-      <div className="text-center lg:m-10 m-3">
+    <div className="bg-[#E5EBF1] p-5">
+      <div className="text-center m-10">
         <h6>Customer Testimonials</h6>
         <h1 className="lg:text-4xl text-lg">Praise in Their Own Words</h1>
       </div>
@@ -35,7 +35,7 @@ const Testimonials = () => {
             {testimonials.map((testi, index) => (
               <CarouselItem key={index} className="lg:basis-1/4 ">
                 <div className="p-1 w-full flex items-center justify-center">
-                  <div className=" lg:py-3 py-4 lg:h-80 h-56 lg:w-full rounded-md w-[80%] shadow-2xl">
+                  <div className=" lg:py-3 py-4 lg:h-80 h-56 lg:w-full rounded-md w-[100%] shadow-2xl">
                     <div className=" flex flex-col lg:gap-2 items-center justify-center">
                       <Avatar className="lg:h-20 lg:w-20">
                         <AvatarImage src="/images/avatar/73-730477_first-name-profile-image-placeholder-png.png" />

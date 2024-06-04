@@ -7,7 +7,7 @@ const ProductCard = ({ item, activeTab }) => {
   return (
     <div
       key={item.id}
-      className="col-span-6 lg:col-span-3 lg:w-full h-full w-full flex flex-col items-center justify-center border border-[#69C7D0] rounded-md hover:shadow-2xl transition-shadow duration-500"
+      className="col-span-6 lg:col-span-3 lg:w-full h-full w-full flex flex-col items-center justify-center border border-[#072E57] rounded-md hover:shadow-2xl transition-shadow duration-500"
     >
       <span className="flex items-center justify-center lg:mb-6 font-bold p-4 text-sm lg:text-base lg:w-[100%] w-[100%] ">
         {item.title}

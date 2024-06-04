@@ -6,9 +6,9 @@ import Link from "next/link";
 function LatestNews({ className, ...props }) {
   const latestNewsSlice = latestNews.slice(0, 4);
   return (
-    <div className="bg-[#e5ebf1] lg:p-10 p-2 ">
-      <div className="p-0 lg:container lg:max-w-9xl lg:mt-52 mt-56">
-        <div className="m-5 text-center">
+    <div className="bg-[#e5ebf1] pt-1 lg:mt-0 lg:p-5">
+      <div className="lg:p-5 lg:container lg:max-w-9xl lg:mt-60 mt-56">
+        <div className=" text-center lg:mt-10 m-8">
           <h6>Latest News</h6>
           <h1 className=" font-bold lg:text-4xl text-lg">
             Catch the Pulse of Progress: Stay Ahead with Our Latest Updates!
@@ -19,13 +19,12 @@ function LatestNews({ className, ...props }) {
             <LatestNewsCard item={item} />
           ))}
         </div>
-        <div className="text-center lg:m-5 m-3">
-          <Link href="/latest-news">
-            <button className="bg-[#bf1e2e] lg:w-52 text-white lg:text-lg text-sm rounded font-bold p-2">
+          <Link href="/latest-news" className="flex items-center justify-center">
+            <button className="bg-[#bf1e2e] m-5 lg:w-36 text-white lg:text-lg text-sm rounded font-bold p-2 flex items-center gap-2">
               Read More
+            <img src="/images/flaticons/fast-forward.png" alt="" className="h-5 w-5"/>
             </button>
           </Link>
-        </div>
       </div>
     </div>
   );

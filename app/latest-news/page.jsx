@@ -5,7 +5,7 @@ import News from "../../components/latest-news/LatestNews";
 const LatestNews = () => {
   return (
     <div>
-      <Banner className="mt-32" />
+      <Banner />
       <News />
     </div>
   );

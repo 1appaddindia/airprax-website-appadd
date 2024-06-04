@@ -13,14 +13,9 @@ const News = ({ newsTitles }) => {
       {selectedNews ? (
         <NewsCard item={selectedNews} />
       ) : (
-        <div className="w-full ">
-          {/* {latestNews.map((item) => (
-            <div key={item.id} className=" flex items-center justify-center">
-              <img src={item.img} alt="" />
-              <p>{item.description}</p>
-            </div>
-          ))} */}
-        </div>
+        <h1>
+          No News Found
+        </h1>
       )}
     </div>
   );

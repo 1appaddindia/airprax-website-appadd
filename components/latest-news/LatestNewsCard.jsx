@@ -1,4 +1,3 @@
-// LatestNewsCard.js
 import Link from "next/link";
 import React from "react";
 
@@ -11,7 +10,7 @@ const LatestNewsCard = ({ item }) => {
   return (
     <div className="border border-[#083465] rounded-lg flex flex-col justify-between col-span-3 hover:shadow-2xl transition-shadow duration-500">
       <img src={item.img} alt="img" className="h-60  rounded-t-lg" />
-      <span className="text-start m-2 font-bold">{item.title}</span>
+      <span className="text-start m-2 font-bold text-[#bf1e2e]">{item.title}</span>
       <p className="lg:text-base text-sm m-2">
         {truncateDescription(item.description, 100)}
       </p>
@@ -52,15 +51,15 @@ const LatestNewsCard = ({ item }) => {
           />
         </div>
       </div>
-      <div className="m-2 text-center">
         <Link
           href={`/latest-news/${item.title.replace(/ /g, "").toLowerCase()}`}
+          className="flex items-center justify-center m-2"
         >
-          <button className="bg-[#bf1e2e] w-full text-white p-1 rounded-sm text-sm">
+          <button className="bg-[#bf1e2e] w-full text-white p-1 rounded-sm text-sm flex items-center justify-center gap-2 font-semibold">
             Read More
+          <img src="/images/flaticons/right-arrow (1).png" alt="" className="h-4 w-6"/>
           </button>
         </Link>
-      </div>
     </div>
   );
 };

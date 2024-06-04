@@ -14,15 +14,15 @@ import { galleryImages } from "../../utils/home/data";
 const OurGallery = () => {
   return (
     <div className="bg-[#ffff]">
-      <div className="flex items-center justify-center flex-col container max-w-9xl ">
-        <div className="mt-4 lg:mt-10 lg:m-4">
+      <div className="flex items-center justify-center flex-col lg:container lg:max-w-9xl lg:p-5">
+        <div className="lg:m-10 mt-10">
           <h6 className="text-center">Our Gallery</h6>
           <h1 className="font-bold  text-center  lg:text-4xl text-base">
             Our Gallery, Where Every Brushstroke Tells a Story.
           </h1>
         </div>
         <Carousel
-          className=" lg:max-w-[90%]"
+          className=" lg:max-w-[100%]"
           plugins={[
             Autoplay({
               delay: 2000,

@@ -2,30 +2,29 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div>
       <div
         style={{
           backgroundImage: "url(/images/industry/banner.jpg)",
           backgroundRepeat: "no-repeat",
-          height: "50vh",
           width: "100%",
           position: "relative",
         }}
-        className="bg-cover"
+        className="bg-cover h-52 lg:h-[50vh]"
       >
         <div
+        className="h-52 lg:h-[50vh]"
           style={{
             position: "absolute",
-            backgroundColor: "rgba(0,0,0,0.8)",
+            backgroundColor: "rgba(0,0,0,0.9)",
             top: 0,
             left: 0,
             right: 0,
             bottom: 0,
             opacity: 0.5,
+            width: "100%",
           }}
         ></div>
       </div>
-    </div>
   );
 };
 

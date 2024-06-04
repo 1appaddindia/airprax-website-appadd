@@ -14,8 +14,8 @@ const NitrogenGenerator = () => {
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
           className="lg:col-span-6 lg:h-96 w-full p-3"
         ></iframe>
         <div className="p-3 lg:col-span-6">
@@ -43,8 +43,8 @@ const NitrogenGenerator = () => {
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
             className="lg:col-span-6 lg:h-96 w-full p-3 lg:block hidden"
           ></iframe>
         </div>
@@ -54,8 +54,8 @@ const NitrogenGenerator = () => {
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
           className="lg:col-span-6 lg:h-96 w-full p-3 lg:hidden"
         ></iframe>
         <h3 className="text-center text-[#072E57] mt-4 text-xl lg:hidden">

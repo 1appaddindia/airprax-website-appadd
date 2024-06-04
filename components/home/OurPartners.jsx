@@ -13,16 +13,16 @@ import { ourPartners } from "../../utils/home/data";
 
 const OurPartners = () => {
   return (
-    <div className="bg-[#ffff] ">
-      <div className="flex items-center justify-center flex-col lg:p-10 container max-w-9xl">
-        <div className="mt-10">
+    <div className="bg-[#E5EBF1] ">
+      <div className="flex items-center justify-center flex-col lg:p-5 lg:container lg:max-w-9xl">
+        <div className="m-10">
           <h6 className="text-center">Our Partners</h6>
           <h1 className="font-bold  text-center lg:text-4xl text-lg">
             Empowering Success Together
           </h1>
         </div>
         <Carousel
-          className=" max-w-[90%] mt-14"
+          className=" max-w-[100%] m-5"
           plugins={[
             Autoplay({
               delay: 1000,
@@ -34,11 +34,11 @@ const OurPartners = () => {
             {ourPartners.map((img, index) => (
               <CarouselItem
                 key={index}
-                className="pl-1 basis-1/2 lg:basis-1/4 h-[100%]"
+                className="pl-1 basis-1/1 lg:basis-1/4 h-[100%]"
               >
                 <div className="p-0">
                   <CardContent className="flex  items-center justify-center ">
-                    <img src={img} alt="img" className="h-20 w-[100%]" />
+                    <img src={img} alt="img" className="lg:h-32 h-28 w-[100%]" />
                   </CardContent>
                 </div>
               </CarouselItem>

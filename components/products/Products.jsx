@@ -46,11 +46,11 @@ const ProductsContent = () => {
 
   return (
     <div>
-      <div className="lg:container p-1 lg:max-w-9xl mx-auto mt-10 overflow-hidden">
+      <div className="lg:container  lg:max-w-9xl mx-auto p-[1px] mt-10 overflow-hidden">
         <h5 className="text-center m-5 font-bold text-2xl">Our Products</h5>
-        <ul className="lg:flex lg:mb-4 items-center justify-center flex gap-2 w-full p-1 rounded-sm font-bold lg:font-semibold border border-gray-200">
+        <ul className="lg:flex text-center items-center justify-center flex gap-1 w-full p-1 rounded-sm font-bold lg:font-semibold border border-gray-200">
           <li
-            className={` cursor-pointer lg:py-2  border border-x-gray-300 p-1 lg:w-full rounded w-full h-9 flex items-center justify-center text-xs lg:text-base  ${
+            className={` cursor-pointer lg:py-2  border border-x-gray-300 p-[2px] lg:w-full rounded w-fit h-9 flex items-center justify-center text-xs lg:text-base  ${
               activeTab === "compressors" ? "bg-[#bf1e2e] text-white" : ""
             }`}
             onClick={() => handleTabClick("compressors")}

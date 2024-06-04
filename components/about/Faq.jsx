@@ -9,7 +9,7 @@ import {
 const Faq = () => {
   return (
     <div className="bg-[#ffff] ">
-      <div className="lg:container lg:max-w-9xl mx-auto  lg:p-10">
+      <div className="lg:container lg:max-w-9xl mx-auto ">
         <div className="text-center lg:m-10 m-3">
           <h6>FAQ's</h6>
           <h1 className="lg:text-4xl text-lg ">

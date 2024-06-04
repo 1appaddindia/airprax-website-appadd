@@ -16,7 +16,7 @@ import Link from "next/link";
 const FeaturedClientProjects = () => {
   return (
     <div className="h-full bg-[#ffff]">
-      <div className="lg:m-14 m-5">
+      <div className="lg:m-14 m-8">
         <h6 className="text-center">Featured Client Projects</h6>
         <h1 className="text-center font-bold lg:text-4xl text-xl">
           Where Innovation Meets Execution
@@ -25,7 +25,7 @@ const FeaturedClientProjects = () => {
       <div
         style={{
           position: "relative",
-          height: "80vh",
+          height: "70vh",
           width: "100%",
           backgroundImage: "url(/images/products/65f5707efa19be5b559c84c4.jpg)",
           backgroundRepeat: "no-repeat",
@@ -46,13 +46,13 @@ const FeaturedClientProjects = () => {
             backgroundColor: "rgba(0, 0, 0, 0.8)",
           }}
         ></div>
-        <div className="relative lg:top-36 lg:right-64 text-center top-12">
-          <h6 className="text-white text-start">Our Project</h6>
+        <div className="relative lg:top-28 lg:right-64 text-center top-24 ">
+          <h6 className="text-white lg:text-start text-center ">Our Project</h6>
           <h2 className="text-white font-bold lg:text-4xl text-2xl">
             PSA Nitrogen Generator Plant
           </h2>
         </div>
-        <div className="lg:flex lg:flex-row flex flex-col lg:m-0 m-3 container max-w-9xl bg-white lg:relative lg:top-72 relative top-40 lg:w-[80%] items-center justify-center shadow-2xl">
+        <div className="lg:flex lg:flex-row flex flex-col lg:m-0 m-3 lg:container lg:max-w-9xl bg-white lg:relative  lg:top-56 relative top-40 lg:w-[80%] items-center justify-center shadow-2xl p-3 ">
           <Carousel
             style={{ backgroundColor: "white" }}
             className="lg:max-w-[50%] w-full"
@@ -68,12 +68,12 @@ const FeaturedClientProjects = () => {
                   key={index}
                   className="pl-1 md:basis-1/1 lg:basis-1/1 "
                 >
-                  <div className="p-1">
-                    <CardContent className="flex mt-5 items-center justify-center">
+                  <div className="p-1 flex mt-5 items-center justify-center">
+                    <CardContent>
                       <img
                         src={img}
                         alt="img"
-                        className="lg:h-96 h-52  lg:w-full z-10 lg:object-fill"
+                        className="lg:h-96 h-40  lg:w-full z-10 lg:object-fill"
                       />
                     </CardContent>
                   </div>
@@ -81,31 +81,29 @@ const FeaturedClientProjects = () => {
               ))}
             </CarouselContent>
           </Carousel>
-          <div className="bg-gray-100 flex flex-col items-start justify-center lg:p-10 w-full p-4">
-            <h3 className="font-bold lg:text-base text-sm ">CUSTOMER</h3>
+          <div className="bg-gray-100 flex flex-col items-start justify-center lg:p-10 w-full p-4 ">
+            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">CUSTOMER</h3>
             <span className="lg:text-base text-xs">
               Hypo Tech (Lakshmi Engineering pvt Limited)
             </span>
             <br />
-            <h3 className="font-bold lg:text-base text-sm ">
+            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">
               PROJECT CATEGORY
             </h3>
             <span className="lg:text-base text-xs">
               Laser Cutting Operation
             </span>
             <br />
-            <h3 className="font-bold lg:text-base text-sm ">COMPLETED</h3>
+            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">COMPLETED</h3>
             <span className="lg:text-base text-xs gap-1 flex items-center ">
               <CalendarDays size={15} />
               Jun 15, 2021
             </span>
             <br />
-            <h3 className="font-bold lg:text-base text-sm ">PROJECT BUDGET</h3>
+            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">PROJECT BUDGET</h3>
             <span className="lg:text-base text-xs">Rs.60,00,000</span>
-            <Link href="/products?tab=nitrogenGenerator" className="mt-5">
-              <button className="text-[#bf1e2e] font-bold">
+            <Link href="/products?tab=nitrogenGenerator" className="mt-5 text-[#bf1e2e] font-bold hover:text-[#072E57]">
                 View Project...
-              </button>
             </Link>
           </div>
         </div>

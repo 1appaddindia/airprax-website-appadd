@@ -8,7 +8,7 @@ const Map = () => {
         height="450"
         allowfullscreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
         className="w-full"
       ></iframe>
     </div>

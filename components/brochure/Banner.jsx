@@ -6,21 +6,20 @@ const Banner = () => {
       <div
         style={{
           backgroundImage:
-            "url(https://georgiaautomation.com/wp-content/uploads/2018/09/pneumatic-banner.png)",
-          height: "60vh",
+            "url(/images/banners/colorful-stack-textbooks-table-generated-by-ai_24911-72360.jpg)",
           width: "100%",
           position:"relative"
         }}
-        className="bg-cover bg-no-repeat bg-center"
+        className="bg-cover bg-no-repeat bg-center lg:h-[50vh] h-52"
       >
         <div
+        className="lg:h-[50vh] h-52"
           style={{
             position: "absolute",
             top: 0,
             left: 0,
-            height:"60vh",
             width:"100%",
-            backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust the alpha value (last number) for transparency
+            backgroundColor: "rgba(0, 0, 0, 0.8)", // Adjust the alpha value (last number) for transparency
           }}
         ></div>
       </div>
