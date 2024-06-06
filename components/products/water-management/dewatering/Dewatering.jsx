@@ -6,8 +6,8 @@ const Dewatering = () => {
   const subcategory = "dewatering";
 
   return (
-    <div className="container max-w-7xl">
-      <div className="text-center mt-10">
+    <div className="lg:container lg:max-w-9xl p-5">
+      <div className="text-center lg:mt-10 m-3">
         <h6>Dewatering (incl. flood control)</h6>
         <h1>
           Drainage and flood control: effective and forward-looking solutions

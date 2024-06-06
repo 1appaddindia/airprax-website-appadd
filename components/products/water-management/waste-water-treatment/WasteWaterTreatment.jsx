@@ -5,8 +5,8 @@ import ProductCard from "../../../products/water-management/ProductCard";
 const WasteWaterTreatment = () => {
   const subcategory = "waste-water-treatment";
   return (
-    <div className="container max-w-7xl">
-      <div className="text-center mt-10">
+    <div className="lg:container lg:max-w-9xl p-5w">
+      <div className="text-center lg:mt-10 m-3">
         <h6>Wastewater treatment</h6>
         <h1>
           Wastewater treatment: reliable system solutions for wastewater

@@ -10,8 +10,8 @@ const Products = () => {
 
   return (
     <>
-      <div className="container max-w-7xl">
-        <div className="text-center mt-10">
+      <div className="lg:container lg:max-w-9xl p-5">
+        <div className="text-center lg:mt-10 m-3">
           <h6>Raw water intake</h6>
           <h1>
             Raw water intake and pumping: with minimum energy costs to maximum
