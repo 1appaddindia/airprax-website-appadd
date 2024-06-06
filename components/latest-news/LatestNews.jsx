@@ -5,8 +5,8 @@ import LatestNewsCard from "./LatestNewsCard";
 const LatestNews = () => {
   return (
     <>
-      <div className="lg:m-10 p-3">
-        <h6 className="text-center font-bold text-xl">Our Latest News</h6>
+      <div className="lg:m-10 p-3 text-center">
+        <h6>Our Latest News</h6>
         <h1>
           Catch the Pulse of Progress: Stay Ahead with Our Latest Updates!
         </h1>

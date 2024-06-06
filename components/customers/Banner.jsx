@@ -1,4 +1,12 @@
 import React from "react";
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "/components/ui/breadcrumb"
 
 const Banner = () => {
   return (
@@ -18,7 +26,29 @@ const Banner = () => {
           right: 0,
           bottom: 0,
         }}
-      ></div>
+        className="flex items-center justify-center lg:p-10 p-5"
+      >
+          <div className="lg:flex lg:items-center lg:justify-between gap-10 w-full">
+      <h4 className="text-white lg:text-start text-center">Customers</h4>
+      <div className="text-center flex items-center justify-center">
+      <Breadcrumb >
+  <BreadcrumbList>
+    <BreadcrumbItem >
+      <BreadcrumbLink href="/" className="text-white">Home</BreadcrumbLink>
+    </BreadcrumbItem>
+    <BreadcrumbSeparator className="text-white"/>
+    {/* <BreadcrumbItem>
+      <BreadcrumbLink href="/about" className="text-white">About</BreadcrumbLink>
+    </BreadcrumbItem>
+    <BreadcrumbSeparator  className="text-white"/> */}
+    <BreadcrumbItem>
+      <BreadcrumbPage className="text-white">Customers</BreadcrumbPage>
+    </BreadcrumbItem>
+  </BreadcrumbList>
+</Breadcrumb>
+</div>
+        </div>
+      </div>
     </div>
   );
 };

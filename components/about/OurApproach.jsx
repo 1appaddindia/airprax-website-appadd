@@ -30,7 +30,7 @@ const OurApproach = () => {
                       <img src={img.icon} alt="" height={30} width={30} />
                       {img.heading}
                     </p>
-                    <p className="text-sm text-muted-foreground">{img.title}</p>
+                    <p className="text-sm text-muted-foreground text-justify">{img.title}</p>
                   </div>
                 </div>
               </CardContent>

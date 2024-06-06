@@ -5,16 +5,15 @@ import ProductCard from "../ProductCard";
 const ProductsPage = ({ activeTab }) => {
   return (
     <>
-      <div className="container max-w-7xl">
-        <div className="text-center mt-10">
+      <div className="lg:container lg:max-w-9xl">
+        <div className="text-center lg:mt-10 mt-3">
           <h6>Vaccum Products</h6>
-          <h1 className="lg:text-4xl text-lg ">
-            Industrial-grade solutions for buildings, water supply, and
-            treatment, ensuring efficiency and reliability.
+          <h1>
+          Variable speed and fixed speed vacuum pumps, systems, accessories and service for diverse industrial applications.
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10">
+        <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10 p-3">
           {vaccumSolutions.map((item) => (
             <ProductCard
               item={item}

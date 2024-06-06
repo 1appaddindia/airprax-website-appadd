@@ -5,16 +5,15 @@ import ProductCard from "../../../components/products/ProductCard";
 const Products = ({ activeTab }) => {
   return (
     <>
-      <div className="container max-w-7xl">
-        <div className="text-center mt-10">
+      <div className="lg:container lg:max-w-9xl">
+        <div className="text-center lg:mt-10 mt-5">
           <h6>Compressors</h6>
           <h1>
-            Industrial-grade solutions for buildings, water supply, and
-            treatment, ensuring efficiency and reliability.
+          A range of air compressors, blowers, nitrogen generators, air treatment products, piping and other energy efficient compressed air solutions for all type of industries.
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10">
+        <div className="grid lg:grid-cols-12  gap-5 lg:p-10 p-3">
           {compressors.map((item) => (
             <ProductCard item={item} activeTab={activeTab} />
           ))}

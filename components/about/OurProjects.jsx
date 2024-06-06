@@ -56,10 +56,10 @@ const OurProjects = () => {
           <CarouselNext /> */}
           </Carousel>
           <div className="flex flex-col   ">
-            <h1 className="font-bold text-xl text-start lg:text-4xl lg:text-start ">
-              Project: PSA Nitrogen Generator Plant
+            <h1 className="font-bold text-xl text-center lg:text-4xl lg:text-start ">
+               PSA Nitrogen <span className="text-[#BD1E2E]">Generator Plant</span>
             </h1>
-            <p className="text-sm lg:text-base">
+            <p className="text-sm lg:text-base text-justify">
               Atlas Copco’s latest membrane and PSA generators extend the
               advantages of the current range. Total lifecycle cost consists of
               the initial investment cost of the on-site installation, the

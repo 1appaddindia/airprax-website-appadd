@@ -5,7 +5,7 @@ export function Gallery() {
   return (
     <div className="lg:container lg:max-w-9xl lg:mx-auto">
       <div className="m-5">
-        <h3 className="text-center">Our Gallery</h3>
+        <h6 className="text-center">Our Gallery</h6>
         <h1>Experience Creativity Unleashed</h1>
       </div>
       <div className="lg:grid lg:grid-cols-12">

@@ -35,7 +35,7 @@ const Form = () => {
       <form
         action=""
         onSubmit={handleSubmit}
-        className="shadow-2xl flex flex-col gap-1 p-5 w-full"
+        className="shadow-xl flex flex-col gap-1 p-5 w-full"
       >
         <div className="text-center m-3 ">
           <h1 className="text-lg">

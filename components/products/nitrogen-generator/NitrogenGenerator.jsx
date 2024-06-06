@@ -3,7 +3,7 @@ import { product } from "../../../utils/products/nitrogen-generator/data";
 
 const NitrogenGenerator = () => {
   return (
-    <div className="lg:container lg:max-w-9xl lg:mx-auto">
+    <div className="lg:container lg:max-w-9xl lg:mx-auto lg:p-10">
       <div className="text-center m-5">
         <h6>Nitrogen generators</h6>
         <h1>Your source for reliable, on-site nitrogen generation.</h1>
@@ -22,10 +22,10 @@ const NitrogenGenerator = () => {
           <h3 className="text-center text-lg text-[#BF1E2E]">
             {product.heading[0]}
           </h3>
-          <p>{product.content[0]}</p>
+          <p className="text-justify">{product.content[0]}</p>
         </div>
         <div className="p-3 lg:col-span-6 lg:block hidden lg:mt-7">
-          <p>{product.content[1]}</p>
+          <p className="text-justify">{product.content[1]}</p>
           <h3 className="text-center text-[#072E57] mt-4 text-xl ">
             <span className="text-[#BF1E2E]">P.R.I.C.E</span> Benefits Summary:
           </h3>
@@ -63,7 +63,7 @@ const NitrogenGenerator = () => {
         </h3>
         <img src={product.img} alt="" className=" lg:hidden" />
         <div className="p-3 lg:col-span-6 lg:hidden">
-          <p>{product.content[1]}</p>
+          <p className="text-justify">{product.content[1]}</p>
         </div>
       </div>
     </div>

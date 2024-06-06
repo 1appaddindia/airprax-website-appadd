@@ -108,7 +108,36 @@ h2 {
 h3{
   font-weight: bold;
 }
+h4{
+  font-size: x-large;
+  font-weight: bold;
+}
 
 .button {
   background-color: #bf1e2e;
+}
+
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  h1{
+    font-size: large;
+    text-align: center;
+  }
+}
+
+/* For screens between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+  h1{
+    font-size: xx-large;
+    text-align: center;
+  }
+}
+
+/* For screens larger than 992px */
+@media (min-width: 992px) {
+  h1{
+    font-size: xx-large;
+    text-align: center;
+  }
 }

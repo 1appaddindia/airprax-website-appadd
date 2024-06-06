@@ -25,10 +25,10 @@ const AboutUs = () => {
             <p className="lg:text-base text-sm text-black">
               Namaste from Us to You,
             </p>
-            <p className="lg:text-base text-sm text-black">
+            <p className="lg:text-base text-sm text-black text-justify">
               {aboutUsParagraph[0]}
             </p>
-            <p className="lg:text-base text-sm text-black">
+            <p className="lg:text-base text-sm text-black text-justify">
               {aboutUsParagraph[1]}
             </p>
             <Link href="/about" className="lg:flex lg:items-center lg:justify-start flex items-center justify-center">

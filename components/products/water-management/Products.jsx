@@ -6,16 +6,15 @@ import ProductCard from "../../../components/products/ProductCard";
 const Products = ({ activeTab }) => {
   return (
     <>
-      <div className="container max-w-7xl">
-        <div className="text-center mt-10">
+      <div className="lg:container lg:max-w-9xl">
+        <div className="text-center lg:mt-10 mt-5">
           <h6>Water Management</h6>
           <h1>
-            Solutions configured for your industry: Efficient and reliable
-            solutions for industrial buildings, water supply and water treatment
+          From water supply to sewage treatment: the partner for tailored system solutions
           </h1>
         </div>
 
-        <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10">
+        <div className="grid lg:grid-cols-12 lg:gap-5 gap-5 lg:p-10 p-3">
           {waterManagement.map((item) => (
             <ProductCard item={item} activeTab={activeTab} />
           ))}

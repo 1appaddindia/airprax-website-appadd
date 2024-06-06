@@ -5,7 +5,7 @@ import Link from "next/link";
 const Products = () => {
   return (
     <div className="lg:container lg:max-w-9xl lg:p-10 p-2">
-      <div className="mt-10 m-5 text-center">
+      <div className="lg:mt-10 mt-5 text-center">
         <h6>Industrial Solutions</h6>
         <h1>Innovative Solutions for Modern Industries</h1>
       </div>

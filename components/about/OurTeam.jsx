@@ -27,7 +27,7 @@ const OurTeam = () => {
               Meet our pioneering
               <span className="text-[#bf1e2e]"> pneumatic innovators</span>
             </h1>
-            <p className="text-sm lg:text-base">
+            <p className="text-sm lg:text-base text-justify">
               Meet the exceptional minds propelling our pneumatics innovation
               forward. With a blend of expertise, creativity, and relentless
               drive, our team is committed to shaping the future of industry.
@@ -54,9 +54,9 @@ const OurTeam = () => {
                   key={index}
                   className="md:basis-1/2 lg:basis-1/2 "
                 >
-                  <div className="p-1 flex items-center justify-center">
-                    <CardContent className=" aspect-video w-full h-56 items-center justify-center ">
-                      <img src={img} alt="" className="h-[100%] w-[100%] " />
+                  <div className="p-1 flex items-center justify-center ">
+                    <CardContent className="p-0 aspect-video w-full h-56 items-center justify-center ">
+                      <img src={img} alt="" className="h-[100%] w-96 " />
                     </CardContent>
                   </div>
                 </CarouselItem>

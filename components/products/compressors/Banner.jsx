@@ -6,7 +6,7 @@ const Banner = () => {
       <div
         style={{
           backgroundImage: "url(/images/banner/65f4120e1e2c072cea7f2154.jpg)",
-          height: "60vh",
+          height: "50vh",
           width: "100%",
           position: "relative",
         }}
@@ -17,7 +17,7 @@ const Banner = () => {
             position: "absolute",
             top: 0,
             left: 0,
-            height: "60vh",
+            height: "50vh",
             width: "100%",
             backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust the alpha value (last number) for transparency
           }}
