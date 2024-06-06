@@ -112,6 +112,9 @@ h4{
   font-size: x-large;
   font-weight: bold;
 }
+p{
+  text-align: justify;
+}
 
 .button {
   background-color: #bf1e2e;

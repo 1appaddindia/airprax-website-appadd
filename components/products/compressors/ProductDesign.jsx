@@ -2,15 +2,15 @@ import React from "react";
 
 const ProductDesign = ({ item }) => {
   return (
-    <div className="lg:container lg:max-w-9xl overflow-hidden ">
+    <div className="lg:container lg:max-w-9xl overflow-hidden w-full p-2">
       {/* <h1 className="m-5">Comprehensive Guide to Compressor Products</h1> */}
       <div className="lg:grid lg:grid-cols-12 bg-[#E5EBF1]">
         <div className="lg:col-span-6">
           <img src={item.img} alt="img" className="w-full h-96" />
         </div>
-        <div className="lg:col-span-6 p-10">
-          <h1 className="text-start text-4xl">{item.title}</h1>
-          <p className="lg:text-lg">{item.description}</p>
+        <div className="lg:col-span-6 lg:p-10 p-3">
+          <h1>{item.title}</h1>
+          <p>{item.description}</p>
           <button className="bg-[#BF1E2E] p-2 w-60 text-white rounded-md mt-10">
             Get in Touch
           </button>
@@ -31,7 +31,7 @@ const ProductDesign = ({ item }) => {
                       <h3 className="p-2 text-center text-[#0F75BC]">
                         {prod.title}
                       </h3>
-                      <p className="pl-2 m-2">{prod.description}</p>
+                      <p className="p-3">{prod.description}</p>
                     </div>
                   ))}
               </div>

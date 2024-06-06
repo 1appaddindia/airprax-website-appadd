@@ -20,7 +20,7 @@ const Faq = () => {
           <Accordion type="single" collapsible className="w-[80%]">
             {faq.map((que, id) => (
               <AccordionItem value={que.id}>
-                <AccordionTrigger>{que.question}</AccordionTrigger>
+                <AccordionTrigger className="text-start">{que.question}</AccordionTrigger>
                 <AccordionContent>{que.answer}</AccordionContent>
               </AccordionItem>
             ))}

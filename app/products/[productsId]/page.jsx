@@ -12,10 +12,8 @@ const ProductPage = ({ params }) => {
 
   return (
     <div>
-      <Banner />
-      <div className=" container max-w-9xl text-center mt-5">
+      <Banner />      
       <ProductDetails productName={productsName} tab={activeTab} />
-      </div>
     </div>
   );
 };
