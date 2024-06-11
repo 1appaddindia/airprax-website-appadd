@@ -1,11 +1,11 @@
 import React from "react";
 import WastewaterCollectionandTransport from "../../../../components/products/water-management/waste-water-collection-and-transport/WastewaterCollectionandTransport";
-import Banner from "../../../../components/products/water-management/Banner";
+import Banner from "../../../../components/global/Banner";
 
 const WastewaterCollectionandTransportPage = () => {
   return (
     <div>
-      <Banner />
+      <Banner imageSrc="/images/banners/wilo523439_1.png" />
       <WastewaterCollectionandTransport />
     </div>
   );

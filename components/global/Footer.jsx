@@ -8,7 +8,11 @@ const Footer = () => {
           {/* About Us */}
           <div>
             <div>
-              <img src="/images/logo/Airprax-logo-01.png" alt=""  className="h-20 w-60"/>
+              <img
+                src="/images/logo/Airprax-logo-01.png"
+                alt=""
+                className="h-20 w-60"
+              />
             </div>
             {/* <h3 className="text-lg font-semibold mb-4">About Us</h3> */}
             <p className="text-sm">
@@ -19,38 +23,35 @@ const Footer = () => {
               ensure enhanced machine uptime.
             </p>
             {/* Social Media Links */}
-          <div>
-            <h3 className="text-lg font-semibold mt-5">Follow Us</h3>
-            <div className="flex space-x-4">
-              <a href="#" className="text-sm hover:text-blue-500">
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                </svg>
-              </a>
-              <a href="#" className="text-sm hover:text-blue-500">
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                </svg>
-              </a>
-              <a href="#" className="text-sm hover:text-blue-500">
-                <svg
-                  className="w-6 h-6"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                </svg>
-              </a>
+            <div>
+              <h3 className="text-lg font-semibold mt-5">Follow Us</h3>
+              <div className="flex space-x-4">
+                <a href="#" className="text-sm hover:text-blue-500">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  ></svg>
+                </a>
+                <a href="#" className="text-sm hover:text-blue-500">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  ></svg>
+                </a>
+                <a href="#" className="text-sm hover:text-blue-500">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  ></svg>
+                </a>
+              </div>
             </div>
-          </div>
           </div>
 
           {/* Quick Links */}
@@ -116,7 +117,7 @@ const Footer = () => {
               sales@airprax.com
             </p>
             <ul className="text-sm">
-              <li className="flex gap-2 mt-2">
+              {/* <li className="flex gap-2 mt-2">
                 <img
                   src="/images/flaticons/phone.png"
                   height={20}
@@ -124,8 +125,17 @@ const Footer = () => {
                   alt=""
                 />
                 08048036823
-              </li>
+              </li> */}
               <li className="flex gap-2 mt-2">
+                <img
+                  src="/images/flaticons/phone.png"
+                  alt=""
+                  height={20}
+                  width={20}
+                />
+                <a href="tel: +91 9620602000"> +91 9620602000</a>
+              </li>
+              {/* <li className="flex gap-2 mt-2">
                 <img
                   src="/images/flaticons/phone.png"
                   alt=""
@@ -133,16 +143,7 @@ const Footer = () => {
                   width={20}
                 />
                 +91 9620602000
-              </li>
-              <li className="flex gap-2 mt-2">
-                <img
-                  src="/images/flaticons/phone.png"
-                  alt=""
-                  height={20}
-                  width={20}
-                />
-                +91 919606032399
-              </li>
+              </li> */}
             </ul>
 
             <div className="mt-10">
@@ -157,12 +158,12 @@ const Footer = () => {
               ></iframe>
             </div>
           </div>
-
-          
         </div>
         <hr className="my-8 border-gray-700" />
         <p className="text-sm text-center">
-          &copy; {new Date().getFullYear()} Your Company. All rights reserved.
+          &copy; {new Date().getFullYear()} Airprax Pneumatics, All rights
+          reserved. Designed by{" "}
+          <a href="https://appaddindia.net/">Appadd India Pvt Ltd..</a>
         </p>
       </div>
     </footer>

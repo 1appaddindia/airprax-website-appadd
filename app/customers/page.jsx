@@ -1,11 +1,16 @@
 import React from "react";
 import Customers from "../../components/customers/Customers";
-import Banner from "../../components/customers/Banner";
+import Banner from "../../components/global/Banner";
 
 const CustomersPage = () => {
   return (
     <div>
-      <Banner />
+      <Banner
+        imageSrc="/images/banners/banner-customers-1600x775.jpg"
+        currentPage="Customers"
+        pageTitle="Customers"
+        previousPage="Home"
+      />
       <Customers />
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import AboutBanner from "../../components/about/AboutBanner";
+import Banner from "../../components/global/Banner";
 import AboutUs from "../../components/about/AboutUs";
 import OurApproach from "../../components/about/OurApproach";
 import OurTeam from "../../components/about/OurTeam";
@@ -12,7 +12,12 @@ import Subscribe from "../../components/about/Subscribe";
 const About = () => {
   return (
     <div>
-      <AboutBanner />
+      <Banner
+        imageSrc="/images/banners/Downpic.cc-1312743082.jpg"
+        currentPage="About"
+        pageTitle="About"
+        previousPage="Home"
+      />
       <AboutUs />
       <OurApproach />
       <OurTeam />

@@ -1,11 +1,16 @@
 import React from "react";
 import { Gallery } from "../../components/gallery/Gallery";
-import { Banner } from "../../components/gallery/Banner";
+import Banner from "../../components/global/Banner";
 
 const GalleryPage = () => {
   return (
     <div>
-      <Banner />
+      <Banner
+        imageSrc="/images/banners/banner-gallery.jpg"
+        currentPage="Gallery"
+        pageTitle="Gallery"
+        previousPage="Home"
+      />
       <Gallery />
     </div>
   );

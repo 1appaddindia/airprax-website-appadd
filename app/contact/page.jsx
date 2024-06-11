@@ -1,11 +1,16 @@
 import React from "react";
-import Banner from "../../components/contact/Banner";
+import Banner from "../../components/global/Banner";
 import Contact from "../../components/contact/Contact";
 
 const ContactPage = () => {
   return (
     <div>
-      <Banner />
+      <Banner
+        imageSrc="/images/banners/banner-contact-us-2.jpg"
+        currentPage="Contact"
+        previousPage="Home"
+        pageTitle="Contact"
+      />
       <Contact />
     </div>
   );

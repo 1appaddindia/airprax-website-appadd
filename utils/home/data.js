@@ -12,7 +12,7 @@ export const ourProducts = [
     {
         id: 1,
         category: "Air Compressor",
-        img: "/images/products/air--compressor.jpg",
+        img: "/images/products/atlascopco_scene7_com-121_ZR_315_VSD_SETUP-cam+005.jpg",
         title: "Discover ideal air compressor solutions with low life cycle costs, energy efficiency, and compact design.",
         href: "/products?tab=compressors"
     },

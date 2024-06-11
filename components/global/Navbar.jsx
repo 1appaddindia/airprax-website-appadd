@@ -1,23 +1,5 @@
 "use client";
 
-import { Fragment, useEffect, useState } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-
-const navigation = [
-  { name: "Home", href: "/home", current: false },
-  { name: "About", href: "/about", current: false },
-  { name: "Products", href: "/products", current: false },
-  { name: "Industry", href: "/industry", current: false },
-  { name: "Latest News", href: "/latest-news", current: false },
-  { name: "Gallery", href: "/gallery", current: false },
-  { name: "Brochure", href: "/brochure", current: false },
-  { name: "More", href: "#", current: false },
-  { name: "Contact", href: "/contact", current: false },
-];
-
 const moreItems = [
   { name: "Medical Oxygen Plant", href: "/medical-oxygen-plant" },
   { name: "Careers", href: "/careers" },
@@ -27,6 +9,43 @@ const moreItems = [
 const productsItems = [
   {
     id: 1,
+    name: "Air Compressors",
+    href: "/products?tab=compressors",
+    subProducts: [
+      {
+        name: "Air compressor industrial models and solutions",
+        href: "/products/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions?tab=compressors",
+      },
+      {
+        name: "Air Dryers",
+        href: "/products/airspacedryers?tab=compressors",
+      },
+      {
+        name: "Oil Free Air Blowers",
+        href: "/products/oilspacefreespaceairspaceblowers?tab=compressors",
+      },
+      {
+        name: "Industrial Condensate Treatment Solutions Range",
+        href: "/products/industrialspacecondensatespacetreatmentspacesolutionsspacerange?tab=compressors",
+      },
+      {
+        name: "Air Filters",
+        href: "/products/airspacefilters?tab=compressors",
+      },
+      {
+        name: "Gas Generators",
+        href: "/products/gasspacegenerators?tab=compressors",
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    name: "Nitrogen Generator",
+    href: "/products?tab=nitrogenGenerator",
+  },
+  {
+    id: 3,
     name: "Water Management",
     href: "/products?tab=waterManagement",
     subProducts: [
@@ -53,80 +72,31 @@ const productsItems = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   name: "Industry",
-  //   href: "/products?tab=industry",
-  //   subProducts: [
-  //     {
-  //       name: "Heating",
-  //       href: "/products/industry/heating",
-  //     },
-  //     {
-  //       name: "Cooling",
-  //       href: "/products/industry/cooling",
-  //     },
-  //     {
-  //       name: "Raw Water Intake",
-  //       href: "/products/water-management/raw-water-intake",
-  //     },
-  //     {
-  //       name: "Waste Water Collection And Transport",
-  //       href: "/products/water-management/waste-water-collection-and-transport",
-  //     },
-  //     { name: "Dewatering", href: "/products/water-management/dewatering" },
-  //     {
-  //       name: "Waste Water Treatment",
-  //       href: "/products/water-management/waste-water-treatment",
-  //     },
-  //     {
-  //       name: "Water Distribution And Boosting",
-  //       href: "/products/water-management/water-distribution-boosting",
-  //     },
-  //     {
-  //       name: "Water Treatment",
-  //       href: "/products/water-management/water-treatment",
-  //     },
-  //   ],
-  // },
   {
-    id: 3,
-    name: "Compressors",
-    href: "/products?tab=compressors",
+    id: 4,
+    name: "Vaccum Products",
+    href: "/products?tab=vaccumProducts",
     subProducts: [
       {
-        name: "Air compressor industrial models and solutions",
-        href: "/products/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions?tab=compressors",
+        name: "Oil-sealed vacuum pumps",
+        href: "/products/oildashsealedspacevacuumspacepumps?tab=vaccumProducts",
       },
       {
-        name: "Air Dryers",
-        href: "/products/airspacedryers?tab=compressors",
+        name: "Dry vacuum pumps",
+        href: "/products/dryspacevacuumspacepumps?tab=vaccumProducts",
       },
       {
-        name: "Oil Free Air Blowers",
-        href: "/products/oilspacefreespaceairspaceblowers?tab=compressors",
+        name: "Liquid ring vacuum pumps",
+        href: "/products/liquidspaceringspacevacuumspacepumps?tab=vaccumProducts",
       },
       {
-        name: "Industrial Condensate Treatment Solutions Range",
-        href: "/products/industrialspacecondensatespacetreatmentspacesolutionsspacerange?tab=compressors",
-      },
-      {
-        name: "Air Filters",
-        href: "/products/airspacefilters?tab=compressors",
-      },
-      // {
-      //   name: "Gas Compressors",
-      //   href: "/products/gasspacecompressors?tab=compressors",
-      // },
-      {
-        name: "Gas Generators",
-        href: "/products/gasspacegenerators?tab=compressors",
+        name: "Industry 4.0 Controllers & Accessories",
+        href: "/products/industryspace4dot0spacecontrollersspaceandspaceaccessories?tab=vaccumProducts",
       },
     ],
   },
-
   {
-    id: 4,
+    id: 2,
     name: "Other Compressor Products",
     href: "/products?tab=compressors",
     subProducts: [
@@ -142,10 +112,6 @@ const productsItems = [
         name: "Marine Compressors",
         href: "/products/marinespacecompressors?tab=compressors",
       },
-      // {
-      //   name: "Mobility Compressors",
-      //   href: "/products/mobilityspacecompressors?tab=compressors",
-      // },
       {
         name: "Air Receivers and AfterCoolers",
         href: "/products/airspacereceiversspaceandspaceaftercoolers?tab=compressors",
@@ -168,356 +134,299 @@ const productsItems = [
       },
     ],
   },
-  {
-    id: 5,
-    name: "Vaccum Products",
-    href: "/products?tab=vaccumProducts",
-    subProducts: [
-      {
-        name: "Oil-sealed vacuum pumps",
-        href: "/products/oildashsealedspacevacuumspacepumps?tab=vaccumProducts",
-      },
-      {
-        name: "Dry vacuum pumps",
-        href: "/products/dryspacevacuumspacepumps?tab=vaccumProducts",
-      },
-      {
-        name: "Liquid ring vacuum pumps",
-        href: "/products/liquidspaceringspacevacuumspacepumps?tab=vaccumProducts",
-      },
-      {
-        name: "Industry 4.0 Controllers & Accessories",
-        href: "/products/industryspace4dot0spacecontrollersspaceandspaceaccessories?tab=vaccumProducts",
-      },
-      // {
-      //   name: "Steam ejectors and deaerators",
-      //   href: "/products/steamspaceejectorsspaceandspacedeaerators?tab=vaccumProducts",
-      // },
-    ],
-  },
-  {
-    id: 6,
-    name: "Nitrogen Generator",
-    href: "/products?tab=nitrogenGenerator",
-  },
+  // {
+  //   id: 1,
+  //   name: "Water Pumps",
+  //   href: "/products?tab=pumps",
+  //   subProducts: [
+  //     {
+  //       name: "Wilo-Stratos MAXO",
+  //       href: "/products/water-management/raw-water-intake",
+  //     },
+  //     {
+  //       name: "Waste Water Collection And Transport",
+  //       href: "/products/water-management/waste-water-collection-and-transport",
+  //     },
+  //     { name: "Dewatering", href: "/products/water-management/dewatering" },
+  //     {
+  //       name: "Waste Water Treatment",
+  //       href: "/products/water-management/waste-water-treatment",
+  //     },
+  //     {
+  //       name: "Water Distribution And Boosting",
+  //       href: "/products/water-management/water-distribution-boosting",
+  //     },
+  //     {
+  //       name: "Water Treatment",
+  //       href: "/products/water-management/water-treatment",
+  //     },
+  //   ],
+  // },
 ];
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import { Dialog, Transition } from "@headlessui/react";
+import {
+  Bars3Icon,
+  HomeIcon,
+  XMarkIcon,
+  InformationCircleIcon,
+  ArchiveBoxIcon,
+  NewspaperIcon,
+  PhotoIcon,
+  DevicePhoneMobileIcon,
+  ArrowSmallDownIcon,
+} from "@heroicons/react/24/outline";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Fragment, useState } from "react";
+import NavbarDropdown from "./NavbarDropdown";
 
-function Navbar() {
-  const router = usePathname();
-  const [scrolled, setScrolled] = useState(false);
-  const [isActive, setIsActive] = useState(navigation);
-  const [isProductsHovered, setIsProductsHovered] = useState(false);
-  const [hoveredProduct, setHoveredProduct] = useState(null);
+const IndustryIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className="w-6 h-6"
+  >
+    <path d="M3 2h18a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm18 1.9V4H3v.9h18zM3 20v-5h2v5H3zm14 0v-7h2v7h-2zm4 0h-2v-9H5v9H3v-9H2v9H1v-9H0v9a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1v-9h-1v9h-1v-9h-1v9z" />
+  </svg>
+);
 
-  const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  };
+const GalleryIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    className="w-6 h-6"
+  >
+    <path d="M21 3H3C1.895 3 1 3.895 1 5v14c0 1.105.895 2 2 2h18c1.105 0 2-.895 2-2V5c0-1.105-.895-2-2-2zM3 5h18v4.07l-5.68-5.69L10 12 3 5zm18 14H3v-4.07l5.68 5.69L14 12l7 7z" />
+  </svg>
+);
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  useEffect(() => {
-    setIsActive((prevState) =>
-      prevState.map((nav) => ({
-        ...nav,
-        current: router.includes(nav.href),
-      }))
-    );
-  }, [router]);
-
-  const handleMouseEnter = (product) => {
-    setIsProductsHovered(true);
-    setHoveredProduct(product);
-  };
-
-  const handleMouseLeave = () => {
-    setIsProductsHovered(false);
-    setHoveredProduct(null);
-  };
-
-  const handleSubProductClick = () => {
-    setIsProductsHovered(false);
-    setHoveredProduct(null);
-  };
+const navigation = [
+  { name: "Home", href: "/home", icon: HomeIcon },
+  { name: "About", href: "/about", icon: InformationCircleIcon },
+  { name: "Products", href: "/products", icon: ArchiveBoxIcon },
+  { name: "Industry", href: "/industry", icon: IndustryIcon },
+  { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
+  { name: "Gallery", href: "/gallery", icon: GalleryIcon },
+  { name: "Brochure", href: "/brochure", icon: PhotoIcon },
+  { name: "More", href: "/medical-oxygen-plant", icon: ArrowSmallDownIcon },
+  { name: "Contact", href: "/contact", icon: DevicePhoneMobileIcon },
+];
+export default function Sidebar() {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const pathName = usePathname();
+  const [showProducts, setShowProducts] = useState(false);
+  const [showMore, setShowMore] = useState(false);
 
   return (
     <>
-      <Disclosure
-        as="nav"
-        className={`bg-[#ffff] h-24 flex items-center text-[#BF1E2E] fixed top-0 z-20 w-full ${
-          scrolled ? "shadow-md" : ""
-        } transition-all duration-300`}
-      >
-        {({ open }) => (
-          <>
-            <div className="mx-auto max-w-9xl sm:px-6 lg:px-8 w-full">
-              <div className="relative flex  items-center justify-between">
-                <div className="absolute inset-y-0 right-0 flex items-center sm:hidden">
-                  <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white transition-all duration-300">
-                    <span className="absolute -inset-0.5" />
-                    <span className="sr-only">Open main menu</span>
-                    {open ? (
-                      <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
-                    ) : (
-                      <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
-                    )}
-                  </Disclosure.Button>
-                </div>
-                <div className="lg:flex lg:flex-1 lg:items-center lg:justify-evenly  items-stretch justify-start">
-                  <div className="flex flex-shrink-0 items-center">
+      <div>
+        <Transition.Root show={sidebarOpen} as={Fragment}>
+          <Dialog as="div" className="relative z-50" onClose={setSidebarOpen}>
+            <Transition.Child
+              as={Fragment}
+              enter="transition-opacity ease-linear duration-300"
+              enterFrom="opacity-0"
+              enterTo="opacity-100"
+              leave="transition-opacity ease-linear duration-300"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+            >
+              <div className="fixed inset-0 bg-gray-900/80" />
+            </Transition.Child>
+
+            <div className="fixed inset-0 flex">
+              <Transition.Child
+                as={Fragment}
+                enter="transition ease-in-out duration-300 transform"
+                enterFrom="-translate-x-full"
+                enterTo="translate-x-0"
+                leave="transition ease-in-out duration-300 transform"
+                leaveFrom="translate-x-0"
+                leaveTo="-translate-x-full"
+              >
+                <Dialog.Panel className="relative mr-16 flex w-full max-w-xs flex-1">
+                  <Transition.Child
+                    as={Fragment}
+                    enter="ease-in-out duration-300"
+                    enterFrom="opacity-0"
+                    enterTo="opacity-100"
+                    leave="ease-in-out duration-300"
+                    leaveFrom="opacity-100"
+                    leaveTo="opacity-0"
+                  >
+                    <div className="absolute left-full top-0 flex w-16 justify-center pt-5 ">
+                      <button
+                        type="button"
+                        className="-m-2.5 p-2.5 "
+                        onClick={() => setSidebarOpen(false)}
+                      >
+                        <span className="sr-only">Close sidebar</span>
+                        <XMarkIcon
+                          className="h-6 w-6 text-white"
+                          aria-hidden="true"
+                        />
+                      </button>
+                    </div>
+                  </Transition.Child>
+                  {/* mobile sidebar  */}
+                  <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white px-6 pb-4">
+                    <nav className="flex flex-1 flex-col py-2">
+                      <ul role="list" className="flex flex-1 flex-col gap-y-7">
+                        <li>
+                          <a href="/">
+                            <img
+                              src="/images/logo/Airprax-logo-01.png"
+                              alt=""
+                              className="h-14 w-18"
+                            />
+                          </a>
+                          <ul role="list" className=" space-y-1">
+                            {navigation.map((item) => (
+                              <li key={item.name} className="">
+                                <Link
+                                  href={item.href}
+                                  className={`${
+                                    item.href === pathName
+                                      ? "bg-gray-50 text-red-600"
+                                      : "text-gray-700 hover:text-red-600  hover:bg-gray-50"
+                                  }
+                                 group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold`}
+                                >
+                                  <item.icon
+                                    className={`${
+                                      item.href === pathName
+                                        ? "text-red-600"
+                                        : "text-gray-400 group-hover:text-red-600"
+                                    }
+                                                   h-6 w-6 shrink-0'
+                                                   `}
+                                    aria-hidden="true"
+                                  />
+                                  {item.name}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </Dialog.Panel>
+              </Transition.Child>
+            </div>
+          </Dialog>
+        </Transition.Root>
+
+        <div className="hidden lg:flex bg-white shadow-md w-full items-center fixed top-0 z-50 ">
+          <div className="w-full">
+            <nav className="flex flex-col items-center justify-between p-2">
+              <ul className="gap-10 flex items-center justify-between w-full">
+                <div>
+                  <a href="/" className="">
                     <img
                       className="h-20 w-52"
                       src="/images/logo/Airprax-logo-01.png"
                       alt="Your Company"
                     />
-                  </div>
-                  <div className="hidden sm:ml-6 sm:block">
-                    <div className="flex space-x-4 items-center justify-center  ">
-                      {isActive.map((item) =>
-                        item.name === "More" ? (
-                          <Menu
-                            as="div"
-                            className="relative inline-block text-left"
-                            key={item.name}
-                          >
-                            <div>
-                              <Menu.Button className="inline-flex w-full justify-center rounded-md px-3 py-2 text-sm font-bold text-[#BF1E2E] hover:text-black transition-all duration-300">
-                                More
-                              </Menu.Button>
-                            </div>
-                            <Transition
-                              as={Fragment}
-                              enter="transition ease-out duration-100"
-                              enterFrom="transform opacity-0 scale-95"
-                              enterTo="transform opacity-100 scale-100"
-                              leave="transition ease-in duration-75"
-                              leaveFrom="transform opacity-100 scale-100"
-                              leaveTo="transform opacity-0 scale-95"
-                            >
-                              <Menu.Items className="absolute right-0 z-10 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                <div className="py-1">
-                                  {moreItems.map((subItem) => (
-                                    <Menu.Item key={subItem.name}>
-                                      {({ active }) => (
-                                        <Link
-                                          href={subItem.href}
-                                          className={classNames(
-                                            active ? "bg-gray-100" : "",
-                                            "block px-4 py-2 text-sm text-gray-700"
-                                          )}
-                                        >
-                                          {subItem.name}
-                                        </Link>
-                                      )}
-                                    </Menu.Item>
-                                  ))}
-                                </div>
-                              </Menu.Items>
-                            </Transition>
-                          </Menu>
-                        ) : item.name === "Products" ? (
-                          <div
-                            className="relative"
-                            onMouseEnter={() => handleMouseEnter(item)}
-                            onMouseLeave={handleMouseLeave}
-                            key={item.name}
-                          >
-                            <Link
-                              href={item.href}
-                              className={classNames(
-                                item.current ||
-                                  (hoveredProduct &&
-                                    hoveredProduct.name === item.name)
-                                  ? "bg-[#0F75BC] text-[#ffff]"
-                                  : "text-[#BF1E2E] hover:text-black transition-all duration-300",
-                                "rounded-md px-3 py-2 text-sm font-bold"
-                              )}
-                              aria-current={item.current ? "page" : undefined}
-                            >
-                              Products
-                            </Link>
-                            {isProductsHovered &&
-                              hoveredProduct.name === item.name && (
-                                <div className="absolute left-0 lg:left-1/2 lg:transform lg:-translate-x-1/2 z-10 mt-2 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none w-full lg:w-auto">
-                                  <div className="py-1 lg:flex lg:flex-row flex flex-col w-full">
-                                    {productsItems.map((productItem) => (
-                                      <div
-                                        key={productItem.id}
-                                        className="relative flex flex-col "
-                                      >
-                                        <Link
-                                          href={productItem.href}
-                                          className="block px-4 py-1 text-sm text-black font-bold hover:bg-gray-100 "
-                                        >
-                                          {productItem.name}
-                                        </Link>
-                                        {productItem.subProducts && (
-                                          <div className="py-1">
-                                            {productItem.subProducts.map(
-                                              (subProduct) => (
-                                                <Link
-                                                  key={subProduct.name}
-                                                  href={subProduct.href}
-                                                  onClick={
-                                                    handleSubProductClick
-                                                  }
-                                                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 w-60"
-                                                >
-                                                  {subProduct.name}
-                                                </Link>
-                                              )
-                                            )}
-                                          </div>
-                                        )}
-                                      </div>
-                                    ))}
-                                  </div>
-                                </div>
-                              )}
-                          </div>
-                        ) : (
-                          <Link
-                            key={item.name}
-                            href={item.href}
-                            className={classNames(
-                              item.current
-                                ? "bg-[#0F75BC] text-[#ffff]"
-                                : "text-[#BF1E2E] hover:text-black transition-all duration-300",
-                              "rounded-md px-3 py-2 text-sm font-bold"
-                            )}
-                            aria-current={item.current ? "page" : undefined}
-                          >
-                            {item.name}
-                          </Link>
-                        )
-                      )}
-                    </div>
-                  </div>
+                  </a>
                 </div>
-              </div>
-            </div>
-
-            <Disclosure.Panel className="relative">
-              <div className="px-1 pt-2 pb-3 space-y-1  overflow-y-scroll h-96 absolute top-[46px] right-0 bg-gray-100 border border-gray-50 ">
-                {isActive.map((item) =>
-                  item.name === "More" ? (
-                    <Menu
-                      as="div"
-                      className="relative inline-block text-left "
+                <div className="flex">
+                  {navigation.map((item) => (
+                    <li
                       key={item.name}
+                      className="relative p-2"
+                      onMouseEnter={() => {
+                        if (item.name === "Products") setShowProducts(true);
+                        if (item.name === "More") setShowMore(true);
+                      }}
+                      onMouseLeave={() => {
+                        if (item.name === "Products") setShowProducts(false);
+                        if (item.name === "More") setShowMore(false);
+                      }}
                     >
-                      <div>
-                        <Menu.Button className="inline-flex relative justify-center rounded-md px-3 py-2 text-sm font-bold text-[#BF1E2E] hover:text-black transition-all duration-300">
-                          More
-                        </Menu.Button>
-                      </div>
-                      <Transition
-                        as={Fragment}
-                        enter="transition ease-out duration-100"
-                        enterFrom="transform opacity-0 scale-95"
-                        enterTo="transform opacity-100 scale-100"
-                        leave="transition ease-in duration-75"
-                        leaveFrom="transform opacity-100 scale-100"
-                        leaveTo="transform opacity-0 scale-95"
+                      <Link
+                        href={item.href}
+                        className={`${
+                          item.href === pathName
+                            ? "bg-[#0F75BC] text-white"
+                            : "text-[#BF1E2E] hover:text-white hover:bg-[#0F75BC]"
+                        } transition-colors duration-500 w-full gap-x-3 rounded-md p-4 text-sm leading-6 font-semibold`}
                       >
-                        <Menu.Items className="absolute mt-2 w-96 left-0  rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                          <div className="py-1">
-                            {moreItems.map((subItem) => (
-                              <Menu.Item key={subItem.name}>
-                                {({ active }) => (
-                                  <Link
-                                    href={subItem.href}
-                                    className={classNames(
-                                      active ? "bg-gray-100" : "",
-                                      "block px-4 py-2 text-sm text-gray-700"
-                                    )}
-                                  >
-                                    {subItem.name}
-                                  </Link>
-                                )}
-                              </Menu.Item>
-                            ))}
-                          </div>
-                        </Menu.Items>
-                      </Transition>
-                    </Menu>
-                  ) : item.name === "Products" ? (
-                    <div className="relative" key={item.name}>
-                      <Disclosure.Button
-                        className={classNames(
-                          item.current
-                            ? "bg-[#0F75BC] text-[#ffff]"
-                            : "text-[#BF1E2E] hover:text-black transition-all duration-300",
-                          "rounded-md px-3 py-2 text-sm font-bold w-full text-left"
-                        )}
-                      >
-                        Products
-                      </Disclosure.Button>
-                      <Disclosure.Panel className="pt-2 pb-3 space-y-1 w-96 ">
-                        {productsItems.map((productItem) => (
-                          <div
-                            key={productItem.id}
-                            className="relative flex flex-col"
-                          >
-                            <Link
-                              href={productItem.href}
-                              className="block px-4 py-1 text-sm text-black font-bold hover:bg-gray-100"
+                        {item.name}
+                      </Link>
+                      {item.name === "Products" && showProducts && (
+                        <ul className="absolute left-1/4 mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
+                          {productsItems.map((product) => (
+                            <li
+                              key={product.id}
+                              className="w-60 text-sm text-start"
                             >
-                              {productItem.name}
-                            </Link>
-                            {productItem.subProducts && (
-                              <div className="py-1 pl-4">
-                                {productItem.subProducts.map((subProduct) => (
-                                  <Link
-                                    key={subProduct.name}
-                                    href={subProduct.href}
-                                    onClick={handleSubProductClick}
-                                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                                  >
-                                    {subProduct.name}
-                                  </Link>
-                                ))}
-                              </div>
-                            )}
-                          </div>
-                        ))}
-                      </Disclosure.Panel>
-                    </div>
-                  ) : (
-                    <Link
-                      key={item.name}
-                      href={item.href}
-                      className={classNames(
-                        item.current
-                          ? "bg-[#0F75BC] text-[#ffff]"
-                          : "text-[#BF1E2E] hover:text-black transition-all duration-300",
-                        "block rounded-md px-3 py-2 text-sm font-bold"
+                              <Link
+                                href={product.href}
+                                className="block px-2 py-2 font-bold items-center text-gray-700 hover:bg-gray-100"
+                              >
+                                {product.name}
+                              </Link>
+                              {product.subProducts && (
+                                <ul>
+                                  {product.subProducts.map((subProduct) => (
+                                    <li key={subProduct.name}>
+                                      <Link
+                                        href={subProduct.href}
+                                        className="block px-2 py-2 items-center text-gray-600 hover:bg-gray-100"
+                                      >
+                                        {subProduct.name}
+                                      </Link>
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
+                            </li>
+                          ))}
+                        </ul>
                       )}
-                      aria-current={item.current ? "page" : undefined}
-                    >
-                      {item.name}
-                    </Link>
-                  )
-                )}
-              </div>
-            </Disclosure.Panel>
-          </>
-        )}
-      </Disclosure>
-      <div className="h-24" />
+                      {item.name === "More" && showMore && (
+                        <ul className="absolute right-0 mt-2 w-64 bg-white border border-gray-200 shadow-lg">
+                          {moreItems.map((moreItem) => (
+                            <li key={moreItem.name}>
+                              <Link
+                                href={moreItem.href}
+                                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                              >
+                                {moreItem.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                  ))}
+                </div>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div className="lg:hidden bg-white fixed top-0 z-50  shrink-0 items-center gap-x-4 px-4 sm:gap-x-6 sm:px-6 lg:px-8 w-full flex justify-between">
+          <button
+            type="button"
+            className=" p-2.5 text-gray-700 lg:hidden"
+            onClick={() => setSidebarOpen(true)}
+          >
+            <span className="sr-only">Open sidebar</span>
+            <Bars3Icon className="h-10 w-9 text-black" aria-hidden="true" />
+          </button>
+          <a href="/">
+            <img
+              src="/images/logo/Airprax-logo-01.png"
+              alt=""
+              className="h-14 w-32"
+            />
+          </a>
+        </div>
+      </div>
     </>
   );
 }
-export default Navbar;

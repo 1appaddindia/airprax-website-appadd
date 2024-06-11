@@ -1,4 +1,4 @@
-import Banner from "../../../components/industry/Banner";
+import Banner from "../../../components/global/Banner";
 import ProductDetails from "../../../components/industry/industry-details-page/ProductDetails";
 
 const Industry = ({ params }) => {
@@ -6,7 +6,12 @@ const Industry = ({ params }) => {
 
   return (
     <div>
-      <Banner />
+      <Banner
+        imageSrc="/images/industry/banner.jpg"
+        currentPage="Industry"
+        pageTitle="Industry"
+        previousPage="Home"
+      />
       <ProductDetails productsName={productsName} />
     </div>
   );

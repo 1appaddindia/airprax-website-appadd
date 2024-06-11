@@ -2,7 +2,7 @@ import React from "react";
 
 const ProductDetailsDesign = ({ item }) => {
   return (
-    <div className="lg:container lg:max-w-9xl">
+    <div className="lg:container lg:max-w-9xl lg:p-10 p-3">
       <h3 className="text-center text-xl m-3">{item.name}</h3>
       <div className="lg:grid lg:grid-cols-12">
         <div className="lg:col-span-6 p-5 ">
@@ -42,7 +42,7 @@ const ProductDetailsDesign = ({ item }) => {
               {subApp.products.map((prod, i) => (
                 <div
                   key={i}
-                  className="lg:col-span-3 col-span-6 shadow-2xl p-3"
+                  className="lg:col-span-3 col-span-12 shadow-2xl p-3"
                 >
                   {<img src={prod.img} alt="img" className="h-52 w-72" />}
                   <span className="p-2">{prod.name}</span>

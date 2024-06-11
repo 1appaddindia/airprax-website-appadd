@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { convertSpecialCharacters } from "../../../../utils/filteration";
 import ProductDetailsDesign from "../../product-details/ProductDetailsDesign";
-import Banner from "../../product-details/Banner";
+import Banner from "../../../global/Banner";
 import { wasteWaterTreatment } from "../../../../utils/products/water-management/waste-water-treatment/data";
 
 const ProductDetails = ({ productName }) => {
@@ -21,7 +21,10 @@ const ProductDetails = ({ productName }) => {
 
   return (
     <div>
-      <Banner />
+      <Banner
+        imageSrc="http://entec-international.com/wp-content/uploads/slider44/banner1.jpg"
+        // currentPage=""
+      />
       <ProductDetailsDesign item={selectedProduct} />
     </div>
   );

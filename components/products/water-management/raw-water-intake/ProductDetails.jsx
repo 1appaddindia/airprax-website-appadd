@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { rawWaterIntake } from "../../../../utils/products/water-management/raw-water-intake/data";
 // import { convertProductNameToTitle } from "../../../../utils/deCodeUrl";
 import ProductDetailsDesign from "../../product-details/ProductDetailsDesign";
-import Banner from "../../product-details/Banner";
+import Banner from "../../../global/Banner";
 // import { rawWaterIntake } from "../../../../utils/products/water-management/raw-water-intake/data";
 import { convertSpecialCharacters } from "../../../../utils/filteration";
 
@@ -31,7 +31,7 @@ const ProductDetails = ({ productName }) => {
 
   return (
     <div>
-      <Banner />
+      <Banner imageSrc="/images/banners/wilo523439_1.png" />
       <ProductDetailsDesign item={selectedProduct} />
     </div>
   );

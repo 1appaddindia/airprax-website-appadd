@@ -33,8 +33,8 @@ const ProductsContent = () => {
         setActiveTab("nitrogenGenerator");
         break;
       default:
-        setActiveTab("pumps");
-        router.replace(`/products?tab=pumps`);
+        setActiveTab("compressors");
+        router.replace(`/products?tab=compressors`);
         break;
     }
   }, [search]);
@@ -55,7 +55,15 @@ const ProductsContent = () => {
             }`}
             onClick={() => handleTabClick("compressors")}
           >
-            Compressors
+            Air Compressors
+          </li>
+          <li
+            className={`cursor-pointer py-2  text-xs lg:text-base  border border-gray-300 p-1 lg:w-full rounded  h-9 flex items-center justify-center  ${
+              activeTab === "nitrogenGenerator" ? "bg-[#bf1e2e] text-white" : ""
+            }`}
+            onClick={() => handleTabClick("nitrogenGenerator")}
+          >
+            Nitrogen Generator
           </li>
           <li
             className={` cursor-pointer lg:py-2  text-xs lg:text-base border border-x-gray-300 p-1 lg:w-full rounded  h-9 flex items-center justify-center  ${
@@ -66,14 +74,6 @@ const ProductsContent = () => {
             Vaccum Products
           </li>
           <li
-            className={` cursor-pointer lg:py-2  text-xs lg:text-base border border-x-gray-300 p-1 lg:w-full  rounded  h-9 flex items-center justify-center  ${
-              activeTab === "pumps" ? "bg-[#bf1e2e] text-white " : ""
-            }`}
-            onClick={() => handleTabClick("pumps")}
-          >
-            Water Pumps
-          </li>
-          <li
             className={`cursor-pointer py-2  text-xs lg:text-base  border border-gray-300 p-1 lg:w-full rounded  h-9 flex items-center justify-center  ${
               activeTab === "waterManagement" ? "bg-[#bf1e2e] text-white" : ""
             }`}
@@ -82,20 +82,26 @@ const ProductsContent = () => {
             Water Management
           </li>
           <li
-            className={`cursor-pointer py-2  text-xs lg:text-base  border border-gray-300 p-1 lg:w-full rounded  h-9 flex items-center justify-center  ${
-              activeTab === "nitrogenGenerator" ? "bg-[#bf1e2e] text-white" : ""
+            className={` cursor-pointer lg:py-2  text-xs lg:text-base border border-x-gray-300 p-1 lg:w-full  rounded  h-9 flex items-center justify-center  ${
+              activeTab === "pumps" ? "bg-[#bf1e2e] text-white " : ""
             }`}
-            onClick={() => handleTabClick("nitrogenGenerator")}
+            onClick={() => handleTabClick("pumps")}
           >
-            Nitrogen Generator
+            Water Pumps
           </li>
         </ul>
         <div>
           {activeTab === "compressors" && <Compressors activeTab={search} />}
-          {activeTab === "vaccumProducts" && <VaccumProducts activeTab={search} />}
+          {activeTab === "vaccumProducts" && (
+            <VaccumProducts activeTab={search} />
+          )}
           {activeTab === "pumps" && <Pumps activeTab={search} />}
-          {activeTab === "waterManagement" && <WaterManagement activeTab={search} />}
-          {activeTab === "nitrogenGenerator" && <NitrogenGenerator activeTab={search} />}
+          {activeTab === "waterManagement" && (
+            <WaterManagement activeTab={search} />
+          )}
+          {activeTab === "nitrogenGenerator" && (
+            <NitrogenGenerator activeTab={search} />
+          )}
         </div>
       </div>
     </div>

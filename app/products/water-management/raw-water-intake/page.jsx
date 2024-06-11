@@ -1,11 +1,11 @@
 import React from "react";
-import Banner from "../../../../components/products/water-management/Banner";
+import Banner from "../../../../components/global/Banner";
 import Product from "../../../../components/products/water-management/raw-water-intake/RawWaterIntake";
 
 const RawWaterIntakePage = () => {
   return (
     <div>
-      <Banner />
+      <Banner imageSrc="/images/banners/wilo523439_1.png" />
       <Product />
     </div>
   );
