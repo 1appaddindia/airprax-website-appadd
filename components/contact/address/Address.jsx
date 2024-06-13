@@ -32,9 +32,7 @@ const Address = () => {
           />
           <div className="flex flex-col items-start">
             <h3 className="text-sm mt-4">Call Us On</h3>
-            <span className="text-sm">
-              08048036823 , +91 9620602000 , +91 9606032399
-            </span>
+            <span className="text-sm">+91 9620602000</span>
           </div>
         </div>
         <div className="flex items-center gap-3">
