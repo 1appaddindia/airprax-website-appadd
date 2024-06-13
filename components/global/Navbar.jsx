@@ -1,4 +1,5 @@
 "use client";
+import Header from "../../components/global/Header";
 
 const moreItems = [
   { name: "Medical Oxygen Plant", href: "/medical-oxygen-plant" },
@@ -179,7 +180,6 @@ import {
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment, useState } from "react";
-import NavbarDropdown from "./NavbarDropdown";
 
 const IndustryIcon = () => (
   <svg
@@ -214,11 +214,43 @@ const navigation = [
   { name: "More", href: "/medical-oxygen-plant", icon: ArrowSmallDownIcon },
   { name: "Contact", href: "/contact", icon: DevicePhoneMobileIcon },
 ];
+const mobnavigation = [
+  { name: "Home", href: "/home", icon: HomeIcon },
+  { name: "About", href: "/about", icon: InformationCircleIcon },
+  { name: "Products", href: "/products", icon: ArchiveBoxIcon },
+  { name: "Industry", href: "/industry", icon: IndustryIcon },
+  { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
+  { name: "Gallery", href: "/gallery", icon: GalleryIcon },
+  {
+    icon: ArrowSmallDownIcon,
+    name: "More",
+    href: "#",
+    moreItems: [
+      { name: "Medical Oxygen Plant", href: "/medical-oxygen-plant" },
+      { name: "Careers", href: "/careers" },
+      { name: "Our Customers", href: "/customers" },
+    ],
+  },
+  { name: "Brochure", href: "/brochure", icon: PhotoIcon },
+
+  { name: "Contact", href: "/contact", icon: DevicePhoneMobileIcon },
+];
+
 export default function Sidebar() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const pathName = usePathname();
   const [showProducts, setShowProducts] = useState(false);
   const [showMore, setShowMore] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+
+  const toggleSideBar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
   return (
     <>
@@ -283,30 +315,76 @@ export default function Sidebar() {
                               className="h-14 w-18"
                             />
                           </a>
-                          <ul role="list" className=" space-y-1">
-                            {navigation.map((item) => (
-                              <li key={item.name} className="">
-                                <Link
-                                  href={item.href}
-                                  className={`${
-                                    item.href === pathName
-                                      ? "bg-gray-50 text-red-600"
-                                      : "text-gray-700 hover:text-red-600  hover:bg-gray-50"
-                                  }
-                                 group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold`}
-                                >
-                                  <item.icon
-                                    className={`${
-                                      item.href === pathName
-                                        ? "text-red-600"
-                                        : "text-gray-400 group-hover:text-red-600"
-                                    }
-                                                   h-6 w-6 shrink-0'
-                                                   `}
-                                    aria-hidden="true"
-                                  />
-                                  {item.name}
-                                </Link>
+                          <ul
+                            role="list"
+                            className="flex flex-1 flex-col gap-y-4"
+                            onClick={toggleSideBar}
+                          >
+                            {mobnavigation.map((item) => (
+                              <li key={item.name} className="relative">
+                                {item.name === "More" ? (
+                                  <>
+                                    <button
+                                      onClick={toggleDropdown}
+                                      className={`${
+                                        item.href === pathName
+                                          ? "bg-gray-50 text-red-600"
+                                          : "text-gray-700 hover:text-red-600 hover:bg-gray-50"
+                                      } group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold w-full text-left`}
+                                    >
+                                      <item.icon
+                                        className={`${
+                                          item.href === pathName
+                                            ? "text-red-600"
+                                            : "text-gray-400 group-hover:text-red-600"
+                                        } h-6 w-6 shrink-0`}
+                                        aria-hidden="true"
+                                      />
+                                      {item.name}
+                                      <ArrowSmallDownIcon
+                                        className={`${
+                                          dropdownOpen
+                                            ? "transform rotate-180"
+                                            : ""
+                                        } h-5 w-5 ml-auto`}
+                                        aria-hidden="true"
+                                      />
+                                    </button>
+                                    {dropdownOpen && (
+                                      <ul className="mt-2 space-y-1 bg-white border border-gray-200 rounded-md shadow-lg">
+                                        {item.moreItems.map((subItem) => (
+                                          <li key={subItem.name}>
+                                            <Link href={subItem.href} passHref>
+                                              <div className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-600 cursor-pointer">
+                                                {subItem.name}
+                                              </div>
+                                            </Link>
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    )}
+                                  </>
+                                ) : (
+                                  <Link href={item.href} passHref>
+                                    <div
+                                      className={`${
+                                        item.href === pathName
+                                          ? "bg-gray-50 text-red-600"
+                                          : "text-gray-700 hover:text-red-600 hover:bg-gray-50"
+                                      } group flex gap-x-3 rounded-md p-3 text-sm leading-6 font-semibold cursor-pointer`}
+                                    >
+                                      <item.icon
+                                        className={`${
+                                          item.href === pathName
+                                            ? "text-red-600"
+                                            : "text-gray-400 group-hover:text-red-600"
+                                        } h-6 w-6 shrink-0`}
+                                        aria-hidden="true"
+                                      />
+                                      {item.name}
+                                    </div>
+                                  </Link>
+                                )}
                               </li>
                             ))}
                           </ul>
@@ -322,6 +400,7 @@ export default function Sidebar() {
 
         <div className="hidden lg:flex bg-white shadow-md w-full items-center fixed top-0 z-50 ">
           <div className="w-full">
+            <Header />
             <nav className="flex flex-col items-center justify-between p-2">
               <ul className="gap-10 flex items-center justify-between w-full">
                 <div>
