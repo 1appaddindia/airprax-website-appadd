@@ -95,7 +95,7 @@ const Header = () => {
 
       <img src="/images/flaticons/mail.png" alt="" className="h-6 w-6" />
       <a href="" className="text-white">
-        sales@airprax.com
+        sales@airpraxpneumatics.com
       </a>
       <img
         src="/images/flaticons/telephone-call.png"
