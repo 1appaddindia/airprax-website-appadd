@@ -34,6 +34,15 @@ const Address = () => {
             <h3 className="text-sm mt-4">Call Us On</h3>
             <span className="text-sm">+91 9620602000</span>
           </div>
+          <img
+            src="/images/flaticons/whatsapp (1).png"
+            alt="img"
+            className="h-7 w-7 flex mt-3"
+          />
+          <div className="flex flex-col items-start">
+            <h3 className="text-sm mt-4">For WhatsApp</h3>
+            <span className="text-sm">+91 9742233402</span>
+          </div>
         </div>
         <div className="flex items-center gap-3">
           <img
@@ -43,7 +52,7 @@ const Address = () => {
           />
           <div className="flex flex-col">
             <h3 className="text-sm mt-4">Mail Us @</h3>
-            <span className="text-sm">sales@airpraxpneumatics.com</span>
+            <span className="text-sm">sales@airprax.com</span>
           </div>
         </div>
         <div className="flex items-center gap-3">

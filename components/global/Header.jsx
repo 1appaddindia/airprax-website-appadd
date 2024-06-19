@@ -95,16 +95,32 @@ const Header = () => {
 
       <img src="/images/flaticons/mail.png" alt="" className="h-6 w-6" />
       <a href="" className="text-white">
-        sales@airpraxpneumatics.com
+        sales@airprax.com
       </a>
-      <img
-        src="/images/flaticons/telephone-call.png"
-        alt=""
-        className="h-6 w-6"
-      />
-      <a href="tel:+91 9620602000" className="text-white">
-        +91 9620602000
-      </a>
+      <div className="flex items-center justify-center gap-2">
+        <img
+          src="/images/flaticons/telephone-call.png"
+          alt=""
+          className="h-6 w-6"
+        />
+        <a href="tel:+91 9620602000 " className="text-white">
+          +91 9620602000,
+        </a>
+        <a href="tel:+91 9742233402" className="text-white">
+          +91 9742233402,
+        </a>
+      </div>
+      <div className="flex gap-2 items-center justify-center">
+        <img
+          src="/images/flaticons/whatsapp.png"
+          alt=""
+          height={20}
+          width={20}
+        />
+        <a href="tel:+91 9620602000" className="text-white">
+          +91 9742233402
+        </a>
+      </div>
     </div>
   );
 };

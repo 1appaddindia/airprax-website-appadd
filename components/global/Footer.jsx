@@ -162,7 +162,7 @@ const Footer = () => {
         <hr className="my-8 border-gray-700" />
         <p className="text-sm text-center">
           &copy; {new Date().getFullYear()} Airprax Pneumatics, All rights
-          reserved. Designed by{" "}
+          reserved. Designed by
           <a href="https://appaddindia.net/">Appadd India Pvt Ltd..</a>
         </p>
       </div>
