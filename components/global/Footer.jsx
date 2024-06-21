@@ -11,7 +11,7 @@ const Footer = () => {
               <img
                 src="/images/logo/Airprax-logo-01.png"
                 alt=""
-                className="h-20 w-60"
+                className="h-30 w-64"
               />
             </div>
             {/* <h3 className="text-lg font-semibold mb-4">About Us</h3> */}
@@ -25,30 +25,46 @@ const Footer = () => {
             {/* Social Media Links */}
             <div>
               <h3 className="text-lg font-semibold mt-5">Follow Us</h3>
-              <div className="flex space-x-4">
-                <a href="#" className="text-sm hover:text-blue-500">
-                  <svg
-                    className="w-6 h-6"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  ></svg>
+              <div className="flex space-x-4 mt-4">
+                <a href="https://api.whatsapp.com/send/?phone=+919742233402&text=Hello">
+                  <img
+                    src="/images/flaticons/whatsapp (2).png"
+                    alt=""
+                    height={25}
+                    width={25}
+                  />
                 </a>
-                <a href="#" className="text-sm hover:text-blue-500">
-                  <svg
-                    className="w-6 h-6"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  ></svg>
+                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.airprax.com">
+                  <img
+                    src="/images/flaticons/linkedin.png"
+                    alt=""
+                    height={25}
+                    width={25}
+                  />
                 </a>
-                <a href="#" className="text-sm hover:text-blue-500">
-                  <svg
-                    className="w-6 h-6"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  ></svg>
+                <a href="https://x.com/intent/post?text=Check+out+Airprax+Pneumatics+LLP%27s+website.+Follow+for+latest+updates+and+offers+regularly+at&url=https%3A%2F%2Fwww.airprax.com&hashtags=OnlineBusiness">
+                  <img
+                    src="/images/flaticons/twitter-sign.png"
+                    alt=""
+                    height={25}
+                    width={25}
+                  />
+                </a>
+                <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=966242223397117&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttps%253A%252F%252Fwww.airprax.com&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Fclose_window%2F%3Fapp_id%3D966242223397117%26connect%3D0%23_%3D_&display=popup&locale=en_GB">
+                  <img
+                    src="/images/flaticons/facebook.png"
+                    alt=""
+                    height={25}
+                    width={25}
+                  />
+                </a>
+                <a href="https://www.pinterest.com/pin/create/button/?url=https://www.airprax.com">
+                  <img
+                    src="/images/flaticons/pinterest.png"
+                    alt=""
+                    height={25}
+                    width={25}
+                  />
                 </a>
               </div>
             </div>
@@ -56,38 +72,72 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="">
-            <h3 className="text-lg font-semibold mb-4">Customers</h3>
+            <h3 className="text-lg font-semibold mb-4 border-b-2 w-20">
+              Customers
+            </h3>
             <ul className="list-none text-sm">
               <li className="mt-2">
-                <a href="#" className="hover:text-s ">
+                <a href="/customers" className="hover:text-s ">
                   Toyota
                 </a>
               </li>
               <li className="mt-2">
-                <a href="#" className="hover:text-blue-500 ">
+                <a href="/customers" className="hover:text-blue-500 ">
                   BRITANNIA
                 </a>
               </li>
               <li className="mt-2">
-                <a href="#" className="hover:text-blue-500 ">
+                <a href="/customers" className="hover:text-blue-500 ">
                   JUBILANT (Domino's Pizza)
                 </a>
               </li>
               <li className="mt-2">
-                <a href="#" className="hover:text-blue-500 ">
+                <a href="/customers" className="hover:text-blue-500 ">
                   Wipro Enterprises Private Limited
                 </a>
               </li>
               <li className="mt-2">
-                <a href="#" className="hover:text-blue-500 ">
+                <a href="/customers" className="hover:text-blue-500 ">
                   Nahars Engineering India Pvt Limited
+                </a>
+              </li>
+              <li className="mt-2">
+                <a href="/customers" className="hover:text-blue-500 ">
+                  Akzo Nobel India Limited
+                </a>
+              </li>
+              <li className="mt-2">
+                <a href="/customers" className="hover:text-blue-500 ">
+                  Godrej Tyson Foods Limited
+                </a>
+              </li>
+              <li className="mt-2">
+                <a href="/customers" className="hover:text-blue-500 ">
+                  AGRI PROCESS INNOVATIONS TECHNOLOGIES LLP
+                </a>
+              </li>
+              <li className="mt-2">
+                <a href="/customers" className="hover:text-blue-500 ">
+                  BLUE COLD REFRIGERATION PVT. LTD.
+                </a>
+              </li>
+              <li className="mt-2">
+                <a href="/customers" className="hover:text-blue-500 ">
+                  Bodor
+                </a>
+              </li>
+              <li className="mt-2">
+                <a href="/customers" className="hover:text-blue-500 ">
+                  CS Aerotherm
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold  ">OPENING HOURS</h3>
+            <h3 className="text-lg font-semibold  border-b-2 w-40">
+              OPENING HOURS
+            </h3>
             <ul className="list-none text-sm">
               <li className="mt-2">Mon : 09:00 AM to 05:30 PM</li>
               <li className="mt-2">Tue : 09:00 AM to 05:30 PM</li>
@@ -101,7 +151,9 @@ const Footer = () => {
 
           {/* Contact Us */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 ">Get in Touch </h3>
+            <h3 className="text-lg font-semibold mb-4 border-b-2 w-28">
+              Get in Touch{" "}
+            </h3>
             <p className="text-sm">
               "A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya
               Industrial Area, Laggere Main Road,Bangalore,Karnataka,India

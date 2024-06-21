@@ -401,7 +401,7 @@ export default function Sidebar() {
         <div className="hidden lg:flex bg-white shadow-md w-full items-center fixed top-0 z-50 ">
           <div className="w-full">
             <Header />
-            <nav className="flex flex-col items-center justify-between p-2">
+            <nav className="flex flex-col items-center justify-between p-3">
               <ul className="gap-10 flex items-center justify-between w-full">
                 <div>
                   <a href="/" className="">
