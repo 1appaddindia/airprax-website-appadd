@@ -135,15 +135,17 @@ const Footer = () => {
                 />
                 <a href="tel: +91 9620602000"> +91 9620602000</a>
               </li>
-              {/* <li className="flex gap-2 mt-2">
+              <li className="flex gap-2 mt-2">
                 <img
-                  src="/images/flaticons/phone.png"
+                  src="/images/flaticons/whatsapp.png"
                   alt=""
                   height={20}
                   width={20}
                 />
-                +91 9620602000
-              </li> */}
+                <a href="tel:+91 9742233402" className="text-white">
+                  +91 9742233402
+                </a>
+              </li>
             </ul>
 
             <div className="mt-10">
@@ -161,9 +163,8 @@ const Footer = () => {
         </div>
         <hr className="my-8 border-gray-700" />
         <p className="text-sm text-center">
-          &copy; {new Date().getFullYear()} Airprax Pneumatics, All rights
-          reserved. Designed by
-          <a href="https://appaddindia.net/">Appadd India Pvt Ltd..</a>
+          &copy; 2024 Airprax Pneumatics, All rights reserved. Designed by
+          <a href="https://appaddindia.net/"> Appadd India Pvt Ltd..</a>
         </p>
       </div>
     </footer>
