@@ -4,10 +4,15 @@ import Banner from "../../../../components/global/Banner";
 
 const WastewaterCollectionandTransportPage = () => {
   return (
-    <div>
-      <Banner imageSrc="/images/banners/wilo523439_1.png" />
+    <>
+      <Banner
+        imageSrc="/images/banners/wilo523439_1.png"
+        pageTitle="Waste Water Collection And Transport"
+        currentPage="Waste Water Collection And Transport"
+        previousPage="Products"
+      />
       <WastewaterCollectionandTransport />
-    </div>
+    </>
   );
 };
 

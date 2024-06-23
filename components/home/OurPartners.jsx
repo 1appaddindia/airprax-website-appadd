@@ -38,7 +38,7 @@ const OurPartners = () => {
               >
                 <div className="p-0">
                   <CardContent className="flex  items-center justify-center ">
-                    <img src={img} alt="img" className="lg:h-32 h-28 w-[100%]" />
+                    <img src={img} alt="img" className="lg:h-28 h-28 w-[80%]" />
                   </CardContent>
                 </div>
               </CarouselItem>

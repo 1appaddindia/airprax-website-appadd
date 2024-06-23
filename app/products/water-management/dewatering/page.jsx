@@ -4,10 +4,15 @@ import Banner from "../../../../components/global/Banner";
 
 const DewateringPage = () => {
   return (
-    <div>
-      <Banner imageSrc="/images/banners/wilo523439_1.png" />
+    <>
+      <Banner
+        imageSrc="/images/banners/wilo523439_1.png"
+        currentPage="Dewatering"
+        pageTitle="Dewatering"
+        previousPage="Products"
+      />
       <Dewatering />
-    </div>
+    </>
   );
 };
 

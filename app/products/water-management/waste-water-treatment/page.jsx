@@ -4,7 +4,7 @@ import WasteWaterTreatment from "../../../../components/products/water-managemen
 
 const WasteWaterTreatmentPage = () => {
   return (
-    <div>
+    <>
       <Banner
         imageSrc="/images/banners/wilo523439_1.png"
         currentPage="Waste WaterTreatment"
@@ -12,7 +12,7 @@ const WasteWaterTreatmentPage = () => {
         previousPage="Products"
       />
       <WasteWaterTreatment />
-    </div>
+    </>
   );
 };
 

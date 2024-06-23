@@ -4,10 +4,15 @@ import Banner from "../../../../components/global/Banner";
 
 const WaterDistributionAndBoostingPage = () => {
   return (
-    <div>
-      <Banner imageSrc="/images/banners/wilo523439_1.png" />
+    <>
+      <Banner
+        imageSrc="/images/banners/wilo523439_1.png"
+        currentPage="Water Distribution And Boosting"
+        pageTitle="Water Distribution And Boosting"
+        previousPage="Products"
+      />
       <WaterDistributionAndBoosting />
-    </div>
+    </>
   );
 };
 

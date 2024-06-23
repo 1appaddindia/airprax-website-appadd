@@ -4,10 +4,15 @@ import Product from "../../../../components/products/water-management/raw-water-
 
 const RawWaterIntakePage = () => {
   return (
-    <div>
-      <Banner imageSrc="/images/banners/wilo523439_1.png" />
+    <>
+      <Banner
+        imageSrc="/images/banners/wilo523439_1.png"
+        currentPage="Raw Water Intake"
+        pageTitle="Raw Water Intake"
+        previousPage="Products"
+      />
       <Product />
-    </div>
+    </>
   );
 };
 
