@@ -3,7 +3,7 @@ import Header from "../../components/global/Header";
 
 const moreItems = [
   { name: "Medical Oxygen Plant", href: "/medical-oxygen-plant" },
-  { name: "Careers", href: "/careers" },
+  // { name: "Careers", href: "/careers" },
   { name: "Our Customers", href: "/customers" },
 ];
 
