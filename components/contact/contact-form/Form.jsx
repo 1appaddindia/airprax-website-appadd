@@ -1,101 +1,149 @@
 "use client";
 
-import { useFormik } from "formik";
-import React from "react";
-import * as Yup from "yup";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
+import * as yup from "yup";
+import axios from "axios";
+import { yupResolver } from "@hookform/resolvers/yup";
 
-const Form = () => {
-  const signUpSchema = Yup.object({
-    email: Yup.string()
-      .email("Invalid email format")
-      .required("Please enter your email"),
-    textArea: Yup.string().required("Type your requirement in detail"),
-    mobileNo: Yup.string()
-      .matches(/^[0-9]{10}$/, "Enter a valid 10 digit mobile number")
-      .required("Enter Your Contact Number"),
+const schema = yup.object().shape({
+  name: yup.string().required("Name is required"),
+  phone: yup
+    .string()
+    .required("Number is required")
+    .matches(/^\d+$/, "Invalid number"),
+  email: yup.string().email("Invalid email").required("Email is required"),
+  department: yup.string().required("Message is required"),
+  message: yup.string().required("Message is required"),
+});
+
+const ContactUs = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    resolver: yupResolver(schema),
   });
 
-  const initialValues = {
-    email: "",
-    textArea: "",
-    mobileNo: "",
+  const onSubmit = async (data) => {
+    data.toemail = [
+      "vinayak@appaddindia.com",
+      "vishwanathpatil261999@gmail.com",
+    ];
+    data.toke = "1dytfchtgfghvyhvvhvh";
+    try {
+      const response = await axios.post(
+        "https://emailer-phi.vercel.app/hospital",
+        data
+      );
+      data.name = "";
+      alert("We will contact you soon.");
+    } catch (error) {
+      console.error("Error:", error.message);
+    }
   };
-
-  const { values, handleChange, handleSubmit, errors, touched } = useFormik({
-    initialValues: initialValues,
-    validationSchema: signUpSchema,
-    onSubmit: (values, action) => {
-      action.resetForm();
-      console.log(values);
-    },
-  });
-
   return (
-    <div className="lg:flex lg:items-center lg:justify-center p-3 lg:w-[80%]">
-      <form
-        action=""
-        onSubmit={handleSubmit}
-        className="shadow-xl flex flex-col gap-1 p-5 w-full"
-      >
-        <div className="text-center m-3 ">
-          <h1 className="text-lg">
-            We Are <span className="text-[#BF1E2E]">Listening!</span>
-          </h1>
-          <span>Please contact us if you have any queries.</span>
-        </div>
-        <label htmlFor="email">Email id:</label>
-        <input
-          type="email"
-          placeholder="Enter Your Email id..."
-          name="email"
-          value={values.email}
-          onChange={handleChange}
-          className="border border-gray-200 p-3 rounded-sm"
-        />
-        {errors.email && touched.email && (
-          <p className="text-red-700 mb-5 font-medium text-xs">
-            {errors.email}
-          </p>
-        )}
-
-        <label htmlFor="mobileNo">Mobile No:</label>
-        <input
-          type="text"
-          placeholder="Enter your mobile No..."
-          name="mobileNo"
-          value={values.mobileNo}
-          onChange={handleChange}
-          className="border border-gray-200 p-3 rounded-sm"
-        />
-        {errors.mobileNo && touched.mobileNo && (
-          <p className="text-red-700 mb-5 font-medium text-xs">
-            {errors.mobileNo}
-          </p>
-        )}
-
-        <label htmlFor="textArea">Requirement:</label>
-        <textarea
-          placeholder="Type Your Requirement in Detail"
-          name="textArea"
-          value={values.textArea}
-          onChange={handleChange}
-          className="border border-gray-200 p-3 rounded-sm"
-        />
-        {errors.textArea && touched.textArea && (
-          <p className="text-red-700 mb-5 font-medium text-xs">
-            {errors.textArea}
-          </p>
-        )}
-
-        <button
-          type="submit"
-          className="bg-[#BF1E2E] border-none p-3 rounded-md text-white mt-3"
+    <>
+      <div className="lg:flex lg:items-center lg:justify-center p-3 lg:w-[50%]">
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          id="contact-form"
+          method="post"
+          className="shadow-xl flex flex-col gap-1 p-5 w-full"
         >
-          Send Message
-        </button>
-      </form>
-    </div>
+          <div className="text-center m-3 ">
+            <h1 className="text-lg">
+              We Are <span className="text-[#BF1E2E]">Listening!</span>
+            </h1>
+            <span>Please contact us if you have any queries.</span>
+          </div>
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="contactform__input mb-30">
+                <input
+                  {...register("name")}
+                  name="name"
+                  type="text"
+                  placeholder="Enter your Name"
+                  className="border border-gray-200 p-3 rounded-sm w-full m-2"
+                />
+                {errors.name && (
+                  <p style={{ color: "red" }}>{errors.name.message}</p>
+                )}
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="contactform__input mb-30">
+                <input
+                  {...register("email")}
+                  name="email"
+                  type="email"
+                  placeholder="Enter your mail"
+                  className="border border-gray-200 p-3 rounded-sm w-full m-2"
+                />
+                {errors.email && (
+                  <p style={{ color: "red" }}>{errors.email.message}</p>
+                )}
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="contactform__input mb-30">
+                <input
+                  {...register("phone")}
+                  name="phone"
+                  type="text"
+                  placeholder="Enter your number"
+                  className="border border-gray-200 p-3 rounded-sm w-full m-2"
+                />
+                {errors.number && (
+                  <p style={{ color: "red" }}>{errors.phone.message}</p>
+                )}
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="contactform__input mb-30">
+                <input
+                  {...register("department")}
+                  name="department"
+                  type="text"
+                  placeholder="Enter the Product name"
+                  className="border border-gray-200 p-3 rounded-sm w-full m-2"
+                />
+                {errors.department && (
+                  <p style={{ color: "red" }}>{errors.department.message}</p>
+                )}
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="contactform__input mb-30">
+                <textarea
+                  {...register("message")}
+                  name="message"
+                  placeholder="Type Your Requirement in Detail"
+                  className="border border-gray-200 p-3 rounded-sm w-full m-2"
+                ></textarea>
+                {errors.message && (
+                  <p style={{ color: "red" }}>{errors.message.message}</p>
+                )}
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="contactform__input mb-30-btn">
+                <button
+                  type="submit"
+                  className="bg-[#BF1E2E] border-none p-3 rounded-md text-white mt-3 w-full m-2"
+                >
+                  Send Massage
+                </button>
+              </div>
+              <p className="ajax-response"></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </>
   );
 };
 
-export default Form;
+export default ContactUs;
