@@ -166,7 +166,7 @@ const Footer = () => {
                 height={20}
                 width={20}
               />
-              sales@airprax.com
+              <a href="mailto:sales@airprax.com"> sales@airprax.com</a>
             </p>
             <ul className="text-sm">
               {/* <li className="flex gap-2 mt-2">

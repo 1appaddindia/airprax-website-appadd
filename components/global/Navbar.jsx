@@ -211,7 +211,7 @@ const navigation = [
   { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
   { name: "Gallery", href: "/gallery", icon: GalleryIcon },
   { name: "Brochure", href: "/brochure", icon: PhotoIcon },
-  { name: "More", href: "/medical-oxygen-plant", icon: ArrowSmallDownIcon },
+  { name: "More", href: "#", icon: ArrowSmallDownIcon },
   { name: "Contact", href: "/contact", icon: DevicePhoneMobileIcon },
 ];
 const mobnavigation = [
