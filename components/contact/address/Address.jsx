@@ -52,7 +52,9 @@ const Address = () => {
           />
           <div className="flex flex-col">
             <h3 className="text-sm mt-4">Mail Us @</h3>
-            <span className="text-sm">sales@airprax.com</span>
+            <a href="mailto:sales@airprax.com" className="text-sm">
+              sales@airprax.com
+            </a>
           </div>
         </div>
         <div className="flex items-center gap-3">
