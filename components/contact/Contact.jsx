@@ -6,7 +6,7 @@ import Map from "../../components/contact/map/Map";
 const Contact = () => {
   return (
     <div className="lg:container lg:max-w-9xl">
-      <h1 className="m-3">Contact Here</h1>
+      <h1 className="m-3">Contact Us</h1>
       <div className="lg:mt-5 lg:flex lg:items-center lg:justify-evenly">
         <Form />
         <Address />

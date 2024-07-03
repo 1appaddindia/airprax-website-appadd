@@ -94,7 +94,7 @@ const Header = () => {
       </div>
 
       <img src="/images/flaticons/mail.png" alt="" className="h-6 w-6" />
-      <a href="" className="text-white">
+      <a href="mailto:indiaappadd@gmail.com" className="text-white">
         sales@airprax.com
       </a>
       <div className="flex items-center justify-center gap-2">

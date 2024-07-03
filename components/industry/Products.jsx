@@ -13,9 +13,13 @@ const Products = () => {
         {products.map((img, i) => (
           <div
             key={i}
-            className="lg:col-span-4 flex flex-col items-center p-3 justify-center shadow-xl "
+            className="lg:col-span-4 flex flex-col items-center p-3 justify-center shadow-xl rounded-lg"
           >
-            <img src={img.img} alt="img" className="lg:h-60 w-full  mt-6" />
+            <img
+              src={img.img}
+              alt="img"
+              className="lg:h-60 w-full rounded-lg mt-6"
+            />
             <div className="text-start">
               <p className="font-semibold text-start w-full text-lg mt-2">
                 {img.name}
