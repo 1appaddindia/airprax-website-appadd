@@ -32,7 +32,9 @@ const Address = () => {
           />
           <div className="flex flex-col items-start">
             <h3 className="text-sm mt-4">Call Us On</h3>
-            <span className="text-sm">+91 9620602000</span>
+            <a href="tel:+91 9620602000" className="text-sm">
+              +91 9620602000
+            </a>
           </div>
           <img
             src="/images/flaticons/whatsapp (1).png"
@@ -41,7 +43,9 @@ const Address = () => {
           />
           <div className="flex flex-col items-start">
             <h3 className="text-sm mt-4">For WhatsApp</h3>
-            <span className="text-sm">+91 9742233402</span>
+            <a href="tel:+91 9742233402" className="text-sm">
+              +91 9742233402
+            </a>
           </div>
         </div>
         <div className="flex items-center gap-3">
