@@ -134,7 +134,7 @@ const ContactUs = () => {
                   type="submit"
                   className="bg-[#BF1E2E] border-none p-3 rounded-md text-white mt-3 w-full m-2"
                 >
-                  Send Massage
+                  Send Message
                 </button>
               </div>
               <p className="ajax-response"></p>
