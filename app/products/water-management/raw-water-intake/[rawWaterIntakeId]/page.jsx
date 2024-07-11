@@ -11,6 +11,7 @@ const RawWaterIntakeProductPage = ({ params }) => {
         currentPage="Raw Water Intake"
         pageTitle="Raw Water Intake"
         previousPage="Products"
+        imageSrc="/images/banners/wilo523439_1.png"
       />
       <ProductDetails productName={productName} />
     </>

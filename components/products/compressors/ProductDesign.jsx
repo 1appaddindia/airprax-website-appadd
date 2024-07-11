@@ -1,8 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 const ProductDesign = ({ item }) => {
   return (
-    <div className="lg:container lg:max-w-9xl overflow-hidden w-full p-2">
+    <div className="lg:container lg:max-w-9xl overflow-hidden w-full lg:p-12">
       {/* <h1 className="m-5">Comprehensive Guide to Compressor Products</h1> */}
       <div className="lg:grid lg:grid-cols-12 bg-[#E5EBF1]">
         <div className="lg:col-span-6">
@@ -11,9 +12,9 @@ const ProductDesign = ({ item }) => {
         <div className="lg:col-span-6 lg:p-10 p-3">
           <h1>{item.title}</h1>
           <p>{item.description}</p>
-          <button className="bg-[#BF1E2E] p-2 w-60 text-white rounded-md mt-10">
-            Get in Touch
-          </button>
+          <div className="bg-[#BF1E2E] p-2 w-fit text-white rounded-md mt-10">
+            <Link href="/contact">Get in Touch</Link>
+          </div>
         </div>
       </div>
       {item.subProducts && item.subProducts.length > 0 && (

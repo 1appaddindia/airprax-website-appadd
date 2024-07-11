@@ -2,7 +2,7 @@ import React from "react";
 
 const Address = () => {
   return (
-    <div className="shadow-2xl rounded-md lg:p-6 lg:w-[40%] lg:flex lg:gap-3 p-3 lg:flex-col lg:m-0 m-3 lg:mt-0 mt-5">
+    <div className="shadow-2xl rounded-md lg:p-6 lg:w-[30%] lg:flex lg:gap-3 p-3 lg:flex-col lg:m-0 m-3 lg:mt-0 mt-5 h-[65vh]">
       <div className=" text-center">
         <h1 className="text-xl">
           Get in touch <span className="text-[#BF1E2E]"> with us</span>
@@ -36,6 +36,8 @@ const Address = () => {
               +91 9620602000
             </a>
           </div>
+        </div>
+        <div className="flex items-center gap-4">
           <img
             src="/images/flaticons/whatsapp (1).png"
             alt="img"
@@ -43,7 +45,7 @@ const Address = () => {
           />
           <div className="flex flex-col items-start">
             <h3 className="text-sm mt-4">For WhatsApp</h3>
-            <a href="tel:+91 9742233402" className="text-sm">
+            <a href="https://api.whatsapp.com/send/?phone=%2B919742233402&text=Hello">
               +91 9742233402
             </a>
           </div>

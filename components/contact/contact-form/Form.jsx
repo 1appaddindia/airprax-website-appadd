@@ -27,10 +27,7 @@ const ContactUs = () => {
   });
 
   const onSubmit = async (data) => {
-    data.toemail = [
-      "vinayak@appaddindia.com",
-      "vishwanathpatil261999@gmail.com",
-    ];
+    data.toemail = ["vinayak@appaddindia.com", "sales@airprax.com"];
     data.toke = "1dytfchtgfghvyhvvhvh";
     try {
       const response = await axios.post(
@@ -50,7 +47,7 @@ const ContactUs = () => {
           onSubmit={handleSubmit(onSubmit)}
           id="contact-form"
           method="post"
-          className="shadow-xl flex flex-col gap-1 p-5 w-full"
+          className="shadow-xl flex flex-col gap-1 p-5 w-full h-[75vh]"
         >
           <div className="text-center m-3 ">
             <h1 className="text-lg">

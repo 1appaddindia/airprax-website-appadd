@@ -117,7 +117,10 @@ const Header = () => {
           height={20}
           width={20}
         />
-        <a href="tel:+91 9620602000" className="text-white">
+        <a
+          href="https://api.whatsapp.com/send/?phone=%2B919742233402&text=Hello"
+          className="text-white"
+        >
           +91 9742233402
         </a>
       </div>

@@ -3,10 +3,10 @@ import { ourCustomers } from "../../utils/customers/data";
 
 const Customers = () => {
   return (
-    <div className="lg:container lg:max-w-9xl ">
+    <div className="lg:container lg:max-w-9xl lg:m-10">
       <div className="text-center lg:mt-10 m-5">
-      <h6>Our Customers</h6>
-      <h1>Empowering Success Together</h1>
+        <h6>Our Customers</h6>
+        <h1>Empowering Success Together</h1>
       </div>
       <div className="grid grid-cols-12">
         {ourCustomers.map((cust, i) => (

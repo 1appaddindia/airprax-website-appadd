@@ -3,7 +3,7 @@ import { pdfFiles } from "../../utils/brochure/data";
 
 const Brochure = () => {
   return (
-    <div className="lg:container lg:max-w-9xl lg:mx-auto text-center">
+    <div className="lg:container lg:max-w-9xl lg:mx-auto text-center lg:m-10">
       <h1 className="text-2xl font-bold p-10">
         Explore Our Offerings: Download Our Brochures
       </h1>
@@ -23,7 +23,7 @@ const Brochure = () => {
                   alt={`${file.name} icon`}
                   className="h-10 w-10"
                 />
-                <span className="text-gray-600 font-semibold hover:text-black-800 transition-colors">
+                <span className="text-gray-600 font-semibold hover:text-black-800 text-sm transition-colors">
                   {file.path}
                 </span>
               </div>

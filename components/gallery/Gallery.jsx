@@ -3,7 +3,7 @@ import { galleryImages } from "../../utils/home/data";
 
 export function Gallery() {
   return (
-    <div className="lg:container lg:max-w-9xl lg:mx-auto">
+    <div className="lg:container lg:max-w-9xl lg:mx-auto lg:m-10">
       <div className="m-5">
         <h6 className="text-center">Our Gallery</h6>
         <h1>Experience Creativity Unleashed</h1>
