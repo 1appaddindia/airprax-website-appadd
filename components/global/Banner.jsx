@@ -12,24 +12,27 @@ import {
 
 const Banner = ({ imageSrc, currentPage, previousPage, pageTitle }) => {
   return (
-    <div className="relative">
+    <>
       <div
         style={{
           backgroundImage: `url(${imageSrc})`,
           width: "100%",
         }}
-        className="bg-center lg:h-[50vh] h-52 bg-no-repeat relative z-10 bg-cover"
+        className="bg-center lg:h-[50vh] h-52 bg-no-repeat relative z-10 bg-cover "
       >
         <div className="absolute top-0 left-0 w-full lg:h-[50vh] h-52 bg-black opacity-65 z-0 flex items-center justify-center lg:p-10 p-5">
-          <div className="lg:flex lg:items-center lg:justify-between gap-10 w-full">
+          <div className="lg:flex lg:items-center lg:justify-between gap-10 w-full relative">
             <h4 className="text-white lg:text-start text-center">
               {pageTitle}
             </h4>
-            <div className="text-center flex items-center justify-center ">
+            <div className="text-center flex items-center justify-center  z-50">
               <Breadcrumb>
                 <BreadcrumbList>
                   <BreadcrumbItem>
-                    <BreadcrumbLink href="/" className="text-white">
+                    <BreadcrumbLink
+                      href="/"
+                      className="text-white hover:text-white "
+                    >
                       {previousPage}
                     </BreadcrumbLink>
                   </BreadcrumbItem>
@@ -49,7 +52,7 @@ const Banner = ({ imageSrc, currentPage, previousPage, pageTitle }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Subscribe = () => {
@@ -41,9 +42,12 @@ const Subscribe = () => {
                 placeholder="Enter Your Email "
                 className="lg:w-[70%] p-2 z-10 lg:mt-5 bg-transparent border border-gray-100 rounded-lg text-white"
               />
-              <button className="bg-[#EC1F52] lg:mt-5 mt-2 text-sm p-2 rounded-md lg:p-2 text-white lg:h-10  lg:w-max">
+              <Link
+                href="mailto:sales@airprax.com"
+                className="bg-[#EC1F52] lg:mt-5 mt-2 text-sm p-2 rounded-md lg:p-2 text-white lg:h-10  lg:w-max"
+              >
                 SUBSCRIBE NOW
-              </button>
+              </Link>
             </div>
           </div>
         </div>
