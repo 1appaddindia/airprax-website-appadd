@@ -2,18 +2,23 @@ export const pdfFiles = [
   {
     name: "Brochure 1",
     path: "G2-5 G7-15 G15L-22_PNE_Leaflet.pdf",
+    secpath: "G2-5%20G7-15%20G15L-22_PNE_Leaflet.pdf",
   },
   {
     name: "Brochure 2",
     path: "GA 7-22 VSD iPM Sales Lealfet EN Pune.pdf",
+    secpath: "GA%207-22%20VSD%20iPM%20Sales%20Lealfet%20EN%20Pune.pdf",
   },
   {
     name: "Brochure 3",
     path: "GA 15-30 2021 Sales Leaflet EN Pune (1).pdf",
+    secpath: "GA%2015-30%202021%20Sales%20Leaflet%20EN%20Pune%20(1).pdf",
   },
   {
     name: "Brochure 4",
     path: "GA 30-90 (VSD) Sales Leaflet EN Pune 9096 3256 30.pdf",
+    secpath:
+      "GA%2030-90%20(VSD)%20Sales%20Leaflet%20EN%20Pune%209096%203256%2030.pdfs",
   },
   {
     name: "Brochure 5",
