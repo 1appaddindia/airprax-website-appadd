@@ -48,7 +48,7 @@ const CustomScriptComponent = () => {
         // You might add cleanup code specific to your script here
       }
     };
-  }, []); // Empty dependency array ensures this runs only once
+  }); // Empty dependency array ensures this runs only once
 
   return null; // Component doesn't render anything
 };
