@@ -1,23 +1,23 @@
-"use client";
+"use client"; // Ensure this code runs client-side in Next.js
 
 import { useEffect } from "react";
 
 const CustomScriptComponent = () => {
   useEffect(() => {
-    // Function to load jQuery dynamically if not already loaded
     const loadjQuery = () => {
       if (!window.jQuery) {
         const script = document.createElement("script");
-        script.src =
-          "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
+        script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
         script.async = true;
+        script.onload = () => {
+          executeCustomScript();
+        };
         document.body.appendChild(script);
-        return script; // Return the script element for cleanup
+      } else {
+        executeCustomScript();
       }
-      return null;
     };
 
-    // Execute your custom script after jQuery is loaded
     const executeCustomScript = () => {
       const eppathurl = window.location.origin + window.location.pathname;
       const eptagmanage = new XMLHttpRequest();
@@ -40,26 +40,17 @@ const CustomScriptComponent = () => {
       eptagmanage.send();
     };
 
-    // Load jQuery if not already loaded
-    const script = loadjQuery();
+    loadjQuery(); // Load jQuery and execute custom script
 
-    // Execute custom script after jQuery is loaded
-    if (script) {
-      script.onload = executeCustomScript;
-    } else {
-      executeCustomScript();
-    }
-
-    // Clean up on unmount
     return () => {
-      // Remove jQuery if it was dynamically added
-      if (script && !window.jQuery) {
-        document.body.removeChild(script);
+      // Clean up any dynamically added script
+      if (window.jQuery) {
+        // You might add cleanup code specific to your script here
       }
     };
-  }, []); // Empty dependency array means this effect runs only once
+  }, []); // Empty dependency array ensures this runs only once
 
-  return null; // Return null because this component doesn't render anything
+  return null; // Component doesn't render anything
 };
 
 export default CustomScriptComponent;
