@@ -12,7 +12,7 @@ const Brochure = () => {
           <div className="lg:col-span-3 p-4">
             <a
               key={index}
-              href={file.path}
+              href={`${file.path}`}
               target="_blank"
               rel="noopener noreferrer"
               className="mb-4"
