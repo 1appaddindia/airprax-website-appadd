@@ -18,7 +18,7 @@ export const pdfFiles = [
     name: "Brochure 4",
     path: "GA 30-90 (VSD) Sales Leaflet EN Pune 9096 3256 30.pdf",
     secpath:
-      "GA%2030-90%20(VSD)%20Sales%20Leaflet%20EN%20Pune%209096%203256%2030.pdfs",
+      "GA%2030-90%20(VSD)%20Sales%20Leaflet%20EN%20Pune%209096%203256%2030.pdf",
   },
   {
     name: "Brochure 5",
