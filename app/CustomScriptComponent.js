@@ -1,95 +1,42 @@
-"use client";
-
 // components/CustomScriptComponent.js
 
+"use client";
+
 import { useEffect } from "react";
-import Script from "next/script";
 
 const CustomScriptComponent = () => {
   useEffect(() => {
-    const handleTagManage = () => {
-      try {
-        console.log("Running handleTagManage function");
-
-        const eppathurl = window.location.origin + window.location.pathname;
-        const eptagmanage = new XMLHttpRequest();
-        eptagmanage.onreadystatechange = function () {
-          if (this.readyState === 4) {
-            if (this.status === 200) {
-              if (this.response !== "0") {
-                console.log("Received response:", this.response);
-
-                const temp = this.response.split("||||||||||");
-
-                // Use jQuery to manipulate DOM
-                if (window.jQuery) {
-                  console.log("jQuery is loaded");
-                  jQuery("head").find("title").remove();
-                  jQuery("head").append(temp[0]);
-                  jQuery("body").append(temp[1]);
-                } else {
-                  console.error("jQuery is not loaded");
-                }
-              } else {
-                console.error("Received unexpected response:", this.response);
-              }
-            } else {
-              console.error(
-                "Failed to load response:",
-                this.status,
-                this.statusText
-              );
-            }
-          }
+    const loadScript = () => {
+      // Example: Load jQuery dynamically if not already loaded
+      if (!window.jQuery) {
+        const script = document.createElement("script");
+        script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
+        script.async = true;
+        script.onload = () => {
+          executeCustomScript(); // Once jQuery is loaded, execute custom script
         };
-        // Replace the URL with your actual endpoint
-        const url = atob(
-          "aHR0cHM6Ly9wbHVnaW5zLmF1dG9zZW9wbHVnaW4uY29tL2FsbGhlYWRkYXRhP2VrZXk9ZS1BUFBBREQ2NjMzNzc3NDI1JmVrZXlwYXNzPTRhaDF1bVhHZUo2U3lYRTZKZnBvVUEzbHVoRXRjNHJnM0FmRSZzaXRldXJsPQ=="
-        );
-        console.log("Requesting URL:", url + eppathurl);
-        eptagmanage.open("GET", url + eppathurl);
-        eptagmanage.send();
-      } catch (error) {
-        console.error("Error in handleTagManage:", error);
+        document.body.appendChild(script);
+      } else {
+        executeCustomScript(); // If jQuery is already loaded, execute immediately
       }
     };
 
-    // Execute tag management function
-    if (typeof window !== "undefined") {
-      if (!window.jQuery) {
-        console.log("jQuery is not loaded, loading jQuery...");
-        const script = document.createElement("script");
-        script.src =
-          "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-        script.onload = () => {
-          console.log("jQuery loaded");
-          handleTagManage();
-        };
-        script.onerror = () => {
-          console.error("Failed to load jQuery");
-        };
-        document.head.appendChild(script);
-      } else {
-        console.log("jQuery is already loaded");
-        handleTagManage();
-      }
-    }
-  }, []);
+    const executeCustomScript = () => {
+      // Example: Perform operations that require jQuery or other client-side APIs
+      console.log("Custom script execution...");
+      // Replace with your actual custom script logic
+    };
 
-  return (
-    <>
-      {/* Fallback to load jQuery if not already loaded */}
-      <Script
-        id="jquery-cdn"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.jQuery || document.write("<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'><\\/script>");
-          `,
-        }}
-      />
-    </>
-  );
+    loadScript(); // Load the script when the component mounts
+
+    // Clean up function (optional)
+    return () => {
+      // Perform any cleanup here (e.g., remove event listeners)
+      console.log("Cleanup...");
+    };
+  }, []); // Empty dependency array ensures this runs only once
+
+  return null; // Component doesn't render anything
 };
 
 export default CustomScriptComponent;
