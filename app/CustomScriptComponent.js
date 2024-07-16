@@ -1,3 +1,5 @@
+"use client";
+
 // components/CustomScriptComponent.js
 
 import { useEffect, useState } from "react";
@@ -29,16 +31,27 @@ const CustomScriptComponent = () => {
       eptagmanage.send();
     };
 
-    // Check if jQuery is loaded, if not, load it dynamically
-    if (typeof window !== "undefined" && !window.jQuery) {
+    // Function to load jQuery script dynamically
+    const loadJQuery = (callback) => {
       const script = document.createElement("script");
       script.src =
         "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-      document.head.appendChild(script);
       script.onload = () => {
-        handleTagManage();
+        if (callback) callback();
+      };
+      script.onerror = () => {
+        console.error("Failed to load jQuery");
         setLoader(false);
       };
+      document.head.appendChild(script);
+    };
+
+    // Check if jQuery is loaded, if not, load it dynamically
+    if (typeof window !== "undefined" && !window.jQuery) {
+      loadJQuery(() => {
+        handleTagManage();
+        setLoader(false);
+      });
     } else {
       handleTagManage();
       setLoader(false);
