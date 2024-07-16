@@ -15,13 +15,15 @@ const MyComponent = () => {
         ) + pathUrl
       )
       .then((response) => {
+        console.log("SEO data fetched:", response.data);
+
         if (response.data !== "0") {
           const [title, bodyContent] = response.data.split("||||||||||");
 
-          // Update document title
+          console.log("Updating title:", title);
           document.title = title;
 
-          // Append body content
+          console.log("Appending body content:", bodyContent);
           const body = document.getElementsByTagName("body")[0];
           body.insertAdjacentHTML("beforeend", bodyContent);
         }
@@ -31,7 +33,7 @@ const MyComponent = () => {
       });
   };
 
-  return <div>{/* Your component JSX */}</div>;
+  return null; // Since it doesn't render any UI
 };
 
 export default MyComponent;
