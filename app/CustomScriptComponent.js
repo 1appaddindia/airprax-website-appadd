@@ -29,7 +29,15 @@ const CustomScriptComponent = () => {
             } else {
               console.error("jQuery is not loaded");
             }
+          } else {
+            console.error("Received unexpected response:", this.response);
           }
+        } else if (this.readyState === 4) {
+          console.error(
+            "Failed to load response:",
+            this.status,
+            this.statusText
+          );
         }
       };
       // Replace the URL with your actual endpoint
@@ -52,6 +60,9 @@ const CustomScriptComponent = () => {
         script.onload = () => {
           console.log("jQuery loaded");
           handleTagManage();
+        };
+        script.onerror = () => {
+          console.error("Failed to load jQuery");
         };
       } else {
         console.log("jQuery is already loaded");
