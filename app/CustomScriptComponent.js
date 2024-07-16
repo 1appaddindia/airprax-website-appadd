@@ -1,6 +1,5 @@
-// components/CustomScriptComponent.js
-
 "use client";
+// components/CustomScriptComponent.js
 
 import { useEffect } from "react";
 
