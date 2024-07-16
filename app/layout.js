@@ -1,4 +1,4 @@
-// pages/_app.js (or wherever your RootLayout component is used)
+"use client";
 
 import { useEffect } from "react";
 import Head from "next/head";
