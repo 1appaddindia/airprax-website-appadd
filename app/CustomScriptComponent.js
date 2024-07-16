@@ -1,3 +1,5 @@
+"use client";
+
 // components/CustomScriptComponent.js
 
 import Script from "next/script";
