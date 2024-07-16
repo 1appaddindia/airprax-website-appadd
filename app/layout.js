@@ -4,8 +4,8 @@ import { useEffect } from "react";
 import Head from "next/head";
 import Navbar from "../components/global/Navbar";
 import Footer from "../components/global/Footer";
-import CustomScriptComponent from "../components/CustomScriptComponent"; // Adjust the path as per your structure
-import "../styles/globals.css"; // Adjust the path as per your structure
+import CustomScriptComponent from "../app/CustomScriptComponent"; // Adjust the path as per your structure
+// import "../styles/globals.css"; // Adjust the path as per your structure
 
 const RootLayout = ({ children }) => {
   useEffect(() => {
