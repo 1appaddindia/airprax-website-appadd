@@ -1,13 +1,12 @@
 // components/CustomScriptComponent.js
 
 "use client";
-
 import { useEffect } from "react";
 
 const CustomScriptComponent = () => {
   useEffect(() => {
     const loadScript = () => {
-      // Example: Load jQuery dynamically if not already loaded
+      // Load jQuery dynamically if not already loaded
       if (!window.jQuery) {
         const script = document.createElement("script");
         script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
@@ -22,14 +21,15 @@ const CustomScriptComponent = () => {
     };
 
     const executeCustomScript = () => {
-      // Example: Perform operations that require jQuery or other client-side APIs
-      console.log("Custom script execution...");
       // Replace with your actual custom script logic
+      console.log("Custom script execution...");
+      // Example: Update UI or perform operations that require jQuery
+      // jQuery("body").append("<div>Hello jQuery!</div>");
     };
 
     loadScript(); // Load the script when the component mounts
 
-    // Clean up function (optional)
+    // Optional cleanup function
     return () => {
       // Perform any cleanup here (e.g., remove event listeners)
       console.log("Cleanup...");
