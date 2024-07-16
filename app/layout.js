@@ -1,6 +1,6 @@
 import Navbar from "../components/global/Navbar";
 import Footer from "../components/global/Footer";
-import MyComponent from "./MyComponent"; // Adjust the import path as needed
+import MyComponent from "../app/CustomScriptComponent";
 
 export default function RootLayout({ children }) {
   return (
