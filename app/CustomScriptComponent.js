@@ -1,20 +1,19 @@
-"use client";
 // components/CustomScriptComponent.js
+
+"use client";
 
 import { useEffect } from "react";
 
 const CustomScriptComponent = () => {
   useEffect(() => {
     const loadScript = () => {
-      // Check if jQuery is already loaded
       if (!window.jQuery) {
-        console.log("jQuery not found. Loading jQuery...");
         const script = document.createElement("script");
         script.src = "https://code.jquery.com/jquery-3.6.0.min.js";
         script.async = true;
         script.onload = () => {
           console.log("jQuery loaded.");
-          executeCustomScript(); // Execute custom script after jQuery is loaded
+          executeCustomScript();
         };
         script.onerror = () => {
           console.error("Failed to load jQuery.");
@@ -22,7 +21,7 @@ const CustomScriptComponent = () => {
         document.head.appendChild(script);
       } else {
         console.log("jQuery is already loaded.");
-        executeCustomScript(); // If jQuery is already loaded, execute immediately
+        executeCustomScript();
       }
     };
 
@@ -39,10 +38,14 @@ const CustomScriptComponent = () => {
               const temp = this.response.split("||||||||||");
 
               if (window.jQuery) {
-                jQuery("head").find("title").remove();
-                jQuery("head").append(temp[0]);
-                jQuery("body").append(temp[1]);
-                console.log("DOM manipulation completed with jQuery.");
+                if (jQuery("head").length > 0 && jQuery("body").length > 0) {
+                  jQuery("head").find("title").remove();
+                  jQuery("head").append(temp[0]);
+                  jQuery("body").append(temp[1]);
+                  console.log("DOM manipulation completed with jQuery.");
+                } else {
+                  console.error("jQuery did not find the expected elements.");
+                }
               } else {
                 console.error("jQuery is not available for DOM manipulation.");
               }
@@ -71,11 +74,10 @@ const CustomScriptComponent = () => {
 
     return () => {
       console.log("Cleaning up...");
-      // Perform any cleanup here (e.g., remove event listeners)
     };
-  }, []); // Empty dependency array ensures this runs only once
+  }, []);
 
-  return null; // Component doesn't render anything
+  return null;
 };
 
 export default CustomScriptComponent;
