@@ -2,12 +2,11 @@
 
 // components/CustomScriptComponent.js
 
-import Script from "next/script";
 import { useEffect } from "react";
+import Script from "next/script";
 
 const CustomScriptComponent = () => {
   useEffect(() => {
-    // Function to handle tag management
     const handleTagManage = () => {
       try {
         console.log("Running handleTagManage function");
@@ -62,7 +61,6 @@ const CustomScriptComponent = () => {
         const script = document.createElement("script");
         script.src =
           "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-        document.head.appendChild(script);
         script.onload = () => {
           console.log("jQuery loaded");
           handleTagManage();
@@ -70,6 +68,7 @@ const CustomScriptComponent = () => {
         script.onerror = () => {
           console.error("Failed to load jQuery");
         };
+        document.head.appendChild(script);
       } else {
         console.log("jQuery is already loaded");
         handleTagManage();
