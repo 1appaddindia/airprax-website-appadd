@@ -3,7 +3,8 @@ import "./globals.css";
 import Navbar from "../components/global/Navbar";
 import Footer from "../components/global/Footer";
 import Script from "next/script";
-import Plugin from "./Plugin";
+import Plugin from "../utils/Plugin";
+import ClientPlugin from "../components/global/ClientPlugin";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +28,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
         <Footer />
-        <Plugin />
+        {/* <Plugin /> */}
+        <ClientPlugin />
       </body>
     </html>
   );
