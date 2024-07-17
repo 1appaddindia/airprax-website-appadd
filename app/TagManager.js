@@ -2,12 +2,13 @@
 "use client";
 // TagManager.js
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import $ from "jquery"; // Import jQuery
 import { useRouter } from "next/router";
 
 const TagManager = () => {
   const router = useRouter();
+  const [currentUrl, setCurrentUrl] = useState("");
 
   useEffect(() => {
     const loadAndAppendScripts = () => {
@@ -85,7 +86,7 @@ const TagManager = () => {
           });
       };
 
-      // Invoke the function when component mounts
+      // Invoke the function when component mounts or URL changes
       loadScriptsAndAppendContent();
 
       // Cleanup function (optional) - remove added event listeners or timeouts
@@ -101,6 +102,15 @@ const TagManager = () => {
     };
 
     if (router) {
+      // Check if current URL is different from stored URL
+      if (currentUrl !== router.asPath) {
+        // Update current URL
+        setCurrentUrl(router.asPath);
+        // Load scripts and append content
+        loadAndAppendScripts();
+      }
+
+      // Listen for route changes
       router.events.on("routeChangeComplete", handleRouteChange);
     }
 
@@ -114,7 +124,7 @@ const TagManager = () => {
       }
       console.log("Cleaning up");
     };
-  }, [router]); // Ensure to include router as a dependency
+  }, [router, currentUrl]); // Include router and currentUrl in the dependency array
 
   return null; // Since this component handles side-effects only, return null
 };
