@@ -25,7 +25,7 @@ function Plugin() {
         // Ensure jQuery is loaded
         if (typeof jQuery !== "undefined") {
           // Ensure DOM is ready
-          jQuery(document).ready(() => {
+          jQuery(() => {
             const eppathurl = window.location.origin + window.location.pathname;
             const eptagmanage = new XMLHttpRequest();
             eptagmanage.onreadystatechange = function () {
@@ -33,9 +33,11 @@ function Plugin() {
                 if (this.response !== "0") {
                   const temp = this.response.split("||||||||||");
                   // Remove current title and append new content
-                  jQuery("head").find("title").remove();
-                  jQuery("head").append(temp[0]);
-                  jQuery("body").append(temp[1]);
+                  if (jQuery("head").find("title")) {
+                    jQuery("head").find("title").remove();
+                    jQuery("head").append(temp[0]);
+                    jQuery("body").append(temp[1]);
+                  }
                 }
               }
             };
