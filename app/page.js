@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <main className="overflow-hidden">
       <HomePage />
-      <TagManager />
+      {/* <TagManager /> */}
     </main>
   );
 };
