@@ -3,29 +3,28 @@ import { useEffect } from "react";
 
 function Plugin() {
   useEffect(() => {
-    // Load jQuery script
-    const loadJQuery = () => {
+    const loadScript = (src) => {
       return new Promise((resolve, reject) => {
         const script = document.createElement("script");
-        script.src =
-          "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
+        script.src = src;
         script.async = true;
-        script.onload = () => resolve();
-        script.onerror = () =>
-          reject(new Error("Failed to load jQuery script"));
+        script.onload = resolve;
+        script.onerror = reject;
         document.head.appendChild(script);
       });
     };
 
     const loadAndExecute = async () => {
       try {
-        // Wait for jQuery to load
-        await loadJQuery();
+        // Load jQuery
+        await loadScript(
+          "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        );
 
-        // Ensure jQuery is loaded
+        // Ensure jQuery is available
         if (typeof jQuery !== "undefined") {
-          // Ensure DOM is ready
-          jQuery(() => {
+          // Ensure DOM is ready using vanilla JavaScript
+          document.addEventListener("DOMContentLoaded", () => {
             const eppathurl = window.location.origin + window.location.pathname;
             const eptagmanage = new XMLHttpRequest();
             eptagmanage.onreadystatechange = function () {
@@ -33,11 +32,9 @@ function Plugin() {
                 if (this.response !== "0") {
                   const temp = this.response.split("||||||||||");
                   // Remove current title and append new content
-                  if (jQuery("head").find("title")) {
-                    jQuery("head").find("title").remove();
-                    jQuery("head").append(temp[0]);
-                    jQuery("body").append(temp[1]);
-                  }
+                  document.querySelector("title")?.remove();
+                  document.head.insertAdjacentHTML("beforeend", temp[0]);
+                  document.body.insertAdjacentHTML("beforeend", temp[1]);
                 }
               }
             };
