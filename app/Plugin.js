@@ -5,13 +5,13 @@ import React from "react";
 function Plugin() {
   return (
     <>
-      <Script strategy="beforeInteractive">
+      <Script>
         {`
          window.jQuery ||
 document.write("<script  src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'><\/script>");
         `}
       </Script>
-      <Script id="custom-script" strategy="afterInteractive">
+      <Script strategy="afterInteractive">
         {`
             var eppathurl = window.location.origin + window.location.pathname;
     var eptagmanage = new XMLHttpRequest();
