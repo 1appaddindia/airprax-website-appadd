@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect } from "react";
+import { useHistory } from "react-router-dom";
 
 const TagManager = () => {
-  const history = useHistory();
   useEffect(() => {
     const loadAndAppendScripts = async () => {
       // Function to load jQuery
@@ -73,7 +73,7 @@ const TagManager = () => {
         });
     };
     loadAndAppendScripts();
-  }, [history]); // Empty dependency array ensures this effect runs only once
+  }); // Empty dependency array ensures this effect runs only once
 
   return null; // Since this component handles side-effects only, return null
 };
