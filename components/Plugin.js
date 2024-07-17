@@ -20,9 +20,9 @@ function Plugin() {
               document.title = "";
               // document.head.insertAdjacentHTML("beforeend", temp[0]);
               // document.body.insertAdjacentHTML("beforeend", temp[1]);
-              jQuery("head").find("title").remove();
-              jQuery("head").append(temp[0]);
-              jQuery("body").append(temp[1]);
+              jQuery("head")?.find("title")?.remove();
+              jQuery("head")?.append(temp[0]);
+              jQuery("body")?.append(temp[1]);
             }
           }
         };
