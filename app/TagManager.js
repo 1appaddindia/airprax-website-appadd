@@ -81,9 +81,10 @@ const TagManager = () => {
     // Invoke the function when the component mounts
     loadAndAppendScripts();
 
-    // Cleanup function (optional)
+    // Cleanup function
     return () => {
       // Any necessary cleanup can be done here
+      console.log("Cleaning up");
     };
   }, []); // Empty dependency array ensures this effect runs only once
 
