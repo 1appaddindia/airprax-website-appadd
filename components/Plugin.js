@@ -1,4 +1,3 @@
-// components/Plugin.js
 "use client";
 import { useEffect } from "react";
 
@@ -18,9 +17,12 @@ function Plugin() {
           if (this.readyState == 4 && this.status == 200) {
             if (this.response !== 0) {
               const temp = this.response.split("||||||||||");
-              document.title = ""; // Clear the current title
-              document.head.insertAdjacentHTML("beforeend", temp[0]);
-              document.body.insertAdjacentHTML("beforeend", temp[1]);
+              document.title = "";
+              // document.head.insertAdjacentHTML("beforeend", temp[0]);
+              // document.body.insertAdjacentHTML("beforeend", temp[1]);
+              jQuery("head").find("title").remove();
+              jQuery("head").append(temp[0]);
+              jQuery("body").append(temp[1]);
             }
           }
         };
