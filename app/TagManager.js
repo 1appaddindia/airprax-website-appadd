@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 
 const TagManager = () => {
+  const history = useHistory();
   useEffect(() => {
     const loadAndAppendScripts = async () => {
       // Function to load jQuery
@@ -71,10 +72,8 @@ const TagManager = () => {
           console.error("Error loading scripts or fetching content:", error);
         });
     };
-
-    // Invoke the function when component mounts
     loadAndAppendScripts();
-  }, []); // Empty dependency array ensures this effect runs only once
+  }, [history]); // Empty dependency array ensures this effect runs only once
 
   return null; // Since this component handles side-effects only, return null
 };
