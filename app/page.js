@@ -1,6 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
-import { useHistory } from "react-router-dom"; // Assuming you are using React Router
+import React from "react";
 import HomePage from "../app/home/page";
 import TagManager from "./TagManager";
 
