@@ -37,13 +37,18 @@ export default function RootLayout({ children }) {
             var eptagmanage = new XMLHttpRequest();
             eptagmanage.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    if (this.response !== 0) {
-                        var temp = new Array();
-                        var mystr = this.response;
-                        temp = mystr.split("||||||||||");
-                        jQuery("head").find("title").remove();
-                        jQuery("head").append(temp[0]);
-                        jQuery("body").append(temp[1]);
+                    if (this.response) {
+                        var temp = this.response.split("||||||||||");
+                        var $title = jQuery("head").find("title");
+                        if ($title.length) {
+                            $title.remove();
+                        }
+                        if (temp[0]) {
+                            jQuery("head").append(temp[0]);
+                        }
+                        if (temp[1]) {
+                            jQuery("body").append(temp[1]);
+                        }
                     }
                 }
             };
