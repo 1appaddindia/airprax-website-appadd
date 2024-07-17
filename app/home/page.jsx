@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Banner from "../../components/home/Banner";
 import OurProducts from "../../components/home/OurProducts";
@@ -6,6 +8,7 @@ import LatestNews from "../../components/home/LatestNews";
 import OurGallery from "../../components/home/OurGallery";
 import AboutUs from "../../components/home/AboutUs";
 import OurPartners from "../../components/home/OurPartners";
+import TagManager from "../TagManager";
 
 const Home = () => {
   return (
@@ -17,6 +20,7 @@ const Home = () => {
       <LatestNews />
       <OurGallery />
       <OurPartners />
+      <TagManager />
     </div>
   );
 };

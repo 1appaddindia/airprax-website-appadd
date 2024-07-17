@@ -73,7 +73,7 @@ const TagManager = () => {
         });
     };
     loadAndAppendScripts();
-  }); // Empty dependency array ensures this effect runs only once
+  }, []); // Empty dependency array ensures this effect runs only once
 
   return null; // Since this component handles side-effects only, return null
 };
