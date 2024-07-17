@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 const TagManager = () => {
   useEffect(() => {
-    const loadAndAppendScripts = () => {
+    const loadAndAppendScripts = async () => {
       // Function to load jQuery
       const loadJQuery = () => {
         return new Promise((resolve, reject) => {
@@ -74,18 +74,6 @@ const TagManager = () => {
 
     // Invoke the function when component mounts
     loadAndAppendScripts();
-
-    // Reload the page when URL changes
-    const handleUrlChange = () => {
-      window.location.reload();
-    };
-
-    window.addEventListener("popstate", handleUrlChange);
-
-    // Cleanup function to remove event listener
-    return () => {
-      window.removeEventListener("popstate", handleUrlChange);
-    };
   }, []); // Empty dependency array ensures this effect runs only once
 
   return null; // Since this component handles side-effects only, return null
