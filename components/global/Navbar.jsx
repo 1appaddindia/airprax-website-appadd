@@ -427,7 +427,7 @@ export default function Sidebar() {
                       }}
                     >
                       <a
-                        href={`https://airprax.com/${item.href}`}
+                        href={`./${item.href}`}
                         className={`${
                           item.href === pathName
                             ? "bg-[#0F75BC] text-white"
