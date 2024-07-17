@@ -1,5 +1,5 @@
 import HomePage from "../app/home/page";
-import CustomScriptComponent from "./CustomScriptComponent";
+import CustomScriptComponent from "./TagManager";
 
 export default function Home() {
   return (
