@@ -5,6 +5,25 @@ import { useHistory } from "react-router-dom";
 
 const TagManager = () => {
   useEffect(() => {
+    const removeChildElement = () => {
+      const elementToRemove = document.getElementById("elementId");
+      if (elementToRemove && elementToRemove.parentNode) {
+        elementToRemove.parentNode.removeChild(elementToRemove);
+      } else {
+        console.warn("Element to remove does not exist or has no parent.");
+      }
+    };
+
+    // Call the function to remove the child element
+    removeChildElement();
+
+    // Cleanup function (if necessary)
+    return () => {
+      // Cleanup code
+    };
+  }, []); // Empty dependency array ensures this effect runs only once
+
+  useEffect(() => {
     const loadAndAppendScripts = async () => {
       // Function to load jQuery
       const loadJQuery = () => {
