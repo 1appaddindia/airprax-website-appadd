@@ -11,7 +11,7 @@ function Plugin() {
 document.write("<script  src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'><\/script>");
         `}
       </Script>
-      <Script strategy="afterInteractive">
+      <Script id="custom-script">
         {`
             var eppathurl = window.location.origin + window.location.pathname;
     var eptagmanage = new XMLHttpRequest();
