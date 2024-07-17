@@ -1,5 +1,5 @@
 // TagManager.js
-
+"use client";
 import { useEffect } from "react";
 import $ from "jquery"; // Import jQuery
 import { useRouter } from "next/router";
