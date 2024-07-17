@@ -1,5 +1,7 @@
 // TagManager.js
 "use client";
+// TagManager.js
+
 import { useEffect } from "react";
 import $ from "jquery"; // Import jQuery
 import { useRouter } from "next/router";
@@ -98,17 +100,21 @@ const TagManager = () => {
       loadAndAppendScripts();
     };
 
-    router.events.on("routeChangeComplete", handleRouteChange);
+    if (router) {
+      router.events.on("routeChangeComplete", handleRouteChange);
+    }
 
     // Initial load
     loadAndAppendScripts();
 
     // Cleanup event listeners
     return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
+      if (router) {
+        router.events.off("routeChangeComplete", handleRouteChange);
+      }
       console.log("Cleaning up");
     };
-  }, [router.events]); // Run the effect whenever the router events change
+  }, [router]); // Ensure to include router as a dependency
 
   return null; // Since this component handles side-effects only, return null
 };
