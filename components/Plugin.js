@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import Script from "next/script";
 
 function Plugin() {
   useEffect(() => {
@@ -14,15 +15,17 @@ function Plugin() {
         const eppathurl = window.location.origin + window.location.pathname;
         const eptagmanage = new XMLHttpRequest();
         eptagmanage.onreadystatechange = function () {
-          if (this.readyState == 4 && this.status == 200) {
-            if (this.response !== 0) {
+          if (this.readyState === 4 && this.status === 200) {
+            if (this.response !== "0") {
               const temp = this.response.split("||||||||||");
-              document.title = "";
-              // document.head.insertAdjacentHTML("beforeend", temp[0]);
-              // document.body.insertAdjacentHTML("beforeend", temp[1]);
-              jQuery("head")?.find("title")?.remove();
-              jQuery("head")?.append(temp[0]);
-              jQuery("body")?.append(temp[1]);
+
+              if (typeof jQuery !== "undefined") {
+                jQuery(document).ready(() => {
+                  jQuery("head").find("title").remove();
+                  jQuery("head").append(temp[0]);
+                  jQuery("body").append(temp[1]);
+                });
+              }
             }
           }
         };
