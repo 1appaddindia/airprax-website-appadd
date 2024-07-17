@@ -3,10 +3,6 @@ import Script from "next/script";
 import React, { useEffect } from "react";
 
 function Plugin() {
-  useEffect(() => {
-    const timer = setTimeout(() => {}, 500);
-    timer();
-  }, []);
   return (
     <>
       <Script
