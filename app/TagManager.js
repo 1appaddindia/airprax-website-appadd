@@ -6,10 +6,10 @@ import { useEffect } from "react";
 const TagManager = () => {
   const history = useHistory();
 
-  const handleClick = () => {
-    // Example navigation on logo click
-    history.push("/plugin-page");
-  };
+  // const handleClick = () => {
+  // Example navigation on logo click
+  history.push("/plugin-page");
+  // };
 
   useEffect(() => {
     const loadAndAppendScripts = async () => {
