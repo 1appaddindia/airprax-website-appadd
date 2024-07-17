@@ -57,9 +57,15 @@ const TagManager = () => {
           if (temp.length !== 2) {
             throw new Error("Unexpected response format");
           }
-          window.jQuery("head").find("title").remove(); // Use jQuery safely here
-          window.jQuery("head").append(temp[0]);
-          window.jQuery("body").append(temp[1]);
+          const $head = window.jQuery("head");
+          const $body = window.jQuery("body");
+          if ($head.length && $body.length) {
+            $head.find("title").remove(); // Use jQuery safely here
+            $head.append(temp[0]);
+            $body.append(temp[1]);
+          } else {
+            throw new Error("Head or body element not found");
+          }
         })
         .catch((error) => {
           console.error("Error loading scripts or fetching content:", error);
