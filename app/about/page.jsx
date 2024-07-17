@@ -29,7 +29,7 @@ const About = () => {
       <OurProjects />
       <OurCustomers />
       <Faq />
-      <TagManager />
+      {/* <TagManager /> */}
     </div>
   );
 };
