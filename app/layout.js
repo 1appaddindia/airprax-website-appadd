@@ -1,10 +1,8 @@
 import { Inter } from "next/font/google";
-import "./globals.css";
-import Navbar from "../components/global/Navbar";
-import Footer from "../components/global/Footer";
-import Script from "next/script";
 import Plugin from "../components/Plugin";
-import ClientPlugin from "../components/global/ClientPlugin";
+import Footer from "../components/global/Footer";
+import Navbar from "../components/global/Navbar";
+import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,8 +26,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
         <Footer />
-        {/* <Plugin /> */}
-        <ClientPlugin />
+        <Plugin />
       </body>
     </html>
   );
