@@ -20,7 +20,7 @@ const Home = () => {
       <LatestNews />
       <OurGallery />
       <OurPartners />
-      <TagManager />
+      {/* <TagManager /> */}
     </div>
   );
 };
