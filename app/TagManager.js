@@ -10,11 +10,17 @@ const TagManager = () => {
           const jqueryScript = document.createElement("script");
           jqueryScript.src =
             "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
-          jqueryScript.onload = () => resolve();
-          jqueryScript.onerror = () =>
+          jqueryScript.onload = () => {
+            console.log("jQuery loaded successfully");
+            resolve();
+          };
+          jqueryScript.onerror = () => {
+            console.error("Failed to load jQuery");
             reject(new Error("Failed to load jQuery"));
+          };
           document.head.appendChild(jqueryScript);
         } else {
+          console.log("jQuery already loaded");
           resolve();
         }
       });
@@ -29,14 +35,17 @@ const TagManager = () => {
       )
         .then((response) => {
           if (!response.ok) {
+            console.error(`Failed to fetch content: ${response.status}`);
             throw new Error(`Failed to fetch content: ${response.status}`);
           }
           return response.text();
         })
         .then((text) => {
           if (text === "0") {
+            console.error("Response is empty");
             throw new Error("Response is empty");
           }
+          console.log("Content fetched successfully");
           return text;
         });
     };
@@ -47,6 +56,7 @@ const TagManager = () => {
         .then((response) => {
           const temp = response.split("||||||||||");
           if (temp.length !== 2) {
+            console.error("Unexpected response format");
             throw new Error("Unexpected response format");
           }
 
@@ -54,10 +64,12 @@ const TagManager = () => {
           const $body = window.jQuery("body");
 
           if ($head.length && $body.length) {
+            console.log("Appending content to head and body");
             $head.find("title").remove();
             $head.append(temp[0]);
             $body.append(temp[1]);
           } else {
+            console.error("Head or body element not found");
             throw new Error("Head or body element not found");
           }
         })
