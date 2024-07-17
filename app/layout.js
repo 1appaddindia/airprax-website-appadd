@@ -3,7 +3,6 @@ import "./globals.css";
 import Navbar from "../components/global/Navbar";
 import Footer from "../components/global/Footer";
 import TagManager from "./TagManager";
-// import CustomScriptComponent from "./CustomScriptComponent";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +26,6 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
         <Footer />
-        {/* <CustomScriptComponent /> */}
         <TagManager />
       </body>
     </html>
