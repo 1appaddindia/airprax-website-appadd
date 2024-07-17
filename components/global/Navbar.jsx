@@ -426,7 +426,7 @@ export default function Sidebar() {
                         if (item.name === "More") setShowMore(false);
                       }}
                     >
-                      <a
+                      <Link
                         href={`./${item.href}`}
                         className={`${
                           item.href === pathName
@@ -435,7 +435,7 @@ export default function Sidebar() {
                         } transition-colors duration-500 w-full gap-x-3 rounded-md p-4 text-sm leading-6 font-semibold`}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                       {item.name === "Products" && showProducts && (
                         <ul className="absolute left-1/4 mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
                           {productsItems.map((product) => (
