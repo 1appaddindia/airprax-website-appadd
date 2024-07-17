@@ -5,10 +5,10 @@ import React from "react";
 function Plugin() {
   return (
     <>
-      <Script>
+      <Script strategy="beforeInteractive">
         {`
          window.jQuery ||
-document.write("<script strategy="beforeInteractive" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'><\/script>");
+document.write("<script  src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'><\/script>");
         `}
       </Script>
       <Script id="custom-script" strategy="afterInteractive">
