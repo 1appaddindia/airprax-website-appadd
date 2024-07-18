@@ -55,7 +55,7 @@ const ProductsContent = () => {
             }`}
           >
             <a
-              href="/products/compressors`"
+              href="/products/compressors"
               onClick={() => handleTabClick("compressors")}
             >
               Air Compressors
