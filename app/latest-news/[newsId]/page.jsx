@@ -20,7 +20,7 @@ const NewsPage = ({ params }) => {
         <h6 className="text-center">Latest News</h6>
         <h1>Stay Up-to-Date with the Latest News!</h1>
       </div>
-      <div className="lg:flex lg:flex-row lg:container lg:max-w-7xl w-full lg:w-full lg:h-full lg:gap-10 flex flex-col  gap-5  justify-evenly p-3">
+      <div className="lg:flex lg:flex-row lg:container lg:max-w-9xl  lg:h-full  flex flex-col gap-5 justify-between lg:m-10">
         <OurNews newsTitles={newsTitle} />
         <div className="flex flex-col gap-5 lg:gap-10">
           <Category />

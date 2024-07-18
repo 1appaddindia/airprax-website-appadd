@@ -9,14 +9,7 @@ const News = ({ newsTitles }) => {
 
   return (
     <div>
-      {/* <h1>Our News</h1> */}
-      {selectedNews ? (
-        <NewsCard item={selectedNews} />
-      ) : (
-        <h1>
-          No News Found
-        </h1>
-      )}
+      {selectedNews ? <NewsCard item={selectedNews} /> : <h1>No News Found</h1>}
     </div>
   );
 };

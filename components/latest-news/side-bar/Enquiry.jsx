@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import queryString from "query-string";
 
 const Enquiry = () => {
   const [enquiry, setEnquiry] = useState("");
@@ -10,10 +9,10 @@ const Enquiry = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (enquiry && contact) {
-      const whatsappMessage = queryString.stringify({
-        text: `Enquiry: ${enquiry}\nContact: ${contact}`,
-      });
-      window.location.href = `https://wa.me/<+917899338662>?${whatsappMessage}`;
+      const whatsappMessage = encodeURIComponent(
+        `Enquiry: ${enquiry}\nContact: ${contact}`
+      );
+      window.location.href = `https://api.whatsapp.com/send?phone=9742233402&text=${whatsappMessage}`;
     } else {
       alert("Please fill in both fields.");
     }
@@ -50,9 +49,12 @@ const Enquiry = () => {
         </div>
       </div>
       <div className="text-center">
-        <button className="bg-gray-700 w-[70%] text-white rounded-md p-2">
+        <a
+          href="/contact"
+          className="bg-gray-700 w-[70%] text-white rounded-md p-2"
+        >
           CONTACT US
-        </button>
+        </a>
       </div>
     </>
   );

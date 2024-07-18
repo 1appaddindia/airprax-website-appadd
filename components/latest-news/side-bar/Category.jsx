@@ -11,7 +11,9 @@ const Category = () => {
           <div className="flex p-3 gap-5">
             <img src={data.img} alt="img" className="h-22 w-28 rounded-sm" />
             <div className="w-72 flex flex-col ">
-              <p className="text-xs  font-medium text-black">{data.title}</p>
+              <p className="text-xs  font-medium text-black text-start">
+                {data.title}
+              </p>
               <p className="text-xs  font-medium text-black">{data.date}</p>
             </div>
           </div>
