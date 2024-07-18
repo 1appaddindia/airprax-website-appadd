@@ -1,6 +1,6 @@
 import React from "react";
-import ProductCard from "../../products/ProductCard";
-import { products, pumps } from "../../../utils/products/pumps/data";
+import ProductCard from "../ProductCard";
+import { products } from "../../../utils/products/pumps/data";
 
 const Pumps = ({ activeTab }) => {
   return (
@@ -8,7 +8,8 @@ const Pumps = ({ activeTab }) => {
       <div className="text-center lg:mt-10 mt-3 ">
         <h6>Pumps</h6>
         <h1>
-        Powering Buildings, Water Systems, and Treatment Facilities with Industrial-Grade Pumps for Maximum Efficiency and Reliability.
+          Powering Buildings, Water Systems, and Treatment Facilities with
+          Industrial-Grade Pumps for Maximum Efficiency and Reliability.
         </h1>
       </div>
 
