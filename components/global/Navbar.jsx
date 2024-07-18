@@ -11,7 +11,7 @@ const productsItems = [
   {
     id: 1,
     name: "Air Compressors",
-    href: "/products?tab=compressors",
+    href: "/products/compressors",
     subProducts: [
       {
         name: "Air compressor industrial models and solutions",
