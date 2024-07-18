@@ -41,7 +41,7 @@ const ProductsContent = () => {
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
-    router.replace(`/products/${tab}`);
+    // router.replace(`/products/${tab}`);
   };
 
   return (
@@ -54,7 +54,12 @@ const ProductsContent = () => {
               activeTab === "compressors" ? "bg-[#bf1e2e] text-white" : ""
             }`}
           >
-            <a onClick={() => handleTabClick("compressors")}>Air Compressors</a>
+            <a
+              href="/products/compressors`"
+              onClick={() => handleTabClick("compressors")}
+            >
+              Air Compressors
+            </a>
           </li>
           <li
             className={`cursor-pointer py-2 text-xs lg:text-base border border-gray-300 p-1 lg:w-full rounded h-9 flex items-center justify-center ${
