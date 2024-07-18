@@ -354,18 +354,18 @@ export default function Sidebar() {
                                       <ul className="mt-2 space-y-1 bg-white border border-gray-200 rounded-md shadow-lg">
                                         {item.moreItems.map((subItem) => (
                                           <li key={subItem.name}>
-                                            <Link href={subItem.href} passHref>
+                                            <a href={subItem.href} passHref>
                                               <div className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-600 cursor-pointer">
                                                 {subItem.name}
                                               </div>
-                                            </Link>
+                                            </a>
                                           </li>
                                         ))}
                                       </ul>
                                     )}
                                   </>
                                 ) : (
-                                  <Link href={item.href} passHref>
+                                  <a href={item.href} passHref>
                                     <div
                                       className={`${
                                         item.href === pathName
@@ -383,7 +383,7 @@ export default function Sidebar() {
                                       />
                                       {item.name}
                                     </div>
-                                  </Link>
+                                  </a>
                                 )}
                               </li>
                             ))}
@@ -426,7 +426,7 @@ export default function Sidebar() {
                         if (item.name === "More") setShowMore(false);
                       }}
                     >
-                      <Link
+                      <a
                         href={item.href}
                         className={`${
                           item.href === pathName
@@ -435,7 +435,7 @@ export default function Sidebar() {
                         } transition-colors duration-500 w-full gap-x-3 rounded-md p-4 text-sm leading-6 font-semibold`}
                       >
                         {item.name}
-                      </Link>
+                      </a>
                       {item.name === "Products" && showProducts && (
                         <ul className="absolute left-1/4 mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
                           {productsItems.map((product) => (
@@ -443,22 +443,22 @@ export default function Sidebar() {
                               key={product.id}
                               className="w-60 text-sm text-start"
                             >
-                              <Link
+                              <a
                                 href={product.href}
                                 className="block px-2 py-2 font-bold items-center text-gray-700 hover:bg-gray-100"
                               >
                                 {product.name}
-                              </Link>
+                              </a>
                               {product.subProducts && (
                                 <ul>
                                   {product.subProducts.map((subProduct) => (
                                     <li key={subProduct.name}>
-                                      <Link
+                                      <a
                                         href={subProduct.href}
                                         className="block px-2 py-2 items-center text-gray-600 hover:bg-gray-100"
                                       >
                                         {subProduct.name}
-                                      </Link>
+                                      </a>
                                     </li>
                                   ))}
                                 </ul>
@@ -471,12 +471,12 @@ export default function Sidebar() {
                         <ul className="absolute right-0 mt-2 w-64 bg-white border border-gray-200 shadow-lg">
                           {moreItems.map((moreItem) => (
                             <li key={moreItem.name}>
-                              <Link
+                              <a
                                 href={moreItem.href}
                                 className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                               >
                                 {moreItem.name}
-                              </Link>
+                              </a>
                             </li>
                           ))}
                         </ul>
