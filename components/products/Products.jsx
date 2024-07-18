@@ -12,7 +12,6 @@ import { useParams } from "next/navigation";
 const ProductsContent = () => {
   const router = useRouter();
   const params = useParams();
-  console.log("dfvjdbv", params);
   const [activeTab, setActiveTab] = useState("compressors");
 
   useEffect(() => {
@@ -66,7 +65,10 @@ const ProductsContent = () => {
               activeTab === "nitrogenGenerator" ? "bg-[#bf1e2e] text-white" : ""
             }`}
           >
-            <a onClick={() => handleTabClick("nitrogenGenerator")}>
+            <a
+              href="/products/nitrogenGenerator"
+              onClick={() => handleTabClick("nitrogenGenerator")}
+            >
               Nitrogen Generator
             </a>
           </li>
@@ -75,7 +77,10 @@ const ProductsContent = () => {
               activeTab === "vaccumProducts" ? "bg-[#bf1e2e] text-white" : ""
             }`}
           >
-            <a onClick={() => handleTabClick("vaccumProducts")}>
+            <a
+              href="/products/vaccumProducts"
+              onClick={() => handleTabClick("vaccumProducts")}
+            >
               Vaccum Products
             </a>
           </li>
@@ -84,7 +89,10 @@ const ProductsContent = () => {
               activeTab === "waterManagement" ? "bg-[#bf1e2e] text-white" : ""
             }`}
           >
-            <a onClick={() => handleTabClick("waterManagement")}>
+            <a
+              href="/products/waterManagement"
+              onClick={() => handleTabClick("waterManagement")}
+            >
               Water Management
             </a>
           </li>
@@ -94,6 +102,7 @@ const ProductsContent = () => {
             }`}
           >
             <a
+              href="/products/pumps"
               className="w-full h-full flex justify-center items-center"
               onClick={() => handleTabClick("pumps")}
             >
