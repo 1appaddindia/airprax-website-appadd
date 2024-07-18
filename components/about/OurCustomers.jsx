@@ -28,11 +28,11 @@ const OurCustomers = () => {
               </div>
             ))}
           </div>
-          <Link href="/customers">
+          <a href="/customers">
             <button className="button text-white m-10 w-28 h-11 rounded-md font-bold hover:bg-[#018CB5] hover:text-white hover:border-none hover:transform transition-transform duration-300 ease-in-out hover:scale-110">
               View More...
             </button>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

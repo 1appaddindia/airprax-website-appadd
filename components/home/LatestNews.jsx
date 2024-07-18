@@ -19,7 +19,7 @@ function LatestNews({ className, ...props }) {
             <LatestNewsCard item={item} />
           ))}
         </div>
-        <Link href="/latest-news" className="flex items-center justify-center">
+        <a href="/latest-news" className="flex items-center justify-center">
           <button className="bg-[#bf1e2e] m-5 lg:w-36 text-white lg:text-lg text-sm rounded font-bold p-2 flex items-center gap-2">
             Read More
             <img

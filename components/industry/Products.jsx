@@ -29,7 +29,7 @@ const Products = () => {
                   ? img.description
                   : `${img.description.slice(0, 90)}...`}
               </p>
-              <Link
+              <a
                 href={`/industry/${img.name.replace(/ /g, "")}`}
                 className="text-[#BF1E2E] font-bold lg:text-start hover:text-black"
               >

@@ -59,7 +59,7 @@ const LatestNewsCard = ({ item }) => {
           </a>
         </div>
       </div>
-      <Link
+      <a
         href={`/latest-news/${item.title.replace(/ /g, "").toLowerCase()}`}
         className="flex items-center justify-center m-2"
       >

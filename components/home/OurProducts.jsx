@@ -35,7 +35,7 @@ const OurProducts = () => {
                         ? category.title
                         : `${category.title.slice(0, 90)}...`}
                     </p>
-                    <Link
+                    <a
                       href={category.href}
                       className="text-[#bf1e2e] font-bold lg:flex lg:items-center lg:justify-start flex items-center justify-center m-2"
                     >

@@ -102,7 +102,7 @@ const FeaturedClientProjects = () => {
             <br />
             <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">PROJECT BUDGET</h3>
             <span className="lg:text-base text-xs">Rs.60,00,000</span>
-            <Link href="/products?tab=nitrogenGenerator" className="mt-5 text-[#bf1e2e] font-bold hover:text-[#072E57]">
+            <a href="/products?tab=nitrogenGenerator" className="mt-5 text-[#bf1e2e] font-bold hover:text-[#072E57]">
                 View Project...
             </Link>
           </div>

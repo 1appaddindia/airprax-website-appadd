@@ -14,7 +14,7 @@ const ProductCard = ({ item, activeTab }) => {
       </span>
       <img src={item.img} alt={item.title} className="lg:h-52 h-32 " />
       <div className="text-center  w-full p-2">
-        <Link
+        <a
           href={`/products/${convertSpecialCharacters(
             item.title
           ).toLowerCase()}${activeTab ? `?tab=${activeTab}` : ""}`}

@@ -70,7 +70,7 @@ const OurProjects = () => {
               passing inexpensive compressed air through semipermeable membranes
               consisting of bundles of individual hollow fibers.
             </p>
-            <Link href="/products?tab=nitrogenGenerator" className="flex items-center lg:justify-start justify-center">
+            <a href="/products?tab=nitrogenGenerator" className="flex items-center lg:justify-start justify-center">
               <button className="button text-white m-1 w-[90px] h-8 rounded-md font-bold hover:bg-[#018CB5] mt-5 hover:text-white hover:border-none hover:transform transition-transform duration-300 ease-in-out hover:scale-105 text-sm">
                 View More
               </button>

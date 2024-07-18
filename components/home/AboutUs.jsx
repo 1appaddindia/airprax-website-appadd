@@ -31,7 +31,7 @@ const AboutUs = () => {
             <p className="lg:text-base text-sm text-black text-justify">
               {aboutUsParagraph[1]}
             </p>
-            <Link href="/about" className="lg:flex lg:items-center lg:justify-start flex items-center justify-center">
+            <a href="/about" className="lg:flex lg:items-center lg:justify-start flex items-center justify-center">
               <button className="mt-5 bg-[#bf1e2e] p-2 text-white w-40 rounded-md flex items-center justify-center gap-2 font-semibold">View More
               <img src="/images/flaticons/right.png" alt="" className="h-4 w-5"/>
               </button>

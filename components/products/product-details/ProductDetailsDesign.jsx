@@ -23,7 +23,7 @@ const ProductDetailsDesign = ({ item }) => {
             ))}
           </div>
           <div className="text-center  mt-5">
-            <Link
+            <a
               href="/contact"
               className="text-center bg-[#BF1E2E] p-2 rounded text-white"
             >

@@ -93,7 +93,7 @@ export default function Sidebar() {
                           <ul role="list" className="space-y-1">
                             {navigation.map((item) => (
                               <li key={item.name} className="pb-4">
-                                <Link
+                                <a
                                   href={item.href}
                                   className={`${
                                     item.href === pathName
@@ -151,7 +151,7 @@ export default function Sidebar() {
                   <ul role="list" className="space-y-1">
                     {navigation.map((item) => (
                       <li key={item.name} className="pb-4">
-                        <Link
+                        <a
                           href={item.href}
                           className={`${item.href === pathName
                             ? "bg-gray-50 text-red-600"
