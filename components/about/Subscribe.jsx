@@ -47,7 +47,7 @@ const Subscribe = () => {
                 className="bg-[#EC1F52] lg:mt-5 mt-2 text-sm p-2 rounded-md lg:p-2 text-white lg:h-10  lg:w-max"
               >
                 SUBSCRIBE NOW
-              </Link>
+              </a>
             </div>
           </div>
         </div>

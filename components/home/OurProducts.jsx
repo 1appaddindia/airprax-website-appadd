@@ -29,7 +29,9 @@ const OurProducts = () => {
                     className="lg:h-52 h-52 rounded-t-md lg:w-[100%] sm:h-20 sm:w-20 "
                   />
                   <div className="shadow-2xl bg-white rounded-b-md p-3 ">
-                    <p className="font-bold text-[#bf1e2e]">{category.category}</p>
+                    <p className="font-bold text-[#bf1e2e]">
+                      {category.category}
+                    </p>
                     <p className="lg:text-base text-sm mb-2">
                       {category.title.length < 90
                         ? category.title
@@ -40,7 +42,7 @@ const OurProducts = () => {
                       className="text-[#bf1e2e] font-bold lg:flex lg:items-center lg:justify-start flex items-center justify-center m-2"
                     >
                       Read More...
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

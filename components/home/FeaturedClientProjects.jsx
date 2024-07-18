@@ -82,7 +82,9 @@ const FeaturedClientProjects = () => {
             </CarouselContent>
           </Carousel>
           <div className="bg-gray-100 flex flex-col items-start justify-center lg:p-10 w-full p-4 ">
-            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">CUSTOMER</h3>
+            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">
+              CUSTOMER
+            </h3>
             <span className="lg:text-base text-xs">
               Hypo Tech (Lakshmi Engineering pvt Limited)
             </span>
@@ -94,17 +96,24 @@ const FeaturedClientProjects = () => {
               Laser Cutting Operation
             </span>
             <br />
-            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">COMPLETED</h3>
+            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">
+              COMPLETED
+            </h3>
             <span className="lg:text-base text-xs gap-1 flex items-center ">
               <CalendarDays size={15} />
               Jun 15, 2021
             </span>
             <br />
-            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">PROJECT BUDGET</h3>
+            <h3 className="font-bold text-[#bf1e2e] lg:text-base text-sm ">
+              PROJECT BUDGET
+            </h3>
             <span className="lg:text-base text-xs">Rs.60,00,000</span>
-            <a href="/products?tab=nitrogenGenerator" className="mt-5 text-[#bf1e2e] font-bold hover:text-[#072E57]">
-                View Project...
-            </Link>
+            <a
+              href="/products?tab=nitrogenGenerator"
+              className="mt-5 text-[#bf1e2e] font-bold hover:text-[#072E57]"
+            >
+              View Project...
+            </a>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ const ProductDetailsDesign = ({ item }) => {
               className="text-center bg-[#BF1E2E] p-2 rounded text-white"
             >
               Get in Touch
-            </Link>
+            </a>
           </div>
         </div>
       </div>

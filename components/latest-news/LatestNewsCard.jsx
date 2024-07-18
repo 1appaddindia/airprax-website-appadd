@@ -71,7 +71,7 @@ const LatestNewsCard = ({ item }) => {
             className="h-4 w-6"
           />
         </button>
-      </Link>
+      </a>
     </div>
   );
 };

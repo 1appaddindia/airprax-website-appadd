@@ -13,7 +13,7 @@ const ProductDesign = ({ item }) => {
           <h1>{item.title}</h1>
           <p>{item.description}</p>
           <div className="bg-[#BF1E2E] p-2 w-fit text-white rounded-md mt-10">
-            <a href="/contact">Get in Touch</Link>
+            <a href="/contact">Get in Touch</a>
           </div>
         </div>
       </div>

@@ -28,7 +28,7 @@ function LatestNews({ className, ...props }) {
               className="h-5 w-5"
             />
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );

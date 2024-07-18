@@ -25,7 +25,7 @@ const ProductCard = ({ item, subcategory }) => {
           <button className="text-[#ffff] hover:text-[#083465] border-none bg-[#bf1e2e] lg:mt-10 p-1  font-bold w-full rounded-md transition-colors duration-300 ">
             View Details
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );

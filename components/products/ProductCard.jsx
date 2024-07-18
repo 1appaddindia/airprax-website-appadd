@@ -21,9 +21,13 @@ const ProductCard = ({ item, activeTab }) => {
         >
           <button className="text-[#ffff] hover:text-[#083465] border-none bg-[#bf1e2e] flex items-center justify-center lg:mt-10 p-1  font-bold w-full rounded-md transition-colors duration-300 ">
             View Details
-            <img src="/images/flaticons/right-down.png" alt="" className="h-8 w-8"/>
+            <img
+              src="/images/flaticons/right-down.png"
+              alt=""
+              className="h-8 w-8"
+            />
           </button>
-        </Link>
+        </a>
       </div>
     </div>
   );

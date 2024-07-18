@@ -34,7 +34,7 @@ const Products = () => {
                 className="text-[#BF1E2E] font-bold lg:text-start hover:text-black"
               >
                 Read More..
-              </Link>
+              </a>
             </div>
           </div>
         ))}

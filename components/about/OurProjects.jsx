@@ -7,7 +7,7 @@ import {
   CarouselContent,
   CarouselItem,
   CarouselPrevious,
-  CarouselNext
+  CarouselNext,
 } from "/components/ui/carousel";
 import Link from "next/link";
 import { ourClientProjects } from "../../utils/our-projects/data";
@@ -57,7 +57,8 @@ const OurProjects = () => {
           </Carousel>
           <div className="flex flex-col   ">
             <h1 className="font-bold text-xl text-center lg:text-4xl lg:text-start ">
-               PSA Nitrogen <span className="text-[#BD1E2E]">Generator Plant</span>
+              PSA Nitrogen{" "}
+              <span className="text-[#BD1E2E]">Generator Plant</span>
             </h1>
             <p className="text-sm lg:text-base text-justify">
               Atlas Copco’s latest membrane and PSA generators extend the
@@ -70,11 +71,14 @@ const OurProjects = () => {
               passing inexpensive compressed air through semipermeable membranes
               consisting of bundles of individual hollow fibers.
             </p>
-            <a href="/products?tab=nitrogenGenerator" className="flex items-center lg:justify-start justify-center">
+            <a
+              href="/products?tab=nitrogenGenerator"
+              className="flex items-center lg:justify-start justify-center"
+            >
               <button className="button text-white m-1 w-[90px] h-8 rounded-md font-bold hover:bg-[#018CB5] mt-5 hover:text-white hover:border-none hover:transform transition-transform duration-300 ease-in-out hover:scale-105 text-sm">
                 View More
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

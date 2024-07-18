@@ -113,7 +113,7 @@ export default function Sidebar() {
                                     aria-hidden="true"
                                   />
                                   {item.name}
-                                </Link>
+                                </a>
                               </li>
                             ))}
                           </ul>
@@ -169,7 +169,7 @@ export default function Sidebar() {
                             aria-hidden="true"
                           />
                           {item.name}
-                        </Link>
+                        </a>
                       </li>
                     ))}
                   </ul>
