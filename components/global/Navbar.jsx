@@ -206,7 +206,7 @@ const GalleryIcon = () => (
 const navigation = [
   { name: "Home", href: "/home", icon: HomeIcon },
   { name: "About", href: "/about", icon: InformationCircleIcon },
-  { name: "Products", href: "/products", icon: ArchiveBoxIcon },
+  { name: "Products", href: "/products/compressors", icon: ArchiveBoxIcon },
   { name: "Industry", href: "/industry", icon: IndustryIcon },
   { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
   { name: "Gallery", href: "/gallery", icon: GalleryIcon },
