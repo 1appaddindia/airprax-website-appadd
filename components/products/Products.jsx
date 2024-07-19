@@ -6,7 +6,7 @@ import Compressors from "../../components/products/compressors/Products";
 import Pumps from "./pumps/Products";
 import WaterManagement from "../../components/products/water-management/Products";
 import NitrogenGenerator from "../../components/products/nitrogen-generator/NitrogenGenerator";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { useParams } from "next/navigation";
 
 const ProductsContent = () => {

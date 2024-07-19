@@ -48,12 +48,11 @@ const ProductDetails = ({ productName, tab }) => {
     // );
 
     const product = productData.find((product) => {
+      console.log("value", product);
       return (
         convertSpecialCharacters(product.title).toLowerCase() == productName
       );
     });
-
-    console.log("product", product);
 
     setSelectedProduct(product);
   }, [tab, productName]);

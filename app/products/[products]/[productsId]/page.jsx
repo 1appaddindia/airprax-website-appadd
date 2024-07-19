@@ -7,7 +7,7 @@ import ProductDetails from "../../../../components/products/product-details/Prod
 
 const ProductPage = () => {
   const params = useParams();
-  console.log("dfvjdbv", params);
+
   return (
     <div>
       <Banner
