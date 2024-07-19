@@ -15,27 +15,27 @@ const productsItems = [
     subProducts: [
       {
         name: "Air compressor industrial models and solutions",
-        href: "/products/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions?tab=compressors",
+        href: "/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
       },
       {
         name: "Air Dryers",
-        href: "/products/airspacedryers?tab=compressors",
+        href: "/products/compressors/airspacedryers",
       },
       {
         name: "Oil Free Air Blowers",
-        href: "/products/oilspacefreespaceairspaceblowers?tab=compressors",
+        href: "/products/compressors/oilspacefreespaceairspaceblowers",
       },
       {
         name: "Industrial Condensate Treatment Solutions Range",
-        href: "/products/industrialspacecondensatespacetreatmentspacesolutionsspacerange?tab=compressors",
+        href: "/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
       },
       {
         name: "Air Filters",
-        href: "/products/airspacefilters?tab=compressors",
+        href: "/products/compressors/airspacefilters",
       },
       {
         name: "Gas Generators",
-        href: "/products/gasspacegenerators?tab=compressors",
+        href: "/products/compressors/gasspacegenerators",
       },
     ],
   },
@@ -43,12 +43,12 @@ const productsItems = [
   {
     id: 5,
     name: "Nitrogen Generator",
-    href: "/products?tab=nitrogenGenerator",
+    href: "/products/nitrogenGenerator",
   },
   {
     id: 3,
     name: "Water Management",
-    href: "/products?tab=waterManagement",
+    href: "/products/waterManagement",
     subProducts: [
       {
         name: "Raw Water Intake",
@@ -76,62 +76,62 @@ const productsItems = [
   {
     id: 4,
     name: "Vaccum Products",
-    href: "/products?tab=vaccumProducts",
+    href: "/products/vaccumProducts",
     subProducts: [
       {
         name: "Oil-sealed vacuum pumps",
-        href: "/products/oildashsealedspacevacuumspacepumps?tab=vaccumProducts",
+        href: "/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
       },
       {
         name: "Dry vacuum pumps",
-        href: "/products/dryspacevacuumspacepumps?tab=vaccumProducts",
+        href: "/products/vaccumProducts/dryspacevacuumspacepumps",
       },
       {
         name: "Liquid ring vacuum pumps",
-        href: "/products/liquidspaceringspacevacuumspacepumps?tab=vaccumProducts",
+        href: "/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
       },
       {
         name: "Industry 4.0 Controllers & Accessories",
-        href: "/products/industryspace4dot0spacecontrollersspaceandspaceaccessories?tab=vaccumProducts",
+        href: "/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
       },
     ],
   },
   {
     id: 2,
     name: "Other Compressor Products",
-    href: "/products?tab=compressors",
+    href: "/products/compressors",
     subProducts: [
       {
         name: "Oxygen Generators",
-        href: "/products/oxygenspacegenerators?tab=compressors",
+        href: "/products/compressors/oxygenspacegenerators",
       },
       {
         name: "Process Gas and Air Equipment",
-        href: "/products/processspacegasspaceandspaceairspaceequipment?tab=compressors",
+        href: "/products/compressors/processspacegasspaceandspaceairspaceequipment",
       },
       {
         name: "Marine Compressors",
-        href: "/products/marinespacecompressors?tab=compressors",
+        href: "/products/compressors/marinespacecompressors",
       },
       {
         name: "Air Receivers and AfterCoolers",
-        href: "/products/airspacereceiversspaceandspaceaftercoolers?tab=compressors",
+        href: "/products/compressors/airspacereceiversspaceandspaceaftercoolers",
       },
       {
         name: "Oil-free Air And Nitrogen Boosters",
-        href: "/products/oildashfreespaceairspaceandspacenitrogenspaceboosters?tab=compressors",
+        href: "/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
       },
       {
         name: "Energy Conversion",
-        href: "/products/energyspaceconversion?tab=compressors",
+        href: "/products/compressors/energyspaceconversion",
       },
       {
         name: "Industrial Water Cooling Systems",
-        href: "/products/industrialspacewaterspacecoolingspacesystems?tab=compressors",
+        href: "/products/compressors/industrialspacewaterspacecoolingspacesystems",
       },
       {
         name: "Process filters",
-        href: "/products/processspacefilters?tab=compressors",
+        href: "/products/compressors/processspacefilters",
       },
     ],
   },
