@@ -10,10 +10,11 @@ const schema = yup.object().shape({
   name: yup.string().required("Name is required"),
   phone: yup
     .string()
+    .length(10)
     .required("Number is required")
     .matches(/^\d+$/, "Invalid number"),
   email: yup.string().email("Invalid email").required("Email is required"),
-  department: yup.string().required("Message is required"),
+  department: yup.string().required("Product is required"),
   message: yup.string().required("Message is required"),
 });
 
@@ -47,7 +48,7 @@ const ContactUs = () => {
           onSubmit={handleSubmit(onSubmit)}
           id="contact-form"
           method="post"
-          className="shadow-xl flex flex-col gap-1 p-5 w-full h-[75vh]"
+          className="shadow-xl flex flex-col gap-1 p-5 w-full "
         >
           <div className="text-center m-3 ">
             <h1 className="text-lg">
@@ -66,7 +67,9 @@ const ContactUs = () => {
                   className="border border-gray-200 p-3 rounded-sm w-full m-2"
                 />
                 {errors.name && (
-                  <p style={{ color: "red" }}>{errors.name.message}</p>
+                  <span className="text-red-500 ml-3">
+                    {errors.name.message}
+                  </span>
                 )}
               </div>
             </div>
@@ -80,7 +83,9 @@ const ContactUs = () => {
                   className="border border-gray-200 p-3 rounded-sm w-full m-2"
                 />
                 {errors.email && (
-                  <p style={{ color: "red" }}>{errors.email.message}</p>
+                  <span className="text-red-500 ml-3">
+                    {errors.email.message}
+                  </span>
                 )}
               </div>
             </div>
@@ -93,8 +98,10 @@ const ContactUs = () => {
                   placeholder="Enter your number"
                   className="border border-gray-200 p-3 rounded-sm w-full m-2"
                 />
-                {errors.number && (
-                  <p style={{ color: "red" }}>{errors.phone.message}</p>
+                {errors.phone && (
+                  <span className="text-red-500 ml-3">
+                    {errors.phone.message}
+                  </span>
                 )}
               </div>
             </div>
@@ -108,12 +115,14 @@ const ContactUs = () => {
                   className="border border-gray-200 p-3 rounded-sm w-full m-2"
                 />
                 {errors.department && (
-                  <p style={{ color: "red" }}>{errors.department.message}</p>
+                  <span className="text-red-500 ml-3">
+                    {errors.department.message}
+                  </span>
                 )}
               </div>
             </div>
             <div className="col-lg-12">
-              <div className="contactform__input mb-30">
+              <div className="contactform__input ">
                 <textarea
                   {...register("message")}
                   name="message"
@@ -121,7 +130,9 @@ const ContactUs = () => {
                   className="border border-gray-200 p-3 rounded-sm w-full m-2"
                 ></textarea>
                 {errors.message && (
-                  <p style={{ color: "red" }}>{errors.message.message}</p>
+                  <span className="text-red-500 ml-3">
+                    {errors.message.message}
+                  </span>
                 )}
               </div>
             </div>
