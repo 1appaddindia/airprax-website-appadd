@@ -64,6 +64,134 @@ export const seometa = [
     },
   },
   {
+    url: "http://localhost:3000/home",
+    title: "Best Air Compressors in Bangalore",
+    description:
+      "Discover high-performance air compressors for industrial use at AirPrax Pneumatics in Peenya, Laggare, Bangalore. Energy-efficient solutions.",
+    keywords:
+      "Air Compressors, Pneumatics, Bangalore, Industrial Equipment, Energy-efficient air compressors, Industrial air filters",
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Airprax Pneumatics",
+      url: "http://localhost:3000/home",
+      description:
+        "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and comprehensive water management solutions in Bangalore.",
+      keywords: [
+        "Premium Quality Air Filters in Bangalore",
+        "Advanced Process Gas Solutions in Bangalore",
+        "Trusted Marine Compressor Technology",
+        "Efficient Energy Conversion for Industries",
+        "High-Quality Process Filtration Solutions",
+        "Reliable Raw Water Intake Systems",
+        "Comprehensive Water Management in Bangalore",
+        "Efficient Waste Water Handling Solutions",
+        "Reliable Dewatering Technology in Bangalore",
+        "Complete Waste Water Treatment in Bangalore",
+        "Advanced Water Distribution Systems",
+        "Expert Water Treatment Services in Bangalore",
+        "High-Performance Vacuum Technology",
+        "Trusted Oil-Sealed Pumps in Bangalore",
+        "Advanced Dry Vacuum Pump Technology",
+        "Efficient Liquid Ring Vacuum Solutions",
+        "Smart Industry 4.0 Controllers",
+      ],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        postalCode: "560058",
+        addressCountry: "IN",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91 9620602000",
+        contactType: "Customer Service",
+        areaServed: "IN",
+        availableLanguage: "English",
+      },
+      hasMap: {
+        "@type": "Place",
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: "13.028804",
+          longitude: "77.515632",
+        },
+      },
+      email: "sales@airprax.com",
+      sameAs: [
+        "https://www.linkedin.com/company/airpraxpneumatics",
+        "https://www.facebook.com/airpraxpneumatics",
+      ],
+    },
+  },
+  {
+    url: "http://localhost:3000/",
+    title: "Best Air Compressors in Bangalore",
+    description:
+      "Discover high-performance air compressors for industrial use at AirPrax Pneumatics in Peenya, Laggare, Bangalore. Energy-efficient solutions.",
+    keywords:
+      "Air Compressors, Pneumatics, Bangalore, Industrial Equipment, Energy-efficient air compressors, Industrial air filters",
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Airprax Pneumatics",
+      url: "http://localhost:3000/",
+      description:
+        "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and comprehensive water management solutions in Bangalore.",
+      keywords: [
+        "Premium Quality Air Filters in Bangalore",
+        "Advanced Process Gas Solutions in Bangalore",
+        "Trusted Marine Compressor Technology",
+        "Efficient Energy Conversion for Industries",
+        "High-Quality Process Filtration Solutions",
+        "Reliable Raw Water Intake Systems",
+        "Comprehensive Water Management in Bangalore",
+        "Efficient Waste Water Handling Solutions",
+        "Reliable Dewatering Technology in Bangalore",
+        "Complete Waste Water Treatment in Bangalore",
+        "Advanced Water Distribution Systems",
+        "Expert Water Treatment Services in Bangalore",
+        "High-Performance Vacuum Technology",
+        "Trusted Oil-Sealed Pumps in Bangalore",
+        "Advanced Dry Vacuum Pump Technology",
+        "Efficient Liquid Ring Vacuum Solutions",
+        "Smart Industry 4.0 Controllers",
+      ],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        postalCode: "560058",
+        addressCountry: "IN",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91 9620602000",
+        contactType: "Customer Service",
+        areaServed: "IN",
+        availableLanguage: "English",
+      },
+      hasMap: {
+        "@type": "Place",
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: "13.028804",
+          longitude: "77.515632",
+        },
+      },
+      email: "sales@airprax.com",
+      sameAs: [
+        "https://www.linkedin.com/company/airpraxpneumatics",
+        "https://www.facebook.com/airpraxpneumatics",
+      ],
+    },
+  },
+  {
     url: "http://localhost:3000/products/compressors",
     title: "High-Efficiency Nitrogen Generator in Bangalore",
     description:
