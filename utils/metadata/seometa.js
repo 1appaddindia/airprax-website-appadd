@@ -410,6 +410,76 @@ export const seometa = [
     },
   },
   {
+    url: "https://airpraxpneumatics.com/industry/Automotive",
+    title: "Best Vacuum Products in Bangalore",
+    description:
+      "Best vacuum products designed for industrial applications. Improve efficiency with our high-performance vacuum solutions in Peenya, Laggare.",
+    keywords:
+      "Best Vacuum Products, Industrial Vacuum Solutions, Bangalore, Peenya Vacuum Products, High-Performance Vacuum Technology",
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/industry/Automotive",
+      description:
+        "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
+      keywords: [
+        "Industrial Process Filters Dealer in Karnataka",
+        "Industrial Process Filters distributors in Karnataka",
+        "Industrial Process Filters Dealer in Peenya",
+        "Industrial Process Filters distributors in Peenya",
+        "Industrial Energy Conversion distributors in Karnataka",
+        "Industrial Energy Conversion Supplier in Karnataka",
+        "Industrial Energy Conversion Dealer in Peenya",
+        "Industrial Energy Conversion distributors in Peenya",
+        "Industrial Energy Conversion Supplier in Peenya",
+        "Industrial Energy Conversion Dealer in Bangalore",
+        "Industrial Energy Conversion distributors in Bangalore",
+        "Industrial Energy Conversion Supplier in Bangalore",
+        "Oil-Free Air Blowers Dealer in Karnataka",
+        "Oil-Free Air Blowers distributors in Peenya",
+        "Oil-Free Air Blowers Supplier in Bangalore",
+        "Industrial Air Receivers Dealer in Karnataka",
+        "Industrial Air Receivers distributors in Peenya",
+        "Industrial Air Receivers Supplier in Bangalore",
+        "Process Gas Equipment Dealer in Peenya",
+        "Air Filters distributors in Karnataka",
+        "Industrial Air Filters Supplier in Peenya",
+        "Air Compressor Dealer in Karnataka",
+      ],
+
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        postalCode: "560058",
+        addressCountry: "IN",
+      },
+      contactPoint: {
+        "@type": "ContactPoint",
+        telephone: "+91 9620602000",
+        contactType: "Customer Service",
+        areaServed: "IN",
+        availableLanguage: "English",
+      },
+      hasMap: {
+        "@type": "Place",
+        geo: {
+          "@type": "GeoCoordinates",
+          latitude: "13.028804",
+          longitude: "77.515632",
+        },
+      },
+      email: "sales@airprax.com",
+      sameAs: [
+        "https://www.linkedin.com/company/airpraxpneumatics",
+        "https://www.facebook.com/airpraxpneumatics",
+      ],
+    },
+  },
+  {
     url: "https://airpraxpneumatics.com/latest-news",
     title: "Reliable Compressor Products in Bangalore",
     description:
