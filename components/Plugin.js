@@ -31,7 +31,8 @@ function Plugin() {
             var temp = new Array();
             var mystr = this.response;
             temp = mystr.split("||||||||||");
-            jQuery("head").find("title").remove();
+            console.log("temp: ", temp);
+            // jQuery("head").find("title").remove();
             jQuery("head").append(temp[0]);
             jQuery("body").append(temp[1]);
           }

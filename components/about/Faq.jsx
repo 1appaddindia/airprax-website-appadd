@@ -18,11 +18,15 @@ const Faq = () => {
         </div>
         <div className="flex items-start justify-center text-sm lg:text-base">
           <Accordion type="single" collapsible className="w-[80%]">
-            {faq.map((que, id) => (
-              <AccordionItem value={que.id}>
-                <AccordionTrigger className="text-start">{que.question}</AccordionTrigger>
-                <AccordionContent>{que.answer}</AccordionContent>
-              </AccordionItem>
+            {faq.map((que, i) => (
+              <div key={i}>
+                <AccordionItem value={que.id}>
+                  <AccordionTrigger className="text-start">
+                    {que.question}
+                  </AccordionTrigger>
+                  <AccordionContent>{que.answer}</AccordionContent>
+                </AccordionItem>
+              </div>
             ))}
           </Accordion>
         </div>

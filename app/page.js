@@ -1,13 +1,9 @@
-"use client";
-import React from "react";
-import HomePage from "../app/home/page";
-import TagManager from "./TagManager";
+import HomePage from "./home/page";
 
 const Home = () => {
   return (
     <main className="overflow-hidden">
       <HomePage />
-      {/* <TagManager /> */}
     </main>
   );
 };

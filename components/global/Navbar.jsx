@@ -244,8 +244,6 @@ export default function Sidebar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  console.log("qwertyuiop");
-
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };

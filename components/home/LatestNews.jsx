@@ -15,8 +15,8 @@ function LatestNews({ className, ...props }) {
           </h1>
         </div>
         <div className="grid lg:grid-cols-12 lg:gap-6 lg:p-5 p-2 mt-2 gap-3">
-          {latestNewsSlice.map((item) => (
-            <LatestNewsCard item={item} />
+          {latestNewsSlice.map((item, i) => (
+            <LatestNewsCard item={item} key={i} />
           ))}
         </div>
         <a href="/latest-news" className="flex items-center justify-center">

@@ -3,8 +3,7 @@ import Plugin from "../components/Plugin";
 import Footer from "../components/global/Footer";
 import Navbar from "../components/global/Navbar";
 import "./globals.css";
-import Head from "next/head";
-import SEO from "../app/_common/SEO.jsx"
+import SEO from "../app/common/SEO.jsx";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,15 +18,13 @@ export const metadata = {
   },
 };
 
-
 export default function RootLayout({ children }) {
-
   return (
     <html lang="en">
-    
-      <Head>
-      <SEO />
-      </Head>
+      <head>
+        <SEO />
+      </head>
+
       <body className={inter.className}>
         <Navbar />
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
