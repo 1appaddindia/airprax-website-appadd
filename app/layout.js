@@ -4,6 +4,7 @@ import Footer from "../components/global/Footer";
 import Navbar from "../components/global/Navbar";
 import "./globals.css";
 import SEO from "../app/common/SEO.jsx";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
