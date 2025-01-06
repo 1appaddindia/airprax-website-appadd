@@ -22,7 +22,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <SEO />
+        <Suspense fallback={<div>Loading SEO...</div>}>
+          <SEO />
+        </Suspense>
       </head>
 
       <body className={inter.className}>

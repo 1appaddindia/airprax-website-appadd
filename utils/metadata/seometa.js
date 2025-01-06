@@ -1,6 +1,6 @@
 export const seometa = [
   {
-    url: "http://localhost:3000/",
+    url: "http://localhost:3000",
     title: "Best Air Compressors in Bangalore",
     description:
       "Discover high-performance air compressors for industrial use at AirPrax Pneumatics in Peenya, Laggare, Bangalore. Energy-efficient solutions.",
