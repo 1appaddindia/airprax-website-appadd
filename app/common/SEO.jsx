@@ -1,22 +1,26 @@
 "use client";
 import { usePathname, useSearchParams } from "next/navigation";
 import { seometa } from "../../utils/metadata/seometa";
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 
-const SEO = () => {
+const SEOContent = () => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const fullUrl = `${pathname}${
     searchParams.toString() ? `?${searchParams.toString()}` : ""
   }`;
   const [value, setValue] = useState();
+
   useEffect(() => {
     const update = seometa.find(
       (elem) => elem.url == `http://localhost:3000${fullUrl}`
     );
     setValue(update);
   }, [fullUrl]);
-  console.log(value);
+
+  if (!value) {
+    return null; // Or a loading spinner or placeholder
+  }
 
   return (
     <>
@@ -28,6 +32,14 @@ const SEO = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(value?.jsonScript) }}
       />
     </>
+  );
+};
+
+const SEO = () => {
+  return (
+    <Suspense fallback={<div>Loading SEO...</div>}>
+      <SEOContent />
+    </Suspense>
   );
 };
 
