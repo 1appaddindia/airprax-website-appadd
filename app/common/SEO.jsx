@@ -12,7 +12,7 @@ const SEO = () => {
   const [value, setValue] = useState();
   useEffect(() => {
     const update = seometa.find(
-      (elem) => elem.url == `http://localhost:3000${fullUrl}`
+      (elem) => elem.url == `https://airpraxpneumatics.com${fullUrl}`
     );
     setValue(update);
   }, [fullUrl]);

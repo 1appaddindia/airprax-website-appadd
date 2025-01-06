@@ -1,6 +1,6 @@
 export const seometa = [
   {
-    url: "http://localhost:3000",
+    url: "https://airpraxpneumatics.com",
     title: "Best Air Compressors in Bangalore",
     description:
       "Discover high-performance air compressors for industrial use at AirPrax Pneumatics in Peenya, Laggare, Bangalore. Energy-efficient solutions.",
@@ -10,7 +10,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000",
+      url: "https://airpraxpneumatics.com",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and comprehensive water management solutions in Bangalore.",
       keywords: [
@@ -64,7 +64,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/home",
+    url: "https://airpraxpneumatics.com/home",
     title: "Best Air Compressors in Bangalore",
     description:
       "Discover high-performance air compressors for industrial use at AirPrax Pneumatics in Peenya, Laggare, Bangalore. Energy-efficient solutions.",
@@ -74,7 +74,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/home",
+      url: "https://airpraxpneumatics.com/home",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and comprehensive water management solutions in Bangalore.",
       keywords: [
@@ -128,7 +128,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/",
+    url: "https://airpraxpneumatics.com/",
     title: "Best Air Compressors in Bangalore",
     description:
       "Discover high-performance air compressors for industrial use at AirPrax Pneumatics in Peenya, Laggare, Bangalore. Energy-efficient solutions.",
@@ -138,7 +138,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/",
+      url: "https://airpraxpneumatics.com/",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and comprehensive water management solutions in Bangalore.",
       keywords: [
@@ -192,7 +192,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors",
+    url: "https://airpraxpneumatics.com/products/compressors",
     title: "High-Efficiency Nitrogen Generator in Bangalore",
     description:
       "Explore our high-efficiency nitrogen generator for industrial applications. Reliable and cost-effective solutions in Peenya, Laggare, Bangalore.",
@@ -202,7 +202,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors",
+      url: "https://airpraxpneumatics.com/products/compressors",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -256,7 +256,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/about",
+    url: "https://airpraxpneumatics.com/about",
     title: "Smart Water Management Solutions in Bangalore",
     description:
       "Optimize your water systems with our smart water management solutions in Peenya, Laggare, Bangalore. Sustainable and efficient technologies.",
@@ -266,7 +266,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/about",
+      url: "https://airpraxpneumatics.com/about",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -320,7 +320,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/industry",
+    url: "https://airpraxpneumatics.com/industry",
     title: "Best Vacuum Products in Bangalore",
     description:
       "Best vacuum products designed for industrial applications. Improve efficiency with our high-performance vacuum solutions in Peenya, Laggare.",
@@ -330,7 +330,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/industry",
+      url: "https://airpraxpneumatics.com/industry",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -384,7 +384,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/latest-news",
+    url: "https://airpraxpneumatics.com/latest-news",
     title: "Reliable Compressor Products in Bangalore",
     description:
       "Trust AirPrax Pneumatics for reliable compressor products designed for industrial use in Peenya, Laggere, Bangalore. Durable and efficient solutions.",
@@ -394,7 +394,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/latest-news",
+      url: "https://airpraxpneumatics.com/latest-news",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -448,7 +448,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/gallery",
+    url: "https://airpraxpneumatics.com/gallery",
     title: "Industrial Compressor Solutions in Peenya",
     description:
       "AirPrax Pneumatics offers industrial compressor solutions in Peenya, Laggare, Bangalore. Trusted for efficiency and performance in every application.",
@@ -458,7 +458,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/gallery",
+      url: "https://airpraxpneumatics.com/gallery",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -512,7 +512,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/brochure",
+    url: "https://airpraxpneumatics.com/brochure",
     title: "Reliable Compressor Products in Bangalore",
     description:
       "Find reliable compressor products for your industrial needs at AirPrax Pneumatics in Peenya, Laggare, Bangalore. Durable and high-quality solutions.",
@@ -522,7 +522,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/brochure",
+      url: "https://airpraxpneumatics.com/brochure",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -576,7 +576,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/contact",
+    url: "https://airpraxpneumatics.com/contact",
     title: "Reliable Compressor Products in Peenya",
     description:
       "Find reliable compressor products for your industrial needs at AirPrax Pneumatics in Peenya, Laggare, Bangalore. Durable and high-quality solutions.",
@@ -586,7 +586,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/contact",
+      url: "https://airpraxpneumatics.com/contact",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -640,7 +640,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/medical-oxygen-plant",
+    url: "https://airpraxpneumatics.com/medical-oxygen-plant",
     title: "Medical Oxygen Plant in Bangalore",
     description:
       "Efficient medical oxygen plants for healthcare needs. Serving in and around Peenya, Laggare, Bangalore.",
@@ -650,7 +650,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/medical-oxygen-plant",
+      url: "https://airpraxpneumatics.com/medical-oxygen-plant",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -704,7 +704,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/customers",
+    url: "https://airpraxpneumatics.com/customers",
     title: "AirPrax Pneumatics in Bangalore",
     description:
       "Our satisfied customers in Peenya, Laggare, Bangalore trust us for reliable pneumatic solutions.",
@@ -714,7 +714,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/customers",
+      url: "https://airpraxpneumatics.com/customers",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -768,7 +768,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
+    url: "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
     title: "Air Compressor Industrial Models in Peenya",
     description:
       "Wide range of air compressor industrial models for every need in Peenya, Laggare, Bangalore",
@@ -778,7 +778,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
+      url: "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -832,7 +832,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/airspacedryers",
+    url: "https://airpraxpneumatics.com/products/compressors/airspacedryers",
     title: "Air Dryers | Quality Solutions in Bangalore",
     description:
       "High-efficiency air dryers for industrial applications in Peenya, Laggare, Bangalore.",
@@ -842,7 +842,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/airspacedryers",
+      url: "https://airpraxpneumatics.com/products/compressors/airspacedryers",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -896,7 +896,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/oilspacefreespaceairspaceblowers",
+    url: "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers",
     title: "Oil-Free Air Blowers - Clean Air Solutions in Bangalore",
     description:
       "Oil-free air blowers for pure, efficient airflow. Serving in Peenya, Laggare, Bangalore.",
@@ -906,7 +906,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/oilspacefreespaceairspaceblowers",
+      url: "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -960,7 +960,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
+    url: "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
     title: "Industrial Condensate Treatment in Bangalore",
     description:
       "Effective condensate treatment for industrial use in Peenya, Laggare, Bangalore.",
@@ -970,7 +970,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
+      url: "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1024,7 +1024,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/airspacefilters",
+    url: "https://airpraxpneumatics.com/products/compressors/airspacefilters",
     title: "Reliable Air Filtration in Bangalore",
     description:
       "Durable air filters for superior filtration in Peenya, Laggare, Bangalore industries.",
@@ -1034,7 +1034,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/airspacefilters",
+      url: "https://airpraxpneumatics.com/products/compressors/airspacefilters",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1088,7 +1088,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/gasspacegenerators",
+    url: "https://airpraxpneumatics.com/products/compressors/gasspacegenerators",
     title: "Premium Gas Generators in Peenya",
     description:
       "Premium gas generators to power your operations. Available in Peenya, Laggare, Bangalore.",
@@ -1098,7 +1098,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/gasspacegenerators",
+      url: "https://airpraxpneumatics.com/products/compressors/gasspacegenerators",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1152,7 +1152,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/oxygenspacegenerators",
+    url: "https://airpraxpneumatics.com/products/compressors/oxygenspacegenerators",
     title: "Advanced Oxygen Generators in Bangalore",
     description:
       "Advanced oxygen generators for various applications in Peenya, Laggare, Bangalore.",
@@ -1162,7 +1162,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/oxygenspacegenerators",
+      url: "https://airpraxpneumatics.com/products/compressors/oxygenspacegenerators",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1216,7 +1216,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/processspacegasspaceandspaceairspaceequipment",
+    url: "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment",
     title: "Top Air Equipment in Peenya",
     description:
       "Cutting-edge process gas and air equipment. Delivering excellence in Peenya, Laggare, Bangalore.",
@@ -1226,7 +1226,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/processspacegasspaceandspaceairspaceequipment",
+      url: "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1280,7 +1280,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/marinespacecompressors",
+    url: "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
     title: "Trusted Marine Compressors in Bangalore",
     description:
       "Marine compressors built for durability. Serving Peenya, Laggare, Bangalore industries.",
@@ -1290,7 +1290,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/marinespacecompressors",
+      url: "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1344,7 +1344,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/airspacereceiversspaceandspaceaftercoolers",
+    url: "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers",
     title: "Reliable AfterCoolers Peenya",
     description:
       "Reliable air receivers and aftercoolers for optimal performance in Peenya, Laggare.",
@@ -1354,7 +1354,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/airspacereceiversspaceandspaceaftercoolers",
+      url: "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1408,7 +1408,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
+    url: "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
     title: "Latest Oil-Free Air in Peenya",
     description:
       "Oil-free air and nitrogen boosters for precision needs in Peenya, Laggare, Bangalore.",
@@ -1418,7 +1418,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
+      url: "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1472,7 +1472,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/energyspaceconversion",
+    url: "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
     title: "Efficient Energy Conversion in Bangalore",
     description:
       "Efficient energy conversion solutions for your industry in Peenya, Laggare, Bangalore.",
@@ -1482,7 +1482,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/energyspaceconversion",
+      url: "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1536,7 +1536,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/industrialspacewaterspacecoolingspacesystems",
+    url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
     title: "Industrial Water Cooling Systems in Peenya",
     description:
       "Advanced water cooling systems for industrial needs in Peenya, Laggare, Bangalore.",
@@ -1546,7 +1546,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/industrialspacewaterspacecoolingspacesystems",
+      url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1600,7 +1600,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/compressors/industrialspacewaterspacecoolingspacesystems",
+    url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
     title: "Industrial Water Cooling Systems in Peenya",
     description:
       "Advanced water cooling systems for industrial needs in Peenya, Laggare, Bangalore.",
@@ -1610,7 +1610,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/compressors/industrialspacewaterspacecoolingspacesystems",
+      url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1664,7 +1664,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/waterManagement",
+    url: "https://airpraxpneumatics.com/products/waterManagement",
     title: "Water Management in Bangalore",
     description:
       "Complete water management solutions for efficient use in Peenya, Laggare, Bangalore.",
@@ -1674,7 +1674,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/waterManagement",
+      url: "https://airpraxpneumatics.com/products/waterManagement",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1728,7 +1728,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/water-management/raw-water-intake",
+    url: "https://airpraxpneumatics.com/products/water-management/raw-water-intake",
     title: "Raw Water Intake Systems in Bangalore",
     description:
       "Reliable raw water intake solutions for your industry in Peenya, Laggare, Bangalore.",
@@ -1738,7 +1738,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/water-management/raw-water-intake",
+      url: "https://airpraxpneumatics.com/products/water-management/raw-water-intake",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1792,7 +1792,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/water-management/waste-water-collection-and-transport",
+    url: "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport",
     title: "Waste Water Collection in Bangalore",
     description:
       "Efficient waste water systems for collection and transport in Peenya, Laggare, Bangalore.",
@@ -1802,7 +1802,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/water-management/waste-water-collection-and-transport",
+      url: "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1856,7 +1856,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/water-management/dewatering",
+    url: "https://airpraxpneumatics.com/products/water-management/dewatering",
     title: "Reliable Dewatering Solutions in Bangalore",
     description:
       "Effective dewatering solutions tailored for industries in Peenya, Laggare, Bangalore.",
@@ -1866,7 +1866,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/water-management/dewatering",
+      url: "https://airpraxpneumatics.com/products/water-management/dewatering",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1920,7 +1920,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/water-management/waste-water-treatment",
+    url: "https://airpraxpneumatics.com/products/water-management/waste-water-treatment",
     title: "Waste Water Treatment in Peenya",
     description:
       "Comprehensive waste water treatment for eco-friendly results in Peenya, Laggare.",
@@ -1930,7 +1930,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/water-management/waste-water-treatment",
+      url: "https://airpraxpneumatics.com/products/water-management/waste-water-treatment",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -1984,7 +1984,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/water-management/water-distribution-boosting",
+    url: "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting",
     title: "Water Distribution in Bangalore",
     description:
       "Advanced water distribution and boosting systems in Peenya, Laggare, Bangalore.",
@@ -1994,7 +1994,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/water-management/water-distribution-boosting",
+      url: "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -2048,7 +2048,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/water-management/water-treatment",
+    url: "https://airpraxpneumatics.com/products/water-management/water-treatment",
     title: "Expert Water Treatment in Peenya",
     description:
       "Expert water treatment services to ensure purity in Peenya, Laggare, Bangalore.",
@@ -2058,7 +2058,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/water-management/water-treatment",
+      url: "https://airpraxpneumatics.com/products/water-management/water-treatment",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -2112,7 +2112,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/vaccumProducts",
+    url: "https://airpraxpneumatics.com/products/vaccumProducts",
     title: "Advanced Vacuum Technology in Peenya",
     description:
       "Discover advanced vacuum technology for industrial use at AirPrax Pneumatics in Peenya, Laggare, Bangalore. High-performance vacuum products.",
@@ -2122,7 +2122,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/vaccumProducts",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -2176,7 +2176,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
+    url: "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
     title: "Trusted Oil-Sealed Vacuum Pumps in Bangalore",
     description:
       "Efficient oil-sealed vacuum pumps for maximum performance in Peenya, Laggare, Bangalore.",
@@ -2186,7 +2186,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -2240,7 +2240,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/vaccumProducts/dryspacevacuumspacepumps",
+    url: "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps",
     title: "Quality Dry Vacuum Pumps in Peenya",
     description:
       "Advanced quality dry vacuum pumps for critical applications in Peenya, Laggare, Bangalore.",
@@ -2250,7 +2250,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/vaccumProducts/dryspacevacuumspacepumps",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -2304,7 +2304,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
+    url: "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
     title: "Efficient Liquid Ring Vacuum Pumps in Bangalore",
     description:
       "Reliable liquid ring vacuum pumps designed for efficiency in Peenya, Laggare, Bangalore.",
@@ -2314,7 +2314,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
@@ -2368,7 +2368,7 @@ export const seometa = [
     },
   },
   {
-    url: "http://localhost:3000/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
+    url: "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
     title: "Industry 4.0 Controllers in Peenya",
     description:
       "Innovative Industry 4.0 controllers and accessories for smart industries in Peenya, Bangalore.",
@@ -2378,7 +2378,7 @@ export const seometa = [
       "@context": "https://schema.org",
       "@type": "Organization",
       name: "Airprax Pneumatics",
-      url: "http://localhost:3000/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
       description:
         "Airprax Pneumatics provides premium quality air filters, advanced process gas solutions, marine compressor technology, and water management solutions in Bangalore.",
       keywords: [
