@@ -33,10 +33,6 @@ const productsItems = [
         name: "Air Filters",
         href: "/products/compressors/airspacefilters",
       },
-      {
-        name: "Gas Generators",
-        href: "/products/compressors/gasspacegenerators",
-      },
     ],
   },
 
@@ -44,6 +40,16 @@ const productsItems = [
     id: 5,
     name: "Nitrogen Generator",
     href: "/products/nitrogenGenerator",
+    subProducts: [
+      {
+        name: "Gas Generators",
+        href: "/products/compressors/gasspacegenerators",
+      },
+      {
+        name: "Fire Alarm Systems",
+        href: "https://www.schrack-seconet.com/firealarm/",
+      },
+    ],
   },
   {
     id: 3,

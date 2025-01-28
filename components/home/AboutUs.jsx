@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutUsParagraph } from "../../utils/home/data";
+import { aboutUsHome, aboutUsParagraph } from "../../utils/home/data";
 import Link from "next/link";
 
 const AboutUs = () => {
@@ -26,10 +26,10 @@ const AboutUs = () => {
               Namaste from Us to You,
             </p>
             <p className="lg:text-base text-sm text-black text-justify">
-              {aboutUsParagraph[0]}
+              {aboutUsHome[0]}
             </p>
             <p className="lg:text-base text-sm text-black text-justify">
-              {aboutUsParagraph[1]}
+              {aboutUsHome[1]}
             </p>
             <a
               href="/about"

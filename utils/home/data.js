@@ -4,9 +4,14 @@ export const bannerImages = [
   "images/banner/6018e612290b8f0001ff9d73.jpg",
 ];
 
-export const aboutUsParagraph = [
+export const aboutUsHome = [
   "We are happy to introduce ourselves as a possible future service provider in optimizing your manufacturing process through operationally efficient pneumatic solutions.Our product is world class as also our post market services that ensure enhanced machine uptime",
   "We are one of the leading dealers across India in Atlas Copco Air products under the banner Airprax Pneumatics LLP, currently based in Peenya Industrial Area, 3rd Stage. Our expertise and reliability in the field has been vouched for by a trusted client ele from an assorted range of Industries over the years.",
+];
+export const aboutUsParagraph = [
+  "Namaste, We are pleased to present ourselves as a potential service provider dedicated to enhancing the efficiency of your manufacturing processes through our optimized Utility solutions. At Airprax Pneumatics LLP, we pride ourselves on delivering world-class products that not only meet industry standards but also improve operational performance.",
+  "Our innovative solutions, combined with exceptional post-market services, are designed to ensure enhanced machine uptime, allowing you to focus on your core competencies. We understand that minimizing downtime is crucial for productivity; therefore, our support team is always available to resolve any issues in real-time.",
+  "As one of the leading dealers across India, we bring a wealth of expertise and experience in developing tailored solutions that fit the unique needs of your organization. We would love the opportunity to discuss how our utilities optimization can create significant value for your manufacturing process.",
 ];
 
 export const ourProducts = [
