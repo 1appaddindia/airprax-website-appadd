@@ -46,7 +46,7 @@ const productsItems = [
         href: "/products/compressors/gasspacegenerators",
       },
       {
-        name: "Fire Alarm Systems",
+        name: <strong>Fire Alarm Systems</strong>,
         href: "https://www.schrack-seconet.com/firealarm/",
       },
     ],
