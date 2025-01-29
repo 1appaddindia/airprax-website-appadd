@@ -45,11 +45,12 @@ const productsItems = [
         name: "Gas Generators",
         href: "/products/compressors/gasspacegenerators",
       },
-      {
-        name: <strong>Fire Alarm Systems</strong>,
-        href: "https://www.schrack-seconet.com/firealarm/",
-      },
     ],
+  },
+  {
+    id: 5,
+    name: "Fire Alarm Systems",
+    href: "https://www.schrack-seconet.com/firealarm/",
   },
   {
     id: 3,
@@ -443,7 +444,7 @@ export default function Sidebar() {
                         {item.name}
                       </a>
                       {item.name === "Products" && showProducts && (
-                        <ul className="absolute left-1/4 mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
+                        <ul className="absolute -left-5 mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
                           {productsItems.map((product) => (
                             <li
                               key={product.id}
