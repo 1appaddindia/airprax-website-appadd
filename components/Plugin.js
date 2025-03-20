@@ -50,7 +50,7 @@ function Plugin() {
     loadCustomScript();
   }, []);
 
-  return null; // Since this component doesn't render anything
+  return null;
 }
 
 export default Plugin;

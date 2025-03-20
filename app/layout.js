@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
         <Footer />
-        <Plugin />
+        {/* <Plugin /> */}
       </body>
     </html>
   );
