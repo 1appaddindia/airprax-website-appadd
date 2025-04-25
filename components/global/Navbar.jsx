@@ -7,6 +7,30 @@ const moreItems = [
   { name: "Our Customers", href: "/customers" },
 ];
 
+const fireAlarm = [
+  {
+    name: "Fire alarm system Integral EvoxX",
+    href: "/fire-alarm/fire-alarm-system-integral-evoxx/",
+  },
+  {
+    name: "Special fire alarm systems",
+    href: "/fire-alarm/special-fire-alarm-systems/",
+  },
+  {
+    name: "Automatic fire detectors",
+    href: "/fire-alarm/automatic-fire-detectors-integral-cubus/",
+  },
+  {
+    name: "Peripherals",
+    href: "/fire-alarm/peripheral-devices-integral-evoxx/",
+  },
+  { name: "Voice Alarm", href: "/fire-alarm/speech-based-alarm/" },
+  {
+    name: "Extinguishing control panels Integral EvoxX",
+    href: "/fire-alarm/extinguishing-control-panel-integral-evoxx/",
+  },
+];
+
 const productsItems = [
   {
     id: 1,
@@ -215,6 +239,7 @@ const navigation = [
   { name: "About", href: "/about", icon: InformationCircleIcon },
   { name: "Products", href: "/products/compressors", icon: ArchiveBoxIcon },
   { name: "Industry", href: "/industry", icon: IndustryIcon },
+  { name: "Fire Alarm", href: "/fire-alarm", icon: IndustryIcon },
   { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
   { name: "Gallery", href: "/gallery", icon: GalleryIcon },
   { name: "Brochure", href: "/brochure", icon: PhotoIcon },
@@ -226,13 +251,18 @@ const mobnavigation = [
   { name: "About", href: "/about", icon: InformationCircleIcon },
   { name: "Products", href: "/products", icon: ArchiveBoxIcon },
   { name: "Industry", href: "/industry", icon: IndustryIcon },
+  {
+    icon: ArrowSmallDownIcon,
+    name: "Fire Alarm",
+    href: "/fire-alarm",
+  },
   { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
   { name: "Gallery", href: "/gallery", icon: GalleryIcon },
   {
     icon: ArrowSmallDownIcon,
     name: "More",
     href: "#",
-    moreItems: [
+    fireAlarm: [
       { name: "Medical Oxygen Plant", href: "/medical-oxygen-plant" },
       // { name: "Careers", href: "/careers" },
       { name: "Our Customers", href: "/customers" },
@@ -248,6 +278,7 @@ export default function Sidebar() {
   const pathName = usePathname();
   const [showProducts, setShowProducts] = useState(false);
   const [showMore, setShowMore] = useState(false);
+  const [fireAlarmShow, setfireAlarmShow] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -370,6 +401,19 @@ export default function Sidebar() {
                                         ))}
                                       </ul>
                                     )}
+                                    {dropdownOpen && (
+                                      <ul className="mt-2 space-y-1 bg-white border border-gray-200 rounded-md shadow-lg">
+                                        {item.fireAlarm.map((subItem) => (
+                                          <li key={subItem.name}>
+                                            <a href={subItem.href} passHref>
+                                              <div className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-600 cursor-pointer">
+                                                {subItem.name}
+                                              </div>
+                                            </a>
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    )}
                                   </>
                                 ) : (
                                   <a href={item.href} passHref>
@@ -427,10 +471,12 @@ export default function Sidebar() {
                       onMouseEnter={() => {
                         if (item.name === "Products") setShowProducts(true);
                         if (item.name === "More") setShowMore(true);
+                        if (item.name === "Fire Alarm") setfireAlarmShow(true);
                       }}
                       onMouseLeave={() => {
                         if (item.name === "Products") setShowProducts(false);
                         if (item.name === "More") setShowMore(false);
+                        if (item.name === "Fire Alarm") setfireAlarmShow(false);
                       }}
                     >
                       <a
@@ -444,7 +490,7 @@ export default function Sidebar() {
                         {item.name}
                       </a>
                       {item.name === "Products" && showProducts && (
-                        <ul className="absolute -left-5 mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
+                        <ul className="absolute left-28 mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
                           {productsItems.map((product) => (
                             <li
                               key={product.id}
@@ -483,6 +529,23 @@ export default function Sidebar() {
                                 className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                               >
                                 {moreItem.name}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      {item.name === "Fire Alarm" && fireAlarmShow && (
+                        <ul className="absolute right-0 mt-2 w-64 bg-white border border-gray-200 shadow-lg">
+                          <h3 className="p-2 ml-3">
+                            <a href="/fire-alarm">Products and Solutions</a>
+                          </h3>
+                          {fireAlarm.map((fireAlarm) => (
+                            <li key={fireAlarm.name}>
+                              <a
+                                href={fireAlarm.href}
+                                className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
+                              >
+                                {fireAlarm.name}
                               </a>
                             </li>
                           ))}
