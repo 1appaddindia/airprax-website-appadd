@@ -255,6 +255,29 @@ const mobnavigation = [
     icon: ArrowSmallDownIcon,
     name: "Fire Alarm",
     href: "/fire-alarm",
+    fireAlarm: [
+      {
+        name: "Fire alarm system Integral EvoxX",
+        href: "/fire-alarm/fire-alarm-system-integral-evoxx/",
+      },
+      {
+        name: "Special fire alarm systems",
+        href: "/fire-alarm/special-fire-alarm-systems/",
+      },
+      {
+        name: "Automatic fire detectors",
+        href: "/fire-alarm/automatic-fire-detectors-integral-cubus/",
+      },
+      {
+        name: "Peripherals",
+        href: "/fire-alarm/peripheral-devices-integral-evoxx/",
+      },
+      { name: "Voice Alarm", href: "/fire-alarm/speech-based-alarm/" },
+      {
+        name: "Extinguishing control panels Integral EvoxX",
+        href: "/fire-alarm/extinguishing-control-panel-integral-evoxx/",
+      },
+    ],
   },
   { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
   { name: "Gallery", href: "/gallery", icon: GalleryIcon },
@@ -262,7 +285,7 @@ const mobnavigation = [
     icon: ArrowSmallDownIcon,
     name: "More",
     href: "#",
-    fireAlarm: [
+    moreItems: [
       { name: "Medical Oxygen Plant", href: "/medical-oxygen-plant" },
       // { name: "Careers", href: "/careers" },
       { name: "Our Customers", href: "/customers" },
@@ -401,19 +424,6 @@ export default function Sidebar() {
                                         ))}
                                       </ul>
                                     )}
-                                    {dropdownOpen && (
-                                      <ul className="mt-2 space-y-1 bg-white border border-gray-200 rounded-md shadow-lg">
-                                        {item.fireAlarm.map((subItem) => (
-                                          <li key={subItem.name}>
-                                            <a href={subItem.href} passHref>
-                                              <div className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-600 cursor-pointer">
-                                                {subItem.name}
-                                              </div>
-                                            </a>
-                                          </li>
-                                        ))}
-                                      </ul>
-                                    )}
                                   </>
                                 ) : (
                                   <a href={item.href} passHref>
@@ -537,7 +547,9 @@ export default function Sidebar() {
                       {item.name === "Fire Alarm" && fireAlarmShow && (
                         <ul className="absolute right-0 mt-2 w-64 bg-white border border-gray-200 shadow-lg">
                           <h3 className="p-2 ml-3">
-                            <a href="/fire-alarm">Products and Solutions</a>
+                            <a href="/fire-alarm/products-and-solutions">
+                              Products and Solutions
+                            </a>
                           </h3>
                           {fireAlarm.map((fireAlarm) => (
                             <li key={fireAlarm.name}>
