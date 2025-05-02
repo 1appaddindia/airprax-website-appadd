@@ -257,6 +257,11 @@ const mobnavigation = [
     href: "/fire-alarm",
     fireAlarmItems: [
       {
+        name: "Products and Solutions",
+        href: "/fire-alarm/products-and-solutions",
+        isMainLink: true,
+      },
+      {
         name: "Fire alarm system Integral EvoxX",
         href: "/fire-alarm/fire-alarm-system-integral-evoxx/",
       },
@@ -442,11 +447,24 @@ export default function Sidebar() {
                                     {item.name === "Fire Alarm" &&
                                       fireAlarmDropdownOpen && (
                                         <ul className="mt-2 space-y-1 bg-white border border-gray-200 rounded-md shadow-lg">
+                                          <li>
+                                            <a href={item.href}>
+                                              <div className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-600 cursor-pointer font-semibold border-b">
+                                                Overview
+                                              </div>
+                                            </a>
+                                          </li>
                                           {item.fireAlarmItems.map(
                                             (subItem) => (
                                               <li key={subItem.name}>
                                                 <a href={subItem.href}>
-                                                  <div className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-600 cursor-pointer">
+                                                  <div
+                                                    className={`block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-red-600 cursor-pointer ${
+                                                      subItem.isMainLink
+                                                        ? "font-semibold border-b"
+                                                        : ""
+                                                    }`}
+                                                  >
                                                     {subItem.name}
                                                   </div>
                                                 </a>
