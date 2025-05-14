@@ -71,10 +71,38 @@ const productsItems = [
       },
     ],
   },
+  // {
+  //   id: 5,
+  //   name: "Fire Alarm Systems",
+  //   href: "/fire-alarm",
+  // },
   {
-    id: 5,
-    name: "Fire Alarm Systems",
-    href: "https://www.schrack-seconet.com/firealarm/",
+    id: 3,
+    name: "Fire Alarm",
+    href: "/fire-alarm",
+    subProducts: [
+      {
+        name: "Fire alarm system Integral EvoxX",
+        href: "/fire-alarm/fire-alarm-system-integral-evoxx/",
+      },
+      {
+        name: "Special fire alarm systems",
+        href: "/fire-alarm/special-fire-alarm-systems/",
+      },
+      {
+        name: "Automatic fire detectors",
+        href: "/fire-alarm/automatic-fire-detectors-integral-cubus/",
+      },
+      {
+        name: "Peripherals",
+        href: "/fire-alarm/peripheral-devices-integral-evoxx/",
+      },
+      { name: "Voice Alarm", href: "/fire-alarm/speech-based-alarm/" },
+      {
+        name: "Extinguishing control panels Integral EvoxX",
+        href: "/fire-alarm/extinguishing-control-panel-integral-evoxx/",
+      },
+    ],
   },
   {
     id: 3,
@@ -239,7 +267,7 @@ const navigation = [
   { name: "About", href: "/about", icon: InformationCircleIcon },
   { name: "Products", href: "/products/compressors", icon: ArchiveBoxIcon },
   { name: "Industry", href: "/industry", icon: IndustryIcon },
-  { name: "Fire Alarm", href: "/fire-alarm", icon: IndustryIcon },
+  // { name: "Fire Alarm", href: "/fire-alarm", icon: IndustryIcon },
   { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
   { name: "Gallery", href: "/gallery", icon: GalleryIcon },
   { name: "Brochure", href: "/brochure", icon: PhotoIcon },
@@ -249,44 +277,14 @@ const navigation = [
 const mobnavigation = [
   { name: "Home", href: "/home", icon: HomeIcon },
   { name: "About", href: "/about", icon: InformationCircleIcon },
-  { name: "Products", href: "/products", icon: ArchiveBoxIcon },
-  { name: "Industry", href: "/industry", icon: IndustryIcon },
   {
-    icon: ArrowSmallDownIcon,
-    name: "Fire Alarm",
-    href: "/fire-alarm",
-    fireAlarmItems: [
-      {
-        name: "Products and Solutions",
-        href: "/fire-alarm/products-and-solutions",
-        isMainLink: true,
-      },
-      {
-        name: "Fire alarm system Integral EvoxX",
-        href: "/fire-alarm/fire-alarm-system-integral-evoxx/",
-      },
-      {
-        name: "Special fire alarm systems",
-        href: "/fire-alarm/special-fire-alarm-systems/",
-      },
-      {
-        name: "Automatic fire detectors",
-        href: "/fire-alarm/automatic-fire-detectors-integral-cubus/",
-      },
-      {
-        name: "Peripherals",
-        href: "/fire-alarm/peripheral-devices-integral-evoxx/",
-      },
-      {
-        name: "Voice Alarm",
-        href: "/fire-alarm/speech-based-alarm/",
-      },
-      {
-        name: "Extinguishing control panels Integral EvoxX",
-        href: "/fire-alarm/extinguishing-control-panel-integral-evoxx/",
-      },
-    ],
+    name: "Products",
+    href: "/products",
+    icon: ArchiveBoxIcon,
+    productsItems: productsItems, // Using the existing productsItems array
   },
+  { name: "Industry", href: "/industry", icon: IndustryIcon },
+
   { name: "Latest News", href: "/latest-news", icon: NewspaperIcon },
   { name: "Gallery", href: "/gallery", icon: GalleryIcon },
   {
@@ -313,6 +311,7 @@ export default function Sidebar() {
   const [fireAlarmShow, setfireAlarmShow] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const [productsDropdownOpen, setProductsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
@@ -393,7 +392,8 @@ export default function Sidebar() {
                             {mobnavigation.map((item) => (
                               <li key={item.name} className="relative">
                                 {item.name === "More" ||
-                                item.name === "Fire Alarm" ? (
+                                item.name === "Fire Alarm" ||
+                                item.name === "Products" ? (
                                   <>
                                     <button
                                       onClick={() => {
@@ -402,6 +402,10 @@ export default function Sidebar() {
                                         if (item.name === "Fire Alarm")
                                           setFireAlarmDropdownOpen(
                                             !fireAlarmDropdownOpen
+                                          );
+                                        if (item.name === "Products")
+                                          setProductsDropdownOpen(
+                                            !productsDropdownOpen
                                           );
                                       }}
                                       className={`${
@@ -424,13 +428,48 @@ export default function Sidebar() {
                                           (item.name === "More" &&
                                             dropdownOpen) ||
                                           (item.name === "Fire Alarm" &&
-                                            fireAlarmDropdownOpen)
+                                            fireAlarmDropdownOpen) ||
+                                          (item.name === "Products" &&
+                                            productsDropdownOpen)
                                             ? "transform rotate-180"
                                             : ""
                                         } h-5 w-5 ml-auto`}
                                         aria-hidden="true"
                                       />
                                     </button>
+                                    {/* Add Products dropdown */}
+                                    {item.name === "Products" &&
+                                      productsDropdownOpen && (
+                                        <ul className="mt-2 space-y-1 bg-white border border-gray-200 rounded-md shadow-lg">
+                                          {item.productsItems.map((product) => (
+                                            <li key={product.id}>
+                                              <a href={product.href}>
+                                                <div className="block px-4 py-2 text-sm font-semibold text-gray-700 hover:bg-gray-100 hover:text-red-600 cursor-pointer border-b">
+                                                  {product.name}
+                                                </div>
+                                              </a>
+                                              {product.subProducts && (
+                                                <ul className="ml-4">
+                                                  {product.subProducts.map(
+                                                    (subProduct) => (
+                                                      <li key={subProduct.name}>
+                                                        <a
+                                                          href={subProduct.href}
+                                                        >
+                                                          <div className="block px-4 py-2 text-sm text-gray-600 hover:bg-gray-100 hover:text-red-600 cursor-pointer">
+                                                            {subProduct.name}
+                                                          </div>
+                                                        </a>
+                                                      </li>
+                                                    )
+                                                  )}
+                                                </ul>
+                                              )}
+                                            </li>
+                                          ))}
+                                        </ul>
+                                      )}
+                                    {/* Existing More and Fire Alarm dropdowns */}
                                     {item.name === "More" && dropdownOpen && (
                                       <ul className="mt-2 space-y-1 bg-white border border-gray-200 rounded-md shadow-lg">
                                         {item.moreItems.map((subItem) => (
@@ -549,7 +588,7 @@ export default function Sidebar() {
                         {item.name}
                       </a>
                       {item.name === "Products" && showProducts && (
-                        <ul className="absolute left-28 mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
+                        <ul className="absolute  mt-2 transform -translate-x-1/2  flex p-2 bg-white border border-gray-200 shadow-lg">
                           {productsItems.map((product) => (
                             <li
                               key={product.id}
