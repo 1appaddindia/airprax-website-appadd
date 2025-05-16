@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import Plugin from "../components/Plugin";
 import Footer from "../components/global/Footer";
 import Navbar from "../components/global/Navbar";
+import TawkTo from "../components/TawkTo";
 import "./globals.css";
 import SEO from "../app/common/SEO.jsx";
 import { Suspense } from "react";
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
+        <TawkTo />
         <Footer />
         {/* <Plugin /> */}
       </body>
