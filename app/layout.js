@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <main className="lg:mt-[128px] mt-[60px]">{children}</main>
         <TawkTo />
         <Footer />
-        {/* <Plugin /> */}
+        <Plugin />
       </body>
     </html>
   );
