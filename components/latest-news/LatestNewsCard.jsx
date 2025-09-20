@@ -1,14 +1,12 @@
-import React from "react";
-
 const LatestNewsCard = ({ item }) => {
-  const truncateDescription = (text, maxLength) => {
-    if (text.length <= maxLength) return text;
-    return text.substr(0, maxLength) + "...";
+  const truncateDescription = (html, length) => {
+    const text = stripHtml(html);
+    return text.length > length ? text.substring(0, length) + "..." : text;
   };
 
   return (
     <div className="border border-[#083465] rounded-lg flex flex-col justify-between col-span-3 hover:shadow-2xl transition-shadow duration-500">
-      <img src={item.img} alt="img" className="h-60  rounded-t-lg" />
+      <img src={item.img} alt="img" className="h-60 rounded-t-lg" />
       <span className="text-start m-2 font-bold text-[#bf1e2e]">
         {item.title}
       </span>
