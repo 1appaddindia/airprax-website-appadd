@@ -16,7 +16,7 @@ export const latestNews = [
 </p>`,
 
     date: "Sep 20 2025",
-    time: "9:18 PM",
+    // time: "9:18 PM",
   },
   {
     id: 1,
