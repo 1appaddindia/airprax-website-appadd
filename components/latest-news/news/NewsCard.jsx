@@ -13,9 +13,10 @@ const NewsCard = ({ item }) => {
           <p className="font-bold lg:text-2xl text-xl font-serif">
             {item.title}
           </p>
-          <p className=" text-black  text-base text-justify">
-            {item.description}
-          </p>
+          <p
+            className="text-black text-base text-justify"
+            dangerouslySetInnerHTML={{ __html: item.description }}
+          ></p>
         </div>
       </div>
     </>

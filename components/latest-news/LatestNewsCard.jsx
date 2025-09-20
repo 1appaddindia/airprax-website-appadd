@@ -1,9 +1,13 @@
 import React from "react";
 
+const stripHtml = (html) => {
+  return html.replace(/<[^>]+>/g, "");
+};
+
 const LatestNewsCard = ({ item }) => {
-  const truncateDescription = (text, maxLength) => {
-    if (text.length <= maxLength) return text;
-    return text.substr(0, maxLength) + "...";
+  const truncateDescription = (html, length) => {
+    const text = stripHtml(html);
+    return text.length > length ? text.substring(0, length) + "..." : text;
   };
 
   return (
