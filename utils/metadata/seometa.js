@@ -2384,4 +2384,306 @@ export const seometa = [
       },
     },
   },
+  {
+    url: "https://airpraxpneumatics.com/peenya-suppliers",
+    title: "Peenya Suppliers Directory",
+    description:
+      "Browse all Peenya supplier pages and jump directly to the topic you need.",
+    keywords:
+      "Peenya suppliers, Peenya pumps suppliers, Peenya fire alarm suppliers, directory",
+    content: { h2: "Peenya Suppliers Directory", extraLine: "Find the page you need" },
+    jsonScript: { "@context": "https://schema.org", "@type": "WebPage", name: "Peenya Suppliers Directory", url: "https://airpraxpneumatics.com/peenya-suppliers" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/centrifugal-pump-suppliers-in-peenya",
+    title: "Centrifugal pump suppliers in Peenya",
+    description:
+      "Looking for the best Centrifugal pump suppliers in Peenya? Then feel free to contact us today or call us now.",
+    keywords:
+      "Centrifugal pump suppliers in Peenya, Centrifugal pump dealers in Peenya, Industrial centrifugal pumps Bangalore, Centrifugal pump manufacturers India, Water transfer pumps Peenya, Chemical process pumps Bangalore, Oil circulation pumps Peenya",
+    content: {
+      h2: "Centrifugal pump suppliers in Peenya",
+      extraLine:
+        "Looking for the best centrifugal pump suppliers in Peenya? Contact us today",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Airprax Pneumatics LLP",
+      url: "https://airpraxpneumatics.com/centrifugal-pump-suppliers-in-peenya",
+      description:
+        "Airprax Pneumatics LLP supplies a wide range of industrial-grade centrifugal pumps in Peenya, Bangalore—engineered for efficiency, durability, and reliable performance across water transfer, chemical processing, oil circulation, and manufacturing applications.",
+      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '\"A\", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        postalCode: "560058",
+        addressCountry: "IN",
+      },
+      telephone: "+91-9620602000",
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: "+91-9742233402",
+          contactType: "WhatsApp / Mobile",
+        },
+      ],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.019803,
+        longitude: 77.507757,
+      },
+      keywords: [
+        "Centrifugal pump suppliers in Peenya",
+        "Centrifugal pump dealers in Peenya",
+        "Industrial centrifugal pumps Bangalore",
+        "Water transfer pumps Peenya",
+        "Chemical process pumps Bangalore",
+        "Oil circulation pumps Peenya",
+      ],
+      knowsAbout: [
+        "Centrifugal pumps",
+        "Water transfer systems",
+        "Chemical processing pumps",
+        "Industrial pump solutions",
+      ],
+      sameAs: [
+        "https://www.facebook.com/Airprax/",
+        "https://www.linkedin.com/company/airprax-pneumatics/",
+        "https://twitter.com/airprax",
+        "https://www.instagram.com/airprax.pneumatics",
+      ],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/high-pressure-centrifugal-pump-suppliers-in-peenya",
+    title: "High pressure centrifugal pump suppliers in Peenya",
+    description:
+      "Are you looking for the best high pressure centrifugal pump suppliers in Peenya? Then you are at the right place. Contact us today.",
+    keywords:
+      "High pressure centrifugal pump suppliers in Peenya, High pressure centrifugal pump dealers Peenya, Industrial centrifugal pumps Bangalore, Boiler feed pumps Peenya",
+    content: {
+      h2: "High pressure centrifugal pump suppliers in Peenya",
+      extraLine:
+        "Looking for high pressure centrifugal pumps in Peenya? Contact us today",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Airprax Pneumatics LLP",
+      url: "https://airpraxpneumatics.com/high-pressure-centrifugal-pump-suppliers-in-peenya",
+      description:
+        "Premium-quality high pressure centrifugal pumps in Peenya, Bangalore — engineered for efficiency, durability, and long service life.",
+      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '\"A\", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        postalCode: "560058",
+        addressCountry: "IN",
+      },
+      telephone: "+91-9620602000",
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/portable-fire-pumps-suppliers-in-peenya",
+    title: "Portable Fire Pumps suppliers in Peenya",
+    description:
+      "We are the best Portable Fire Pumps suppliers in Peenya. If you are looking for this then feel free to contact us today or call us now.",
+    keywords:
+      "Portable fire pumps suppliers in Peenya, Portable fire pump dealers Peenya, Fire pumps Bangalore, Mobile fire pump Peenya",
+    content: {
+      h2: "Portable Fire Pumps suppliers in Peenya",
+      extraLine:
+        "Portable fire pumps in Peenya with fast local delivery",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "Airprax Pneumatics LLP",
+      url: "https://airpraxpneumatics.com/portable-fire-pumps-suppliers-in-peenya",
+      description:
+        "Portable fire pump systems for factories, warehouses, commercial buildings and residential complexes in Peenya, Bangalore.",
+      telephone: "+91-9620602000",
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/diesel-fire-pumps-suppliers-in-peenya",
+    title: "Diesel Fire Pumps Suppliers in Peenya",
+    description:
+      "We are the best Diesel Fire Pumps Suppliers in Peenya. If you are looking for this products then feel free to contact us now.",
+    keywords:
+      "Diesel fire pumps suppliers in Peenya, Diesel fire pump dealers Peenya, Fire safety pumps Bangalore, Emergency fire pumps Peenya",
+    content: {
+      h2: "Diesel Fire Pumps Suppliers in Peenya",
+      extraLine:
+        "Reliable diesel fire pumps with local support",
+    },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/diesel-fire-pumps-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/fire-fighting-pumps-suppliers-in-peenya",
+    title: "Fire Fighting Pumps suppliers in Peenya",
+    description:
+      "Looking for Fire Fighting Pumps suppliers in Peenya? Then you are in the right place. Feel free to contact us today or call us now.",
+    keywords:
+      "Fire fighting pumps suppliers in Peenya, Fire pumps dealers Peenya, NFPA fire pumps Bangalore, Jockey pumps Peenya",
+    content: { h2: "Fire Fighting Pumps suppliers in Peenya", extraLine: "Certified fire pumps with installation & AMC" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/fire-fighting-pumps-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/pressure-boosting-systems-suppliers-for-firefighting-in-peenya",
+    title: "Pressure-boosting systems suppliers for firefighting in Peenya",
+    description:
+      "Are you looking for Pressure-boosting systems suppliers for firefighting in Peenya? Then you are at the right place. Contact us today.",
+    keywords:
+      "Firefighting pressure boosting systems Peenya, Booster systems suppliers Peenya, Fire hydrant booster Bangalore",
+    content: { h2: "Firefighting Pressure-Boosting Systems in Peenya", extraLine: "Reliable hydrant & sprinkler pressure solutions" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/pressure-boosting-systems-suppliers-for-firefighting-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/wilo-fire-fighting-pump-suppliers-in-peenya",
+    title: "Wilo Fire Fighting Pump Suppliers in Peenya",
+    description:
+      "Looking for Wilo Fire Fighting Pump Suppliers in Peenya? Then you are at the right place. Feel free to contact us today or call us now.",
+    keywords:
+      "Wilo fire pumps Peenya, Wilo fire pump dealers Bangalore, Wilo split case fire pump, Wilo vertical turbine fire pump",
+    content: { h2: "Wilo Fire Fighting Pump Suppliers in Peenya", extraLine: "Authorized supply, installation & support" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/wilo-fire-fighting-pump-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/water-pump-suppliers-for-high-raise-buildings-in-peenya",
+    title: "Water pump suppliers for high raise buildings in Peenya",
+    description:
+      "Looking for the best Water pump suppliers for high raise buildings in Peenya? Then you are at the right place. Contact us today.",
+    keywords:
+      "High rise building water pumps Peenya, Booster pump suppliers Peenya, Hydro pneumatic systems Peenya",
+    content: { h2: "Water Pump Suppliers for High Raise Buildings in Peenya", extraLine: "High-rise water distribution experts" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/water-pump-suppliers-for-high-raise-buildings-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/hot-water-pump-suppliers-in-peenya",
+    title: "Hot water Pump suppliers in Peenya",
+    description:
+      "Looking for the best Hot water Pump suppliers in Peenya? Then feel free to contact us as we have the best pump for you.",
+    keywords:
+      "Hot water pumps Peenya, Hot water circulation pumps Bangalore, Boiler feed pumps Peenya",
+    content: { h2: "Hot water Pump suppliers in Peenya", extraLine: "Energy‑efficient hot water pumps" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/hot-water-pump-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/chill-water-pump-suppliers-in-peenya",
+    title: "Chill Water Pump Suppliers in Peenya",
+    description:
+      "Looking for the best Chill Water Pump Suppliers in Peenya? Then you are at the right place. Feel free to contact us today.",
+    keywords:
+      "Chilled water pumps Peenya, Chiller pump suppliers Bangalore, HVAC chilled water pumps Peenya",
+    content: { h2: "Chill Water Pump Suppliers in Peenya", extraLine: "HVAC & process cooling pumps" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/chill-water-pump-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/fire-alarm-systems-suppliers-in-peenya",
+    title: "Fire alarm systems suppliers in Peenya",
+    description:
+      "Looking for the best Fire alarm systems suppliers in Peenya? Then you are at the right place. Feel free to contact us today.",
+    keywords:
+      "Fire alarm systems suppliers in Peenya, Addressable fire alarm Peenya, Fire safety systems Bangalore",
+    content: { h2: "Fire alarm systems suppliers in Peenya", extraLine: "Design, install, maintain fire alarms" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/fire-alarm-systems-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/water-distribution-pumps-suppliers-in-peenya",
+    title: "Water Distribution Pumps suppliers in Peenya",
+    description:
+      "Are you looking for the best Water Distribution Pumps suppliers in Peenya? Then feel free to contact us today or call us now.",
+    keywords:
+      "Water distribution pumps Peenya, Municipal water pumps Peenya, Booster pumps suppliers Bangalore",
+    content: { h2: "Water Distribution Pumps suppliers in Peenya", extraLine: "Industrial, commercial & municipal supply" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/water-distribution-pumps-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/wastewater-collection-pumps-suppliers-in-peenya",
+    title: "Wastewater collection pumps suppliers in Peenya",
+    description:
+      "Looking for the best Wastewater collection pumps suppliers in Peenya? Then feel free to contact us today or call us now.",
+    keywords:
+      "Wastewater collection pumps Peenya, Sewage collection pumps Bangalore, Submersible wastewater pumps Peenya",
+    content: { h2: "Wastewater collection pumps suppliers in Peenya", extraLine: "Submersible, centrifugal & sludge pumps" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/wastewater-collection-pumps-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/sewage-pumps-suppliers-in-peenya",
+    title: "Sewage pumps suppliers in Peenya",
+    description:
+      "Looking for the best Sewage pumps suppliers in Peenya? Then you are at the right place. Feel free to contact us now.",
+    keywords:
+      "Sewage pumps suppliers Peenya, Submersible sewage pumps Bangalore, Industrial sewage pumps Peenya",
+    content: { h2: "Sewage pumps suppliers in Peenya", extraLine: "Reliable sewage handling solutions" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/sewage-pumps-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/waste-water-treatment-pumps-suppliers-in-peenya",
+    title: "Waste water treatment pumps suppliers in Peenya",
+    description:
+      "Looking for the best Waste water treatment pumps suppliers in Peenya? Then you are at the right place. Feel free to contact us.",
+    keywords:
+      "Waste water treatment pumps Peenya, Effluent pumps Bangalore, Sewage treatment pumps Peenya",
+    content: { h2: "Waste water treatment pumps suppliers in Peenya", extraLine: "Durable pumps for treatment plants" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/waste-water-treatment-pumps-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/fire-detection-systems-suppliers-in-peenya",
+    title: "Fire Detection Systems Suppliers in Peenya",
+    description:
+      "Looking for top fire detection systems suppliers in Peenya? We provide advanced, reliable, and cost-effective fire alarm and detection systems for industrial and commercial spaces.",
+    keywords:
+      "Fire detection systems suppliers Peenya, Smoke detectors Bangalore, Fire alarm suppliers Peenya",
+    content: { h2: "Fire Detection Systems Suppliers in Peenya", extraLine: "Early detection, reliable performance" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/fire-detection-systems-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/data-centres-fire-alarm-system-suppliers-in-peenya",
+    title: "Fire Alarm System Suppliers in Peenya for Data Centres | Reliable Installation & Maintenance",
+    description:
+      "Looking for fire alarm system suppliers in Peenya for data centres? We supply, install & maintain high‑end addressable fire alarm systems for data centres in Peenya, Bengaluru.",
+    keywords:
+      "Data centre fire alarm Peenya, Addressable fire alarm suppliers Bangalore, VESDA Peenya",
+    content: { h2: "Fire Alarm System Suppliers for Data Centres", extraLine: "Supply, install & maintain in Peenya" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/data-centres-fire-alarm-system-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/automatic-fire-detection-system-suppliers-in-peenya",
+    title: "Automatic Fire Detection System Suppliers in Peenya",
+    description:
+      "Looking for the best Automatic Fire Detection System Suppliers in Peenya? Then you are at the right place. Contact us today.",
+    keywords:
+      "Automatic fire detection Peenya, Addressable fire detection Bangalore, Factory fire detection systems Peenya",
+    content: { h2: "Automatic Fire Detection System Suppliers in Peenya", extraLine: "Advanced systems, expert installation" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/automatic-fire-detection-system-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/voice-fire-alarm-system-suppliers-in-peenya",
+    title: "Voice fire alarm system Suppliers in Peenya",
+    description:
+      "We give the best Voice fire alarm system Suppliers in Peenya. If you are looking for this then you are at the right place. Contact us today.",
+    keywords:
+      "Voice fire alarm Peenya, Voice evacuation system Bangalore, Fire PA system suppliers Peenya",
+    content: { h2: "Voice fire alarm system Suppliers in Peenya", extraLine: "Clear evacuation messaging systems" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/voice-fire-alarm-system-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
+  {
+    url: "https://airpraxpneumatics.com/honeywell-fire-alarm-system-suppliers-in-peenya",
+    title: "Honeywell fire alarm system Suppliers in Peenya",
+    description:
+      "Looking for the best Honeywell fire alarm system Suppliers in Peenya? Then you are at the right place. Contact us today.",
+    keywords:
+      "Honeywell fire alarm suppliers Peenya, Honeywell addressable panels Bangalore, Fire alarm Honeywell dealer Peenya",
+    content: { h2: "Honeywell fire alarm system Suppliers in Peenya", extraLine: "Authorized supply, installation & AMC" },
+    jsonScript: { "@context": "https://schema.org", "@type": "Organization", name: "Airprax Pneumatics LLP", url: "https://airpraxpneumatics.com/honeywell-fire-alarm-system-suppliers-in-peenya", telephone: "+91-9620602000" },
+  },
 ];
