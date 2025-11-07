@@ -5,6 +5,7 @@ const moreItems = [
   { name: "Medical Oxygen Plant", href: "/medical-oxygen-plant" },
   // { name: "Careers", href: "/careers" },
   { name: "Our Customers", href: "/customers" },
+  { name: "Peenya Suppliers", href: "/peenya-suppliers" },
 ];
 
 const fireAlarm = [
@@ -295,6 +296,7 @@ const mobnavigation = [
       { name: "Medical Oxygen Plant", href: "/medical-oxygen-plant" },
       // { name: "Careers", href: "/careers" },
       { name: "Our Customers", href: "/customers" },
+      { name: "Peenya Suppliers", href: "/peenya-suppliers" },
     ],
   },
   { name: "Brochure", href: "/brochure", icon: PhotoIcon },

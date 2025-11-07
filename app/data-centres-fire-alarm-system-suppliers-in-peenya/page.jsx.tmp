@@ -1,0 +1,46 @@
+import React from "react";
+import Banner from "../../components/global/Banner";
+
+const DataCentresFireAlarmSystemSuppliersPeenya = () => {
+  return (
+    <div>
+      <Banner
+        imageSrc="/images/banners/csm_hero_brandmeldezentrale_7835838fa0.webp"
+        currentPage="Data centres fire alarm system suppliers in Peenya"
+        previousPage="Home"
+        pageTitle="Fire Alarm System Suppliers in Peenya for Data Centres"
+      />
+
+      <section className="bg-white lg:p-10 p-5">
+        <div className="lg:container lg:max-w-9xl">
+          <header className="mb-6">
+            <h1 className="lg:text-3xl text-xl font-bold text-[#083465] mb-3">PLACEHOLDER_H1</h1>
+            <p className="text-black lg:text-base text-sm text-justify">
+              REPLACE_INTRO
+            </p>
+          </header>
+
+          REPLACE_BLOCK1
+
+          REPLACE_BLOCK2
+
+          REPLACE_BLOCK2
+
+          <section className="bg-[#f8fafc] p-5 rounded-md border border-gray-200 mt-10">
+            <h3 className="text-xl font-semibold text-[#083465]">Get in Touch</h3>
+            <p className="text-black lg:text-base text-sm mt-2">Contact us for a consultation, site survey and custom proposal for your data centre in Peenya.</p>
+            <div className="flex flex-wrap gap-3 mt-3">
+              <a href="/contact" className="inline-block bg-[#083465] text-white px-5 py-2 rounded hover:bg-[#0a427a]">Contact Us</a>
+              <a href="tel:+919620602000" className="inline-block bg-[#bf1e2e] text-white px-5 py-2 rounded hover:bg-[#a91826]">Call +91 96206 02000</a>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default DataCentresFireAlarmSystemSuppliersPeenya;
+
+
+
