@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import Plugin from "../components/Plugin";
 import Footer from "../components/global/Footer";
 import Navbar from "../components/global/Navbar";
@@ -27,6 +28,18 @@ export default function RootLayout({ children }) {
         <Suspense fallback={<div>Loading SEO...</div>}>
           <SEO />
         </Suspense>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-DVHCWTRCK6"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DVHCWTRCK6');
+          `}
+        </Script>
       </head>
 
       <body className={inter.className}>
