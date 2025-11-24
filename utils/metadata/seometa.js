@@ -1,2914 +1,2149 @@
-export const seometa = [
+﻿export const seometa = [
   {
-    url: "https://airpraxpneumatics.com",
-    title: "Best Air Compressors in Bangalore",
+    url: "https://airpraxpneumatics.com/",
+    title: "Water Circulators Pump Manufacturers in Bangalore | Karnataka",
     description:
-      "High-quality Best Air Compressors in Bangalore offering reliable performance, energy efficiency, and advanced technology for industrial, commercial, and personal applications.",
+      "Leading water Circulators pump Manufacturers in Bangalore offering durable, energy-efficient and high-performance pumps for industrial and commercial needs.",
     keywords:
-      "Best Air Compressors in Bangalore, Industrial Air Compressors, Pneumatics, Energy-efficient Compressors, Air Filters, Vacuum Pumps, Blowers",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
     content: {
-      h2: "Best Air Compressors in Bangalore",
-      extraLine:
-        "Looking for the Best Air Compressors in Bangalore? Contact us today",
+      h2: "water Circulators pump Manufacturers in Bangalore",
+      imageAlt: "water Circulators pump Manufacturers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
+      "@id": "https://airpraxpneumatics.com/#organization",
+      name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Industrial Process Filters in Bangalore",
-        "Industrial Energy Conversion in Peenya",
-        "Dry Vacuum Pumps in Bangalore",
-        "Best Air Compressors in Bangalore",
-        "Industrial Water Distribution in Karnataka",
-        "Industrial Water Cooling Systems in Bangalore",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
       ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/home",
-    title: "Best Air Compressors in Bangalore",
-    description:
-      "High-quality Best Air Compressors in Bangalore offering reliable performance, energy efficiency, and advanced technology for industrial, commercial, and personal applications.",
-    keywords:
-      "Best Air Compressors in Bangalore, Industrial Air Compressors, Pneumatics, Energy-efficient Compressors, Air Filters, Vacuum Pumps, Blowers",
-    content: {
-      h2: "Best Air Compressors in Bangalore",
-      extraLine:
-        "Looking for the Best Air Compressors in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/",
-      description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress:
-          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-        addressLocality: "Bangalore",
-        addressRegion: "Karnataka",
-        postalCode: "560058",
-        addressCountry: "IN",
-      },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
-      },
-      keywords: [
-        "Industrial Process Filters in Bangalore",
-        "Industrial Energy Conversion in Peenya",
-        "Dry Vacuum Pumps in Bangalore",
-        "Best Air Compressors in Bangalore",
-        "Industrial Water Distribution in Karnataka",
-        "Industrial Water Cooling Systems in Bangalore",
-      ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors",
-    title: "High-Efficiency Nitrogen Generator in Bangalore",
-    description:
-      "Get a High-Efficiency Nitrogen Generator in Bangalore with reliable performance, energy savings, and steady nitrogen supply for industrial applications.",
-    keywords:
-      "High-Efficiency Nitrogen Generator in Bangalore, Nitrogen Generator Supplier, Industrial Nitrogen Generators, Energy-efficient Nitrogen Generators, Nitrogen Gas Solutions Bangalore",
-    content: {
-      h2: "High-Efficiency Nitrogen Generator in Bangalore",
-      extraLine:
-        "Looking for the High-Efficiency Nitrogen Generator in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/products/compressors",
-      description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress:
-          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-        addressLocality: "Bangalore",
-        addressRegion: "Karnataka",
-        postalCode: "560058",
-        addressCountry: "IN",
-      },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
-      },
-      keywords: [
-        "High-Efficiency Nitrogen Generator in Bangalore",
-        "Nitrogen Generator Supplier in Peenya",
-        "Industrial Nitrogen Generators in Karnataka",
-        "Energy-efficient Nitrogen Generators in Bangalore",
-        "Nitrogen Gas Systems Dealer in Bangalore",
-        "Dry Vacuum Pumps in Bangalore",
-        "Efficient Waste Water Treatment Systems in Peenya",
-        "Industrial Water Distribution in Karnataka",
-        "Expert Water Treatment Services in Bangalore",
-        "Trusted Oil-Sealed Pump Solutions in Bangalore",
-      ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-        "Nitrogen generation systems",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
     url: "https://airpraxpneumatics.com/about",
-    title: "Smart Water Management Solutions in Bangalore",
+    title: "Drainage and Submersible Pumps Manufactures in Peenya | Bangalore",
     description:
-      "Advanced Smart Water Management Solutions in Bangalore offering efficient water distribution, conservation, and treatment systems for sustainable industrial and urban needs.",
+      "Top Drainage and Submersible Pumps Manufactures in Peenya offering high-quality industrial pump solutions for water management, heating, cooling, and firefighting systems.",
     keywords:
-      "Smart Water Management Solutions in Bangalore, Industrial Water Solutions, Water Distribution Systems, Wastewater Treatment Bangalore, Sustainable Water Solutions",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Drainage and Submersible Pumps Manufactures in Bangalore",
     content: {
-      h2: "Smart Water Management Solutions in Bangalore",
-      extraLine:
-        "Looking for Smart Water Management Solutions in Bangalore? Contact us today",
+      h2: "Drainage and Submersible Pumps Manufactures in Peenya",
+      imageAlt: "Drainage and Submersible Pumps Manufactures in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
+      "@id": "https://airpraxpneumatics.com/about#organization",
+      name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/about",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Industrial Process Filters in Bangalore",
-        "Smart Water Management Solutions in Bangalore",
-        "Advanced Dry Vacuum Pump Technology in Karnataka",
-        "Efficient Liquid Ring Vacuum Solutions in Peenya",
-        "Industrial Water Cooling Systems in Bangalore",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Drainage and Submersible Pumps Manufactures in Bangalore",
       ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-        "Smart water distribution systems",
-        "Sustainable water conservation",
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/compressors",
+    title: "Heating and Cooling Pumps Suppliers in Bangalore | Karnataka",
+    description:
+      "Airprax Pneumatics is a trusted Heating and Cooling Pumps suppliers in Bangalore, offering high-quality industrial pump solutions for diverse applications.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
+    content: {
+      h2: "Heating and Cooling Pumps suppliers in Bangalore",
+      imageAlt: "Heating and Cooling Pumps suppliers in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/compressors/#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Heating and Cooling Pumps suppliers in Bangalore",
       ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
     url: "https://airpraxpneumatics.com/industry",
-    title: "Best Vacuum Products in Bangalore",
+    title: "Best Vacuum Products in Bangalore | Karnataka",
     description:
-      "Best Vacuum Products in Bangalore offering reliable performance, advanced technology, and energy-efficient solutions for industrial and commercial applications.",
+      "Discover the best vacuum products in Bangalore from Airprax Pneumatics, offering reliable industrial vacuum solutions for diverse applications across industries.",
     keywords:
-      "Best Vacuum Products in Bangalore, Industrial Vacuum Solutions, Dry Vacuum Pumps Bangalore, Oil-Free Vacuum Systems, Industrial Air & Gas Solutions",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, best Vaccume Products in Bangalore",
     content: {
-      h2: "Best Vacuum Products in Bangalore",
-      extraLine:
-        "Looking for Best Vacuum Products in Bangalore? Contact us today",
+      h2: "best Vaccume Products in Bangalore",
+      imageAlt: "best Vaccume Products in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
+      "@id": "https://airpraxpneumatics.com/industry/#organization",
+      name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/industry",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, fire-fighting solutions, and vacuum products in Bangalore.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Industrial Process Filters in Bangalore",
-        "Industrial Energy Conversion in Peenya",
-        "Best Vacuum Products in Bangalore",
-        "Dry Vacuum Pumps in Bangalore",
-        "Efficient Waste Water Treatment Systems in Peenya",
-        "Oil-Sealed Vacuum Pump Solutions in Bangalore",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "best Vaccume Products in Bangalore",
       ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-        "Vacuum technology for industries",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
     url: "https://airpraxpneumatics.com/latest-news",
-    title: "Reliable Compressor Products in Bangalore",
+    title: "Industrial Air Compressor Solutions in Bangalore | Karnataka",
     description:
-      "Reliable Compressor Products in Bangalore designed for durability, energy efficiency, and consistent output to meet industrial and commercial needs.",
+      "Get reliable industrial air compressor solutions in Bangalore with Airprax Pneumatics. High-quality systems for manufacturing, industrial use, and efficiency.",
     keywords:
-      "Reliable Compressor Products in Bangalore, Industrial Air Compressors, Energy-efficient Compressors, Air Filtration Systems, Industrial Vacuum & Blower Solutions",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, industrial air compressor solutions in Bangalore",
     content: {
-      h2: "Reliable Compressor Products in Bangalore",
-      extraLine:
-        "Looking for Reliable Compressor Products in Bangalore? Contact us today",
+      h2: "industrial air compressor solutions in Bangalore",
+      imageAlt: "industrial air compressor solutions in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
+      "@id": "https://airpraxpneumatics.com/latest-news#organization",
+      name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/latest-news",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Industrial Process Filters in Bangalore",
-        "Reliable Compressor Products in Bangalore",
-        "Efficient Waste Water Treatment Systems in Peenya",
-        "Industrial Water Distribution in Karnataka",
-        "Advanced Dry Vacuum Pump Technology in Karnataka",
-        "Oil-Free and Oil-Sealed Industrial Compressors",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "industrial air compressor solutions in Bangalore",
       ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-        "Industrial compressor solutions",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
     url: "https://airpraxpneumatics.com/gallery",
-    title: "Industrial Compressor Solutions in Peenya",
+    title: "Top Air Compressor Manufacturers in Peenya | Karnataka",
     description:
-      "Industrial Compressor Solutions in Peenya offering reliable, energy-efficient, and high-performance systems tailored for diverse industrial applications and needs.",
+      "Reliable air compressor manufacturers in Peenya offering high-performance industrial compressor solutions with durable quality and trusted service in Bangalore.",
     keywords:
-      "Industrial Compressor Solutions in Peenya, Industrial Energy Conversion Peenya, Oil-Free Air Blowers Bangalore, Industrial Water Distribution Karnataka, Advanced Dry Vacuum Pumps",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, air compressor Manufacturers in Peenya",
     content: {
-      h2: "Industrial Compressor Solutions in Peenya",
-      extraLine:
-        "Looking for Industrial Compressor Solutions in Peenya? Contact us today",
+      h2: "air compressor Manufacturers in Peenya",
+      imageAlt: "air compressor Manufacturers in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
+      "@id": "https://airpraxpneumatics.com/gallery#organization",
+      name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/gallery",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Industrial Energy Conversion in Peenya",
-        "Oil-Free Air Blowers in Bangalore",
-        "Industrial Water Distribution in Karnataka",
-        "Industrial Compressor Solutions in Peenya",
-        "Advanced Dry Vacuum Pump Technology in Karnataka",
-        "Energy-efficient Industrial Compressors",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "air compressor Manufacturers in Peenya",
       ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-        "Industrial compressor solutions",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
     url: "https://airpraxpneumatics.com/brochure",
-    title: "Industrial Water Cooling Systems in Bangalore",
+    title: "Water Management Pumps Suppliers in Bangalore",
     description:
-      "Industrial Water Cooling Systems in Bangalore delivering reliable cooling performance, energy savings, and advanced technology for various industrial applications.",
+      "Trusted Water Management Pumps suppliers in Bangalore offering premium industrial pump solutions, including circulator, drainage, submersible, and fire-fighting pumps.",
     keywords:
-      "Industrial Water Cooling Systems in Bangalore, Industrial Water Solutions, Energy-efficient Cooling Systems, Industrial Water Distribution Karnataka, High-Performance Vacuum Technology",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Water Management Pumps suppliers in Bangalore",
     content: {
-      h2: "Industrial Water Cooling Systems in Bangalore",
-      extraLine:
-        "Looking for Industrial Water Cooling Systems in Bangalore? Contact us today",
+      h2: "Water Management Pumps suppliers in Bangalore",
+      imageAlt: "Water Management Pumps suppliers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
+      "@id": "https://airpraxpneumatics.com/brochure#organization",
+      name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/brochure",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Industrial Process Filters in Karnataka",
-        "Industrial Energy Conversion in Peenya",
-        "Industrial Water Cooling Systems in Karnataka",
-        "Industrial Water Distribution in Karnataka",
-        "High-Performance Vacuum Technology in Peenya",
-        "Energy-efficient Industrial Cooling Systems",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Water Management Pumps suppliers in Bangalore",
       ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-        "Industrial water cooling solutions",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
     url: "https://airpraxpneumatics.com/medical-oxygen-plant",
-    title: "Medical Oxygen Plant in Bangalore",
+    title: "Medical Oxygen Plant Manufacturers in Bangalore",
     description:
-      "Medical Oxygen Plant in Bangalore providing reliable oxygen supply, advanced technology, and efficient solutions for hospitals, clinics, and healthcare facilities.",
+      "Airprax Pneumatics is a trusted Medical oxygen plant manufacturers in Bangalore, offering high-quality, reliable, and efficient medical oxygen generation solutions.",
     keywords:
-      "Medical Oxygen Plant in Bangalore, Hospital Oxygen Supply Bangalore, Medical Gas Solutions, Industrial Air & Oxygen Systems, Efficient Oxygen Plant Solutions",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Medical oxygen plant manufacturers in Bangalore",
     content: {
-      h2: "Medical Oxygen Plant in Bangalore",
-      extraLine:
-        "Looking for Medical Oxygen Plant in Bangalore? Contact us today",
+      h2: "Medical oxygen plant manufacturers in Bangalore",
+      imageAlt: "Medical oxygen plant manufacturers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
+      "@id": "https://airpraxpneumatics.com/medical-oxygen-plant/#organization",
+      name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/medical-oxygen-plant",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Airprax Pneumatics LLP is a leading dealer in Atlas Copco air products based in Peenya Industrial Area, Bangalore. We offer industrial process filters, oil-free and oil-sealed air / vacuum blowers and pumps, water treatment and cooling systems, energy conversion solutions, and expert services for industrial water and wastewater management.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps and medical oxygen plants in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Industrial Process Filters in Bangalore",
-        "Industrial Water Distribution in Karnataka",
-        "Medical Oxygen Plant in Bangalore",
-        "High-Performance Vacuum Technology in Peenya",
-        "Trusted Oil-Sealed Pump Solutions in Karnataka",
-        "Efficient Medical Oxygen Solutions",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Medical oxygen plant manufacturers in Bangalore",
       ],
-      knowsAbout: [
-        "Compressed air systems",
-        "Vacuum pumps technology",
-        "Water treatment solutions",
-        "Industrial blowers",
-        "Oil-free and oil-sealed pump systems",
-        "Waste water treatment",
-        "Industrial energy conversion",
-        "Air filtration",
-        "Medical oxygen generation systems",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
     url: "https://airpraxpneumatics.com/customers",
-    title: "Diesel Fire Pumps in Bangalore",
+    title: "Industry water Pumps Manufacturers in Peenya | Bangalore",
     description:
-      "Diesel Fire Pumps in Bangalore offering reliable performance, advanced safety features, and high efficiency for industrial, commercial, and residential fire protection needs.",
+      "Leading Industry water Pumps Manufacturers in Peenya offering high-quality industrial water solutions, circulator pumps, drainage pumps and customized pump systems.",
     keywords:
-      "Diesel Fire Pumps in Bangalore, Centrifugal Pumps Peenya, High Pressure Centrifugal Pumps Bangalore, Hot Water Pumps Bangalore, Chill Water Pumps Bangalore",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Industry water Pumps Manufacturers in Peenya",
     content: {
-      h2: "Diesel Fire Pumps in Bangalore",
-      extraLine: "Looking for Diesel Fire Pumps in Bangalore? Contact us today",
+      h2: "Industry water Pumps Manufacturers in Peenya",
+      imageAlt: "Industry water Pumps Manufacturers in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
+      "@id": "https://airpraxpneumatics.com/customers/#organization",
+      name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/customers",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Our customers include major companies such as Toyota, Britannia, Jubilant (Domino’s Pizza), Wipro Enterprises, Akzo Nobel, Godrej Tyson Foods, and many more, as we deliver centrifugal pumps, hot water pumps, chill water pumps, diesel fire pumps and high pressure centrifugal pump solutions in Bangalore and Peenya.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-        {
-          "@type": "ContactPoint",
-          email: "sales@airprax.com",
-          contactType: "Customer Inquiries",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
-      },
-      openingHoursSpecification: [
-        {
-          "@type": "OpeningHoursSpecification",
-          dayOfWeek: [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday",
-          ],
-          opens: "09:00",
-          closes: "17:30",
-        },
-      ],
-      keywords: [
-        "Centrifugal pump in Peenya",
-        "High pressure centrifugal pump in Bangalore",
-        "Diesel Fire Pumps in Bangalore",
-        "Hot water Pump in Bangalore",
-        "Chill water pumps in Bangalore",
-        "Reliable Fire Safety Pump Solutions",
-      ],
-      knowsAbout: [
-        "Centrifugal pumps",
-        "High pressure pumping systems",
-        "Fire safety pumps",
-        "Hot water circulation pumps",
-        "Chilled water pump technology",
-        "Industrial pump maintenance",
-        "Diesel fire pump systems",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
-    title: "Water Distribution Pumps in Bangalore",
-    description:
-      "Water Distribution Pumps in Bangalore designed for efficient water supply, advanced performance, and durability to meet residential, commercial, and industrial needs.",
-    keywords:
-      "Water Distribution Pumps in Bangalore, Wastewater Collection Pumps Bangalore, Sewage Pumps Bangalore, Waste Water Treatment Pumps Bangalore, Fire Detection Systems Bangalore",
-    content: {
-      h2: "Water Distribution Pumps in Bangalore",
-      extraLine:
-        "Looking for Water Distribution Pumps in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Airspace Industrial Compressors Models & Solutions",
-      url: "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
-      description:
-        "Airspace Industrial Compressors Models & Solutions – top-quality air compressor systems for industrial use, from Airprax Pneumatics, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Water Distribution Pumps in Bangalore",
-        "Wastewater collection pumps in Bangalore",
-        "Sewage pumps in Bangalore",
-        "Waste water treatment pumps in Bangalore",
-        "Fire Detection systems in Bangalore",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Industry water Pumps Manufacturers in Peenya",
       ],
-      knowsAbout: [
-        "Compression technology",
-        "Industrial air systems",
-        "Pneumatics",
-        "Air compressor maintenance",
-        "Efficiency in compressed air supply",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
-        // "price": "XXXX.XX"   <-- add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/airspacedryers",
-    title: "Quality Air Dryers in Peenya",
-    description:
-      "Quality Air Dryers in Peenya offering efficient moisture removal, energy savings, and reliable solutions for industrial compressed air systems.",
-    keywords:
-      "Quality Air Dryers in Peenya, Pneumatic automation in Bangalore, Pneumatic fittings suppliers in Karnataka, High-quality pneumatic valves in Bangalore, Pneumatic solenoid valves in Peenya",
-    content: {
-      h2: "Quality Air Dryers in Peenya",
-      extraLine: "Looking for Quality Air Dryers in Peenya? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Airspace Dryers",
-      url: "https://airpraxpneumatics.com/products/compressors/airspacedryers",
-      description:
-        "Airspace Dryers from Airprax Pneumatics — premium air dryer / pneumatic system solutions located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Quality Air Dryers in Peenya",
-        "Pneumatic automation in Bangalore",
-        "Pneumatic fittings suppliers in Karnataka",
-        "High-quality pneumatic valves in Bangalore",
-        "Pneumatic solenoid valves in Peenya",
-      ],
-      knowsAbout: [
-        "Air drying technology",
-        "Compressed air systems",
-        "Pneumatic control valves",
-        "Fittings and accessories",
-        "Automation solutions for pneumatics",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/airspacedryers",
-        // "price": "XXXX.XX" — include actual price if known
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers",
-    title:
-      "Air treatment units in Karnataka | Clean Air Solutions in Bangalore",
-    description:
-      "Air Treatment Units in Karnataka providing efficient air purification, temperature control, and humidity management for industrial and commercial applications.",
-    keywords:
-      "Oil-Free Air Blowers in Peenya, Clean Air Solutions in Bangalore, Air control regulators in Bangalore, Air treatment units in Karnataka, Compressed air solutions in Karnataka",
-    content: {
-      h2: "Air treatment units in Karnataka",
-      extraLine:
-        "Looking for Air treatment units in Karnataka? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Oil-Free Air Blowers",
-      url: "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers",
-      description:
-        "Oil-Free Air Blowers by Airprax Pneumatics — clean, efficient air blower solutions located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Oil-Free Air Blowers in Peenya",
-        "Clean Air Solutions in Bangalore",
-        "Air control regulators in Bangalore",
-        "Air treatment units in Karnataka",
-        "Compressed air solutions in Karnataka",
-      ],
-      knowsAbout: [
-        "Oil-free blower technology",
-        "Compressed air quality",
-        "Air control systems",
-        "Air treatment and filtration",
-        "Regulation and automation of airflow",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
-    title: "Industrial Condensate Treatment in Bangalore",
-    description:
-      "Industrial Condensate Treatment in Bangalore offering advanced systems for wastewater management, recovery, and sustainable industrial operations.",
-    keywords:
-      "Liquid Ring Vacuum Pumps Dealer in Bangalore, Industrial Vacuum Pump Systems distributors in Bangalore, Industrial Condensate Treatment in Peenya, Industrial Oxygen Generators in Karnataka, Industry 4.0 Controllers in Bangalore",
-    content: {
-      h2: "Industrial Condensate Treatment in Peenya",
-      extraLine:
-        "Looking for Industrial Condensate Treatment in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Industrial Condensate Treatment Solutions Range",
-      url: "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
-      description:
-        "Airprax Pneumatics offers a comprehensive range of industrial condensate treatment solutions, including liquid ring vacuum pumps and condensate recovery systems, tailored for industries in Peenya and across Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91‑9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91‑9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Liquid Ring Vacuum Pumps Dealer in Bangalore",
-        "Industrial Vacuum Pump Systems distributors in Bangalore",
-        "Industrial Condensate Treatment in Peenya",
-        "Industrial Oxygen Generators in Karnataka",
-        "Industry 4.0 Controllers in Bangalore",
-      ],
-      knowsAbout: [
-        "Condensate recovery systems",
-        "Liquid ring vacuum technology",
-        "Oxygen generation systems",
-        "Industry 4.0 automation",
-        "Industrial water treatment solutions",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/airspacefilters",
-    title: "Reliable Air Filtration in Bangalore",
-    description:
-      "Reliable Air Filtration in Bangalore with high-performance industrial air filters, oil-free air blowers, and efficient compressors for clean, contaminant-free air.",
-    keywords:
-      "Reliable Air Filtration in Bangalore, Industrial Air Filters in Bangalore, Oil-Free Air Blowers in Karnataka, Industrial Air Compressors in Peenya, Air Compressor in Peenya",
-    content: {
-      h2: "Reliable Air Filtration in Bangalore",
-      extraLine:
-        "Looking for Reliable Air Filtration in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Airspace Filters",
-      url: "https://airpraxpneumatics.com/products/compressors/airspacefilters",
-      description:
-        "Airspace Filters by Airprax Pneumatics — premium industrial air filtration solutions located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91‑9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91‑9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Reliable Air Filtration in Bangalore",
-        "Industrial Air Filters in Bangalore",
-        "Oil-Free Air Blowers in Karnataka",
-        "Industrial Air Compressors in Peenya",
-        "Air Compressor in Peenya",
-      ],
-      knowsAbout: [
-        "Air filtration technology",
-        "Compressed air systems",
-        "Pneumatic control systems",
-        "Industrial air quality",
-        "Air compressor maintenance",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/airspacefilters",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/gasspacegenerators",
-    title: "Premium Gas Generators in Peenya",
-    description:
-      "Premium Gas Generators in Peenya offering reliable performance, energy efficiency, and consistent gas supply for industrial and commercial applications.",
-    keywords:
-      "Nitrogen Generator Supplier in Bangalore, Gas Generators in Peenya, Fire alarm systems in Bangalore, Fire alarm detection systems in Bangalore, Industrial Gas Generators in Karnataka",
-    content: {
-      h2: "Premium Gas Generators in Bangalore",
-      extraLine:
-        "Looking for Reliable Air Filtration in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "GasSpace Generators",
-      url: "https://airpraxpneumatics.com/products/compressors/gasspacegenerators",
-      description:
-        "GasSpace Generators by Airprax Pneumatics — advanced nitrogen and oxygen gas generation systems located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91‑9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91‑9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Nitrogen Generator Supplier in Bangalore",
-        "Gas Generators in Peenya",
-        "Fire alarm systems in Bangalore",
-        "Fire alarm detection systems in Bangalore",
-        "Industrial Gas Generators in Karnataka",
-      ],
-      knowsAbout: [
-        "Nitrogen generation technology",
-        "Oxygen generation systems",
-        "Fire detection systems",
-        "Industrial gas solutions",
-        "Compressed gas technologies",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/gasspacegenerators",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/oxygenspacegenerators",
-    title: "Advanced Oxygen Generators in Bangalore",
-    description:
-      "Advanced Oxygen Generators in Bangalore providing efficient, continuous oxygen supply with modern technology for hospitals, clinics, and healthcare facilities.",
-    keywords:
-      "Advanced Oxygen Generators in Bangalore, Process Gas Equipment in Bangalore, Industrial Oxygen Generators in Bangalore, Vacuum Products Supplier in Peenya, Industrial Process Filters in Karnataka",
-    content: {
-      h2: "Advanced Oxygen Generators in Bangalore",
-      extraLine:
-        "Looking for Advanced Oxygen Generators in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "OxygenSpace Generators",
-      url: "https://airpraxpneumatics.com/products/compressors/oxygenspacegenerators",
-      description:
-        "OxygenSpace Generators by Airprax Pneumatics — advanced industrial oxygen generation systems located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Advanced Oxygen Generators in Bangalore",
-        "Process Gas Equipment in Bangalore",
-        "Industrial Oxygen Generators in Bangalore",
-        "Vacuum Products Supplier in Peenya",
-        "Industrial Process Filters in Karnataka",
-      ],
-      knowsAbout: [
-        "Oxygen generation technology",
-        "Process gas equipment",
-        "Industrial gas solutions",
-        "Vacuum products",
-        "Industrial process filtration",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/oxygenspacegenerators",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment",
-    title: "Top Air Equipment in Peenya",
-    description:
-      "Top Air Equipment in Peenya offering industrial air compressors, blowers, filters, and efficient pneumatic solutions for reliable operations.",
-    keywords:
-      "Oil-Free Air Blowers in Peenya, Top Air Equipment in Peenya, Industrial Air Receivers in Bangalore, Process Gas Equipment in Karnataka, Industry 4.0 Controllers in Bangalore",
-    content: {
-      h2: "Top Air Equipment in Peenya",
-      extraLine: "Looking for Top Air Equipment in Peenya? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Process Gas & Air Equipment",
-      url: "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment",
-      description:
-        "Airprax Pneumatics offers a comprehensive range of process gas and air equipment, including oil-free air blowers, industrial air receivers, and energy-efficient solutions tailored for industries in Peenya and across Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Oil-Free Air Blowers in Peenya",
-        "Top Air Equipment in Peenya",
-        "Industrial Air Receivers in Bangalore",
-        "Process Gas Equipment in Karnataka",
-        "Industry 4.0 Controllers in Bangalore",
-      ],
-      knowsAbout: [
-        "Oil-free air blowers",
-        "Industrial air receivers",
-        "Process gas equipment",
-        "Energy-efficient solutions",
-        "Industry 4.0 automation",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
-    title: "Trusted Marine Compressors in Bangalore",
-    description:
-      "Marine Compressors in Bangalore offering reliable performance, energy efficiency, and durable solutions for marine and industrial applications.",
-    keywords:
-      "Marine Compressors in Peenya, Marine Compressors in Bangalore, Efficient Dry Vacuum Solutions in Karnataka, Honeywell fire alarm system in Bangalore, Centrifugal pump in Bangalore",
-    content: {
-      h2: "Trusted Marine Compressors in Bangalore",
-      extraLine:
-        "Looking for Trusted Marine Compressors in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Marine Compressors",
-      url: "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
-      description:
-        "Marine Compressors by Airprax Pneumatics — high-performance marine-grade compressors designed for reliability and efficiency in marine applications, located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Marine Compressors in Peenya",
-        "Marine Compressors in Bangalore",
-        "Efficient Dry Vacuum Solutions in Karnataka",
-        "Honeywell fire alarm system in Bangalore",
-        "Centrifugal pump in Bangalore",
-      ],
-      knowsAbout: [
-        "Marine compressors",
-        "Dry vacuum solutions",
-        "Fire alarm systems",
-        "Centrifugal pumps",
-        "Industrial air compressors",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers",
-    title: "Industrial Air Receivers in Karnataka",
-    description:
-      "Industrial Air Receivers in Karnataka providing high-capacity storage, pressure regulation, and efficient performance for industrial compressed air systems.",
-    keywords:
-      "High pressure centrifugal pump in Peenya, Portable Fire Pumps in Peenya, Diesel Fire Pumps in Bangalore, Industrial Air Receivers in Karnataka, Industrial After Coolers in Karnataka",
-    content: {
-      h2: "Industrial Air Receivers in Karnataka",
-      extraLine:
-        "Looking for Industrial Air Receivers in Karnataka? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Airspace Receivers & Aftercoolers",
-      url: "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers",
-      description:
-        "Airprax Pneumatics offers high-performance Airspace Receivers & Aftercoolers, designed to enhance the efficiency and longevity of your compressed air systems.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "High pressure centrifugal pump in Peenya",
-        "Portable Fire Pumps in Peenya",
-        "Diesel Fire Pumps in Bangalore",
-        "Industrial Air Receivers in Karnataka",
-        "Industrial After Coolers in Karnataka",
-      ],
-      knowsAbout: [
-        "Air receivers",
-        "Aftercoolers",
-        "Compressed air systems",
-        "Industrial air equipment",
-        "Pneumatic solutions",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
-    title: "Nitrogen Boosters in Bangalore",
-    description:
-      "Nitrogen Boosters in Bangalore offering high-pressure, reliable, and energy-saving solutions for industrial, laboratory, and commercial applications.",
-    keywords:
-      "Oil-Free Air Blowers in Karnataka, Industrial Air Compressors in Karnataka, Nitrogen Generator in Peenya, Nitrogen Boosters in Bangalore, Industrial Air Filters in Bangalore",
-    content: {
-      h2: "Nitrogen Boosters in Bangalore",
-      extraLine: "Looking for Nitrogen Boosters in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Oil-Free Air & Nitrogen Boosters",
-      url: "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
-      description:
-        "Oil-Free Air & Nitrogen Boosters by Airprax Pneumatics — advanced industrial solutions for efficient air and nitrogen boosting, located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Oil-Free Air Blowers in Karnataka",
-        "Industrial Air Compressors in Karnataka",
-        "Nitrogen Generator in Peenya",
-        "Nitrogen Boosters in Bangalore",
-        "Industrial Air Filters in Bangalore",
-      ],
-      knowsAbout: [
-        "Oil-free air blowers",
-        "Industrial air compressors",
-        "Nitrogen generators",
-        "Nitrogen boosters",
-        "Industrial air filters",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
-    title: "Efficient Energy Conversion in Bangalore",
-    description:
-      "Efficient Energy Conversion in Bangalore offering reliable solutions, optimized systems, and sustainable technology for industrial and commercial energy needs.",
-    keywords:
-      "Efficient Energy Conversion in Bangalore, Centrifugal pump in Karnataka, Centrifugal pump water pump in Bangalore, Efficient Vacuum Solutions in Peenya, Industrial Energy Conversion Supplier in Karnataka",
-    content: {
-      h2: "Efficient Energy Conversion in Bangalore",
-      extraLine:
-        "Looking for Efficient Energy Conversion in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "EnergySpace Conversion",
-      url: "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
-      description:
-        "EnergySpace Conversion by Airprax Pneumatics — advanced solutions for efficient energy conversion in industrial applications, located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Efficient Energy Conversion in Bangalore",
-        "Centrifugal pump in Karnataka",
-        "Centrifugal pump water pump in Bangalore",
-        "Efficient Vacuum Solutions in Peenya",
-        "Industrial Energy Conversion Supplier in Karnataka",
-      ],
-      knowsAbout: [
-        "Energy conversion systems",
-        "Centrifugal pumps",
-        "Vacuum solutions",
-        "Industrial energy efficiency",
-        "Compressed air systems",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
-    title: "Industrial Water Cooling Systems in Bangalore",
-    description:
-      "Industrial Water Cooling Systems in Bangalore offering advanced technology, energy efficiency, and consistent performance for industrial and commercial applications.",
-    keywords:
-      "Industrial Water Cooling Systems in Peenya, Industrial Water Cooling Systems in Bangalore, Industrial Water Distribution in Karnataka, Water Distribution Systems in Karnataka, Efficient Waste Water Treatment Systems in Karnataka",
-    content: {
-      h2: "Industrial Water Cooling Systems in Bangalore",
-      extraLine:
-        "Looking for Industrial Water Cooling Systems in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Industrial Water Cooling Systems",
-      url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
-      description:
-        "Industrial Water Cooling Systems by Airprax Pneumatics — advanced solutions for efficient water cooling in industrial applications, located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Industrial Water Cooling Systems in Peenya",
-        "Industrial Water Cooling Systems in Bangalore",
-        "Industrial Water Distribution in Karnataka",
-        "Water Distribution Systems in Karnataka",
-        "Efficient Waste Water Treatment Systems in Karnataka",
-      ],
-      knowsAbout: [
-        "Industrial water cooling systems",
-        "Water distribution networks",
-        "Wastewater treatment solutions",
-        "Industrial water recycling",
-        "Cooling tower technologies",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/compressors/processspacefilters",
-    title: "Industrial Air Filters in Bangalore",
-    description:
-      "High-quality Industrial Air Filters in Bangalore providing efficient air purification, contaminant-free compressed air, and reliable performance for diverse industrial applications.",
-    keywords:
-      "Process Gas Equipment in Bangalore, Industrial Process Filters in Peenya, Industrial Process Filters in Karnataka, Industrial Air Filters in Bangalore, Air Filters in Karnataka",
-    content: {
-      h2: "Industrial Air Filters in Bangalore",
-      extraLine:
-        "Looking for Industrial Air Filters in Bangalore? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "ProcessSpace Filters",
-      url: "https://airpraxpneumatics.com/products/compressors/processspacefilters",
-      description:
-        "ProcessSpace Filters by Airprax Pneumatics — advanced filtration solutions designed for industrial applications, ensuring optimal performance and reliability in process systems.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Process Gas Equipment in Bangalore",
-        "Industrial Process Filters in Peenya",
-        "Industrial Process Filters in Karnataka",
-        "Industrial Air Filters in Bangalore",
-        "Air Filters in Karnataka",
-      ],
-      knowsAbout: [
-        "Industrial filtration systems",
-        "Process gas equipment",
-        "Air filtration solutions",
-        "Industrial air filters",
-        "Process filtration technologies",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/compressors/processspacefilters",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/waterManagement",
-    title: "Industrial Water Distribution in Karnataka",
-    description:
-      "Industrial Water Distribution in Karnataka offering reliable systems, advanced technology, and optimized solutions for seamless water supply in industrial operations.",
-    keywords:
-      "Industrial Water Cooling Systems in Peenya, Industrial Water Cooling Systems in Bangalore, Industrial Water Distribution in Karnataka, Water Distribution Systems in Karnataka, Efficient Waste Water Treatment Systems in Karnataka",
-    content: {
-      h2: "Industrial Water Distribution in Karnataka",
-      extraLine:
-        "Looking for Industrial Water Distribution in Karnataka? Contact us today",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Water Management Solutions",
-      url: "https://airpraxpneumatics.com/products/waterManagement",
-      description:
-        "Airprax Pneumatics offers efficient water management solutions, including pumps and systems for municipal water supply, sewage disposal, and treatment, tailored for industrial applications.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Industrial Water Cooling Systems in Peenya",
-        "Industrial Water Cooling Systems in Bangalore",
-        "Industrial Water Distribution in Karnataka",
-        "Water Distribution Systems in Karnataka",
-        "Efficient Waste Water Treatment Systems in Karnataka",
-      ],
-      knowsAbout: [
-        "Water pumps",
-        "Sewage disposal systems",
-        "Water treatment solutions",
-        "Municipal water supply systems",
-        "Industrial water management",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Water Management & Distribution",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/waterManagement",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/water-management/raw-water-intake",
-    title: "Raw Water Intake Systems in Bangalore",
-    description:
-      "Raw Water Intake Systems in Bangalore providing efficient water collection, filtration, and supply solutions for industrial and municipal applications.",
-    keywords:
-      "Raw Water Intake Systems in Bangalore, Raw Water Intake in Karnataka, Industrial Dewatering Systems in Bangalore, Waste Water Collection in Bangalore, Raw Water Intake Systems in Peenya",
-    content: {
-      h2: "Raw Water Intake Systems in Bangalore",
-      extraLine:
-        "Looking for Raw Water Intake Systems in Bangalore? Contact Airprax Pneumatics today.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Raw Water Intake Systems",
-      url: "https://airpraxpneumatics.com/products/water-management/raw-water-intake",
-      description:
-        "Airprax Pneumatics offers efficient raw water intake systems, including pumps and equipment for industrial and municipal applications, located in Peenya Industrial Area, Bangalore.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Raw Water Intake Systems in Bangalore",
-        "Raw Water Intake in Karnataka",
-        "Industrial Dewatering Systems in Bangalore",
-        "Waste Water Collection in Bangalore",
-        "Raw Water Intake Systems in Peenya",
-      ],
-      knowsAbout: [
-        "Raw water intake systems",
-        "Industrial dewatering solutions",
-        "Wastewater collection systems",
-        "Water treatment infrastructure",
-        "Industrial water pumps",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Water Management & Distribution",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/water-management/raw-water-intake",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport",
-    title: "Waste Water Collection in Bangalore",
-    description:
-      "Waste Water Collection in Bangalore offering advanced systems for industrial and municipal water management, ensuring sustainable and safe disposal solutions.",
-    keywords:
-      "Waste Water Collection in Bangalore, Industrial Water Distribution in Bangalore, Waste Water Collection in Karnataka, Industrial Dewatering Systems in Karnataka, Industrial Waste Water Treatment in Bangalore",
-    content: {
-      h2: "Waste Water Collection in Bangalore",
-      extraLine:
-        "Looking for Waste Water Collection in Bangalore? Contact Airprax Pneumatics today.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Waste Water Collection and Transport Systems",
-      url: "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport",
-      description:
-        "Airprax Pneumatics offers reliable and energy-efficient wastewater collection and transport solutions, including Wilo-SP Series, Wilo-FA, Wilo-Rexa CUT, and Wilo-Rexa PRO pumps, designed for industrial and municipal applications in Bangalore and Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Waste Water Collection in Bangalore",
-        "Industrial Water Distribution in Bangalore",
-        "Waste Water Collection in Karnataka",
-        "Industrial Dewatering Systems in Karnataka",
-        "Industrial Waste Water Treatment in Bangalore",
-      ],
-      knowsAbout: [
-        "Wastewater collection systems",
-        "Industrial water distribution",
-        "Dewatering solutions",
-        "Wastewater treatment technologies",
-        "Industrial pumps",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Water Management & Treatment",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/water-management/dewatering",
-    title: "Reliable Dewatering Solutions in Bangalore",
-    description:
-      "Reliable Dewatering Solutions in Bangalore providing efficient water removal, industrial drainage, and sustainable solutions for construction and municipal projects.",
-    keywords:
-      "Industrial Dewatering Systems in Karnataka, Waste Water Collection in Karnataka, Water Distribution and Boosting Supplier in Bangalore, Reliable Dewatering Solutions in Bangalore, Dewatering Systems in Bangalore",
-    content: {
-      h2: "Reliable Dewatering Solutions in Peenya",
-      extraLine:
-        "Looking for efficient dewatering systems in Bangalore? Contact Airprax Pneumatics for industrial and municipal solutions.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Dewatering Systems",
-      url: "https://airpraxpneumatics.com/products/water-management/dewatering",
-      description:
-        "Airprax Pneumatics provides high-performance dewatering solutions with Wilo-SP Series, Wilo-FA, Wilo-Rexa PRO, and Wilo-Flumen pumps, designed for construction, industrial, and municipal applications in Bangalore and across Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Industrial Dewatering Systems in Karnataka",
-        "Waste Water Collection in Karnataka",
-        "Water Distribution and Boosting Supplier in Bangalore",
-        "Reliable Dewatering Solutions in Bangalore",
-        "Dewatering Systems in Bangalore",
-      ],
-      knowsAbout: [
-        "Dewatering systems",
-        "Industrial water distribution",
-        "Wastewater collection",
-        "Water treatment solutions",
-        "Industrial pumps",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Water Management & Dewatering Solutions",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/water-management/dewatering",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/water-management/waste-water-treatment",
-    title: "Waste Water Treatment in Bangalore",
-    description:
-      "Waste Water Treatment in Bangalore offering advanced systems for industrial and municipal water purification, ensuring sustainable and eco-friendly solutions.",
-    keywords:
-      "Waste Water Treatment in Bangalore, Waste Water Collection in Karnataka, Industrial Waste Water Treatment in Bangalore, Efficient Waste Water Treatment Systems in Peenya, Waste Water Treatment in Peenya",
-    content: {
-      h2: "Waste Water Treatment in Bangalore",
-      extraLine:
-        "Looking for advanced wastewater treatment solutions in Bangalore? Contact Airprax Pneumatics for industrial and municipal systems.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Waste Water Treatment Systems",
-      url: "https://airpraxpneumatics.com/products/water-management/waste-water-treatment",
-      description:
-        "Airprax Pneumatics provides efficient and reliable wastewater treatment systems, including Wilo-SP Series, Wilo-FA, Wilo-Rexa CUT, Wilo-Rexa PRO, Wilo-Flumen EXCEL-RZPE, Wilo-Flumen OPTI-RZP, Wilo-Flumen OPTI-TR, and Wilo-EMU RZP pumps, tailored for industrial and municipal applications in Bangalore and across Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Waste Water Treatment in Bangalore",
-        "Waste Water Collection in Karnataka",
-        "Industrial Waste Water Treatment in Bangalore",
-        "Efficient Waste Water Treatment Systems in Peenya",
-        "Waste Water Treatment in Peenya",
-      ],
-      knowsAbout: [
-        "Wastewater treatment systems",
-        "Industrial water treatment",
-        "Effluent treatment plants",
-        "Water treatment pumps",
-        "Sewage treatment solutions",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Water Management & Treatment Solutions",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/water-management/waste-water-treatment",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting",
-    title: "Industrial Water Distribution in Peenya",
-    description:
-      "Industrial Water Distribution in Peenya providing efficient water supply systems, optimized performance, and sustainable solutions for industrial operations.",
-    keywords:
-      "Industrial Water Distribution in Peenya, Water Distribution and Boosting distributors in Bangalore, Raw Water Intake Supplier in Karnataka, Industrial Dewatering Systems distributors in Bangalore, Industrial Water Distribution in Karnataka",
-    content: {
-      h2: "Industrial Water Distribution in Peenya",
-      extraLine:
-        "Looking for reliable water distribution and boosting systems in Bangalore? Contact Airprax Pneumatics for industrial-grade solutions.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Water Distribution & Boosting Systems",
-      url: "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting",
-      description:
-        "Airprax Pneumatics offers advanced water distribution and boosting solutions, including Wilo-SP Series, Wilo-FA, Wilo-Rexa PRO, and Wilo-Flumen pumps, tailored for industrial and municipal applications in Bangalore and across Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Industrial Water Distribution in Peenya",
-        "Water Distribution and Boosting distributors in Bangalore",
-        "Raw Water Intake Supplier in Karnataka",
-        "Industrial Dewatering Systems distributors in Bangalore",
-        "Industrial Water Distribution in Karnataka",
-      ],
-      knowsAbout: [
-        "Water distribution systems",
-        "Industrial water boosting",
-        "Raw water intake solutions",
-        "Dewatering systems",
-        "Industrial pumps",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Water Management & Distribution Solutions",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/water-management/water-treatment",
-    title: "Expert Water Treatment in Peenya",
-    description:
-      "Expert water treatment services to ensure purity in Peenya, Laggare, Bangalore.",
-    keywords:
-      "Complete Waste Water Treatment in Bangalore, Water Management Treatment in Karnataka, Water Management Treatment in Bangalore, Water Management Treatment in Peenya, Water pump for high rise buildings in Bangalore",
-    content: {
-      h2: "Expert Water Treatment in Bangalore",
-      extraLine:
-        "Looking for advanced water treatment and purification systems in Peenya and Bangalore? Contact Airprax Pneumatics for municipal and industrial water treatment solutions.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Water Treatment Systems",
-      url: "https://airpraxpneumatics.com/products/water-management/water-treatment",
-      description:
-        "Airprax Pneumatics offers advanced water treatment solutions, including Wilo-SCP, Wilo-Helix EXCEL, Wilo-Actun ZETOS, and Wilo-Helix V pumps, designed for municipal and industrial applications in Bangalore and Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Complete Waste Water Treatment in Bangalore",
-        "Water Management Treatment in Karnataka",
-        "Water Management Treatment in Bangalore",
-        "Water Management Treatment in Peenya",
-        "Water pump for high rise buildings in Bangalore",
-      ],
-      knowsAbout: [
-        "Water treatment systems",
-        "Municipal water supply",
-        "Industrial water treatment",
-        "Water pumps for high-rise buildings",
-        "Effluent treatment plants",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial & Municipal Water Treatment Solutions",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/water-management/water-treatment",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/vaccumProducts",
-    title: "Vacuum Pumps in Bangalore",
-    description:
-      "High-performance Vacuum Pumps in Bangalore offering reliable, energy-efficient solutions for industrial, laboratory, and commercial applications.",
-    keywords:
-      "Reliable Vacuum Pump Solutions in Karnataka, Liquid Ring Vacuum Pumps in Bangalore, Efficient Dry Vacuum Solutions in Karnataka, Dry Vacuum Solutions in Peenya, Vacuum Pumps in Bangalore",
-    content: {
-      h2: "Vacuum Pumps in Bangalore",
-      extraLine:
-        "Discover Airprax Pneumatics' high-performance vacuum pumps and systems in Bangalore, designed for industrial, laboratory, and commercial needs across Karnataka.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Vacuum Pumps and Systems",
-      url: "https://airpraxpneumatics.com/products/vaccumProducts",
-      description:
-        "Airprax Pneumatics offers a range of high-performance vacuum pumps and systems, including liquid ring and dry vacuum solutions, tailored for industrial applications in Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Reliable Vacuum Pump Solutions in Karnataka",
-        "Liquid Ring Vacuum Pumps in Bangalore",
-        "Efficient Dry Vacuum Solutions in Karnataka",
-        "Dry Vacuum Solutions in Peenya",
-        "Vacuum Pumps in Bangalore",
-      ],
-      knowsAbout: [
-        "Vacuum pumps",
-        "Industrial vacuum systems",
-        "Liquid ring vacuum pumps",
-        "Dry vacuum solutions",
-        "High-performance vacuum equipment",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Vacuum Systems",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/vaccumProducts",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
-    title: "Oil-Sealed Vacuum Pumps in Bangalore",
-    description:
-      "Oil-Sealed Vacuum Pumps in Bangalore offering high efficiency, durable performance, and advanced solutions for industrial and laboratory applications.",
-    keywords:
-      "Oil-sealed vacuum pumps in Bangalore, Oil sealed screw pumps in Peenya, Oil-sealed rotary vane pumps in Karnataka, Oil-sealed rotary piston pumps in Bangalore, Small Vacuum Systems in Bangalore",
-    content: {
-      h2: "Oil-Sealed Vacuum Pumps in Bangalore",
-      extraLine:
-        "Airprax Pneumatics provides high-performance oil-sealed rotary vane, screw, and piston vacuum pumps for industrial, laboratory, and commercial use in Bangalore and Karnataka.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Oil-Sealed Vacuum Pumps",
-      url: "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
-      description:
-        "Airprax Pneumatics offers a range of high-performance oil-sealed vacuum pumps, including rotary vane, screw, and piston types, designed for industrial applications in Bangalore and Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Oil-sealed vacuum pumps in Bangalore",
-        "Oil sealed screw pumps in Peenya",
-        "Oil-sealed rotary vane pumps in Karnataka",
-        "Oil-sealed rotary piston pumps in Bangalore",
-        "Small Vacuum Systems in Bangalore",
-      ],
-      knowsAbout: [
-        "Oil-sealed vacuum pumps",
-        "Rotary vane vacuum pumps",
-        "Rotary screw vacuum pumps",
-        "Rotary piston vacuum pumps",
-        "Industrial vacuum systems",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Vacuum Pumps",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps",
-    title: "Dry Vacuum Pumps in Peenya",
-    description:
-      "Dry Vacuum Pumps in Peenya offering oil-free, reliable, and energy-saving solutions for industrial and laboratory applications.",
-    keywords:
-      "Dry Vacuum Pumps in Peenya, Efficient Dry Vacuum Solutions in Karnataka, Industrial Vacuum Products in Bangalore, Industrial Dry Vacuum Pumps in Peenya, Industrial Dry Vacuum Pumps in Bangalore",
-    content: {
-      h2: "Dry Vacuum Pumps in Peenya",
-      extraLine:
-        "Airprax Pneumatics provides high-performance oil-free dry vacuum pumps, including screw and rotary vane types, designed for reliable industrial and laboratory applications in Bangalore and Karnataka.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Dry Vacuum Pumps",
-      url: "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps",
-      description:
-        "Airprax Pneumatics offers a range of high-performance dry vacuum pumps, including screw and rotary vane types, designed for industrial applications in Bangalore and Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Dry Vacuum Pumps in Peenya",
-        "Efficient Dry Vacuum Solutions in Karnataka",
-        "Industrial Vacuum Products in Bangalore",
-        "Industrial Dry Vacuum Pumps in Peenya",
-        "Industrial Dry Vacuum Pumps in Bangalore",
-      ],
-      knowsAbout: [
-        "Dry vacuum pumps",
-        "Screw vacuum pumps",
-        "Rotary vane vacuum pumps",
-        "Industrial vacuum systems",
-        "High-performance vacuum equipment",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Dry Vacuum Pumps",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
-    title: "Efficient Liquid Ring Vacuum Pumps in Bangalore",
-    description:
-      "Efficient Liquid Ring Vacuum Pumps in Bangalore offering reliable, high-performance, and energy-saving solutions for industrial and commercial applications.",
-    keywords:
-      "Efficient Liquid Ring Vacuum Pumps in Bangalore, Efficient Liquid Ring Vacuum Pumps in Peenya, Liquid Ring Vacuum Pumps in Peenya, Industrial Liquid Ring Pumps in Peenya, Industrial Liquid Ring Pumps in Karnataka",
-    content: {
-      h2: "Efficient Liquid Ring Vacuum Pumps in Bangalore",
-      extraLine:
-        "Airprax Pneumatics provides high-performance liquid ring vacuum pumps suitable for industrial and commercial applications in Bangalore and Karnataka.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Liquid Ring Vacuum Pumps",
-      url: "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
-      description:
-        "Airprax Pneumatics offers a range of high-performance liquid ring vacuum pumps, designed for reliable, durable, and energy-efficient industrial applications in Bangalore and Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Efficient Liquid Ring Vacuum Pumps in Bangalore",
-        "Efficient Liquid Ring Vacuum Pumps in Peenya",
-        "Liquid Ring Vacuum Pumps in Peenya",
-        "Industrial Liquid Ring Pumps in Peenya",
-        "Industrial Liquid Ring Pumps in Karnataka",
-      ],
-      knowsAbout: [
-        "Liquid ring vacuum pumps",
-        "Industrial vacuum systems",
-        "High-performance vacuum equipment",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industrial Liquid Ring Vacuum Pumps",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
-        // "price": "XXXX.XX" — add actual price if available
-      },
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
-    title: "Industry 4.0 Controllers in Peenya",
-    description:
-      "Smart Industry 4.0 Controllers in Bangalore delivering advanced automation, real-time monitoring, and efficient control solutions for modern industrial operations.",
-    keywords:
-      "Industry 4.0 Controllers in Peenya, Industry 4.0 Controllers in Bangalore, Industry 4.0 Controllers in Karnataka, Smart Industry 4.0 Controllers in Bangalore, Smart Industry 4.0 Controllers in Peenya",
-    content: {
-      h2: "Industry 4.0 Accessories in Bangalore",
-      extraLine:
-        "Airprax Pneumatics provides smart Industry 4.0 controllers, sensors, and automation accessories for advanced industrial applications in Bangalore and Karnataka.",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Industry 4.0 Controllers and Accessories",
-      url: "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
-      description:
-        "Airprax Pneumatics offers a range of Industry 4.0 controllers and accessories, including smart controllers, sensors, and automation components, designed for industrial applications in Bangalore and Karnataka.",
-      brand: {
-        "@type": "Brand",
-        name: "Airspace",
-      },
-      manufacturer: {
-        "@type": "Organization",
-        name: "Airprax Pneumatics LLP",
-        url: "https://airpraxpneumatics.com/",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress:
-            '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          postalCode: "560058",
-          addressCountry: "IN",
-        },
-        telephone: "+91-9620602000",
-        contactPoint: {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "Mobile / WhatsApp",
-        },
-      },
-      keywords: [
-        "Industry 4.0 Controllers in Peenya",
-        "Industry 4.0 Controllers in Bangalore",
-        "Industry 4.0 Controllers in Karnataka",
-        "Smart Industry 4.0 Controllers in Bangalore",
-        "Smart Industry 4.0 Controllers in Peenya",
-      ],
-      knowsAbout: [
-        "Industry 4.0 controllers",
-        "Smart manufacturing",
-        "Industrial automation",
-        "IIoT solutions",
-        "Automation accessories",
-      ],
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
-      category: "Industry 4.0 Controllers & Accessories",
-      offers: {
-        "@type": "Offer",
-        availability: "https://schema.org/InStock",
-        priceCurrency: "INR",
-        url: "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
-        // "price": "XXXX.XX" — add actual price if available
-      },
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
     url: "https://airpraxpneumatics.com/peenya-suppliers",
-    title: "Peenya Suppliers Directory",
+    title: "Best Vacuum Products Suppliers in Peenya | Bangalore",
     description:
-      "Browse all Peenya supplier pages and jump directly to the topic you need.",
+      "Airprax Pneumatics is one of the best vacuum products suppliers in Peenya, offering high-quality industrial vacuum solutions trusted across Bangalore and Karnataka.",
     keywords:
-      "Peenya suppliers, Peenya pumps suppliers, Peenya fire alarm suppliers, directory",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, best Vaccume Products suppliers in Peenya",
     content: {
-      h2: "Peenya Suppliers Directory",
-      extraLine: "Find the page you need",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      name: "Peenya Suppliers Directory",
-      url: "https://airpraxpneumatics.com/peenya-suppliers",
-    },
-  },
-  {
-    url: "https://airpraxpneumatics.com/centrifugal-pump-suppliers-in-peenya",
-    title: "Centrifugal pump suppliers in Peenya",
-    description:
-      "Looking for the best Centrifugal pump suppliers in Peenya? Then feel free to contact us today or call us now.",
-    keywords:
-      "Centrifugal pump suppliers in Peenya, Centrifugal pump dealers in Peenya, Industrial centrifugal pumps Bangalore, Centrifugal pump manufacturers India, Water transfer pumps Peenya, Chemical process pumps Bangalore, Oil circulation pumps Peenya",
-    content: {
-      h2: "Centrifugal pump suppliers in Peenya",
-      extraLine:
-        "Looking for the best centrifugal pump suppliers in Peenya? Contact us today",
+      h2: "best Vaccume Products suppliers in Peenya",
+      imageAlt: "best Vaccume Products suppliers in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/centrifugal-pump-suppliers-in-peenya",
+      "@id": "https://airpraxpneumatics.com/peenya-suppliers#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/peenya-suppliers",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Airprax Pneumatics LLP supplies a wide range of industrial-grade centrifugal pumps in Peenya, Bangalore—engineered for efficiency, durability, and reliable performance across water transfer, chemical processing, oil circulation, and manufacturing applications.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
-      contactPoint: [
-        {
-          "@type": "ContactPoint",
-          telephone: "+91-9742233402",
-          contactType: "WhatsApp / Mobile",
-        },
-      ],
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
       geo: {
         "@type": "GeoCoordinates",
-        latitude: 13.019803,
-        longitude: 77.507757,
+        latitude: 13.0317,
+        longitude: 77.514,
       },
       keywords: [
-        "Centrifugal pump suppliers in Peenya",
-        "Centrifugal pump dealers in Peenya",
-        "Industrial centrifugal pumps Bangalore",
-        "Water transfer pumps Peenya",
-        "Chemical process pumps Bangalore",
-        "Oil circulation pumps Peenya",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "best Vaccume Products suppliers in Peenya",
       ],
-      knowsAbout: [
-        "Centrifugal pumps",
-        "Water transfer systems",
-        "Chemical processing pumps",
-        "Industrial pump solutions",
-      ],
-      sameAs: [
-        "https://www.facebook.com/Airprax/",
-        "https://www.linkedin.com/company/airprax-pneumatics/",
-        "https://twitter.com/airprax",
-        "https://www.instagram.com/airprax.pneumatics",
-      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/peenya-suppliers"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/high-pressure-centrifugal-pump-suppliers-in-peenya",
-    title: "High pressure centrifugal pump suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/contact",
+    title: "Industrial Air Compressor Solutions in Peenya | Bangalore",
     description:
-      "Are you looking for the best high pressure centrifugal pump suppliers in Peenya? Then you are at the right place. Contact us today.",
+      "Get reliable industrial air compressor solutions in Peenya with Airprax Pneumatics. We offer high-performance systems for efficient industrial operations.",
     keywords:
-      "High pressure centrifugal pump suppliers in Peenya, High pressure centrifugal pump dealers Peenya, Industrial centrifugal pumps Bangalore, Boiler feed pumps Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, industrial air compressor solutions in Peenya",
     content: {
-      h2: "High pressure centrifugal pump suppliers in Peenya",
-      extraLine:
-        "Looking for high pressure centrifugal pumps in Peenya? Contact us today",
+      h2: "industrial air compressor solutions in Peenya",
+      imageAlt: "industrial air compressor solutions in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/high-pressure-centrifugal-pump-suppliers-in-peenya",
+      "@id": "https://airpraxpneumatics.com/contact#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/contact",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Premium-quality high pressure centrifugal pumps in Peenya, Bangalore — engineered for efficiency, durability, and long service life.",
-      logo: "https://airpraxpneumatics.com/path/to/logo.png",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
       address: {
         "@type": "PostalAddress",
         streetAddress:
           '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
         addressLocality: "Bangalore",
         addressRegion: "Karnataka",
+        addressCountry: "India",
         postalCode: "560058",
-        addressCountry: "IN",
       },
-      telephone: "+91-9620602000",
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "industrial air compressor solutions in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/portable-fire-pumps-suppliers-in-peenya",
-    title: "Portable Fire Pumps suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
+    title: "Air Compressor Suppliers in Peenya | Bangalore",
     description:
-      "We are the best Portable Fire Pumps suppliers in Peenya. If you are looking for this then feel free to contact us today or call us now.",
+      "Reliable air compressor suppliers in Peenya offering high-performance industrial compressor models and solutions with trusted quality and expert support.",
     keywords:
-      "Portable fire pumps suppliers in Peenya, Portable fire pump dealers Peenya, Fire pumps Bangalore, Mobile fire pump Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, air compressor suppliers in Peenya",
     content: {
-      h2: "Portable Fire Pumps suppliers in Peenya",
-      extraLine: "Portable fire pumps in Peenya with fast local delivery",
+      h2: "air compressor suppliers in Peenya",
+      imageAlt: "air compressor suppliers in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/portable-fire-pumps-suppliers-in-peenya",
+      "@id": "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions/#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
       description:
-        "Portable fire pump systems for factories, warehouses, commercial buildings and residential complexes in Peenya, Bangalore.",
-      telephone: "+91-9620602000",
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "air compressor suppliers in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/diesel-fire-pumps-suppliers-in-peenya",
-    title: "Diesel Fire Pumps Suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/compressors/airspacedryers",
+    title: "Industrial Air Dryer Suppliers in Bangalore | Karnataka",
     description:
-      "We are the best Diesel Fire Pumps Suppliers in Peenya. If you are looking for this products then feel free to contact us now.",
-    keywords:
-      "Diesel fire pumps suppliers in Peenya, Diesel fire pump dealers Peenya, Fire safety pumps Bangalore, Emergency fire pumps Peenya",
+      "Trusted industrial air dryer suppliers in Bangalore offering high-quality airspace dryers and compressor solutions designed for superior performance and durability.",
+    keywords: "Industrial air dryer suppliers in Bangalore",
     content: {
-      h2: "Diesel Fire Pumps Suppliers in Peenya",
-      extraLine: "Reliable diesel fire pumps with local support",
+      h2: "Industrial air dryer suppliers in Bangalore",
+      imageAlt: "Industrial air dryer suppliers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/diesel-fire-pumps-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/compressors/airspacedryers#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/airspacedryers",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Trusted industrial air dryer suppliers in Bangalore offering high-quality airspace dryers and compressor solutions designed for superior performance and durability.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: ["Industrial air dryer suppliers in Bangalore"],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/fire-fighting-pumps-suppliers-in-peenya",
-    title: "Fire Fighting Pumps suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers",
+    title: "Oil-free Blower Manufacturers in Bangalore | Karnataka",
     description:
-      "Looking for Fire Fighting Pumps suppliers in Peenya? Then you are in the right place. Feel free to contact us today or call us now.",
+      "Trusted oil-free blower manufacturers in Bangalore offering high-performance, energy-efficient and durable industrial blower solutions for multiple applications.",
     keywords:
-      "Fire fighting pumps suppliers in Peenya, Fire pumps dealers Peenya, NFPA fire pumps Bangalore, Jockey pumps Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Oil-free blower manufacturers in Bangalore",
     content: {
-      h2: "Fire Fighting Pumps suppliers in Peenya",
-      extraLine: "Certified fire pumps with installation & AMC",
+      h2: "Oil-free blower manufacturers in Bangalore",
+      imageAlt: "Oil-free blower manufacturers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/fire-fighting-pumps-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers/#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Oil-free blower manufacturers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/pressure-boosting-systems-suppliers-for-firefighting-in-peenya",
-    title: "Pressure-boosting systems suppliers for firefighting in Peenya",
+    url: "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
+    title: "Industrial Condensate Treatment Solutions in Peenya",
     description:
-      "Are you looking for Pressure-boosting systems suppliers for firefighting in Peenya? Then you are at the right place. Contact us today.",
+      "Discover Industrial Condensate Treatment Solutions in Peenya designed for efficient condensate management, improved performance, and reliable industrial operations.",
     keywords:
-      "Firefighting pressure boosting systems Peenya, Booster systems suppliers Peenya, Fire hydrant booster Bangalore",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Industrial Condensate Treatment Solutions in Peenya",
     content: {
-      h2: "Firefighting Pressure-Boosting Systems in Peenya",
-      extraLine: "Reliable hydrant & sprinkler pressure solutions",
+      h2: "Industrial Condensate Treatment Solutions in peenya",
+      imageAlt: "Industrial Condensate Treatment Solutions in peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/pressure-boosting-systems-suppliers-for-firefighting-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange/#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Industrial Condensate Treatment Solutions in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/wilo-fire-fighting-pump-suppliers-in-peenya",
-    title: "Wilo Fire Fighting Pump Suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/compressors/airspacefilters",
+    title: "Best Industrial Air Filters in Peenya | Bangalore",
     description:
-      "Looking for Wilo Fire Fighting Pump Suppliers in Peenya? Then you are at the right place. Feel free to contact us today or call us now.",
+      "Find the best industrial air filters in Peenya with Airprax Pneumatics. Trusted filtration solutions for compressors, factories, and industrial applications.",
     keywords:
-      "Wilo fire pumps Peenya, Wilo fire pump dealers Bangalore, Wilo split case fire pump, Wilo vertical turbine fire pump",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Best industrial air filters in Peenya",
     content: {
-      h2: "Wilo Fire Fighting Pump Suppliers in Peenya",
-      extraLine: "Authorized supply, installation & support",
+      h2: "Best industrial air filters in Peenya",
+      imageAlt: "Best industrial air filters in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/wilo-fire-fighting-pump-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/compressors/airspacefilters#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/airspacefilters",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Best industrial air filters in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/water-pump-suppliers-for-high-raise-buildings-in-peenya",
-    title: "Water pump suppliers for high raise buildings in Peenya",
+    url: "https://airpraxpneumatics.com/products/nitrogenGenerator",
+    title: "Nitrogen Generation System in Bangalore | Karnataka",
     description:
-      "Looking for the best Water pump suppliers for high raise buildings in Peenya? Then you are at the right place. Contact us today.",
+      "Get high-efficiency Nitrogen Generation System in Bangalore from Airprax. Reliable, energy-saving solutions designed for industrial applications.",
     keywords:
-      "High rise building water pumps Peenya, Booster pump suppliers Peenya, Hydro pneumatic systems Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Nitrogen Generation System in Bangalore",
     content: {
-      h2: "Water Pump Suppliers for High Raise Buildings in Peenya",
-      extraLine: "High-rise water distribution experts",
+      h2: "Nitrogen generation system in Bangaolre",
+      imageAlt: "Nitrogen generation system in Bangaolre",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/water-pump-suppliers-for-high-raise-buildings-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/nitrogenGenerator#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/nitrogenGenerator",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, nitrogen generation systems, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Nitrogen Generation System in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/hot-water-pump-suppliers-in-peenya",
-    title: "Hot water Pump suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/compressors/gasspacegenerators",
+    title: "Gas Generators in Bangalore | Karnataka",
     description:
-      "Looking for the best Hot water Pump suppliers in Peenya? Then feel free to contact us as we have the best pump for you.",
+      "Find high-performance Gas Generators in Bangalore designed for industrial efficiency and durability. Explore premium solutions engineered for reliable performance.",
     keywords:
-      "Hot water pumps Peenya, Hot water circulation pumps Bangalore, Boiler feed pumps Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Gas Generators in Bangalore",
     content: {
-      h2: "Hot water Pump suppliers in Peenya",
-      extraLine: "Energy‑efficient hot water pumps",
+      h2: "Gas Generators in Bangalore",
+      imageAlt: "Gas Generators in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/hot-water-pump-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/compressors/gasspacegenerators#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/gasspacegenerators",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Gas Generators in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/chill-water-pump-suppliers-in-peenya",
-    title: "Chill Water Pump Suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/fire-alarm",
+    title: "Top Fire Alarm System Manufacturers in Bangalore | Karnataka",
     description:
-      "Looking for the best Chill Water Pump Suppliers in Peenya? Then you are at the right place. Feel free to contact us today.",
+      "Reliable Fire Alarm System Manufacturers in Bangalore offering advanced fire detection, safety solutions, and installation services for industries across Karnataka.",
     keywords:
-      "Chilled water pumps Peenya, Chiller pump suppliers Bangalore, HVAC chilled water pumps Peenya",
+      "Fire alarm System Manufacturers in Bangalore, water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
     content: {
-      h2: "Chill Water Pump Suppliers in Peenya",
-      extraLine: "HVAC & process cooling pumps",
+      h2: "Fire alarm System Manufacturers in Bangalore",
+      imageAlt: "Fire alarm System Manufacturers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/chill-water-pump-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/fire-alarm#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/fire-alarm",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of fire alarm systems, industrial pumps, water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "Fire alarm System Manufacturers in Bangalore",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/fire-alarm-systems-suppliers-in-peenya",
-    title: "Fire alarm systems suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/fire-alarm/fire-alarm-system-integral-evoxx",
+    title: "Fire Alarm System Suppliers in Peenya | Bangalore",
     description:
-      "Looking for the best Fire alarm systems suppliers in Peenya? Then you are at the right place. Feel free to contact us today.",
+      "Trusted Fire Alarm System suppliers in Peenya offering reliable, industry-grade fire safety and alarm solutions for commercial and industrial applications.",
     keywords:
-      "Fire alarm systems suppliers in Peenya, Addressable fire alarm Peenya, Fire safety systems Bangalore",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Fire alarm System suppliers in Peenya",
     content: {
-      h2: "Fire alarm systems suppliers in Peenya",
-      extraLine: "Design, install, maintain fire alarms",
+      h2: "Fire alarm System suppliers in Peenya",
+      imageAlt: "Fire alarm System suppliers in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/fire-alarm-systems-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/fire-alarm/fire-alarm-system-integral-evoxx#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/fire-alarm/fire-alarm-system-integral-evoxx",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps and advanced fire alarm systems including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Fire alarm System suppliers in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/water-distribution-pumps-suppliers-in-peenya",
-    title: "Water Distribution Pumps suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/fire-alarm/special-fire-alarm-systems",
+    title: "Top Fire Alarm System Suppliers in Bangalore | Karnataka",
     description:
-      "Are you looking for the best Water Distribution Pumps suppliers in Peenya? Then feel free to contact us today or call us now.",
+      "Reliable Fire Alarm System Suppliers in Bangalore offering advanced fire detection, safety solutions, and customized alarm systems for industries and commercial spaces.",
     keywords:
-      "Water distribution pumps Peenya, Municipal water pumps Peenya, Booster pumps suppliers Bangalore",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Fire Alarm System Suppliers in Bangalore",
     content: {
-      h2: "Water Distribution Pumps suppliers in Peenya",
-      extraLine: "Industrial, commercial & municipal supply",
+      h2: "Fire alarm System Suppliers in Bangalore",
+      imageAlt: "Fire alarm System Suppliers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/water-distribution-pumps-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/fire-alarm/special-fire-alarm-systems#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/fire-alarm/special-fire-alarm-systems",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting and fire alarm system solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Fire Alarm System Suppliers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/wastewater-collection-pumps-suppliers-in-peenya",
-    title: "Wastewater collection pumps suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/fire-alarm/automatic-fire-detectors-integral-cubus",
+    title: "Fire Detection System Manufacturers in Bangalore",
     description:
-      "Looking for the best Wastewater collection pumps suppliers in Peenya? Then feel free to contact us today or call us now.",
+      "Airprax Pneumatics is one of the leading Fire Detection System Manufacturers in Bangalore, offering advanced automatic fire detector and alarm solutions for industrial safety.",
     keywords:
-      "Wastewater collection pumps Peenya, Sewage collection pumps Bangalore, Submersible wastewater pumps Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Fire Detection System Manufacturers in Bangalore",
+    content: {
+      h2: "Fire Detection System Manufacturers in Bangalore",
+      imageAlt: "Fire Detection System Manufacturers in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/fire-alarm/automatic-fire-detectors-integral-cubus#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/fire-alarm/automatic-fire-detectors-integral-cubus",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps, automatic fire detectors, and advanced fire safety systems in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Fire Detection System Manufacturers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/fire-alarm/peripheral-devices-integral-evoxx",
+    title: "Top Peripheral Devices Manufactures in Bangalore | Karnataka",
+    description:
+      "Trusted Peripheral devices Manufactures in Bangalore offering high-quality fire alarm system peripherals designed for reliable performance, safety, and long-term durability.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Peripheral devices Manufactures in Bangalore",
+    content: {
+      h2: "Peripheral devices Manufactures in Bangalore",
+      imageAlt: "Peripheral devices Manufactures in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/fire-alarm/peripheral-devices-integral-evoxx#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/fire-alarm/peripheral-devices-integral-evoxx",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps and fire alarm peripheral devices in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Peripheral devices Manufactures in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/fire-alarm/speech-based-alarm",
+    title: "Voice Fire Alarm System Manufacturers in Peenya",
+    description:
+      "Reliable Voice Fire Alarm System Manufacturers in Peenya offering advanced speech-based alarm solutions for industrial and commercial fire safety needs.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Voice fire alarm system Manufacturers in Peenya",
+    content: {
+      h2: "Voice fire alarm system Manufacturers in Peenya",
+      imageAlt: "Voice fire alarm system Manufacturers in Peenya",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/fire-alarm/speech-based-alarm#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/fire-alarm/speech-based-alarm",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps and advanced fire safety systems including speech-based voice fire alarm solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Voice fire alarm system Manufacturers in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/fire-alarm/extinguishing-control-panel-integral-evoxx",
+    title: "Top Fire Extinguishing Control Panel Suppliers Bangalore",
+    description:
+      "Reliable Fire extinguishing control panel suppliers in Bangalore offering advanced fire-safety solutions with quality products for residential and industrial needs.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Fire extinguishing control panel suppliers in Bangalore",
+    content: {
+      h2: "Fire extinguishing control panel suppliers in Bangalore",
+      imageAlt: "Fire extinguishing control panel suppliers in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/fire-alarm/extinguishing-control-panel-integral-evoxx#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/fire-alarm/extinguishing-control-panel-integral-evoxx",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, fire-fighting pump solutions, and fire extinguishing control panels in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Fire extinguishing control panel suppliers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/waterManagement/",
+    title: "Top Water Management Pumps Manufacturers in Peenya",
+    description:
+      "Trusted Water Management Pumps Manufacturers in Peenya offering high-quality and durable pumping solutions for industrial and commercial applications.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Water Management Pumps Manufacturers in Peenya",
+    content: {
+      h2: "Water Management Pumps Manufacturers in Peenya",
+      imageAlt: "Water Management Pumps Manufacturers in Peenya",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/waterManagement/#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/waterManagement/",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and water management pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Water Management Pumps Manufacturers in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/water-management/raw-water-intake",
+    title: "Raw Water Intake System in Bangalore | Karnataka",
+    description:
+      "Discover reliable raw water intake system in Bangalore by Airprax Pneumatics, offering durable and efficient water management solutions for industrial needs.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Raw water intake system in Bangalore",
+    content: {
+      h2: "Raw water intake system in Bangalore",
+      imageAlt: "Raw water intake system in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/water-management/raw-water-intake#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/water-management/raw-water-intake",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Raw water intake system in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport",
+    title: "Wastewater Collection Pumps Suppliers in Peenya | Bangalore",
+    description:
+      "Airprax Pneumatics is a trusted supplier of wastewater collection pumps in Peenya, providing high-quality industrial pump solutions for efficient water management.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Wastewater collection pumps suppliers in Peenya",
     content: {
       h2: "Wastewater collection pumps suppliers in Peenya",
-      extraLine: "Submersible, centrifugal & sludge pumps",
+      imageAlt: "Wastewater collection pumps suppliers in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/wastewater-collection-pumps-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and wastewater collection pumps in Peenya, Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Wastewater collection pumps suppliers in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/sewage-pumps-suppliers-in-peenya",
-    title: "Sewage pumps suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/water-management/dewatering",
+    title: "Dewatering Pump Manufacturers in Bangalore | Karnataka",
     description:
-      "Looking for the best Sewage pumps suppliers in Peenya? Then you are at the right place. Feel free to contact us now.",
+      "Airprax Pneumatics offers high-quality Dewatering Pumps in Bangalore. Trusted manufacturers and suppliers for industrial and water management pump solutions.",
     keywords:
-      "Sewage pumps suppliers Peenya, Submersible sewage pumps Bangalore, Industrial sewage pumps Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Dewatering Pump Manufacturers in Bangalore",
     content: {
-      h2: "Sewage pumps suppliers in Peenya",
-      extraLine: "Reliable sewage handling solutions",
+      h2: "Dewatering Pump Manufacturers in Bangalore",
+      imageAlt: "Dewatering Pump Manufacturers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/sewage-pumps-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/water-management/dewatering#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/water-management/dewatering",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of Dewatering Pumps and other industrial pump solutions including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pumps in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Dewatering Pump Manufacturers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/waste-water-treatment-pumps-suppliers-in-peenya",
-    title: "Waste water treatment pumps suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/water-management/waste-water-treatment",
+    title: "Waste Water Treatment Pumps Manufacturers in Peenya",
     description:
-      "Looking for the best Waste water treatment pumps suppliers in Peenya? Then you are at the right place. Feel free to contact us.",
+      "Airprax Pneumatics offers high-quality waste water treatment pumps in Peenya, providing durable and efficient solutions for industrial water management needs.",
     keywords:
-      "Waste water treatment pumps Peenya, Effluent pumps Bangalore, Sewage treatment pumps Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Waste water treatment pumps Manufacturers in Peenya",
     content: {
-      h2: "Waste water treatment pumps suppliers in Peenya",
-      extraLine: "Durable pumps for treatment plants",
+      h2: "Waste water treatment pumps Manufacturers in Peenya",
+      imageAlt: "Waste water treatment pumps Manufacturers in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/waste-water-treatment-pumps-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/water-management/waste-water-treatment#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/water-management/waste-water-treatment",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, fire-fighting pumps, and waste water treatment pumps in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Waste water treatment pumps Manufacturers in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/fire-detection-systems-suppliers-in-peenya",
-    title: "Fire Detection Systems Suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting",
+    title: "High-Quality Water Distribution Pumps in Bangalore",
     description:
-      "Looking for top fire detection systems suppliers in Peenya? We provide advanced, reliable, and cost-effective fire alarm and detection systems for industrial and commercial spaces.",
+      "Explore top-quality water distribution pumps in Bangalore for industrial and residential needs. Reliable performance and efficient water management solutions.",
     keywords:
-      "Fire detection systems suppliers Peenya, Smoke detectors Bangalore, Fire alarm suppliers Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Water Distribution Pumps in Bangalore",
     content: {
-      h2: "Fire Detection Systems Suppliers in Peenya",
-      extraLine: "Early detection, reliable performance",
+      h2: "Water Distribution Pumps in Bangalore",
+      imageAlt: "Water Distribution Pumps in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/fire-detection-systems-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, water distribution pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Water Distribution Pumps in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/data-centres-fire-alarm-system-suppliers-in-peenya",
-    title:
-      "Fire Alarm System Suppliers in Peenya for Data Centres | Reliable Installation & Maintenance",
+    url: "https://airpraxpneumatics.com/products/water-management/water-treatment",
+    title: "Expert Water Treatment in Peenya | Bangalore",
     description:
-      "Looking for fire alarm system suppliers in Peenya for data centres? We supply, install & maintain high‑end addressable fire alarm systems for data centres in Peenya, Bengaluru.",
+      "Airprax Pneumatics offers expert water treatment solutions in Peenya, providing high-quality pumps, drainage, and water management systems in Bangalore.",
     keywords:
-      "Data centre fire alarm Peenya, Addressable fire alarm suppliers Bangalore, VESDA Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Expert water treatment in Peenya",
     content: {
-      h2: "Fire Alarm System Suppliers for Data Centres",
-      extraLine: "Supply, install & maintain in Peenya",
+      h2: "Expert water treatment in Peenya",
+      imageAlt: "Expert water treatment in Peenya",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/data-centres-fire-alarm-system-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/water-management/water-treatment#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/water-management/water-treatment",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and expert water treatment solutions in Peenya, Bangalore.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Expert water treatment in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/automatic-fire-detection-system-suppliers-in-peenya",
-    title: "Automatic Fire Detection System Suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/vaccumProducts",
+    title: "Best Vaccume Products Manufacturers in Bangalore | Karnataka",
     description:
-      "Looking for the best Automatic Fire Detection System Suppliers in Peenya? Then you are at the right place. Contact us today.",
+      "Airprax Pneumatics is the leading provider and best Vaccume Products Manufacturers in Bangalore, offering high-quality industrial vacuum solutions.",
     keywords:
-      "Automatic fire detection Peenya, Addressable fire detection Bangalore, Factory fire detection systems Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, best Vaccume Products Manufacturers in Bangalore",
     content: {
-      h2: "Automatic Fire Detection System Suppliers in Peenya",
-      extraLine: "Advanced systems, expert installation",
+      h2: "best Vaccume Products Manufacturers in Bangalore",
+      imageAlt: "best Vaccume Products Manufacturers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/automatic-fire-detection-system-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/vaccumProducts#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, fire-fighting pump solutions, and best Vaccume Products Manufacturers in Bangalore.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "best Vaccume Products Manufacturers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/products/vaccumProducts"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/voice-fire-alarm-system-suppliers-in-peenya",
-    title: "Voice fire alarm system Suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
+    title: "Oil Sealed Vacuum Pump Suppliers in Peenya | Bangalore",
     description:
-      "We give the best Voice fire alarm system Suppliers in Peenya. If you are looking for this then you are at the right place. Contact us today.",
+      "Airprax Pneumatics is a trusted supplier of oil sealed vacuum pumps in Peenya, offering high-quality industrial vacuum solutions across Karnataka.",
     keywords:
-      "Voice fire alarm Peenya, Voice evacuation system Bangalore, Fire PA system suppliers Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Oil sealed vacuum pump suppliers in Peenya",
     content: {
-      h2: "Voice fire alarm system Suppliers in Peenya",
-      extraLine: "Clear evacuation messaging systems",
+      h2: "best Vaccume Products Manufacturers in Bangalore",
+      imageAlt: "best Vaccume Products Manufacturers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/voice-fire-alarm-system-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading suppliers of oil sealed vacuum pumps and other industrial pump solutions including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pumps in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Oil sealed vacuum pump suppliers in Peenya",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
   {
-    url: "https://airpraxpneumatics.com/honeywell-fire-alarm-system-suppliers-in-peenya",
-    title: "Honeywell fire alarm system Suppliers in Peenya",
+    url: "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps",
+    title: "Top Dry Vacuum Pump Suppliers in Bangalore | Karnataka",
     description:
-      "Looking for the best Honeywell fire alarm system Suppliers in Peenya? Then you are at the right place. Contact us today.",
+      "Top dry vacuum pump suppliers in Bangalore offering high-quality industrial vacuum pumps for various applications. Contact Airprax Pneumatics today!",
     keywords:
-      "Honeywell fire alarm suppliers Peenya, Honeywell addressable panels Bangalore, Fire alarm Honeywell dealer Peenya",
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Dry vacuum pump suppliers in Bangalore",
     content: {
-      h2: "Honeywell fire alarm system Suppliers in Peenya",
-      extraLine: "Authorized supply, installation & AMC",
+      h2: "Dry vacuum pump suppliers in Bangalore",
+      imageAlt: "Dry vacuum pump suppliers in Bangalore",
     },
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      name: "Airprax Pneumatics LLP",
-      url: "https://airpraxpneumatics.com/honeywell-fire-alarm-system-suppliers-in-peenya",
-      telephone: "+91-9620602000",
+      "@id": "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, fire-fighting pump solutions, and dry vacuum pumps in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Dry vacuum pump suppliers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
+    title: "Liquid Ring Vacuum Pumps Manufacturers in Bangalore",
+    description:
+      "Top Liquid Ring Vacuum Pumps manufacturers in Bangalore providing high-quality industrial vacuum solutions for various sectors with reliable performance.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Liquid Ring Vacuum Pumps Manufacturers in Bangalore",
+    content: {
+      h2: "Liquid ring vacuum pumps Manufacturers in Bangalore",
+      imageAlt: "Liquid ring vacuum pumps Manufacturers in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, fire-fighting pumps, and Liquid Ring Vacuum Pumps in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Liquid Ring Vacuum Pumps Manufacturers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
+    title: "Industry 4.0 Controllers Manufacturers in Peenya | Bangalore",
+    description:
+      "Airprax Pneumatics is a leading provider of Industry 4.0 controllers and accessories in Peenya, offering high-quality industrial automation solutions.",
+    keywords:
+      "Industry 4.0 Controllers Manufacturers in Peenya, water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
+    content: {
+      h2: "Industry 4.0 Controllers Manufacturers in Peenya",
+      imageAlt: "Industry 4.0 Controllers Manufacturers in Peenya",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of Industry 4.0 controllers and industrial automation accessories in Peenya, Bangalore, Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "Industry 4.0 Controllers Manufacturers in Peenya",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment",
+    title: "Gas Equipment Suppliers in Peenya | Bangalore Karnataka",
+    description:
+      "Airprax Pneumatics is a trusted provider of Gas Equipment in Peenya, offering high-quality industrial compressors, process gas, and air equipment.",
+    keywords:
+      "Gas Equipment Suppliers in Peenya, water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
+    content: {
+      h2: "Gas Equipment Suppliers in Peenya",
+      imageAlt: "Gas Equipment Suppliers in Peenya",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, fire-fighting pump solutions, and gas equipment in Peenya.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "Gas Equipment Suppliers in Peenya",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
+    title: "Marine Air Compressor Manufacturers in Bangalore |Karnataka",
+    description:
+      "Airprax Pneumatics is a leading Marine Air Compressor Manufacturer in Bangalore, offering high-quality compressors for industrial and marine applications.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Marine Air Compressor Manufacturers in Bangalore",
+    content: {
+      h2: "Marine Air Compressor Manufacturers in Bangalore",
+      imageAlt: "Marine Air Compressor Manufacturers in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/compressors/marinespacecompressors#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Airprax Pneumatics is a leading Marine Air Compressor Manufacturer in Bangalore, offering high-quality compressors for industrial and marine applications.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Marine Air Compressor Manufacturers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/products/compressors/marinespacecompressors"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers",
+    title: "Industrial Air Receivers Manufacturers in Peenya | Bangalore",
+    description:
+      "Airprax Pneumatics is a top industrial air receivers manufacturer in Peenya, offering high-quality air compressors, receivers, and aftercooler solutions in Bangalore.",
+    keywords:
+      "industrial air receivers manufacturers in Peenya, water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
+    content: {
+      h2: "industrial air receivers manufacturers in Peenya",
+      imageAlt: "industrial air receivers manufacturers in Peenya",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial air receivers, compressors, and aftercoolers, providing quality pneumatic solutions in Peenya, Bangalore.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "industrial air receivers manufacturers in Peenya",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
+    title: "Nitrogen Boosters Dealers in Bangalore |Karnataka",
+    description:
+      "Find trusted Nitrogen Boosters dealers in Bangalore. Airprax Pneumatics offers high-quality industrial nitrogen booster solutions across Karnataka.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Nitrogen Boosters dealers in Bangalore",
+    content: {
+      h2: "Nitrogen Boosters dealers in Bangalore",
+      imageAlt: "Nitrogen Boosters dealers in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps and nitrogen boosters in Bangalore. Trusted Nitrogen Boosters dealers offering high-quality solutions in Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Nitrogen Boosters dealers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
+    title: "Energy Conversion Systems in Peenya | Bangalore Karnataka",
+    description:
+      "Explore top-quality Energy Conversion Systems in Peenya at Airprax Pneumatics, offering reliable industrial solutions for all your power and energy needs.",
+    keywords:
+      "Energy Conversion Systems in Peenya, Water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
+    content: {
+      h2: "Energy Conversion Systems in Peenya",
+      imageAlt: "Energy Conversion Systems in Peenya",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/compressors/energyspaceconversion#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading providers of Energy Conversion Systems in Peenya along with industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "Energy Conversion Systems in Peenya",
+        "Water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/products/compressors/energyspaceconversion"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
+    title: "Water Cooling Systems Suppliers in Bangalore | Karnataka",
+    description:
+      "Airprax Pneumatics is a leading supplier of water cooling systems in Bangalore, providing high-quality industrial cooling solutions for various applications.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka, Water Cooling Systems suppliers in Bangalore",
+    content: {
+      h2: "Water Cooling Systems suppliers in Bangalore",
+      imageAlt: "Water Cooling Systems suppliers in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, water cooling systems, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+        "Water Cooling Systems suppliers in Bangalore",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
+    url: "https://airpraxpneumatics.com/products/compressors/processspacefilters",
+    title: "Best Industrial Air Filters in Bangalore | Karnataka",
+    description:
+      "Explore top-quality industrial air filters in Bangalore. Airprax Pneumatics offers reliable and efficient air filtration solutions for all industries.",
+    keywords:
+      "Best industrial air filters in Bangalore, water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
+    content: {
+      h2: "Best industrial air filters in Peenya",
+      imageAlt: "Best industrial air filters in Peenya",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/products/compressors/processspacefilters#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/products/compressors/processspacefilters",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial air filters, pumps, and air filtration solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "Best industrial air filters in Bangalore",
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
     },
   },
 ];
