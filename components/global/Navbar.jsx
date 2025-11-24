@@ -264,7 +264,7 @@ const GalleryIcon = () => (
 );
 
 const navigation = [
-  { name: "Home", href: "/home", icon: HomeIcon },
+  { name: "Home", href: "/", icon: HomeIcon },
   { name: "About", href: "/about", icon: InformationCircleIcon },
   { name: "Products", href: "/products/compressors", icon: ArchiveBoxIcon },
   { name: "Industry", href: "/industry", icon: IndustryIcon },
@@ -276,7 +276,7 @@ const navigation = [
   { name: "Contact", href: "/contact", icon: DevicePhoneMobileIcon },
 ];
 const mobnavigation = [
-  { name: "Home", href: "/home", icon: HomeIcon },
+  { name: "Home", href: "/", icon: HomeIcon },
   { name: "About", href: "/about", icon: InformationCircleIcon },
   {
     name: "Products",
