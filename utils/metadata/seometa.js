@@ -48,6 +48,54 @@
     },
   },
   {
+    url: "https://airpraxpneumatics.com/home",
+    title: "Water Circulators Pump Manufacturers in Bangalore | Karnataka",
+    description:
+      "Leading water Circulators pump Manufacturers in Bangalore offering durable, energy-efficient and high-performance pumps for industrial and commercial needs.",
+    keywords:
+      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
+    content: {
+      h2: "water Circulators pump Manufacturers in Bangalore",
+      imageAlt: "water Circulators pump Manufacturers in Bangalore",
+    },
+    jsonScript: {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://airpraxpneumatics.com/#organization",
+      name: "Airprax Pneumatics",
+      url: "https://airpraxpneumatics.com/home",
+      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
+      description:
+        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress:
+          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
+        addressLocality: "Bangalore",
+        addressRegion: "Karnataka",
+        addressCountry: "India",
+        postalCode: "560058",
+      },
+      email: "sales@airprax.com",
+      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: 13.0317,
+        longitude: 77.514,
+      },
+      keywords: [
+        "water Circulators pump Manufacturers in Bangalore",
+        "Drainage and Submersible Pumps Manufacturers in Peenya",
+        "Heating and Cooling Pumps suppliers in Bangalore",
+        "Water Management Pumps suppliers in Peenya",
+        "Fire fighting pump dealers in Karnataka",
+      ],
+      foundingDate: "2025-11-21",
+      sameAs: ["https://airpraxpneumatics.com/"],
+    },
+  },
+  {
     url: "https://airpraxpneumatics.com/about",
     title: "Drainage and Submersible Pumps Manufactures in Peenya | Bangalore",
     description:
@@ -551,7 +599,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions/#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions/#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/airspacecompressorspaceindustrialspacemodelsspaceandspacesolutions",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -599,7 +648,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/airspacedryers#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/airspacedryers#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/airspacedryers",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -641,7 +691,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers/#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers/#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/oilspacefreespaceairspaceblowers",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -690,7 +741,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange/#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange/#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/industrialspacecondensatespacetreatmentspacesolutionsspacerange",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -739,7 +791,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/airspacefilters#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/airspacefilters#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/airspacefilters",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -788,7 +841,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/nitrogenGenerator#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/nitrogenGenerator#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/nitrogenGenerator",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -837,7 +891,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/gasspacegenerators#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/gasspacegenerators#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/gasspacegenerators",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -935,7 +990,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/fire-alarm/fire-alarm-system-integral-evoxx#organization",
+      "@id":
+        "https://airpraxpneumatics.com/fire-alarm/fire-alarm-system-integral-evoxx#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/fire-alarm/fire-alarm-system-integral-evoxx",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -984,7 +1040,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/fire-alarm/special-fire-alarm-systems#organization",
+      "@id":
+        "https://airpraxpneumatics.com/fire-alarm/special-fire-alarm-systems#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/fire-alarm/special-fire-alarm-systems",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1033,7 +1090,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/fire-alarm/automatic-fire-detectors-integral-cubus#organization",
+      "@id":
+        "https://airpraxpneumatics.com/fire-alarm/automatic-fire-detectors-integral-cubus#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/fire-alarm/automatic-fire-detectors-integral-cubus",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1082,7 +1140,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/fire-alarm/peripheral-devices-integral-evoxx#organization",
+      "@id":
+        "https://airpraxpneumatics.com/fire-alarm/peripheral-devices-integral-evoxx#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/fire-alarm/peripheral-devices-integral-evoxx",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1131,7 +1190,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/fire-alarm/speech-based-alarm#organization",
+      "@id":
+        "https://airpraxpneumatics.com/fire-alarm/speech-based-alarm#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/fire-alarm/speech-based-alarm",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1180,7 +1240,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/fire-alarm/extinguishing-control-panel-integral-evoxx#organization",
+      "@id":
+        "https://airpraxpneumatics.com/fire-alarm/extinguishing-control-panel-integral-evoxx#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/fire-alarm/extinguishing-control-panel-integral-evoxx",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1229,7 +1290,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/waterManagement/#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/waterManagement/#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/waterManagement/",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1278,7 +1340,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/water-management/raw-water-intake#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/water-management/raw-water-intake#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/water-management/raw-water-intake",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1327,7 +1390,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/water-management/waste-water-collection-and-transport",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1376,7 +1440,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/water-management/dewatering#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/water-management/dewatering#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/water-management/dewatering",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1425,7 +1490,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/water-management/waste-water-treatment#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/water-management/waste-water-treatment#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/water-management/waste-water-treatment",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1474,7 +1540,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/water-management/water-distribution-boosting",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1523,7 +1590,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/water-management/water-treatment#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/water-management/water-treatment#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/water-management/water-treatment",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1572,7 +1640,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/vaccumProducts#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/vaccumProducts#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/vaccumProducts",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1621,7 +1690,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/vaccumProducts/oildashsealedspacevacuumspacepumps",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1670,7 +1740,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/vaccumProducts/dryspacevacuumspacepumps",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1719,7 +1790,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/vaccumProducts/liquidspaceringspacevacuumspacepumps",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1768,7 +1840,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/vaccumProducts/industryspace4dot0spacecontrollersspaceandspaceaccessories",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1817,7 +1890,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/processspacegasspaceandspaceairspaceequipment",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1866,7 +1940,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/marinespacecompressors#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/marinespacecompressors#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1898,7 +1973,9 @@
         "Marine Air Compressor Manufacturers in Bangalore",
       ],
       foundingDate: "2025-11-21",
-      sameAs: ["https://airpraxpneumatics.com/products/compressors/marinespacecompressors"],
+      sameAs: [
+        "https://airpraxpneumatics.com/products/compressors/marinespacecompressors",
+      ],
     },
   },
   {
@@ -1915,7 +1992,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/airspacereceiversspaceandspaceaftercoolers",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -1964,7 +2042,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/oildashfreespaceairspaceandspacenitrogenspaceboosters",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -2013,7 +2092,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/energyspaceconversion#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/energyspaceconversion#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -2045,7 +2125,9 @@
         "Fire fighting pump dealers in Karnataka",
       ],
       foundingDate: "2025-11-21",
-      sameAs: ["https://airpraxpneumatics.com/products/compressors/energyspaceconversion"],
+      sameAs: [
+        "https://airpraxpneumatics.com/products/compressors/energyspaceconversion",
+      ],
     },
   },
   {
@@ -2062,7 +2144,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/industrialspacewaterspacecoolingspacesystems",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
@@ -2111,7 +2194,8 @@
     jsonScript: {
       "@context": "https://schema.org",
       "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/products/compressors/processspacefilters#organization",
+      "@id":
+        "https://airpraxpneumatics.com/products/compressors/processspacefilters#organization",
       name: "Airprax Pneumatics",
       url: "https://airpraxpneumatics.com/products/compressors/processspacefilters",
       logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
