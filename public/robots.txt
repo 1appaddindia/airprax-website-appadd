@@ -1,3 +1,31 @@
+# robots.txt for airpraxpneumatics.com
+# Updated: 2025-11-21 (IST)
 
+# --- Global defaults ---
 User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /login/
+Disallow: /search
+Crawl-delay: 5
+
+# --- AI / research bots ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# --- Sitemaps ---
 Sitemap: https://airpraxpneumatics.com/sitemap.xml
+Sitemap: https://airpraxpneumatics.com/page-sitemap.xml
+Sitemap: https://airpraxpneumatics.com/post-sitemap.xml
