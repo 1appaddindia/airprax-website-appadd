@@ -48,54 +48,6 @@
     },
   },
   {
-    url: "https://airpraxpneumatics.com/home",
-    title: "Water Circulators Pump Manufacturers in Bangalore | Karnataka",
-    description:
-      "Leading water Circulators pump Manufacturers in Bangalore offering durable, energy-efficient and high-performance pumps for industrial and commercial needs.",
-    keywords:
-      "water Circulators pump Manufacturers in Bangalore, Drainage and Submersible Pumps Manufacturers in Peenya, Heating and Cooling Pumps suppliers in Bangalore, Water Management Pumps suppliers in Peenya, Fire fighting pump dealers in Karnataka",
-    content: {
-      h2: "water Circulators pump Manufacturers in Bangalore",
-      imageAlt: "water Circulators pump Manufacturers in Bangalore",
-    },
-    jsonScript: {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "@id": "https://airpraxpneumatics.com/#organization",
-      name: "Airprax Pneumatics",
-      url: "https://airpraxpneumatics.com/home",
-      logo: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
-      image: "https://airpraxpneumatics.com/images/logo/Airprax-logo-01.png",
-      description:
-        "Leading manufacturers and suppliers of industrial pumps including water circulators, drainage pumps, submersible pumps, heating and cooling pumps, and fire-fighting pump solutions in Bangalore and Karnataka.",
-      address: {
-        "@type": "PostalAddress",
-        streetAddress:
-          '"A", 3rd Floor, No.166, 10th Main Road, 3rd Phase, Peenya Industrial Area, Laggere Main Road',
-        addressLocality: "Bangalore",
-        addressRegion: "Karnataka",
-        addressCountry: "India",
-        postalCode: "560058",
-      },
-      email: "sales@airprax.com",
-      telephone: ["+91 9620602000", "+91 9742233402", "+91 9742233402"],
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 13.0317,
-        longitude: 77.514,
-      },
-      keywords: [
-        "water Circulators pump Manufacturers in Bangalore",
-        "Drainage and Submersible Pumps Manufacturers in Peenya",
-        "Heating and Cooling Pumps suppliers in Bangalore",
-        "Water Management Pumps suppliers in Peenya",
-        "Fire fighting pump dealers in Karnataka",
-      ],
-      foundingDate: "2025-11-21",
-      sameAs: ["https://airpraxpneumatics.com/"],
-    },
-  },
-  {
     url: "https://airpraxpneumatics.com/about",
     title: "Drainage and Submersible Pumps Manufactures in Peenya | Bangalore",
     description:
