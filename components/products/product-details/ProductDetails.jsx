@@ -7,7 +7,7 @@ import { products } from "../../../utils/products/data";
 import { vaccumSolutions } from "../../../utils/products/vaccum-solutions/data";
 import { waterManagement } from "../../../utils/products/water-management/data";
 import { compressors } from "../../../utils/products/compressors/data";
-import { convertSpecialCharacters } from "../../../utils/filteration";
+// import { convertSpecialCharacters } from "../../../utils/filteration";
 
 const ProductDetails = ({ productName, tab }) => {
   const [selectedProduct, setSelectedProduct] = useState([]);
@@ -49,9 +49,7 @@ const ProductDetails = ({ productName, tab }) => {
 
     const product = productData.find((product) => {
       console.log("value", product);
-      return (
-        convertSpecialCharacters(product.title).toLowerCase() == productName
-      );
+      return product.slug === productName;
     });
 
     setSelectedProduct(product);

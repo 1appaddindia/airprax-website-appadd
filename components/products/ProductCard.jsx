@@ -1,7 +1,7 @@
 "use client";
 // import Link from "next/link";
 import React from "react";
-import { convertSpecialCharacters } from "../../utils/filteration";
+// import { generateSlug } from "../../utils/filteration";
 
 const ProductCard = ({ item, activeTab }) => {
   return (
@@ -15,9 +15,7 @@ const ProductCard = ({ item, activeTab }) => {
       <img src={item.img} alt={item.title} className="lg:h-52 h-32 " />
       <div className="text-center  w-full p-2">
         <a
-          href={`/products/${activeTab}/${convertSpecialCharacters(
-            item.title
-          ).toLowerCase()}`}
+          href={`/products/${activeTab}/${item.slug}`}
         >
           <button className="text-[#ffff] hover:text-[#083465] border-none bg-[#bf1e2e] flex items-center justify-center lg:mt-10 p-1  font-bold w-full rounded-md transition-colors duration-300 ">
             View Details

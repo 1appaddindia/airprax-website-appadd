@@ -3,6 +3,7 @@ export const products = [
     id: 1,
     img: "/images/products/wilo249967_5.jpg",
     title: "Wilo-Stratos MAXO",
+    slug: "wilo-stratos-maxo",
     advantages: [
       "Intuitive operation by means of application-guided settings with the Setting assistant plus the combination of a new display and operating button using Green Button Technology.",
       "Maximum energy efficiency thanks to the combination of optimized and innovative energy-saving functions (e.g. No-Flow Stop).",
@@ -14,6 +15,7 @@ export const products = [
     id: 2,
     img: "/images/products/wilo250095_5.jpg",
     title: "Wilo-Stratos MAXO-D",
+    slug: "wilo-stratos-maxo-d",
     advantages: [
       "Reliable wet rotor technology",
       "Quick connect wiring",
@@ -27,6 +29,7 @@ export const products = [
     id: 3,
     img: "/images/products/wilo250096_5.jpg",
     title: "Wilo-Stratos MAXO-Z",
+    slug: "wilo-stratos-maxo-z",
     advantages: [
       "Intuitive operation by means of application-guided settings with the Setting assistant plus the combination of a new display and operating button using Green Button Technology.",
       "Highest standard of drinking water hygiene and energy efficiency with the new, innovative, intelligent T-const. control function.",
@@ -38,6 +41,7 @@ export const products = [
     id: 4,
     img: "/images/products/wilo_f_02000007000221ca00010092_3.jpg",
     title: "Wilo-TOP-S",
+    slug: "wilo-top-s",
     advantages: [
       "No mechanical seal",
       "Quiet, low maintenance wet rotor circulator",
@@ -52,6 +56,7 @@ export const products = [
     id: 5,
     img: "/images/products/wilo_f_020000330003df2200010092_5.jpg",
     title: "Wilo-Stratos GIGA",
+    slug: "wilo-stratos-giga",
     advantages: [
       "High efficient EC motor (IE5)",
       "Single-stage, low pressure, in-line centrifugal pump",
@@ -68,6 +73,7 @@ export const products = [
     id: 6,
     img: "/images/products/wilo_f_02000000000323fa00010092_5.jpg",
     title: "Wilo-VeroLine-IPL",
+    slug: "wilo-veroline-ipl",
     advantages: [
       "Integrated suction straightening vane",
       "Pump feet drilled and tapped",
@@ -80,6 +86,7 @@ export const products = [
     id: 7,
     img: "/images/products/wilo_f_020000270000cdd200010092_5.jpg",
     title: "Wilo-CronoLine-IL",
+    slug: "wilo-cronoline-il",
     advantages: [
       "Integral suction diffuser cast in volute inlet",
       "All bolts “non-metric”",
@@ -91,6 +98,7 @@ export const products = [
     id: 8,
     img: "/images/products/wilo_f_0200001000031f0100010092_5.jpeg",
     title: "Wilo-CronoNorm-NL",
+    slug: "wilo-crononorm-nl",
     advantages: [
       "Back pullout design allows replacement of bearings and seals without disturbing the piping",
       "Three bearing bracket sizes for all models",
@@ -104,6 +112,7 @@ export const products = [
     id: 9,
     img: "/images/products/wilo443626_5.jpg",
     title: "Wilo-NL-HE",
+    slug: "wilo-nl-he",
     advantages: [
       "Stainless Steel impeller",
       "High-efficiency",
@@ -120,6 +129,7 @@ export const products = [
     id: 10,
     img: "/images/products/wilo6778_5.jpg",
     title: "Wilo-SCP",
+    slug: "wilo-scp",
     advantages: [
       "Horizontal split casing allows replacement of bearings and mechanical seal without disturbing the system piping",
       "Double suction design available for maximum efficiencies",
@@ -132,6 +142,7 @@ export const products = [
     id: 11,
     img: "/images/products/wilo_f_0200002800037c1c00010092_5.jpg",
     title: "Wilo-Helix EXCEL",
+    slug: "wilo-helix-excel",
     advantages: [
       "High efficient EC motor (IE5)",
       "High efficiency controller offers up to 70%speed reduction",
@@ -146,6 +157,7 @@ export const products = [
     id: 12,
     img: "/images/products/wilo353686_5.jpg",
     title: "Wilo-Helix EXCEL Complete",
+    slug: "wilo-helix-excel-complete",
     advantages: [
       "High efficient EC motor (IE5)",
       "High-efficiency controller offers up to 70% speed reduction",
@@ -159,6 +171,7 @@ export const products = [
     id: 13,
     img: "/images/products/wilo353742_5.jpg",
     title: "Wilo-Helix Complete",
+    slug: "wilo-helix-complete",
     advantages: [
       "NSF 61 and 372 rated for water quality",
       "UL QCZJ rated as a complete pumping package",
@@ -174,6 +187,7 @@ export const products = [
     id: 14,
     img: "/images/products/wilo518519_5.jpg",
     title: "Wilo-MVI",
+    slug: "wilo-mvi",
     advantages: [
       " Non-self-priming, high pressure, vertical multistage centrifugal pump with inline connections.",
       "The MVI is equipped with cartridge mechanical seal which enables quick and easy maintenance.",
@@ -185,6 +199,7 @@ export const products = [
     id: 15,
     img: "/images/products/wilo538693_5.jpg",
     title: "Wilo-SiBooster EXCEL",
+    slug: "wilo-sibooster-excel",
     advantages: [
       "High efficient EC motor (IE5)",
       "Real-time diagnostics and remote monitoring",
@@ -200,6 +215,7 @@ export const products = [
     id: 16,
     img: "/images/products/wilo325486_5.jpg",
     title: "Wilo-WiBooster",
+    slug: "wilo-wibooster",
     advantages: [
       "Includes Scot 320-328 series Stainless Steel pumps",
       "Real-time diagnostics and remote monitoring",
@@ -214,6 +230,7 @@ export const products = [
     id: 17,
     img: "/images/products/wilo499485_3.jpg",
     title: "Wilo-CO-HELIX V",
+    slug: "wilo-co-helix-v",
     advantages: [
       "Real-time diagnostics and remote monitoring",
       "Full system kWh energy reporting",
@@ -228,6 +245,7 @@ export const products = [
     id: 18,
     img: "/images/products/wilo27359_5.jpg",
     title: "Wilo-Actun ZETOS",
+    slug: "wilo-actun-zetos",
     advantages: [
       "NSF/ANSI 61 Certified",
       "M6-M8-M9-M12 Motor Options",
@@ -242,6 +260,7 @@ export const products = [
     id: 19,
     img: "/images/products/wilo57378_5.jpg",
     title: "Wilo-Sub TWI 4",
+    slug: "wilo-sub-twi-4",
     advantages: [
       "Motors and pump ends certified to NSF/ANSI 61",
       "Vertical and horizontal installation possible",
@@ -258,6 +277,7 @@ export const products = [
     id: 20,
     img: "/images/products/wilo27413_5.jpg",
     title: "Wilo-Sub TWU 4",
+    slug: "wilo-sub-twu-4",
     advantages: [
       "Motors certified to NSF/ANSI 61",
       "Noryl impellers for maximum wear and abrasive resistance",
@@ -273,6 +293,7 @@ export const products = [
     id: 21,
     img: "/images/products/wilo27852_5.jpg",
     title: "Wilo-Xiro SPI",
+    slug: "wilo-xiro-spi",
     advantages: [
       "Vertical and horizontal installation possible",
       "Motors up to 250 HP",
@@ -288,6 +309,7 @@ export const products = [
     id: 22,
     img: "/images/products/wilo_f_0200002800037c1c00010092_3.jpg",
     title: "Wilo-SP Series",
+    slug: "wilo-sp-series",
     advantages: [
       "Easy installation thanks to 10 ft power cable with type B plug.",
       "Automatic operation through tethered float switch.",
@@ -298,6 +320,7 @@ export const products = [
     id: 23,
     img: "/images/products/wilo6785_6.jpg",
     title: "Wilo-FA",
+    slug: "wilo-fa",
     advantages: [
       "Rugged design for portable, wet pit, and drywell installation",
       "Shaft-Short overhang/large diameter",
@@ -311,6 +334,7 @@ export const products = [
     id: 24,
     img: "/images/products/wilo182611_5.jpg",
     title: "Wilo-Rexa CUT",
+    slug: "wilo-rexa-cut",
     advantages: [
       "High operational reliability through spherically-formed macerator with pulling cut",
       "Cutter design yields fine solids for non-clogging operation",
@@ -324,6 +348,7 @@ export const products = [
     id: 25,
     img: "/images/products/wilo182611_5.jpg",
     title: "Wilo-Rexa PRO",
+    slug: "wilo-rexa-pro",
     advantages: [
       "Clog-resistant vortex and 1-vane",
       "FM explosion-proof rated",
@@ -336,6 +361,7 @@ export const products = [
     id: 26,
     img: "/images/products/wilo453384_5.jpg",
     title: "Wilo-Flumen EXCEL-RZPE 20 ... 40",
+    slug: "wilo-flumen-excel-rzpe-20-40",
     advantages: [
       "Reliable continuous operation due to low clogging propellers and flow housing that is pump in non-clog design.",
       "High operational reliability by using stainless steel investment-cast propellers",
@@ -350,6 +376,7 @@ export const products = [
     id: 27,
     img: "/images/products/wilo488534_5-_1_.jpg",
     title: "Wilo-Flumen OPTI-RZP 20 ... 40",
+    slug: "wilo-flumen-opti-rzp-20-40",
     advantages: [
       "Reliable continuous operation due to low clogging propellers and flow housing that is pump in non-clog design.",
       "High operational reliability by using stainless steel investment-cast propellers",
@@ -364,6 +391,7 @@ export const products = [
     id: 28,
     img: "/images/products/wilo488495_5.jpg",
     title: "Wilo-Flumen OPTI-TR 50 … 120",
+    slug: "wilo-flumen-opti-tr-50-120",
     advantages: [
       "Reliable continuous operation thanks to propellers that are non-susceptible to clogging and largely dimensioned gear bearings",
       "High operational reliability by using stainless steel investment-cast propellers",
@@ -378,6 +406,7 @@ export const products = [
     id: 29,
     img: "/images/products/wilo_f_0200000c0003576700010092_5.jpg",
     title: "Wilo-EMU RZP 20… – RZP 80-2…",
+    slug: "wilo-emu-rzp-20-rzp-80-2",
     advantages: [
       "Vertical or in-line design",
       "Self-cleaning propeller, in part with helix hub",
@@ -389,6 +418,7 @@ export const products = [
     id: 30,
     img: "/images/products/wilo_f_020000340000741f00010092_5.jpg",
     title: "Wilo-EMU TR 216… – TR(E) 326…",
+    slug: "wilo-emu-tr-216-tre-326",
     advantages: [
       "Efficient energy usage. The innovative blade geometry and energy-efficient IE3/IE4 motors ensure the best possible specific thrust coefficient. At the same time, this reduces your energy and operating costs.",
       "Consistently reliable. The low-wearing GFK/PA6 propeller is durable and scores with its self-cleaning effect.",
@@ -399,6 +429,7 @@ export const products = [
     id: 31,
     img: "/images/products/wilo488497_5.jpg",
     title: "Wilo-Flumen EXCEL-TRE 50 … 90",
+    slug: "wilo-flumen-excel-tre-50-90",
     advantages: [
       "Reliable continuous operation thanks to propellers that are non-susceptible to clogging and largely dimensioned gear bearings",
       "High operational reliability by using stainless steel investment-cast propellers",
@@ -413,6 +444,7 @@ export const products = [
     id: 32,
     img: "/images/products/wilo164583_5.jpg",
     title: "Wilo-Flumen EXCEL-TRE 20 … 40",
+    slug: "wilo-flumen-excel-tre-20-40",
     advantages: [
       "Low cleaning work by avoiding deposits during basin draining thanks to installation close to the groundnd",
       "Low clogging rate and reliable operation thanks to optimised hydraulics",
@@ -426,6 +458,7 @@ export const products = [
     id: 33,
     img: "/images/products/wilo164583_5.jpg",
     title: "Wilo-Flumen OPTI-TR 22 … 40",
+    slug: "wilo-flumen-opti-tr-22-40",
     advantages: [
       " Low cleaning work by avoiding deposits during basin draining thanks to installation close to the ground",
       "Low clogging rate and reliable operation thanks to optimised hydraulics",
@@ -438,6 +471,7 @@ export const products = [
     id: 34,
     img: "/images/products/wilo678949_5.jpg",
     title: "Wilo-CO-MVI",
+    slug: "wilo-co-mvi",
     advantages: [
       "1/3HP-100HP per pump (up to four pumps in parallel)",
       "Strong base support with close-fitting profile to maneuver through doorways",
@@ -455,6 +489,7 @@ export const products = [
     id: 35,
     img: "/images/products/wilo56672_5.jpg",
     title: "Wilo-Helix V",
+    slug: "wilo-helix-v",
     advantages: [
       "Efficiency-optimised, laser-welded 2D/3D hydraulics optimizing flow and air elimination",
       "Corrosion-resistant impellers, diffuser and stage housings",
@@ -471,6 +506,7 @@ export const products = [
     id: 36,
     img: "/images/products/wilo599824_5.jpg",
     title: "Wilo-Star E 21",
+    slug: "wilo-star-e-21",
     advantages: [
       "High-efficiency, EC Motor-driven technology",
       "Differential temperature control",
@@ -484,6 +520,7 @@ export const products = [
     id: 37,
     img: "/images/products/wilo191741_5.jpg",
     title: "Wilo-Star/Star-S",
+    slug: "wilo-star-star-s",
     advantages: [
       "Reliable wet rotor technology",
       "Quick connect wiring",
@@ -497,6 +534,7 @@ export const products = [
     id: 38,
     img: "/images/products/wilo511575_5.jpg",
     title: "Wilo-Z 15+",
+    slug: "wilo-z-15-plus",
     advantages: [
       "CSA compliant to NSF-372 and NSF-61",
       "Compact design",

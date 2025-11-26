@@ -1,15 +1,13 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { convertSpecialCharacters } from "../../../utils/filteration";
+// import { generateSlug } from "../../../utils/filteration";
 
 const ProductCard = ({ item, subcategory }) => {
   const basePath = `/products/water-management`;
   const productPath = subcategory
-    ? `${basePath}/${subcategory}/${convertSpecialCharacters(
-        item.title
-      ).toLowerCase()}`
-    : `${basePath}/${convertSpecialCharacters(item.title).toLowerCase()}`;
+    ? `${basePath}/${subcategory}/${item.slug}`
+    : `${basePath}/${item.slug}`;
 
   return (
     <div

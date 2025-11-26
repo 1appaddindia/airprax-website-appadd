@@ -3,6 +3,7 @@ export const compressors = [
         id: 1,
         img: "/images/products/atlascopco_scene7_com-121_ZR_315_VSD_SETUP-cam+005.jpg",
         title: "Air compressor industrial models and solutions",
+        slug: "air-compressor-industrial-models-and-solutions",
         description: "Discover the right air compressor industrial solution for your applications. Our range of reliable machines come equipped with a low life cycle cost. They're also energy-efficient with a small footprint, making them ideal for most jobs.",
         subProducts: [
             {
@@ -35,6 +36,7 @@ export const compressors = [
         id: 2,
         img: "/images/products/atlascopco_scene7_com-BD+850+Square.jpg",
         title: "Air Dryers",
+        slug: "air-dryers",
         description: "Our range of compressed air dryers protects your systems and processes in a reliable, energy-efficient and cost-effective way.",
         subProducts: [
             {
@@ -63,6 +65,7 @@ export const compressors = [
         id: 3,
         img: "/images/products/63_ZS_SETUP-camportrait001.jpeg",
         title: "Oil Free Air Blowers",
+        slug: "oil-free-air-blowers",
         description: "Our comprehensive range of oil-free air blowers is specifically engineered for applications that require compressed air with a pressure between 0.3 and 1.5 bar(g).",
         subProducts: [
             {
@@ -103,12 +106,14 @@ export const compressors = [
         id: 4,
         img: "/images/products/OSC170_PackL.jpg",
         title: "Industrial Condensate Treatment Solutions Range",
+        slug: "industrial-condensate-treatment-solutions-range",
         description: "Wide range of reliable, clean and cost-effective industrial condensate treatment solutions. For all your low, medium and high pressure systems"
     },
     {
         id: 5,
         img: "/images/products/filters_range_square-1.jpg",
         title: "Air Filters",
+        slug: "air-filters",
         description: "A wide selection of filtration solutions for compressed air with different filter types and grades.",
         subProducts: [
             {
@@ -166,12 +171,14 @@ export const compressors = [
         id: 7,
         img: "/images/products/Industrial_gases_family_picture.jpg",
         title: "Gas Generators",
+        slug: "gas-generators",
         description: "Our wide range of reliable, high purity, on-site gas generators for all your nitrogen and oxygen needs."
     },
     {
         id: 8,
         img: "/images/products/OGP_Cover_PR2968_Portrait_v2.jpg",
         title: "Oxygen Generators",
+        slug: "oxygen-generators",
         description: "On-site oxygen generation is the cost-efficient, safe and space-saving alternative to purchasing gas from a vendor.",
         subProducts: [
             {
@@ -206,6 +213,7 @@ export const compressors = [
         id: 9,
         img: "/images/products/GT_Series_reliance_1600x1600.jpg",
         title: "Process Gas and Air Equipment",
+        slug: "process-gas-and-air-equipment",
         description: "At Atlas Copco Gas and Process, we help customers prepare for tomorrow by designing, building, and servicing turbo compressors, gas screw compressors and turbo expanders for the oil and gas, power generation and industrial gases industries. Our passionate people are dedicated to helping customers handle today’s pressures while creating a sustainable future.",
         subProducts: [
             {
@@ -234,6 +242,7 @@ export const compressors = [
         id: 10,
         img: "/images/products/MAS-GA-37-VSD-1.jpg",
         title: "Marine Compressors",
+        slug: "marine-compressors",
         description: "Our range of marine compressors sets the standard in marine compressed air solutions. Reliable, energy efficient and equipped for the highest standards, they produce a constant air flow – even in the harshest conditions",
         subProducts: [
             {
@@ -292,6 +301,7 @@ export const compressors = [
         id: 12,
         img: "/images/products/AT3285-Monarch-Airlines-_2_.jpg",
         title: "Air Receivers and AfterCoolers",
+        slug: "air-receivers-and-aftercoolers",
         subProducts: [
             {
                 title: "Air receivers & aftercoolers ",
@@ -319,6 +329,7 @@ export const compressors = [
         id: 13,
         img: "/images/products/DX-DN-1.jpg",
         title: "Oil-free Air And Nitrogen Boosters",
+        slug: "oil-free-air-and-nitrogen-boosters",
         description: "Complete range of oil-free air and N₂ boosters with innovative single-and two-stage energy-saving technology. Extended capabilities in terms of inlet pressure dew points, pressure inlet/outlet and flow capacity for a wide range of applications, even in the harshest conditions.",
         subProducts: [
             {
@@ -338,6 +349,7 @@ export const compressors = [
         id: 14,
         img: "/images/products/Low+carbon+utility+room+-+Web+square.jpg",
         title: "Energy Conversion",
+        slug: "energy-conversion",
         description: "Complete range of oil-free air and N₂ boosters with innovative single-and two-stage energy-saving technology. Extended capabilities in terms of inlet pressure dew points, pressure inlet/outlet and flow capacity for a wide range of applications, even in the harshest conditions.",
         subProducts: [
             {
@@ -356,6 +368,7 @@ export const compressors = [
         id: 15,
         img: "/images/products/TCA+industrial+cooling+square+view.jpg",
         title: "Industrial Water Cooling Systems",
+        slug: "industrial-water-cooling-systems",
         description: "Meet the latest innovations in our water cooling solutions portfolio. High-efficiency industrial air-cooled water chillers for a variety of applications that require water cooling. Our chillers are reliable and efficient, engineered with the latest in-house technology. The perfect match for your industrial application.",
         subProducts: [
             {
@@ -379,6 +392,7 @@ export const compressors = [
         id: 16,
         img: "/images/products/_0003221.jpg",
         title: "Process filters",
+        slug: "process-filters",
         description: "We serve the filtration and purification needs of customers in Food & Beverage, Microelectronics, Pharmaceutical, Cosmetics and Chemical industries. Whether they are edible liquids such as wine, beer, cider, bottled water, soft drinks and milk, non-edible liquids like process water, alcohols, solvents, inks, resins and oils, or gases such as compressed air, carbon dioxide, nitrogen and others, we have the solution for you.",
         subProducts: [
             {

@@ -3,6 +3,7 @@ export const vaccumSolutions = [
         id: 1,
         img: "/images/products/ezgif.com-webp-to-jpg-converter.jpg",
         title: "Oil-sealed vacuum pumps",
+        slug: "oil-sealed-vacuum-pumps",
         description: "Atlas Copco’s oil-sealed vacuum pumps combines’ robust technology with Atlas Copco’s advanced vacuum know-how.",
         subProducts: [
             {
@@ -36,6 +37,7 @@ export const vaccumSolutions = [
         id: 2,
         img: "/images/products/ezgif-7-96c6574ccf.jpg",
         title: "Dry vacuum pumps",
+        slug: "dry-vacuum-pumps",
         description: "Dry (Hydrocarbon free in the process) vacuum pumps play an important part in many vacuum applications and environments and Atlas Copco have a variety of solutions to meet your needs. The main advantage of ‘dry’ pumps is that there is no lubrication in the main pumping chamber thus eliminating the contamination of the process.",
         subProducts: [
             {
@@ -79,6 +81,7 @@ export const vaccumSolutions = [
         id: 3,
         img: "/images/products/ezgif-7-1eb86774c5.jpg",
         title: "Liquid ring vacuum pumps",
+        slug: "liquid-ring-vacuum-pumps",
         description: "Thanks to a tough construction and proven operating principle, AWS, AWD & AWL liquid ring vacuum pumps are used in the most demanding environments across all sectors from food processing to petrochemical to construction.",
         subProducts: [
             {
@@ -101,6 +104,7 @@ export const vaccumSolutions = [
         id: 4,
         img: "/images/products/ezgif-7-b829750113.jpg",
         title: "Industry 4.0 Controllers & Accessories",
+        slug: "industry-4-0-controllers-and-accessories",
         description: "Atlas Copco’s new launch is the HEX@TM vacuum pump controller and the HEX@GRID multi pump controller. This along with Atlas Copco’s Elec Cab and ES central controllers are designed to convert standalone fixed speed machines into intelligent vacuum systems.",
         subProducts: [
             {
